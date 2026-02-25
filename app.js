@@ -40,7 +40,15 @@ document.addEventListener('DOMContentLoaded', () => {
         if (goals.length !== initialCount) saveGoals();
 
         await loadPlannerGoals();
-        renderGoals();
+
+        // Find which view is currently active in the sidebar and render it
+        const activeNav = document.querySelector('.nav-links li.active');
+        const activeView = activeNav ? activeNav.dataset.view : 'dashboard';
+
+        if (activeView === 'dashboard') renderGoals();
+        else if (activeView === 'timeline') renderTimeline();
+        else if (activeView === 'statistics') renderStatistics();
+
         updateStats();
         setupEventListeners();
     }
@@ -498,8 +506,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const timelineContainer = document.getElementById('timeline-container');
         timelineContainer.innerHTML = '';
 
-        // Sort goals by creation date, newest first
-        const sorted = [...goals].sort((a, b) => b.createdAt - a.createdAt);
+        // Sort goals by creation date, newest first (fallback to sequence if null)
+        const sorted = [...goals].sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
 
         if (sorted.length === 0) {
             timelineContainer.innerHTML = '<p style="padding: 24px; color: var(--text-muted); text-align: center;">No history available.</p>';

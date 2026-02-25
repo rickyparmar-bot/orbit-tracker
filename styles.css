@@ -233,6 +233,20 @@ h1.logo {
     gap: 40px;
 }
 
+.view-container {
+    display: none;
+}
+
+.view-container.active {
+    display: block;
+}
+
+.timeline-wrapper,
+.stats-wrapper {
+    padding: 24px;
+    min-height: 400px;
+}
+
 .top-header {
     display: flex;
     justify-content: space-between;
