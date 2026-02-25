@@ -88,13 +88,24 @@
                 <section class="master-progress-section glass-panel">
                     <div class="master-progress-header">
                         <h2>Mission Progress</h2>
-                        <div class="deadline-badge">
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <polyline points="12 6 12 12 16 14"></polyline>
-                            </svg>
-                            <span id="days-remaining">--</span> Days until Mar 25
+                        <div
+                            style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; align-items: center;">
+                            <div class="deadline-badge">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <span><span id="days-remaining">--</span> Days until Mar 25</span>
+                            </div>
+                            <div class="deadline-badge"
+                                style="color: var(--accent-primary); background: rgba(167, 139, 250, 0.15); border-color: rgba(167, 139, 250, 0.3); box-shadow: 0 0 15px rgba(167, 139, 250, 0.2);">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                                </svg>
+                                <span>Required: <strong id="hours-per-day">--</strong> hrs/day</span>
+                            </div>
                         </div>
                         <span class="master-progress-text" id="master-progress-text">0%</span>
                     </div>

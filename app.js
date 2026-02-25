@@ -423,7 +423,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 chapterRow.dataset.id = goal.id;
 
                 chapterClone.querySelector('.chapter-name').textContent = goal.chapterDisplay;
-                chapterClone.querySelector('.chapter-progress-text').textContent = `${goal.current} / ${goal.target} ${goal.unit}`;
+                chapterClone.querySelector('.chapter-progress-text').textContent = `${goal.current} / ${goal.target} ${goal.unit} (${goal.target * 2} hrs)`;
 
                 if (goal.isPlannerGoal) {
                     chapterClone.querySelector('.planner-badge').style.display = 'inline-block';
@@ -488,6 +488,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const daysEl = document.getElementById('days-remaining');
         if (daysEl) {
             animateValue(daysEl, parseInt(daysEl.textContent) || 0, daysRemainingStr, 500);
+        }
+
+        // Update Required Hours Per Day
+        const remainingLectures = globalTarget - globalCurrent;
+        const remainingHours = remainingLectures * 2; // 2 hrs per lecture
+        const hoursPerDay = daysRemainingStr > 0 ? (remainingHours / daysRemainingStr).toFixed(1) : remainingHours;
+        const hoursEl = document.getElementById('hours-per-day');
+        if (hoursEl) {
+            hoursEl.textContent = hoursPerDay; // No animation for float
         }
     }
 
