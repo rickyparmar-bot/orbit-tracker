@@ -601,6 +601,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function unlockApp() {
         lockScreen.classList.add('hidden');
+        // Wait for transition, then remove from DOM flow
+        setTimeout(() => {
+            lockScreen.style.display = 'none';
+        }, 500);
+
         appWrapper.style.display = 'flex';
         appWrapper.style.flexDirection = 'column';
         // Trigger reflow to ensure transition runs
@@ -613,7 +618,8 @@ document.addEventListener('DOMContentLoaded', () => {
         unlockApp();
     } else {
         btnUnlock.addEventListener('click', () => {
-            if (passInput.value === 'ricky') {
+            const entered = passInput.value.trim().toLowerCase();
+            if (entered === 'ricky') {
                 localStorage.setItem('orbit_auth', 'true');
                 unlockApp();
             } else {
