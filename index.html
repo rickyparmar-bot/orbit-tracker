@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbit | Goal Tracker</title>
+    <meta name="description" content="Track your goals and reach new heights with Orbit.">
+    <!-- Google Fonts: Inter (Antigravity Typography) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Background Animation Elements -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar glass-panel">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                        </path>
+                        <path d="M2 12h20"></path>
+                    </svg>
+                </div>
+                <h2>Orbit</h2>
+            </div>
+
+            <ul class="nav-links" id="sidebar-nav">
+                <li class="active" data-view="dashboard"><a href="#"><svg width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="14" width="7" height="7"></rect>
+                            <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg> Dashboard</a></li>
+                <li data-view="timeline"><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
+                        </svg> Timeline</a></li>
+                <li data-view="statistics"><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M12 20v-6M6 20V10M18 20V4"></path>
+                        </svg> Statistics</a></li>
+            </ul>
+
+            <div class="user-profile">
+                <div class="avatar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <span>Astronaut</span>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-header">
+                <div class="header-titles">
+                    <h1 id="view-title">Dashboard</h1>
+                    <p class="subtitle" id="view-subtitle">Track your progress and build momentum.</p>
+                </div>
+                <button class="btn-primary" id="btn-new-goal">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                    New Goal
+                </button>
+            </header>
+
+            <div id="view-dashboard" class="view-container active">
+                <!-- Master Progress Bar -->
+                <section class="master-progress-section glass-panel">
+                    <div class="master-progress-header">
+                        <h2>Mission Progress</h2>
+                        <div class="deadline-badge">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <span id="days-remaining">--</span> Days until Mar 25
+                        </div>
+                        <span class="master-progress-text" id="master-progress-text">0%</span>
+                    </div>
+                    <div class="master-progress-track">
+                        <div class="master-progress-fill" id="master-progress-fill">
+                            <div class="master-progress-glow"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Stats Overview -->
+                <section class="overview-stats">
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon icon-blue">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Total Goals</h3>
+                            <p class="stat-value" id="stat-total">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon icon-purple">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="13 2 13 9 20 9"></polyline>
+                                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <h3>In Progress</h3>
+                            <p class="stat-value" id="stat-progress">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon icon-green">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Completed</h3>
+                            <p class="stat-value" id="stat-completed">0</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Goals Container -->
+                <section class="goals-section">
+                    <div class="section-header">
+                        <h2>Active Goals</h2>
+                        <div class="filters">
+                            <button class="filter-btn active" data-filter="all">All</button>
+                            <button class="filter-btn" data-filter="active">Active</button>
+                            <button class="filter-btn" data-filter="completed">Completed</button>
+                        </div>
+                    </div>
+
+                    <div class="tabular-container" id="goals-container">
+                        <!-- Subject groups will be injected here by JS -->
+                    </div>
+                </section>
+            </div> <!-- End view-dashboard -->
+
+            <!-- Timeline View -->
+            <div id="view-timeline" class="view-container" style="display: none;">
+                <div class="timeline-wrapper glass-panel" id="timeline-container">
+                    <!-- Timeline items injected by JS -->
+                </div>
+            </div> <!-- End view-timeline -->
+
+            <!-- Statistics View -->
+            <div id="view-statistics" class="view-container" style="display: none;">
+                <div class="stats-grid" id="statistics-container">
+                    <!-- Stat cards injected by JS -->
+                </div>
+            </div> <!-- End view-statistics -->
+
+        </main>
+    </div>
+
+    <!-- Modal for New/Edit Goal -->
+    <div class="modal-overlay" id="goal-modal">
+        <div class="modal-content glass-panel">
+            <div class="modal-header">
+                <h2 id="modal-title">Create New Goal</h2>
+                <button class="btn-icon" id="btn-close-modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <form id="form-goal">
+                <input type="hidden" id="goal-id">
+                <div class="form-group">
+                    <label for="goal-title-input">Goal Title (Format: "Subject - Chapter")</label>
+                    <input type="text" id="goal-title-input" class="form-input" placeholder="e.g. Maths - Calculus"
+                        required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="goal-target">Target Amount (Lectures)</label>
+                        <input type="number" id="goal-target" class="form-input" min="1" placeholder="5" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="goal-unit">Unit</label>
+                        <input type="text" id="goal-unit" class="form-input" placeholder="lectures" value="lectures">
+                    </div>
+                </div>
+                <div class="form-group" style="margin-top: 24px;">
+                    <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">Save
+                        Goal</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Template for Subject Group -->
+    <template id="subject-group-template">
+        <div class="subject-group glass-panel">
+            <div class="subject-header">
+                <div class="subject-title">
+                    <svg class="chevron-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                    <h3 class="subject-name">Subject Name</h3>
+                </div>
+                <div class="subject-meta">
+                    <span class="subject-progress">0/0</span>
+                </div>
+            </div>
+            <div class="subject-content">
+                <!-- Chapter rows will go here -->
+            </div>
+        </div>
+    </template>
+
+    <!-- Template for Chapter Row -->
+    <template id="chapter-row-template">
+        <div class="chapter-row group">
+            <div class="chapter-header">
+                <div class="chapter-info">
+                    <h4 class="chapter-name">Chapter Name</h4>
+                    <span class="planner-badge" style="display:none;">PLANNER</span>
+                </div>
+                <div class="chapter-actions">
+                    <span class="chapter-progress-text">0 / 0</span>
+                    <button class="btn-icon small btn-edit" title="Edit Goal">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                        </svg>
+                    </button>
+                    <button class="btn-icon small btn-delete danger" title="Delete Goal">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="lecture-checkboxes">
+                <!-- Checkboxes injected by JS -->
+            </div>
+        </div>
+    </template>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
