@@ -609,12 +609,12 @@ document.addEventListener('DOMContentLoaded', () => {
         init();
     }
 
-    if (sessionStorage.getItem('orbit_auth') === 'true') {
+    if (localStorage.getItem('orbit_auth') === 'true') {
         unlockApp();
     } else {
         btnUnlock.addEventListener('click', () => {
             if (passInput.value === 'ricky') {
-                sessionStorage.setItem('orbit_auth', 'true');
+                localStorage.setItem('orbit_auth', 'true');
                 unlockApp();
             } else {
                 passError.style.display = 'block';
