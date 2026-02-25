@@ -20,7 +20,30 @@
     <div class="bg-orb orb-1"></div>
     <div class="bg-orb orb-2"></div>
 
-    <div class="app-container">
+    <!-- Lock Screen Overlay -->
+    <div id="lock-screen" class="lock-screen-overlay active">
+        <div class="lock-box glass-panel">
+            <div class="lock-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+            </div>
+            <h2>Access Restricted</h2>
+            <p>Please enter the password to view your Orbit tracker.</p>
+            <div class="password-input-group">
+                <input type="password" id="password-input" placeholder="Enter password" class="form-input"
+                    style="width: 100%; text-align: center; letter-spacing: 0.2em;">
+                <button id="btn-unlock" class="btn-primary"
+                    style="width: 100%; justify-content: center; margin-top: 16px;">Unlock</button>
+            </div>
+            <p id="password-error"
+                style="color: var(--accent-red); font-size: 0.85rem; margin-top: 12px; display: none; text-align: center;">
+                Incorrect password.</p>
+        </div>
+    </div>
+
+    <div class="app-container" id="app-wrapper" style="display: none; opacity: 0; transition: opacity 0.5s ease;">
         <!-- Sidebar Navigation -->
         <nav class="sidebar glass-panel">
             <div class="logo">

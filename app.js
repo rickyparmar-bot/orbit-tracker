@@ -34,22 +34,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // === INITIALIZATION ===
     async function init() {
+        // Clean up any residual dummy data from local storage
+        const initialCount = goals.length;
+        goals = goals.filter(g => !['Read Books', 'Run a Marathon', 'Drink Water'].includes(g.title));
+        if (goals.length !== initialCount) saveGoals();
+
         await loadPlannerGoals();
         renderGoals();
         updateStats();
         setupEventListeners();
-
-        // Populate dummy data if empty to show the UI initially
-        if (goals.length === 0) {
-            goals = [
-                { id: generateId(), title: 'Read Books', target: 20, current: 5, unit: 'books', completed: false, createdAt: Date.now() },
-                { id: generateId(), title: 'Run a Marathon', target: 42, current: 42, unit: 'km', completed: true, createdAt: Date.now() - 100000 },
-                { id: generateId(), title: 'Drink Water', target: 100, current: 65, unit: 'days', completed: false, createdAt: Date.now() - 50000 }
-            ];
-            saveGoals();
-            renderGoals();
-            updateStats();
-        }
     }
 
     // === DATA LOADING ===
@@ -599,6 +592,38 @@ document.addEventListener('DOMContentLoaded', () => {
         window.requestAnimationFrame(step);
     }
 
-    // Kickoff
-    init();
+    // === AUTHENTICATION & KICKOFF ===
+    const lockScreen = document.getElementById('lock-screen');
+    const appWrapper = document.getElementById('app-wrapper');
+    const passInput = document.getElementById('password-input');
+    const btnUnlock = document.getElementById('btn-unlock');
+    const passError = document.getElementById('password-error');
+
+    function unlockApp() {
+        lockScreen.classList.add('hidden');
+        appWrapper.style.display = 'flex';
+        appWrapper.style.flexDirection = 'column';
+        // Trigger reflow to ensure transition runs
+        void appWrapper.offsetWidth;
+        appWrapper.style.opacity = '1';
+        init();
+    }
+
+    if (sessionStorage.getItem('orbit_auth') === 'true') {
+        unlockApp();
+    } else {
+        btnUnlock.addEventListener('click', () => {
+            if (passInput.value === 'ricky') {
+                sessionStorage.setItem('orbit_auth', 'true');
+                unlockApp();
+            } else {
+                passError.style.display = 'block';
+                passInput.value = '';
+            }
+        });
+
+        passInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') btnUnlock.click();
+        });
+    }
 });
