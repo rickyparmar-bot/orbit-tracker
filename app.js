@@ -615,7 +615,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 500);
 
         appWrapper.style.display = 'flex';
-        appWrapper.style.flexDirection = 'column';
         // Trigger reflow to ensure transition runs
         void appWrapper.offsetWidth;
         appWrapper.style.opacity = '1';
