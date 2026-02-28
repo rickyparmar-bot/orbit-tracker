@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // === STATE ===
-    const STORAGE_KEY = 'orbit_goals_v1';
+    const STORAGE_KEY = 'orbit_goals_v2'; // Bumped version to hard-reset user goals
     let goals = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
     let currentFilter = 'all';
 
@@ -427,8 +427,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 chapterRow.dataset.id = goal.id;
 
-                chapterClone.querySelector('.chapter-name').textContent = goal.chapterDisplay;
-                chapterClone.querySelector('.chapter-progress-text').textContent = `${goal.current} / ${goal.target} ${goal.unit} (${goal.target * 2} hrs)`;
+                chapterClone.querySelector('.chapter-name').textContent = goal.chapterDisplay || goal.title.split(' - ').pop();
+                chapterClone.querySelector('.chapter-progress-text').textContent = `${goal.current} / ${goal.target} ${goal.unit} (${goal.durationHours || goal.target * 2} hrs)`;
 
                 if (goal.isPlannerGoal) {
                     chapterClone.querySelector('.planner-badge').style.display = 'inline-block';
@@ -503,11 +503,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update Required Hours Per Day
         const remainingLectures = globalTarget - globalCurrent;
-        const remainingHours = remainingLectures * 2; // 2 hrs per lecture
-        const hoursPerDay = daysRemainingStr > 0 ? (remainingHours / daysRemainingStr).toFixed(1) : remainingHours;
+
+        // Sum total hours remaining based on specific durationHours or fallback to 2 hrs
+        const remainingHours = goals.reduce((sum, g) => {
+            if (!g.completed) {
+                const targetFactor = g.target - g.current;
+                const hoursPerLecture = g.durationHours ? (g.durationHours / g.target) : 2;
+                return sum + (targetFactor * hoursPerLecture);
+            }
+            return sum;
+        }, 0);
+
+        const hoursPerDay = daysRemainingStr > 0 ? (remainingHours / daysRemainingStr).toFixed(1) : remainingHours.toFixed(1);
         const hoursEl = document.getElementById('hours-per-day');
         if (hoursEl) {
             hoursEl.textContent = hoursPerDay; // No animation for float
+        }
+
+        // Update Total Aesthetic Watch Time Clock
+        const watchEl = document.getElementById('total-watch-time');
+        if (watchEl) {
+            watchEl.textContent = remainingHours.toFixed(1);
         }
     }
 
