@@ -1,7 +1,7 @@
 [
     {
         "id": "planner_backlog_1",
-        "title": "Backlog Priority - ISOMERISM",
+        "title": "Chemistry - ISOMERISM",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -16,7 +16,7 @@
     },
     {
         "id": "planner_backlog_2",
-        "title": "Backlog Priority - HYDROCARBON",
+        "title": "Chemistry - HYDROCARBON",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -31,7 +31,7 @@
     },
     {
         "id": "planner_backlog_3",
-        "title": "Backlog Priority - Manzil 2025: MOLE CONCEPT",
+        "title": "Chemistry - Manzil 2025: MOLE CONCEPT",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -46,7 +46,7 @@
     },
     {
         "id": "planner_backlog_4",
-        "title": "Backlog Priority - THREE-DIMENSIONAL GEOMETRY",
+        "title": "Physics - THREE-DIMENSIONAL GEOMETRY",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -61,7 +61,7 @@
     },
     {
         "id": "planner_backlog_5",
-        "title": "Backlog Priority - Sequence & Series FULL CHAPTER",
+        "title": "Maths - Sequence & Series FULL CHAPTER",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -76,7 +76,7 @@
     },
     {
         "id": "planner_backlog_6",
-        "title": "Backlog Priority - Straight Lines FULL CHAPTER",
+        "title": "Maths - Straight Lines FULL CHAPTER",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -91,7 +91,7 @@
     },
     {
         "id": "planner_backlog_7",
-        "title": "Backlog Priority - Hyperbola FULL CHAPTER",
+        "title": "Maths - Hyperbola FULL CHAPTER",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -106,7 +106,7 @@
     },
     {
         "id": "planner_backlog_8",
-        "title": "Backlog Priority - Binomial Theorem FULL CHAPTER",
+        "title": "Maths - Binomial Theorem FULL CHAPTER",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -121,7 +121,7 @@
     },
     {
         "id": "planner_backlog_9",
-        "title": "Backlog Priority - Permutation & Combinations FULL CHAPTER",
+        "title": "Maths - Permutation & Combinations FULL CHAPTER",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -136,7 +136,7 @@
     },
     {
         "id": "planner_backlog_10",
-        "title": "Backlog Priority - CONTINUITY & METHOD OF DIFFERENTIABILITY",
+        "title": "Physics - CONTINUITY & METHOD OF DIFFERENTIABILITY",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -151,7 +151,7 @@
     },
     {
         "id": "planner_backlog_11",
-        "title": "Backlog Priority - Circle FULL CHAPTER",
+        "title": "Maths - Circle FULL CHAPTER",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -166,7 +166,7 @@
     },
     {
         "id": "planner_backlog_12",
-        "title": "Backlog Priority - LIMITS",
+        "title": "Maths - LIMITS",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -181,7 +181,7 @@
     },
     {
         "id": "planner_backlog_13",
-        "title": "Backlog Priority - Quadratic Equations FULL CHAPTER",
+        "title": "Maths - Quadratic Equations FULL CHAPTER",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -196,7 +196,7 @@
     },
     {
         "id": "planner_backlog_14",
-        "title": "Backlog Priority - Complex Numbers FULL CHAPTER",
+        "title": "Maths - Complex Numbers FULL CHAPTER",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -211,7 +211,7 @@
     },
     {
         "id": "planner_backlog_15",
-        "title": "Backlog Priority - Trigonometric Equation FULL CHAPTER",
+        "title": "Maths - Trigonometric Equation FULL CHAPTER",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -226,7 +226,7 @@
     },
     {
         "id": "planner_backlog_16",
-        "title": "Backlog Priority - TRIGONOMETRIC FUNCTIONS",
+        "title": "Maths - TRIGONOMETRIC FUNCTIONS",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -241,7 +241,7 @@
     },
     {
         "id": "planner_backlog_17",
-        "title": "Backlog Priority - RELATIONS & FUNCTIONS",
+        "title": "Maths - RELATIONS & FUNCTIONS",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -256,7 +256,7 @@
     },
     {
         "id": "planner_backlog_18",
-        "title": "Backlog Priority - OSCILLATIONS",
+        "title": "Physics - OSCILLATIONS",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -271,7 +271,7 @@
     },
     {
         "id": "planner_backlog_19",
-        "title": "Backlog Priority - KTG & THERMODYNAMICS in one Shot: All Concepts & PYQs Covered",
+        "title": "Chemistry - KTG & THERMODYNAMICS in one Shot: All Concepts & PYQs Covered",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -286,7 +286,7 @@
     },
     {
         "id": "planner_backlog_20",
-        "title": "Backlog Priority - Mechanical Properties of Solids",
+        "title": "Physics - Mechanical Properties of Solids",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -301,7 +301,7 @@
     },
     {
         "id": "planner_backlog_21",
-        "title": "Backlog Priority - GRAVITATION",
+        "title": "Physics - GRAVITATION",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -316,7 +316,7 @@
     },
     {
         "id": "planner_backlog_22",
-        "title": "Backlog Priority - MOTION IN A STRAIGHT LINE",
+        "title": "Maths - MOTION IN A STRAIGHT LINE",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -331,7 +331,7 @@
     },
     {
         "id": "planner_backlog_23",
-        "title": "Backlog Priority - MOTION IN A PLANE",
+        "title": "Physics - MOTION IN A PLANE",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -346,7 +346,7 @@
     },
     {
         "id": "planner_backlog_24",
-        "title": "Backlog Priority - LAWS OF MOTION",
+        "title": "Physics - LAWS OF MOTION",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -361,7 +361,7 @@
     },
     {
         "id": "planner_backlog_25",
-        "title": "Backlog Priority - ROTATIONAL MOTION",
+        "title": "Physics - ROTATIONAL MOTION",
         "target": 1,
         "current": 0,
         "unit": "one-shot",

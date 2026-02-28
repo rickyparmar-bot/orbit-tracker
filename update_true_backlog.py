@@ -32,10 +32,10 @@ links = [
 def get_video_info(url):
     try:
         res = subprocess.run(
-            ["yt-dlp", "--print", "%(title)s|%(duration)s", url],
+            ["yt-dlp", "--print", "%(title)s@@@%(duration)s", url],
             capture_output=True, text=True, check=True
         )
-        parts = res.stdout.strip().split('|')
+        parts = res.stdout.strip().split('@@@')
         if len(parts) == 2:
             title = parts[0]
             duration_sec = int(parts[1]) if parts[1].isdigit() else 0
@@ -65,11 +65,11 @@ for link in links:
     clean_title = title.split(" in One Shot")[0].split(" in 1 Shot")[0].split(" |")[0].split(" ||")[0].strip()
     subject = guess_subject(title)
     
-    hours = round(duration_sec / 3600, 1)
+    hours = round(float(duration_sec) / 3600.0, 1)
     
     goals_output.append({
         "id": f"planner_backlog_{sequence}",
-        "title": f"Backlog Priority - {clean_title}",
+        "title": f"{subject} - {clean_title}",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
