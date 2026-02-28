@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // === STATE ===
-    const STORAGE_KEY = 'orbit_goals_v2'; // Bumped version to hard-reset user goals
+    const STORAGE_KEY = 'orbit_goals_v3'; // Bumped version to hard-reset user goals
     let goals = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
     let currentFilter = 'all';
 
