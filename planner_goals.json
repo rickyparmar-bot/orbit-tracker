@@ -31,7 +31,7 @@
     },
     {
         "id": "planner_backlog_3",
-        "title": "Chemistry - Manzil 2025: MOLE CONCEPT",
+        "title": "Chemistry - Manzil 2025",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -41,12 +41,12 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=pi0bAxOGHIo",
         "durationHours": 8.1,
-        "chapterDisplay": "Manzil 2025: MOLE CONCEPT",
+        "chapterDisplay": "Manzil 2025",
         "subjectName": "Chemistry"
     },
     {
         "id": "planner_backlog_4",
-        "title": "Physics - THREE-DIMENSIONAL GEOMETRY",
+        "title": "Maths - THREE-DIMENSIONAL GEOMETRY",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -57,11 +57,11 @@
         "link": "https://www.youtube.com/watch?v=VG2KogeWzIY",
         "durationHours": 5.7,
         "chapterDisplay": "THREE-DIMENSIONAL GEOMETRY",
-        "subjectName": "Physics"
+        "subjectName": "Maths"
     },
     {
         "id": "planner_backlog_5",
-        "title": "Maths - Sequence & Series FULL CHAPTER",
+        "title": "Maths - Sequence & Series",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -71,12 +71,12 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=ub4LDdjCauQ",
         "durationHours": 5.0,
-        "chapterDisplay": "Sequence & Series FULL CHAPTER",
+        "chapterDisplay": "Sequence & Series",
         "subjectName": "Maths"
     },
     {
         "id": "planner_backlog_6",
-        "title": "Maths - Straight Lines FULL CHAPTER",
+        "title": "Maths - Straight Lines",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -86,12 +86,12 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=4ddGqKZIIvs",
         "durationHours": 5.1,
-        "chapterDisplay": "Straight Lines FULL CHAPTER",
+        "chapterDisplay": "Straight Lines",
         "subjectName": "Maths"
     },
     {
         "id": "planner_backlog_7",
-        "title": "Maths - Hyperbola FULL CHAPTER",
+        "title": "Maths - Hyperbola",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -101,12 +101,12 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=QS6vOMlhvsc",
         "durationHours": 2.9,
-        "chapterDisplay": "Hyperbola FULL CHAPTER",
+        "chapterDisplay": "Hyperbola",
         "subjectName": "Maths"
     },
     {
         "id": "planner_backlog_8",
-        "title": "Maths - Binomial Theorem FULL CHAPTER",
+        "title": "Maths - Binomial Theorem",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -116,12 +116,12 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=Ar3TH7MEVTQ",
         "durationHours": 5.1,
-        "chapterDisplay": "Binomial Theorem FULL CHAPTER",
+        "chapterDisplay": "Binomial Theorem",
         "subjectName": "Maths"
     },
     {
         "id": "planner_backlog_9",
-        "title": "Maths - Permutation & Combinations FULL CHAPTER",
+        "title": "Maths - Permutation & Combinations",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -131,12 +131,12 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=UoJh42eQU8I",
         "durationHours": 5.0,
-        "chapterDisplay": "Permutation & Combinations FULL CHAPTER",
+        "chapterDisplay": "Permutation & Combinations",
         "subjectName": "Maths"
     },
     {
         "id": "planner_backlog_10",
-        "title": "Physics - CONTINUITY & METHOD OF DIFFERENTIABILITY",
+        "title": "Maths - CONTINUITY & METHOD OF DIFFERENTIABILITY",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -147,11 +147,11 @@
         "link": "https://www.youtube.com/watch?v=bLkVDkaJrTo",
         "durationHours": 5.8,
         "chapterDisplay": "CONTINUITY & METHOD OF DIFFERENTIABILITY",
-        "subjectName": "Physics"
+        "subjectName": "Maths"
     },
     {
         "id": "planner_backlog_11",
-        "title": "Maths - Circle FULL CHAPTER",
+        "title": "Maths - Circle",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -161,7 +161,7 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=6I3mLw30qzQ",
         "durationHours": 5.1,
-        "chapterDisplay": "Circle FULL CHAPTER",
+        "chapterDisplay": "Circle",
         "subjectName": "Maths"
     },
     {
@@ -181,7 +181,7 @@
     },
     {
         "id": "planner_backlog_13",
-        "title": "Maths - Quadratic Equations FULL CHAPTER",
+        "title": "Maths - Quadratic Equations",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -191,12 +191,12 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=QeecXIDYtiw",
         "durationHours": 4.1,
-        "chapterDisplay": "Quadratic Equations FULL CHAPTER",
+        "chapterDisplay": "Quadratic Equations",
         "subjectName": "Maths"
     },
     {
         "id": "planner_backlog_14",
-        "title": "Maths - Complex Numbers FULL CHAPTER",
+        "title": "Maths - Complex Numbers",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -206,12 +206,12 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=o8T4ZG08q8g",
         "durationHours": 4.6,
-        "chapterDisplay": "Complex Numbers FULL CHAPTER",
+        "chapterDisplay": "Complex Numbers",
         "subjectName": "Maths"
     },
     {
         "id": "planner_backlog_15",
-        "title": "Maths - Trigonometric Equation FULL CHAPTER",
+        "title": "Maths - Trigonometric Equation",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -221,7 +221,7 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=wHnUniHm3yc",
         "durationHours": 5.2,
-        "chapterDisplay": "Trigonometric Equation FULL CHAPTER",
+        "chapterDisplay": "Trigonometric Equation",
         "subjectName": "Maths"
     },
     {
@@ -271,7 +271,7 @@
     },
     {
         "id": "planner_backlog_19",
-        "title": "Chemistry - KTG & THERMODYNAMICS in one Shot: All Concepts & PYQs Covered",
+        "title": "Physics - KTG & THERMODYNAMICS",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -281,8 +281,8 @@
         "createdAt": null,
         "link": "https://www.youtube.com/watch?v=JAvi2K_DbbI",
         "durationHours": 8.6,
-        "chapterDisplay": "KTG & THERMODYNAMICS in one Shot: All Concepts & PYQs Covered",
-        "subjectName": "Chemistry"
+        "chapterDisplay": "KTG & THERMODYNAMICS",
+        "subjectName": "Physics"
     },
     {
         "id": "planner_backlog_20",
@@ -316,7 +316,7 @@
     },
     {
         "id": "planner_backlog_22",
-        "title": "Maths - MOTION IN A STRAIGHT LINE",
+        "title": "Physics - MOTION IN A STRAIGHT LINE",
         "target": 1,
         "current": 0,
         "unit": "one-shot",
@@ -327,7 +327,7 @@
         "link": "https://www.youtube.com/watch?v=6HQgDO1trlM",
         "durationHours": 6.5,
         "chapterDisplay": "MOTION IN A STRAIGHT LINE",
-        "subjectName": "Maths"
+        "subjectName": "Physics"
     },
     {
         "id": "planner_backlog_23",

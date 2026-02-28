@@ -46,7 +46,14 @@ def get_video_info(url):
 
 def guess_subject(title):
     t = title.lower()
-    if any(k in t for k in ["math", "quadratic", "trigonometry", "sequence", "binomial", "permutation", "straight line", "circle", "conic", "derivative", "function", "relation", "limit", "matrix", "determinant"]):
+    
+    # Hardcoded fixes based on user feedback
+    if "three-dimensional geometry" in t or "continuity & method of differentiability" in t:
+        return "Maths"
+    if "motion in a straight line" in t or "motion in a plane" in t or "laws of motion" in t or "rotational motion" in t or "ktg & thermodynamics" in t:
+        return "Physics"
+        
+    if any(k in t for k in ["math", "quadratic", "trigonometry", "sequence", "binomial", "permutation", "straight line", "circle", "conic", "derivative", "function", "relation", "limit", "matrix", "determinant", "hyperbola", "complex number"]):
         return "Maths"
     if any(k in t for k in ["chemistry", "mole", "atomic", "thermodynamics", "equilibrium", "redox", "periodic", "bonding", "iupac", "goc", "isomerism", "hydrocarbon", "orbital", "chemical"]):
         return "Chemistry"
@@ -61,8 +68,8 @@ for link in links:
     if not title:
         continue
     
-    # Clean up title for display
-    clean_title = title.split(" in One Shot")[0].split(" in 1 Shot")[0].split(" |")[0].split(" ||")[0].strip()
+    # Clean up title for display (remove One Shot, FULL CHAPTER, PYQs etc)
+    clean_title = title.split(" in One Shot")[0].split(" in 1 Shot")[0].split(" in one Shot")[0].split(" |")[0].split(" ||")[0].replace("FULL CHAPTER", "").replace("in 1 shot", "").replace("in one shot", "").split(":")[0].strip()
     subject = guess_subject(title)
     
     hours = round(float(duration_sec) / 3600.0, 1)
