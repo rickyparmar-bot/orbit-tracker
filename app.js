@@ -430,6 +430,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     chapterClone.querySelector('.planner-badge').style.display = 'inline-block';
                 }
 
+                const watchBtn = chapterClone.querySelector('.watch-link');
+                if (goal.link && watchBtn) {
+                    watchBtn.href = goal.link;
+                    watchBtn.style.display = 'inline-flex';
+                }
+
                 const checkboxesDiv = chapterClone.querySelector('.lecture-checkboxes');
 
                 // Render Checkboxes
@@ -522,7 +528,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="timeline-item" style="border-left: 2px solid ${statusColor}; padding-left: 16px; margin-bottom: 24px; position: relative;">
                     <div style="position: absolute; left: -6px; top: 0; width: 10px; height: 10px; border-radius: 50%; background: ${statusColor};"></div>
                     <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px;">${date}</p>
-                    <h4 style="font-weight: 500; font-size: 1rem; color: var(--text-primary); margin-bottom: 4px;">${goal.title}</h4>
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 4px;">
+                        <h4 style="font-weight: 500; font-size: 1rem; color: var(--text-primary); margin: 0;">${goal.title}</h4>
+                        ${goal.link ? `<a href="${goal.link}" target="_blank" style="color: var(--accent-primary); text-decoration: none; font-size: 0.85rem; display: flex; align-items: center; gap: 4px; padding: 4px 8px; background: rgba(167, 139, 250, 0.1); border-radius: 4px;"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg> Watch</a>` : ''}
+                    </div>
                     <p style="font-size: 0.9rem; color: var(--text-secondary);">Target: ${goal.target} ${goal.unit}</p>
                 </div>
             `;
