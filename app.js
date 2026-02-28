@@ -63,10 +63,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 plannerGoals.forEach(pg => {
                     // Check if this planner goal already exists in our state
-                    const exists = goals.some(g => g.id === pg.id);
-                    if (!exists) {
+                    const existing = goals.find(g => g.id === pg.id);
+                    if (!existing) {
                         pg.createdAt = Date.now();
                         goals.push(pg);
+                        isUpdated = true;
+                    } else if (existing.link !== pg.link) {
+                        // Sync new links to existing goals
+                        existing.link = pg.link;
                         isUpdated = true;
                     }
                 });
