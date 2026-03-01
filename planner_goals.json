@@ -1,6 +1,5 @@
 [
     {
-        "raw_title": "Quadratic Equations FULL CHAPTER | Class 11th Maths | Arjuna JEE",
         "chapterDisplay": "Quadratic Equations",
         "subjectName": "Maths",
         "link": "https://www.youtube.com/watch?v=QeecXIDYtiw",
@@ -17,7 +16,6 @@
         "createdAt": null
     },
     {
-        "raw_title": "MOTION IN A STRAIGHT LINE in One Shot: All Concepts & PYQs Covered | JEE Main & Advanced",
         "chapterDisplay": "MOTION IN A STRAIGHT LINE",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=6HQgDO1trlM",
@@ -34,7 +32,6 @@
         "createdAt": null
     },
     {
-        "raw_title": "TRIGONOMETRIC FUNCTIONS in One Shot: All Concepts & PYQs Covered || JEE Main & Advanced",
         "chapterDisplay": "TRIGONOMETRIC FUNCTIONS",
         "subjectName": "Maths",
         "link": "https://www.youtube.com/watch?v=0DgG7LxiYzk",
@@ -51,7 +48,6 @@
         "createdAt": null
     },
     {
-        "raw_title": "Trigonometric Equation FULL CHAPTER | Class 11th Maths | Arjuna JEE",
         "chapterDisplay": "Trigonometric Equation",
         "subjectName": "Maths",
         "link": "https://www.youtube.com/watch?v=wHnUniHm3yc",
@@ -68,7 +64,6 @@
         "createdAt": null
     },
     {
-        "raw_title": "MOTION IN A PLANE in One Shot: All Concepts & PYQs Covered | JEE Main & Advanced",
         "chapterDisplay": "MOTION IN A PLANE",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=Rh95KkMwklU",
@@ -85,7 +80,6 @@
         "createdAt": null
     },
     {
-        "raw_title": "LAWS OF MOTION in One Shot: All Concepts & PYQs Covered | JEE Main & Advanced",
         "chapterDisplay": "LAWS OF MOTION",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=mE8w2uxm6XY",
@@ -102,7 +96,6 @@
         "createdAt": null
     },
     {
-        "raw_title": "Sequence & Series FULL CHAPTER | Class 11th Maths | Arjuna JEE",
         "chapterDisplay": "Sequence & Series",
         "subjectName": "Maths",
         "link": "https://www.youtube.com/watch?v=ub4LDdjCauQ",
@@ -119,7 +112,6 @@
         "createdAt": null
     },
     {
-        "raw_title": "ISOMERISM in 1 Shot: All Concepts & PYQs Covered | JEE Main & Advanced",
         "chapterDisplay": "ISOMERISM",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=UOzWO2-Z9So",
@@ -136,7 +128,6 @@
         "createdAt": null
     },
     {
-        "raw_title": "HYDROCARBON in 1 Shot: All Concepts & PYQs Covered | JEE Main & Advanced",
         "chapterDisplay": "HYDROCARBON",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=02CBTEOMMsA",
@@ -153,7 +144,6 @@
         "createdAt": null
     },
     {
-        "raw_title": "GRAVITATION in One Shot: All Concepts & PYQs Covered | JEE Main & Advanced",
         "chapterDisplay": "GRAVITATION",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=wE0xrUuJLnk",
@@ -170,13 +160,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "Binomial Theorem FULL CHAPTER | Class 11th Maths | Arjuna JEE",
         "chapterDisplay": "Binomial Theorem",
         "subjectName": "Chemistry",
         "link": "https://www.youtube.com/watch?v=Ar3TH7MEVTQ",
         "durationHours": 5.1,
-        "day": "Day 10",
-        "id": "backlog_day_10_10",
+        "day": "Day 11",
+        "id": "backlog_day_11_10",
         "title": "Chemistry - Binomial Theorem",
         "target": 1,
         "current": 0,
@@ -187,13 +176,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "Permutation & Combinations FULL CHAPTER | Class 11th Maths | Arjuna JEE",
         "chapterDisplay": "Permutation & Combinations",
         "subjectName": "Chemistry",
         "link": "https://www.youtube.com/watch?v=UoJh42eQU8I",
         "durationHours": 5.0,
-        "day": "Day 11",
-        "id": "backlog_day_11_11",
+        "day": "Day 12",
+        "id": "backlog_day_12_11",
         "title": "Chemistry - Permutation & Combinations",
         "target": 1,
         "current": 0,
@@ -204,13 +192,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "Straight Lines FULL CHAPTER | Class 11th Maths | Arjuna JEE",
         "chapterDisplay": "Straight Lines",
         "subjectName": "Chemistry",
         "link": "https://www.youtube.com/watch?v=4ddGqKZIIvs",
         "durationHours": 5.1,
-        "day": "Day 12",
-        "id": "backlog_day_12_12",
+        "day": "Day 13",
+        "id": "backlog_day_13_12",
         "title": "Chemistry - Straight Lines",
         "target": 1,
         "current": 0,
@@ -221,13 +208,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "Circle FULL CHAPTER | Class 11th Maths | Arjuna JEE",
         "chapterDisplay": "Circle",
         "subjectName": "Chemistry",
         "link": "https://www.youtube.com/watch?v=6I3mLw30qzQ",
         "durationHours": 5.1,
-        "day": "Day 13",
-        "id": "backlog_day_13_13",
+        "day": "Day 14",
+        "id": "backlog_day_14_13",
         "title": "Chemistry - Circle",
         "target": 1,
         "current": 0,
@@ -238,13 +224,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "Hyperbola FULL CHAPTER | Class 11th Maths | Arjuna JEE",
         "chapterDisplay": "Hyperbola",
         "subjectName": "Chemistry",
         "link": "https://www.youtube.com/watch?v=QS6vOMlhvsc",
         "durationHours": 2.9,
-        "day": "Day 13",
-        "id": "backlog_day_13_14",
+        "day": "Day 15",
+        "id": "backlog_day_15_14",
         "title": "Chemistry - Hyperbola",
         "target": 1,
         "current": 0,
@@ -255,13 +240,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "RELATIONS & FUNCTIONS in One Shot: All Concepts & PYQs Covered | JEE Main & Advanced",
         "chapterDisplay": "RELATIONS & FUNCTIONS",
         "subjectName": "Maths",
         "link": "https://www.youtube.com/watch?v=NKth1h8pr7s",
         "durationHours": 6.2,
-        "day": "Day 14",
-        "id": "backlog_day_14_15",
+        "day": "Day 16",
+        "id": "backlog_day_16_15",
         "title": "Maths - RELATIONS & FUNCTIONS",
         "target": 1,
         "current": 0,
@@ -272,13 +256,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "CONTINUITY & METHOD OF DIFFERENTIABILITY in 1 Shot: All Concepts & PYQs Covered| JEE Main & Advanced",
         "chapterDisplay": "CONTINUITY & METHOD OF DIFFERENTIABILITY",
         "subjectName": "Maths",
         "link": "https://www.youtube.com/watch?v=bLkVDkaJrTo",
         "durationHours": 5.8,
-        "day": "Day 15",
-        "id": "backlog_day_15_16",
+        "day": "Day 17",
+        "id": "backlog_day_17_16",
         "title": "Maths - CONTINUITY & METHOD OF DIFFERENTIABILITY",
         "target": 1,
         "current": 0,
@@ -289,13 +272,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "LIMITS in One Shot: All Concepts & PYQs Covered | JEE Main & Advanced",
         "chapterDisplay": "LIMITS",
         "subjectName": "Chemistry",
         "link": "https://www.youtube.com/watch?v=WnIszkrdY8Q",
         "durationHours": 5.0,
-        "day": "Day 16",
-        "id": "backlog_day_16_17",
+        "day": "Day 18",
+        "id": "backlog_day_18_17",
         "title": "Chemistry - LIMITS",
         "target": 1,
         "current": 0,
@@ -306,13 +288,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "ROTATIONAL MOTION in One Shot: All Concepts & PYQs Covered || JEE Main & Advanced",
         "chapterDisplay": "ROTATIONAL MOTION",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=UsHUxG90f_4",
         "durationHours": 11.9,
-        "day": "Day 17",
-        "id": "backlog_day_17_18",
+        "day": "Day 19",
+        "id": "backlog_day_19_18",
         "title": "Physics - ROTATIONAL MOTION",
         "target": 1,
         "current": 0,
@@ -323,13 +304,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "Mechanical Properties of Solids in 1 Shot: All Concepts & PYQs Covered || JEE Main & Advanced",
         "chapterDisplay": "Mechanical Properties of Solids",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=FCByCwnj_J0",
         "durationHours": 3.6,
-        "day": "Day 18",
-        "id": "backlog_day_18_19",
+        "day": "Day 20",
+        "id": "backlog_day_20_19",
         "title": "Physics - Mechanical Properties of Solids",
         "target": 1,
         "current": 0,
@@ -340,13 +320,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "OSCILLATIONS in One Shot: All Concepts & PYQs Covered | JEE Main & Advanced",
         "chapterDisplay": "OSCILLATIONS",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=bv8qBsHK9bM",
         "durationHours": 4.5,
-        "day": "Day 18",
-        "id": "backlog_day_18_20",
+        "day": "Day 21",
+        "id": "backlog_day_21_20",
         "title": "Physics - OSCILLATIONS",
         "target": 1,
         "current": 0,
@@ -357,13 +336,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "KTG & THERMODYNAMICS in one Shot: All Concepts & PYQs Covered || JEE Main & Advanced",
         "chapterDisplay": "KTG & THERMODYNAMICS",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=JAvi2K_DbbI",
         "durationHours": 8.6,
-        "day": "Day 19",
-        "id": "backlog_day_19_21",
+        "day": "Day 22",
+        "id": "backlog_day_22_21",
         "title": "Physics - KTG & THERMODYNAMICS",
         "target": 1,
         "current": 0,
@@ -374,13 +352,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "THREE-DIMENSIONAL GEOMETRY in 1 Shot: All Concepts & PYQs Covered || JEE Main & Advanced",
         "chapterDisplay": "THREE-DIMENSIONAL GEOMETRY",
         "subjectName": "Maths",
         "link": "https://www.youtube.com/watch?v=VG2KogeWzIY",
         "durationHours": 5.7,
-        "day": "Day 20",
-        "id": "backlog_day_20_22",
+        "day": "Day 23",
+        "id": "backlog_day_23_22",
         "title": "Maths - THREE-DIMENSIONAL GEOMETRY",
         "target": 1,
         "current": 0,
@@ -391,13 +368,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "Manzil 2025: MOLE CONCEPT in One Shot: All Concepts & PYQs Covered | JEE Main & Advanced",
         "chapterDisplay": "Manzil 2025",
         "subjectName": "Physics",
         "link": "https://www.youtube.com/watch?v=pi0bAxOGHIo",
         "durationHours": 8.1,
-        "day": "Day 21",
-        "id": "backlog_day_21_23",
+        "day": "Day 24",
+        "id": "backlog_day_24_23",
         "title": "Physics - Manzil 2025",
         "target": 1,
         "current": 0,
@@ -408,13 +384,12 @@
         "createdAt": null
     },
     {
-        "raw_title": "Complex Numbers FULL CHAPTER | Class 11th Maths | Arjuna JEE",
         "chapterDisplay": "Complex Numbers",
         "subjectName": "Maths",
         "link": "https://www.youtube.com/watch?v=o8T4ZG08q8g",
         "durationHours": 4.6,
-        "day": "Day 22",
-        "id": "backlog_day_22_24",
+        "day": "Day 25",
+        "id": "backlog_day_25_24",
         "title": "Maths - Complex Numbers",
         "target": 1,
         "current": 0,

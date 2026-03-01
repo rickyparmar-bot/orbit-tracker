@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // === STATE ===
-    const STORAGE_KEY = 'orbit_goals_v6'; // Roadmap v1 (Sequential)
+    const STORAGE_KEY = 'orbit_goals_v7'; // 6hr Progressive Roadmap
     let goals = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
     let currentFilter = 'all';
 
