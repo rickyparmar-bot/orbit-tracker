@@ -474,84 +474,83 @@ function renderGoals() {
 
         goalsContainer.appendChild(subjectClone);
     }
-    }
 
 function updateStats() {
-    const total = goals.length;
-    const completed = goals.filter(g => g.completed).length;
-    const inProgress = total - completed;
+            const total = goals.length;
+            const completed = goals.filter(g => g.completed).length;
+            const inProgress = total - completed;
 
-    animateValue(statTotal, parseInt(statTotal.textContent), total, 500);
-    animateValue(statProgress, parseInt(statProgress.textContent), inProgress, 500);
-    animateValue(statCompleted, parseInt(statCompleted.textContent), completed, 500);
+            animateValue(statTotal, parseInt(statTotal.textContent), total, 500);
+            animateValue(statProgress, parseInt(statProgress.textContent), inProgress, 500);
+            animateValue(statCompleted, parseInt(statCompleted.textContent), completed, 500);
 
-    // Update Master Progress Bar
-    const globalTarget = goals.reduce((sum, g) => sum + g.target, 0);
-    const globalCurrent = goals.reduce((sum, g) => sum + g.current, 0);
-    const globalPercentage = globalTarget > 0 ? Math.round((globalCurrent / globalTarget) * 100) : 0;
+            // Update Master Progress Bar
+            const globalTarget = goals.reduce((sum, g) => sum + g.target, 0);
+            const globalCurrent = goals.reduce((sum, g) => sum + g.current, 0);
+            const globalPercentage = globalTarget > 0 ? Math.round((globalCurrent / globalTarget) * 100) : 0;
 
-    const masterText = document.getElementById('master-progress-text');
-    const masterFill = document.getElementById('master-progress-fill');
+            const masterText = document.getElementById('master-progress-text');
+            const masterFill = document.getElementById('master-progress-fill');
 
-    if (masterText && masterFill) {
-        animateValue(masterText, parseInt(masterText.textContent) || 0, globalPercentage, 500, '%');
-        masterFill.style.width = `${globalPercentage}%`;
-    }
+            if (masterText && masterFill) {
+                animateValue(masterText, parseInt(masterText.textContent) || 0, globalPercentage, 500, '%');
+                masterFill.style.width = `${globalPercentage}%`;
+            }
 
-    // Update Deadline Countdown
-    const deadlineDate = new Date('2026-03-25T00:00:00');
-    const now = new Date();
-    const timeDiff = deadlineDate.getTime() - now.getTime();
-    const daysRemainingStr = Math.max(0, Math.ceil(timeDiff / (1000 * 3600 * 24)));
-    const daysEl = document.getElementById('days-remaining');
-    if (daysEl) {
-        animateValue(daysEl, parseInt(daysEl.textContent) || 0, daysRemainingStr, 500);
-    }
+            // Update Deadline Countdown
+            const deadlineDate = new Date('2026-03-25T00:00:00');
+            const now = new Date();
+            const timeDiff = deadlineDate.getTime() - now.getTime();
+            const daysRemainingStr = Math.max(0, Math.ceil(timeDiff / (1000 * 3600 * 24)));
+            const daysEl = document.getElementById('days-remaining');
+            if (daysEl) {
+                animateValue(daysEl, parseInt(daysEl.textContent) || 0, daysRemainingStr, 500);
+            }
 
-    // Update Required Hours Per Day
-    const remainingLectures = globalTarget - globalCurrent;
+            // Update Required Hours Per Day
+            const remainingLectures = globalTarget - globalCurrent;
 
-    // Sum total hours remaining based on specific durationHours or fallback to 2 hrs
-    const remainingHours = goals.reduce((sum, g) => {
-        if (!g.completed) {
-            const targetFactor = g.target - g.current;
-            const hoursPerLecture = g.durationHours ? (g.durationHours / g.target) : 2;
-            return sum + (targetFactor * hoursPerLecture);
+            // Sum total hours remaining based on specific durationHours or fallback to 2 hrs
+            const remainingHours = goals.reduce((sum, g) => {
+                if (!g.completed) {
+                    const targetFactor = g.target - g.current;
+                    const hoursPerLecture = g.durationHours ? (g.durationHours / g.target) : 2;
+                    return sum + (targetFactor * hoursPerLecture);
+                }
+                return sum;
+            }, 0);
+
+            const hoursPerDay = daysRemainingStr > 0 ? (remainingHours / daysRemainingStr).toFixed(1) : remainingHours.toFixed(1);
+            const hoursEl = document.getElementById('hours-per-day');
+            if (hoursEl) {
+                hoursEl.textContent = hoursPerDay; // No animation for float
+            }
+
+            // Update Total Aesthetic Watch Time Clock
+            const watchEl = document.getElementById('total-watch-time');
+            if (watchEl) {
+                watchEl.textContent = remainingHours.toFixed(1);
+            }
         }
-        return sum;
-    }, 0);
-
-    const hoursPerDay = daysRemainingStr > 0 ? (remainingHours / daysRemainingStr).toFixed(1) : remainingHours.toFixed(1);
-    const hoursEl = document.getElementById('hours-per-day');
-    if (hoursEl) {
-        hoursEl.textContent = hoursPerDay; // No animation for float
-    }
-
-    // Update Total Aesthetic Watch Time Clock
-    const watchEl = document.getElementById('total-watch-time');
-    if (watchEl) {
-        watchEl.textContent = remainingHours.toFixed(1);
-    }
-}
 
 // === TIMELINE & STATISTICS RENDERERS ===
 function renderTimeline() {
-    const timelineContainer = document.getElementById('timeline-container');
-    timelineContainer.innerHTML = '';
+            const timelineContainer = document.getElementById('timeline-container');
+            timelineContainer.innerHTML = '';
 
-    // Sort goals by creation date, newest first (fallback to sequence if null)
-    const sorted = [...goals].sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
+            // Sort goals by creation date, newest first (fallback to sequence if null)
+            const sorted = [...goals].sort((a, b) => (b.createdAt || 0) - (a.createdAt || 0));
 
-    if (sorted.length === 0) {
-        timelineContainer.innerHTML = '<p style="padding: 24px; color: var(--text-muted); text-align: center;">No history available.</p>';
-        return;
-    }
+            if (sorted.length === 0) {
+                timelineContainer.innerHTML = '<p style="padding: 24px; color: var(--text-muted); text-align: center;">No history available.</p>';
+                return;
+            }
 
-    let html = '<div class="timeline">';
-    sorted.forEach(goal => {
-        const date = new Date(goal.createdAt).toLocaleDateString();
-        const statusColor = goal.completed ? 'var(--accent-green)' : 'var(--accent-primary)';
-        html += `
+            let html = '<div class="timeline">';
+            sorted.forEach(goal => {
+                const date = new Date(goal.createdAt).toLocaleDateString();
+                const statusColor = goal.completed ? 'var(--accent-green)' : 'var(--accent-primary)';
+                html += `
                 <div class="timeline-item" style="border-left: 2px solid ${statusColor}; padding-left: 16px; margin-bottom: 24px; position: relative;">
                     <div style="position: absolute; left: -6px; top: 0; width: 10px; height: 10px; border-radius: 50%; background: ${statusColor};"></div>
                     <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 4px;">${date}</p>
@@ -562,33 +561,33 @@ function renderTimeline() {
                     <p style="font-size: 0.9rem; color: var(--text-secondary);">Target: ${goal.target} ${goal.unit}</p>
                 </div>
             `;
-    });
-    html += '</div>';
-    timelineContainer.innerHTML = html;
-    timelineContainer.style.padding = '24px';
-}
+            });
+            html += '</div>';
+            timelineContainer.innerHTML = html;
+            timelineContainer.style.padding = '24px';
+        }
 
 function renderStatistics() {
-    const statsContainer = document.getElementById('statistics-container');
-    statsContainer.innerHTML = '';
+            const statsContainer = document.getElementById('statistics-container');
+            statsContainer.innerHTML = '';
 
-    // Calculate grouping by primary subject
-    const subjectStats = {};
-    goals.forEach(g => {
-        const sub = g.title.includes(' - ') ? g.title.split(' - ')[0] : 'Other';
-        if (!subjectStats[sub]) {
-            subjectStats[sub] = { count: 0, current: 0, target: 0, completed: 0 };
-        }
-        subjectStats[sub].count++;
-        subjectStats[sub].target += g.target;
-        subjectStats[sub].current += g.current;
-        if (g.completed) subjectStats[sub].completed++;
-    });
+            // Calculate grouping by primary subject
+            const subjectStats = {};
+            goals.forEach(g => {
+                const sub = g.title.includes(' - ') ? g.title.split(' - ')[0] : 'Other';
+                if (!subjectStats[sub]) {
+                    subjectStats[sub] = { count: 0, current: 0, target: 0, completed: 0 };
+                }
+                subjectStats[sub].count++;
+                subjectStats[sub].target += g.target;
+                subjectStats[sub].current += g.current;
+                if (g.completed) subjectStats[sub].completed++;
+            });
 
-    let html = '<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 24px;">';
-    for (const [sub, data] of Object.entries(subjectStats)) {
-        const percentage = data.target > 0 ? Math.round((data.current / data.target) * 100) : 0;
-        html += `
+            let html = '<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 24px;">';
+            for (const [sub, data] of Object.entries(subjectStats)) {
+                const percentage = data.target > 0 ? Math.round((data.current / data.target) * 100) : 0;
+                html += `
                 <div class="stat-card glass-panel" style="display: flex; flex-direction: column; gap: 12px; padding: 24px; border-radius: 12px;">
                     <h3 style="color: var(--accent-primary); font-weight: 500; font-size: 1.1rem;">${sub}</h3>
                     <div style="display: flex; justify-content: space-between; color: var(--text-secondary); font-size: 0.9rem;">
@@ -606,75 +605,75 @@ function renderStatistics() {
                     </div>
                 </div>
             `;
-    }
-    html += '</div>';
-    statsContainer.innerHTML = html;
-    statsContainer.style.padding = '24px';
-}
+            }
+            html += '</div>';
+            statsContainer.innerHTML = html;
+            statsContainer.style.padding = '24px';
+        }
 
 // === UTILS ===
 function saveGoals() {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(goals));
-}
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(goals));
+        }
 
 function generateId() {
-    return Math.random().toString(36).substring(2, 9) + Date.now().toString(36);
-}
+            return Math.random().toString(36).substring(2, 9) + Date.now().toString(36);
+        }
 
 // Sweet number counting animation
 function animateValue(obj, start, end, duration, suffix = '') {
-    if (start === end) return;
-    let startTimestamp = null;
-    const step = (timestamp) => {
-        if (!startTimestamp) startTimestamp = timestamp;
-        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-        obj.innerHTML = Math.floor(progress * (end - start) + start) + suffix;
-        if (progress < 1) {
+            if (start === end) return;
+            let startTimestamp = null;
+            const step = (timestamp) => {
+                if (!startTimestamp) startTimestamp = timestamp;
+                const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                obj.innerHTML = Math.floor(progress * (end - start) + start) + suffix;
+                if (progress < 1) {
+                    window.requestAnimationFrame(step);
+                }
+            };
             window.requestAnimationFrame(step);
         }
-    };
-    window.requestAnimationFrame(step);
-}
 
 // === AUTHENTICATION & KICKOFF ===
 const lockScreen = document.getElementById('lock-screen');
-const appWrapper = document.getElementById('app-wrapper');
-const passInput = document.getElementById('password-input');
-const btnUnlock = document.getElementById('btn-unlock');
-const passError = document.getElementById('password-error');
+    const appWrapper = document.getElementById('app-wrapper');
+    const passInput = document.getElementById('password-input');
+    const btnUnlock = document.getElementById('btn-unlock');
+    const passError = document.getElementById('password-error');
 
-function unlockApp() {
-    lockScreen.classList.add('hidden');
-    // Wait for transition, then remove from DOM flow
-    setTimeout(() => {
-        lockScreen.style.display = 'none';
-    }, 500);
+    function unlockApp() {
+        lockScreen.classList.add('hidden');
+        // Wait for transition, then remove from DOM flow
+        setTimeout(() => {
+            lockScreen.style.display = 'none';
+        }, 500);
 
-    appWrapper.style.display = 'flex';
-    // Trigger reflow to ensure transition runs
-    void appWrapper.offsetWidth;
-    appWrapper.style.opacity = '1';
-    init();
-}
+        appWrapper.style.display = 'flex';
+        // Trigger reflow to ensure transition runs
+        void appWrapper.offsetWidth;
+        appWrapper.style.opacity = '1';
+        init();
+    }
 
-if (localStorage.getItem('orbit_auth') === 'true') {
-    unlockApp();
-} else {
-    btnUnlock.addEventListener('click', () => {
-        const entered = passInput.value.trim().toLowerCase();
-        if (entered === 'ricky') {
-            localStorage.setItem('orbit_auth', 'true');
-            unlockApp();
-        } else {
-            passError.style.display = 'block';
-            passInput.value = '';
-        }
-    });
+    if (localStorage.getItem('orbit_auth') === 'true') {
+        unlockApp();
+    } else {
+        btnUnlock.addEventListener('click', () => {
+            const entered = passInput.value.trim().toLowerCase();
+            if (entered === 'ricky') {
+                localStorage.setItem('orbit_auth', 'true');
+                unlockApp();
+            } else {
+                passError.style.display = 'block';
+                passInput.value = '';
+            }
+        });
 
-    passInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') btnUnlock.click();
-    });
-}
+        passInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') btnUnlock.click();
+        });
+    }
 };
 
 if (document.readyState === 'loading') {
