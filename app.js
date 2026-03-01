@@ -4,7 +4,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // === STATE ===
-    const STORAGE_KEY = 'orbit_goals_v5'; // Bumped version to hard-reset user goals
+    const STORAGE_KEY = 'orbit_goals_v6'; // Roadmap v1 (Sequential)
     let goals = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
     let currentFilter = 'all';
 
@@ -383,34 +383,45 @@ document.addEventListener('DOMContentLoaded', () => {
             return b.createdAt - a.createdAt;
         });
 
-        // Group by Subject
+        // Group by Day (Roadmap) or Subject
         const grouped = {};
 
         filteredGoals.forEach(goal => {
-            let subject = "Other";
+            let groupName = "Other";
             let chapter = goal.title;
 
-            if (goal.title.includes(' - ')) {
+            if (goal.day) {
+                groupName = goal.day;
+                // For roadmap, we show the subject as a sub-label or badge
+                chapter = goal.title;
+            } else if (goal.title.includes(' - ')) {
                 const parts = goal.title.split(' - ');
-                subject = parts[0];
+                groupName = parts[0];
                 chapter = parts.slice(1).join(' - ');
             }
 
-            if (!grouped[subject]) grouped[subject] = [];
-
-            // Pass the split chapter name for rendering
-            grouped[subject].push({ ...goal, chapterDisplay: chapter });
+            if (!grouped[groupName]) grouped[groupName] = [];
+            grouped[groupName].push({ ...goal, chapterDisplay: chapter });
         });
 
-        // Render Subjects
-        for (const [subjectName, subjectGoals] of Object.entries(grouped)) {
+        // Get sorted keys (Subject names alpha or Day numbers)
+        const sortedGroups = Object.keys(grouped).sort((a, b) => {
+            if (a.startsWith('Day ') && b.startsWith('Day ')) {
+                return parseInt(a.split(' ')[1]) - parseInt(b.split(' ')[1]);
+            }
+            return a.localeCompare(b);
+        });
+
+        // Render Groups
+        sortedGroups.forEach(groupName => {
+            const subjectGoals = grouped[groupName];
             const subjectClone = subjectTemplate.content.cloneNode(true);
             const subjectGroup = subjectClone.querySelector('.subject-group');
 
             // Auto-expand if active filter is applied, or default to expand for better visibility
             subjectGroup.classList.add('expanded');
 
-            subjectClone.querySelector('.subject-name').textContent = subjectName;
+            subjectClone.querySelector('.subject-name').textContent = groupName;
 
             const totalTarget = subjectGoals.reduce((sum, g) => sum + g.target, 0);
             const totalCurrent = subjectGoals.reduce((sum, g) => sum + g.current, 0);
