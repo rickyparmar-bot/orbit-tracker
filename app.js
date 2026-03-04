@@ -398,6 +398,8 @@ const startApp = () => {
         const passedLabel = document.getElementById('grid-passed-days');
 
         if (gridContainer && passedLabel) {
+            const START_DATE = new Date('2026-03-05T00:00:00');
+            const now = new Date();
             const passedMs = now - START_DATE;
             let daysPassed = Math.floor(passedMs / (1000 * 3600 * 24));
             if (daysPassed < 0) daysPassed = 0;
