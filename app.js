@@ -349,7 +349,7 @@ const startApp = () => {
 
                     let label = '';
                     if (goal.subtopics && goal.subtopics[i]) {
-                        label = `<span style="margin-left:8px; font-size:12px; font-weight: 500;">${goal.subtopics[i]}</span>`;
+                        label = `<span style="margin-left:8px; font-size:12px; font-weight: 500; color: #a1a1aa;">${goal.subtopics[i]}</span>`;
                         box.style.display = 'flex';
                         box.style.alignItems = 'center';
                         box.style.width = 'auto'; // Disable hardcoded width & height
