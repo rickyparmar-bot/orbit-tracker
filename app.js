@@ -4,7 +4,7 @@
 
 const startApp = () => {
     // === STATE ===
-    const STORAGE_KEY = 'orbit_goals_v7'; // 6hr Progressive Roadmap
+    const STORAGE_KEY = 'orbit_goals_v8'; // New Custom Roadmap
     let goals = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
     let currentFilter = 'all';
 
@@ -54,7 +54,7 @@ const startApp = () => {
     // === DATA LOADING ===
     async function loadPlannerGoals() {
         try {
-            const response = await fetch('planner_goals.json');
+            const response = await fetch('planner_goals.json?cb=' + Date.now());
             if (response.ok) {
                 const plannerGoals = await response.json();
                 let isUpdated = false;
@@ -232,6 +232,7 @@ const startApp = () => {
                 current: 0,
                 unit,
                 completed: false,
+                subtopics: ['Video', 'Module', 'Question Practice'], // Default subtopics
                 createdAt: Date.now()
             };
             goals.unshift(newGoal);
@@ -345,7 +346,19 @@ const startApp = () => {
                     const box = document.createElement('div');
                     box.className = 'lecture-box' + (i < goal.current ? ' checked' : '');
                     box.dataset.index = i;
-                    box.innerHTML = `<svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
+
+                    let label = '';
+                    if (goal.subtopics && goal.subtopics[i]) {
+                        label = `<span style="margin-left:8px; font-size:12px; font-weight: 500;">${goal.subtopics[i]}</span>`;
+                        box.style.display = 'flex';
+                        box.style.alignItems = 'center';
+                        box.style.width = 'auto'; // Disable hardcoded width & height
+                        box.style.height = 'auto';
+                        box.style.padding = '4px 12px 4px 4px';
+                        box.style.borderRadius = '20px'; // pill shape
+                    }
+
+                    box.innerHTML = `<svg viewBox="0 0 24 24" style="width:24px; height:24px; flex-shrink: 0;"><polyline points="20 6 9 17 4 12"></polyline></svg>${label}`;
                     chks.appendChild(box);
                 }
                 row.style.opacity = '0';
