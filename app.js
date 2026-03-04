@@ -4,7 +4,7 @@
 
 const startApp = () => {
     // === STATE ===
-    const STORAGE_KEY = 'orbit_goals_v8'; // New Custom Roadmap
+    const STORAGE_KEY = 'orbit_goals_v9'; // New Custom Roadmap
     let goals = JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
     let currentFilter = 'all';
 
@@ -389,17 +389,54 @@ const startApp = () => {
         if (mText) mText.textContent = `${gPct}%`;
         if (mFill) mFill.style.width = `${gPct}%`;
 
-        const deadline = new Date('2026-03-25');
-        const diff = Math.max(0, Math.ceil((deadline - new Date()) / (1000 * 3600 * 24)));
-        const daysEl = document.getElementById('days-remaining');
-        if (daysEl) daysEl.textContent = diff;
+        // Update Flip Clock Countdown
+        // Let's set deadline to 6 months from Mar 5th -> Sept 1st 2026 roughly.
+        const START_DATE = new Date('2026-03-05T00:00:00');
+        const END_DATE = new Date('2026-09-01T00:00:00');
+        const now = new Date();
 
-        const remHrs = goals.reduce((s, g) => s + (!g.completed ? (g.target - g.current) * (g.durationHours ? (g.durationHours / g.target) : 2) : 0), 0);
-        const hpd = diff > 0 ? (remHrs / diff).toFixed(1) : remHrs.toFixed(1);
-        const hpdEl = document.getElementById('hours-per-day');
-        if (hpdEl) hpdEl.textContent = hpd;
-        const watchEl = document.getElementById('total-watch-time');
-        if (watchEl) watchEl.textContent = remHrs.toFixed(1);
+        let msRemaining = END_DATE - now;
+        if (msRemaining < 0) msRemaining = 0;
+
+        // Approx months and days remaining
+        const daysTotalRem = Math.ceil(msRemaining / (1000 * 3600 * 24));
+        const monthsRem = Math.floor(daysTotalRem / 30);
+        const daysRem = daysTotalRem % 30;
+
+        const flipMonths = document.getElementById('flip-months');
+        const flipDays = document.getElementById('flip-days');
+        if (flipMonths && flipDays) {
+            flipMonths.textContent = monthsRem.toString().padStart(2, '0');
+            flipDays.textContent = daysRem.toString().padStart(2, '0');
+        }
+
+        // Draw 180 Days Grid
+        // Total days constraint is 180.
+        const gridContainer = document.getElementById('days-grid');
+        const passedLabel = document.getElementById('grid-passed-days');
+
+        if (gridContainer && passedLabel) {
+            const passedMs = now - START_DATE;
+            let daysPassed = Math.floor(passedMs / (1000 * 3600 * 24));
+            if (daysPassed < 0) daysPassed = 0;
+            if (daysPassed > 180) daysPassed = 180;
+
+            passedLabel.textContent = daysPassed;
+
+            // Only re-draw if empty to prevent re-rendering stutter, 
+            // but for simplicity we draw once if empty, or just overwrite.
+            gridContainer.innerHTML = '';
+            for (let i = 0; i < 180; i++) {
+                const sq = document.createElement('div');
+                sq.className = 'day-square';
+                if (i < daysPassed) {
+                    sq.classList.add('passed');
+                } else if (i === daysPassed) {
+                    sq.classList.add('today');
+                }
+                gridContainer.appendChild(sq);
+            }
+        }
     }
 
     function renderTimeline() {
