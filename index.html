@@ -110,18 +110,26 @@
 
                 <!-- Flip Clock Countdown -->
                 <section class="flip-clock-section glass-panel"
-                    style="margin-bottom: 24px; padding: 32px; text-align: center;">
+                    style="margin-bottom: 24px; padding: 32px 16px; text-align: center;">
                     <h2
-                        style="font-size: 1.2rem; margin-bottom: 16px; color: var(--text-secondary); letter-spacing: 0.1em; text-transform: uppercase;">
+                        style="font-size: 1.2rem; margin-bottom: 24px; color: var(--text-secondary); letter-spacing: 0.1em; text-transform: uppercase;">
                         Mission Countdown</h2>
-                    <div class="flip-clock">
-                        <div class="flip-card">
-                            <span class="flip-label">MONTHS</span>
-                            <div class="flip-val" id="flip-months">06</div>
-                        </div>
+                    <div class="flip-clock" style="flex-wrap: wrap;">
                         <div class="flip-card">
                             <span class="flip-label">DAYS</span>
                             <div class="flip-val" id="flip-days">00</div>
+                        </div>
+                        <div class="flip-card">
+                            <span class="flip-label">HOURS</span>
+                            <div class="flip-val" id="flip-hours">00</div>
+                        </div>
+                        <div class="flip-card">
+                            <span class="flip-label">MINS</span>
+                            <div class="flip-val" id="flip-mins">00</div>
+                        </div>
+                        <div class="flip-card">
+                            <span class="flip-label">SECS</span>
+                            <div class="flip-val" id="flip-secs">00</div>
                         </div>
                     </div>
                 </section>
@@ -327,7 +335,7 @@
         </div>
     </template>
 
-    <script src="app.js?v=pillcolorfix"></script>
+    <script src="app.js?v=tickingclock"></script>
 </body>
 
 </html>

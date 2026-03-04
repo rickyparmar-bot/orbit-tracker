@@ -48,6 +48,7 @@ const startApp = () => {
         else if (activeView === 'statistics') renderStatistics();
 
         updateStats();
+        initFlipClock();
         setupEventListeners();
     }
 
@@ -389,26 +390,7 @@ const startApp = () => {
         if (mText) mText.textContent = `${gPct}%`;
         if (mFill) mFill.style.width = `${gPct}%`;
 
-        // Update Flip Clock Countdown
-        // Let's set deadline to 6 months from Mar 5th -> Sept 1st 2026 roughly.
-        const START_DATE = new Date('2026-03-05T00:00:00');
-        const END_DATE = new Date('2026-09-01T00:00:00');
-        const now = new Date();
-
-        let msRemaining = END_DATE - now;
-        if (msRemaining < 0) msRemaining = 0;
-
-        // Approx months and days remaining
-        const daysTotalRem = Math.ceil(msRemaining / (1000 * 3600 * 24));
-        const monthsRem = Math.floor(daysTotalRem / 30);
-        const daysRem = daysTotalRem % 30;
-
-        const flipMonths = document.getElementById('flip-months');
-        const flipDays = document.getElementById('flip-days');
-        if (flipMonths && flipDays) {
-            flipMonths.textContent = monthsRem.toString().padStart(2, '0');
-            flipDays.textContent = daysRem.toString().padStart(2, '0');
-        }
+        // Flip clock ticking is now handled by initFlipClock
 
         // Draw 180 Days Grid
         // Total days constraint is 180.
@@ -437,6 +419,36 @@ const startApp = () => {
                 gridContainer.appendChild(sq);
             }
         }
+    }
+
+    function initFlipClock() {
+        const END_DATE = new Date('2026-09-01T00:00:00').getTime();
+        const elDays = document.getElementById('flip-days');
+        const elHours = document.getElementById('flip-hours');
+        const elMins = document.getElementById('flip-mins');
+        const elSecs = document.getElementById('flip-secs');
+
+        function updateClock() {
+            const now = new Date().getTime();
+            let distance = END_DATE - now;
+
+            if (distance < 0) {
+                distance = 0;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            if (elDays) elDays.textContent = days.toString().padStart(2, '0');
+            if (elHours) elHours.textContent = hours.toString().padStart(2, '0');
+            if (elMins) elMins.textContent = minutes.toString().padStart(2, '0');
+            if (elSecs) elSecs.textContent = seconds.toString().padStart(2, '0');
+        }
+
+        updateClock(); // Initial hit
+        setInterval(updateClock, 1000); // Tick every second
     }
 
     function renderTimeline() {
