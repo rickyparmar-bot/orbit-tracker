@@ -46,6 +46,7 @@ const startApp = () => {
         if (activeView === 'dashboard') renderGoals();
         else if (activeView === 'timeline') renderTimeline();
         else if (activeView === 'statistics') renderStatistics();
+        else if (activeView === 'consistency') renderConsistency();
 
         updateStats();
         initFlipClock();
@@ -179,6 +180,10 @@ const startApp = () => {
                         viewTitle.textContent = 'Statistics';
                         viewSubtitle.textContent = 'Deep dive into your performance.';
                         renderStatistics();
+                    } else if (viewName === 'consistency') {
+                        viewTitle.textContent = 'Consistency';
+                        viewSubtitle.textContent = 'Visualize your daily momentum.';
+                        renderConsistency();
                     }
                 }
             });
@@ -493,6 +498,90 @@ const startApp = () => {
         html += '</div>';
         container.innerHTML = html;
         container.style.padding = '24px';
+    }
+
+    let chartInstance = null;
+
+    function renderConsistency() {
+        const ctx = document.getElementById('consistencyChart');
+        if (!ctx) return;
+
+        // Group `current` progress by Day
+        const dayStats = {};
+        let maxDay = 0;
+        goals.forEach(g => {
+            if (g.day) {
+                const dayNum = parseInt(g.day.replace('Day ', ''), 10);
+                if (!isNaN(dayNum)) {
+                    if (!dayStats[dayNum]) dayStats[dayNum] = { target: 0, current: 0 };
+                    dayStats[dayNum].target += g.target;
+                    dayStats[dayNum].current += g.current;
+                    if (dayNum > maxDay) maxDay = dayNum;
+                }
+            }
+        });
+
+        // To make the graph look good, we plot up to the last day with > 0 current, 
+        // or a minimum of 7 days.
+        let endDay = 14;
+        for (let i = 1; i <= maxDay; i++) {
+            if (dayStats[i] && dayStats[i].current > 0) {
+                endDay = Math.max(endDay, i + 2); // show a few days ahead
+            }
+        }
+
+        const labels = [];
+        const dataPoints = [];
+        for (let i = 1; i <= endDay; i++) {
+            labels.push(`Day ${i}`);
+            dataPoints.push(dayStats[i] ? dayStats[i].current : 0);
+        }
+
+        if (chartInstance) {
+            chartInstance.destroy();
+        }
+
+        Chart.defaults.color = 'rgba(255, 255, 255, 0.7)';
+        Chart.defaults.font.family = 'Inter';
+
+        chartInstance = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Tasks Completed (Daily)',
+                    data: dataPoints,
+                    borderColor: '#a78bfa',
+                    backgroundColor: 'rgba(167, 139, 250, 0.2)',
+                    borderWidth: 3,
+                    tension: 0.3,
+                    fill: true,
+                    pointBackgroundColor: '#a78bfa',
+                    pointBorderColor: '#fff',
+                    pointRadius: 4,
+                    pointHoverRadius: 6
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: {
+                        position: 'top',
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: { stepSize: 1 },
+                        grid: { color: 'rgba(255, 255, 255, 0.05)' }
+                    },
+                    x: {
+                        grid: { color: 'rgba(255, 255, 255, 0.05)' }
+                    }
+                }
+            }
+        });
     }
 
     function saveGoals() { localStorage.setItem(STORAGE_KEY, JSON.stringify(goals)); }

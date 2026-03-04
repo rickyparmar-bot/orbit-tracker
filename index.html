@@ -13,6 +13,8 @@
         rel="stylesheet">
     <!-- Main CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 
 <body>
@@ -77,6 +79,11 @@
                             stroke="currentColor" stroke-width="2">
                             <path d="M12 20v-6M6 20V10M18 20V4"></path>
                         </svg> Statistics</a></li>
+                <li data-view="consistency"><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            class="feather feather-activity" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg> Consistency</a></li>
             </ul>
 
             <div class="user-profile">
@@ -234,6 +241,13 @@
                 </div>
             </div> <!-- End view-statistics -->
 
+            <!-- Consistency View -->
+            <div id="view-consistency" class="view-container">
+                <div class="glass-panel" style="padding: 24px; position: relative; height:400px; width:100%;">
+                    <canvas id="consistencyChart"></canvas>
+                </div>
+            </div> <!-- End view-consistency -->
+
         </main>
     </div>
 
@@ -335,7 +349,7 @@
         </div>
     </template>
 
-    <script src="app.js?v=clockfix"></script>
+    <script src="app.js?v=graphs1"></script>
 </body>
 
 </html>
