@@ -1018,3 +1018,75 @@ h1.logo {
         gap: 8px;
     }
 }
+
+/* --- Active Recall Master React Module Styles --- */
+
+.formula-blur-wrapper {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: var(--transition-fast);
+}
+
+.formula-blur-wrapper .math-display {
+    filter: blur(10px);
+    transition: filter 0.3s ease;
+    user-select: none;
+    opacity: 0.5;
+}
+
+.formula-blur-wrapper.revealed .math-display {
+    filter: blur(0px);
+    user-select: auto;
+    opacity: 1;
+}
+
+.blur-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.formula-blur-wrapper.revealed .blur-overlay {
+    opacity: 0;
+}
+
+.formula-blur-wrapper.locked .blur-overlay {
+    background: rgba(239, 68, 68, 0.2);
+    color: var(--accent-red);
+}
+
+.failed-highlight {
+    animation: pulseRed 2s infinite;
+}
+
+@keyframes pulseRed {
+    0% {
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4);
+    }
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(239, 68, 68, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+    }
+}
+
+.mermaid-container svg {
+    max-width: 100%;
+    height: auto;
+}

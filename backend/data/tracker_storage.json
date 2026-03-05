@@ -1,0 +1,103 @@
+{
+  "topic_name": "Class 12 Chemistry \u2014 All Chapters",
+  "timestamp": "2026-03-05T03:56:11.839824",
+  "equations_by_chapter": {
+    "Solutions \u2014 Concentration Terms": [
+      "M = \\frac{n_{solute}}{V_{solution}(L)}",
+      "m = \\frac{n_{solute}}{W_{solvent}(kg)}",
+      "x_A = \\frac{n_A}{n_A + n_B}",
+      "\\text{Mass\\%} = \\frac{W_{solute}}{W_{solution}} \\times 100"
+    ],
+    "Solutions \u2014 Raoult's Law & Colligative Properties": [
+      "P_{total} = x_A P_A^\\circ + x_B P_B^\\circ",
+      "\\frac{P_A^\\circ - P_A}{P_A^\\circ} = x_B",
+      "\\Delta T_b = i K_b m",
+      "\\Delta T_f = i K_f m",
+      "\\pi = iCRT",
+      "p = K_H \\cdot x"
+    ],
+    "Solutions \u2014 Van't Hoff Factor": [
+      "i = 1 + (n-1)\\alpha",
+      "i = 1 - \\left(1 - \\frac{1}{n}\\right)\\alpha",
+      "M_{obs} = \\frac{M_{calc}}{i}"
+    ],
+    "Electrochemistry \u2014 Cell Potential": [
+      "E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode}",
+      "\\Delta G^\\circ = -nFE^\\circ_{cell}",
+      "E_{cell} = E^\\circ_{cell} - \\frac{RT}{nF}\\ln Q",
+      "E_{cell} = E^\\circ_{cell} - \\frac{0.0591}{n}\\log Q"
+    ],
+    "Electrochemistry \u2014 Conductance & Kohlrausch": [
+      "\\Lambda_m = \\kappa \\cdot \\frac{1000}{M}",
+      "\\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ",
+      "G = \\kappa \\cdot \\frac{A}{l}"
+    ],
+    "Chemical Kinetics \u2014 Rate Laws": [
+      "r = k[A]^n",
+      "k = Ae^{-E_a/RT}",
+      "\\ln k = \\ln A - \\frac{E_a}{RT}",
+      "t_{1/2} = \\frac{0.693}{k}",
+      "\\ln[A] = \\ln[A]_0 - kt",
+      "\\frac{1}{[A]} = \\frac{1}{[A]_0} + kt"
+    ],
+    "Chemical Kinetics \u2014 Activation Energy": [
+      "\\log\\frac{k_2}{k_1} = \\frac{E_a}{2.303R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)"
+    ],
+    "Solid State \u2014 Unit Cell": [
+      "\\rho = \\frac{ZM}{a^3 N_A}",
+      "r = \\frac{a}{2}",
+      "r = \\frac{\\sqrt{3}a}{4}",
+      "r = \\frac{a}{2\\sqrt{2}}"
+    ],
+    "Surface Chemistry \u2014 Adsorption": [
+      "\\frac{x}{m} = kP^{1/n}",
+      "\\frac{P}{V(P_0 - P)} = \\frac{1}{V_m C} + \\frac{C-1}{V_m C} \\cdot \\frac{P}{P_0}"
+    ],
+    "Coordination Compounds": [
+      "\\mu = \\sqrt{n(n+2)} \\text{ BM}",
+      "\\text{CFSE} = -0.4n_{t_{2g}} \\Delta_o + 0.6n_{e_g} \\Delta_o"
+    ],
+    "d and f Block Elements": [
+      "E^\\circ",
+      "\\text{size decreases across } 4f \\text{ series}"
+    ],
+    "p-Block Elements": [
+      "\\text{Hybridisation} = \\frac{1}{2}[V + M - C + A]"
+    ],
+    "Haloalkanes & Haloarenes": [
+      "\\text{SN1: Rate} = k[\\text{substrate}]",
+      "\\text{SN2: Rate} = k[\\text{substrate}][\\text{nucleophile}]"
+    ],
+    "Alcohols, Phenols & Ethers": [
+      "\\text{Phenol} > \\text{Water} > \\text{Alcohol}"
+    ],
+    "Aldehydes, Ketones & Carboxylic Acids": [
+      "\\text{Nucleophilic addition: } \\text{RCHO} > \\text{R}_2\\text{CO}",
+      "\\text{RCOOH} > \\text{Phenol} > \\text{ROH}"
+    ],
+    "Amines": [
+      "3^\\circ > 2^\\circ > 1^\\circ > \\text{NH}_3",
+      "2^\\circ > 1^\\circ > 3^\\circ > \\text{NH}_3",
+      "K_b = \\frac{[\\text{RNH}_3^+][\\text{OH}^-]}{[\\text{RNH}_2]}"
+    ]
+  },
+  "key_summary": [
+    "# Solutions \u2014 Concentration Terms",
+    "# Solutions \u2014 Raoult's Law & Colligative Properties",
+    "# Solutions \u2014 Van't Hoff Factor",
+    "# Electrochemistry \u2014 Cell Potential",
+    "# Electrochemistry \u2014 Conductance & Kohlrausch",
+    "# Chemical Kinetics \u2014 Rate Laws",
+    "# Chemical Kinetics \u2014 Activation Energy",
+    "# Solid State \u2014 Unit Cell",
+    "# Surface Chemistry \u2014 Adsorption",
+    "# Coordination Compounds",
+    "# d and f Block Elements",
+    "# p-Block Elements",
+    "# Haloalkanes & Haloarenes",
+    "# Alcohols, Phenols & Ethers",
+    "# Aldehydes, Ketones & Carboxylic Acids",
+    "# Amines"
+  ],
+  "raw_content": "# Solutions \u2014 Concentration Terms\n$M = \\frac{n_{solute}}{V_{solution}(L)}$\n$m = \\frac{n_{solute}}{W_{solvent}(kg)}$\n$x_A = \\frac{n_A}{n_A + n_B}$\n$\\text{Mass\\%} = \\frac{W_{solute}}{W_{solution}} \\times 100$\n\n# Solutions \u2014 Raoult's Law & Colligative Properties\n$P_{total} = x_A P_A^\\circ + x_B P_B^\\circ$\n$\\frac{P_A^\\circ - P_A}{P_A^\\circ} = x_B$\n$\\Delta T_b = i K_b m$\n$\\Delta T_f = i K_f m$\n$\\pi = iCRT$\n$p = K_H \\cdot x$\n\n# Solutions \u2014 Van't Hoff Factor\n$i = 1 + (n-1)\\alpha$\n$i = 1 - \\left(1 - \\frac{1}{n}\\right)\\alpha$\n$M_{obs} = \\frac{M_{calc}}{i}$\n\n# Electrochemistry \u2014 Cell Potential\n$E^\\circ_{cell} = E^\\circ_{cathode} - E^\\circ_{anode}$\n$\\Delta G^\\circ = -nFE^\\circ_{cell}$\n$E_{cell} = E^\\circ_{cell} - \\frac{RT}{nF}\\ln Q$\n$E_{cell} = E^\\circ_{cell} - \\frac{0.0591}{n}\\log Q$\n\n# Electrochemistry \u2014 Conductance & Kohlrausch\n$\\Lambda_m = \\kappa \\cdot \\frac{1000}{M}$\n$\\Lambda_m^\\circ = \\nu_+ \\lambda_+^\\circ + \\nu_- \\lambda_-^\\circ$\n$G = \\kappa \\cdot \\frac{A}{l}$\n\n# Chemical Kinetics \u2014 Rate Laws\n$r = k[A]^n$\n$k = Ae^{-E_a/RT}$\n$\\ln k = \\ln A - \\frac{E_a}{RT}$\n$t_{1/2} = \\frac{0.693}{k}$\n$\\ln[A] = \\ln[A]_0 - kt$\n$\\frac{1}{[A]} = \\frac{1}{[A]_0} + kt$\n\n# Chemical Kinetics \u2014 Activation Energy\n$\\log\\frac{k_2}{k_1} = \\frac{E_a}{2.303R}\\left(\\frac{1}{T_1} - \\frac{1}{T_2}\\right)$\n\n# Solid State \u2014 Unit Cell\n$\\rho = \\frac{ZM}{a^3 N_A}$\n$r = \\frac{a}{2}$ (SC)\n$r = \\frac{\\sqrt{3}a}{4}$ (BCC)\n$r = \\frac{a}{2\\sqrt{2}}$ (FCC)\n\n# Surface Chemistry \u2014 Adsorption\n$\\frac{x}{m} = kP^{1/n}$\n$\\frac{P}{V(P_0 - P)} = \\frac{1}{V_m C} + \\frac{C-1}{V_m C} \\cdot \\frac{P}{P_0}$\n\n# Coordination Compounds\n$\\mu = \\sqrt{n(n+2)} \\text{ BM}$\n$\\text{CFSE} = -0.4n_{t_{2g}} \\Delta_o + 0.6n_{e_g} \\Delta_o$\n\n# d and f Block Elements\n$E^\\circ$ values determine oxidising/reducing power.\nLanthanoid contraction: $\\text{size decreases across } 4f \\text{ series}$\n\n# p-Block Elements\n$\\text{Hybridisation} = \\frac{1}{2}[V + M - C + A]$\nwhere V = valence e\u207b, M = monovalent atoms, C = cation charge, A = anion charge.\n\n# Haloalkanes & Haloarenes\n$\\text{SN1: Rate} = k[\\text{substrate}]$\n$\\text{SN2: Rate} = k[\\text{substrate}][\\text{nucleophile}]$\n\n# Alcohols, Phenols & Ethers\nAcidity: $\\text{Phenol} > \\text{Water} > \\text{Alcohol}$\nLucas test: 3\u00b0 (immediate) > 2\u00b0 (5 min) > 1\u00b0 (no reaction at RT)\n\n# Aldehydes, Ketones & Carboxylic Acids\n$\\text{Nucleophilic addition: } \\text{RCHO} > \\text{R}_2\\text{CO}$\nAcid strength: $\\text{RCOOH} > \\text{Phenol} > \\text{ROH}$\n\n# Amines\nBasic strength (gas phase): $3^\\circ > 2^\\circ > 1^\\circ > \\text{NH}_3$\nBasic strength (aq): $2^\\circ > 1^\\circ > 3^\\circ > \\text{NH}_3$\n$K_b = \\frac{[\\text{RNH}_3^+][\\text{OH}^-]}{[\\text{RNH}_2]}$"
+}

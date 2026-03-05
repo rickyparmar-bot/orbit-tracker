@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "topic": "Solutions",
+    "trap": "Confusing molality (m) with molarity (M). Molality uses kg of solvent, molarity uses L of solution."
+  },
+  {
+    "id": 2,
+    "topic": "Solutions",
+    "trap": "Forgetting that Raoult's Law applies ONLY to ideal solutions. Non-ideal solutions show positive or negative deviations."
+  },
+  {
+    "id": 3,
+    "topic": "Solutions",
+    "trap": "Using van't Hoff factor (i) incorrectly: i > 1 for dissociation (NaCl), i < 1 for association (acetic acid in benzene)."
+  },
+  {
+    "id": 4,
+    "topic": "Electrochemistry",
+    "trap": "Mixing up cell EMF sign: E\u00b0cell = E\u00b0cathode \u2212 E\u00b0anode, NOT the other way round."
+  },
+  {
+    "id": 5,
+    "topic": "Electrochemistry",
+    "trap": "Forgetting to balance electrons when using Nernst equation. The 'n' in the equation is number of electrons transferred."
+  },
+  {
+    "id": 6,
+    "topic": "Chemical Kinetics",
+    "trap": "Confusing order of reaction with molecularity. Order is experimental, molecularity is theoretical and always a whole number."
+  },
+  {
+    "id": 7,
+    "topic": "Chemical Kinetics",
+    "trap": "Using integrated rate law for wrong order. First order: ln[A] vs t is linear, NOT [A] vs t."
+  },
+  {
+    "id": 8,
+    "topic": "Coordination Compounds",
+    "trap": "Forgetting that chelate complexes are more stable than non-chelate (chelate effect). EDTA forms 6 bonds."
+  },
+  {
+    "id": 9,
+    "topic": "Solid State",
+    "trap": "Confusing FCC (4 atoms/unit cell, CN=12) with BCC (2 atoms/unit cell, CN=8)."
+  },
+  {
+    "id": 10,
+    "topic": "Surface Chemistry",
+    "trap": "Mixing up physisorption (weak van der Waals, reversible) with chemisorption (strong chemical bonds, irreversible)."
+  }
+]

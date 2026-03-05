@@ -1,0 +1,14 @@
+{
+    "topic_name": "JEE Prep - Kinematics",
+    "timestamp": "2026-03-05T02:30:00+05:30",
+    "equations_list": [
+        "v = u + at",
+        "s = ut + \\frac{1}{2}at^2",
+        "v^2 = u^2 + 2as"
+    ],
+    "key_summary": [
+        "## Kinematics 1D",
+        "### Equations of Motion",
+        "## Projectile Motion"
+    ]
+}

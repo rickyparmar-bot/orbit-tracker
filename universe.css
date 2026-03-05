@@ -1,0 +1,814 @@
+/* ===============================================
+   ORBIT UNIVERSE — JEE Study Dashboard Styles
+   Glassmorphism Dark-Mode + Futuristic Theme
+   =============================================== */
+
+/* KaTeX Dark Mode Overrides */
+.katex {
+    color: #e2e8f0 !important;
+}
+
+.katex .mord {
+    color: #e2e8f0;
+}
+
+.katex .mbin,
+.katex .mrel {
+    color: #c4b5fd;
+}
+
+.katex .mop {
+    color: #a78bfa;
+}
+
+.katex-display {
+    margin: 1em 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.katex-display>.katex {
+    text-align: left;
+}
+
+/* === UNIVERSE LAYOUT === */
+.universe-container {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 24px;
+    min-height: 600px;
+}
+
+@media (max-width: 1024px) {
+    .universe-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* === CHAPTER TREE NAV (LEFT PANEL) === */
+.chapter-tree {
+    padding: 20px;
+    border-radius: 16px;
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    position: sticky;
+    top: 100px;
+}
+
+.chapter-tree::-webkit-scrollbar {
+    width: 4px;
+}
+
+.chapter-tree::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.chapter-tree::-webkit-scrollbar-thumb {
+    background: rgba(167, 139, 250, 0.3);
+    border-radius: 4px;
+}
+
+.tree-subject {
+    margin-bottom: 8px;
+}
+
+.tree-subject-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 14px;
+    background: transparent;
+    border: none;
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+    letter-spacing: 0.03em;
+}
+
+.tree-subject-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.tree-subject-btn.active {
+    background: rgba(167, 139, 250, 0.1);
+    color: var(--accent-primary);
+}
+
+.tree-subject-btn .tree-chevron {
+    transition: transform 0.3s ease;
+    color: var(--text-muted);
+    flex-shrink: 0;
+}
+
+.tree-subject-btn.active .tree-chevron {
+    transform: rotate(90deg);
+}
+
+.tree-stream {
+    padding-left: 20px;
+    display: none;
+}
+
+.tree-subject.expanded .tree-stream {
+    display: block;
+}
+
+.tree-stream-label {
+    padding: 6px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: var(--text-muted);
+    margin-top: 4px;
+}
+
+.tree-chapter-btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 9px 14px;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    text-align: left;
+}
+
+.tree-chapter-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+}
+
+.tree-chapter-btn.active {
+    background: var(--grad-primary);
+    color: #050508;
+    font-weight: 600;
+    box-shadow: 0 4px 15px rgba(167, 139, 250, 0.3);
+}
+
+.tree-chapter-btn .chapter-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--text-muted);
+    flex-shrink: 0;
+}
+
+.tree-chapter-btn.active .chapter-dot {
+    background: #050508;
+}
+
+/* === CHAPTER GOD-VIEW (RIGHT PANEL) === */
+.god-view-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.god-view-header {
+    padding: 28px 32px;
+    border-radius: 16px 16px 0 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.god-view-title {
+    font-size: 1.6rem;
+    font-weight: 700;
+    background: var(--grad-primary);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: -0.02em;
+}
+
+.god-view-subtitle {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-top: 4px;
+}
+
+/* Tab Bar */
+.god-tabs {
+    display: flex;
+    gap: 0;
+    background: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    overflow-x: auto;
+    padding: 0 16px;
+}
+
+.god-tabs::-webkit-scrollbar {
+    height: 2px;
+}
+
+.god-tabs::-webkit-scrollbar-thumb {
+    background: rgba(167, 139, 250, 0.3);
+}
+
+.god-tab {
+    padding: 14px 20px;
+    background: transparent;
+    border: none;
+    color: var(--text-secondary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    white-space: nowrap;
+    position: relative;
+    transition: color 0.2s ease;
+    letter-spacing: 0.02em;
+}
+
+.god-tab:hover {
+    color: var(--text-primary);
+}
+
+.god-tab.active {
+    color: var(--accent-primary);
+    font-weight: 600;
+}
+
+.god-tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    right: 16px;
+    height: 2px;
+    background: var(--accent-primary);
+    border-radius: 2px 2px 0 0;
+}
+
+/* Tab Content */
+.god-tab-content {
+    padding: 28px 32px;
+    display: none;
+    animation: fadeSlideIn 0.3s ease;
+}
+
+.god-tab-content.active {
+    display: block;
+}
+
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* === GOD-SHEET (MASTER NOTES) === */
+.god-sheet {
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: var(--text-primary);
+}
+
+.god-sheet h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 28px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(167, 139, 250, 0.2);
+    color: var(--accent-primary);
+}
+
+.god-sheet h2:first-child {
+    margin-top: 0;
+}
+
+.god-sheet h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px 0 8px;
+    color: var(--text-primary);
+}
+
+.god-sheet p {
+    margin: 8px 0;
+    color: var(--text-secondary);
+}
+
+.god-sheet strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.god-sheet ul,
+.god-sheet ol {
+    margin: 8px 0 8px 20px;
+    color: var(--text-secondary);
+}
+
+.god-sheet li {
+    margin: 4px 0;
+}
+
+.god-sheet .formula-block {
+    background: rgba(167, 139, 250, 0.06);
+    border: 1px solid rgba(167, 139, 250, 0.15);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 12px 0;
+    overflow-x: auto;
+}
+
+.god-sheet .skc-box {
+    background: rgba(250, 204, 21, 0.06);
+    border: 1px solid rgba(250, 204, 21, 0.2);
+    border-left: 4px solid #facc15;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+.god-sheet .skc-box .skc-title {
+    font-weight: 700;
+    color: #facc15;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 8px;
+}
+
+.god-sheet .concept-why {
+    background: rgba(52, 211, 153, 0.06);
+    border: 1px solid rgba(52, 211, 153, 0.15);
+    border-left: 4px solid var(--accent-green);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 16px 0;
+}
+
+/* === ACTIVE RECALL (BLUR-TO-REVEAL) === */
+.recall-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.recall-card {
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.recall-card:hover {
+    border-color: rgba(167, 139, 250, 0.2);
+}
+
+.recall-card-header {
+    padding: 14px 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.recall-card-q {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: var(--text-primary);
+}
+
+.recall-tag {
+    font-size: 0.7rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.recall-tag.derivation {
+    background: rgba(167, 139, 250, 0.15);
+    color: var(--accent-primary);
+}
+
+.recall-tag.concept {
+    background: rgba(52, 211, 153, 0.15);
+    color: var(--accent-green);
+}
+
+.recall-card-answer {
+    padding: 0 18px 16px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    filter: blur(8px);
+    user-select: none;
+    transition: filter 0.4s ease, opacity 0.4s ease;
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.recall-card.revealed .recall-card-answer {
+    filter: blur(0);
+    opacity: 1;
+    user-select: auto;
+    cursor: default;
+}
+
+/* === FLASHCARD BANK === */
+.flashcard-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.flashcard-progress {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.flashcard-progress strong {
+    color: var(--text-primary);
+}
+
+.flashcard-viewport {
+    perspective: 1000px;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    height: 340px;
+}
+
+.flashcard {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+    cursor: pointer;
+}
+
+.flashcard.flipped {
+    transform: rotateY(180deg);
+}
+
+.flashcard-face {
+    position: absolute;
+    inset: 0;
+    backface-visibility: hidden;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flashcard-front {
+    background: linear-gradient(135deg, rgba(167, 139, 250, 0.08) 0%, rgba(129, 140, 248, 0.08) 100%);
+    border: 1px solid rgba(167, 139, 250, 0.2);
+}
+
+.flashcard-back {
+    background: linear-gradient(135deg, rgba(52, 211, 153, 0.08) 0%, rgba(16, 185, 129, 0.08) 100%);
+    border: 1px solid rgba(52, 211, 153, 0.2);
+    transform: rotateY(180deg);
+}
+
+.flashcard-label {
+    position: absolute;
+    top: 16px;
+    left: 20px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+}
+
+.flashcard-front .flashcard-label {
+    color: var(--accent-primary);
+}
+
+.flashcard-back .flashcard-label {
+    color: var(--accent-green);
+}
+
+.flashcard-text {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--text-primary);
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.flashcard-nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.flashcard-nav button {
+    padding: 10px 24px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.flashcard-nav button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+}
+
+.flashcard-nav button.primary {
+    background: var(--grad-primary);
+    color: #050508;
+    border: none;
+}
+
+/* === PYQ VAULT === */
+.pyq-controls {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.pyq-search {
+    flex: 1;
+    min-width: 200px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.3);
+    color: var(--text-primary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.pyq-search:focus {
+    border-color: var(--accent-primary);
+}
+
+.pyq-search::placeholder {
+    color: var(--text-muted);
+}
+
+.pyq-year-filter {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+}
+
+.pyq-year-btn {
+    padding: 6px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: transparent;
+    color: var(--text-secondary);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.pyq-year-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--text-primary);
+}
+
+.pyq-year-btn.active {
+    background: var(--accent-primary);
+    color: #050508;
+    border-color: transparent;
+}
+
+.pyq-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 6px;
+}
+
+.pyq-table th {
+    text-align: left;
+    padding: 10px 16px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-muted);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.pyq-table td {
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.pyq-table tr td:first-child {
+    border-radius: 8px 0 0 8px;
+}
+
+.pyq-table tr td:last-child {
+    border-radius: 0 8px 8px 0;
+}
+
+.pyq-table tr:hover td {
+    background: rgba(167, 139, 250, 0.05);
+}
+
+.pyq-year-badge {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    background: rgba(167, 139, 250, 0.12);
+    color: var(--accent-primary);
+}
+
+/* === REVISION HUB === */
+.revision-hub {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.revision-card {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    border-radius: 12px;
+    transition: all 0.2s;
+}
+
+.revision-card:hover {
+    border-color: rgba(167, 139, 250, 0.15);
+}
+
+.revision-label {
+    font-weight: 600;
+    font-size: 1rem;
+    min-width: 60px;
+}
+
+.revision-label.r1 {
+    color: #ef4444;
+}
+
+.revision-label.r2 {
+    color: #f59e0b;
+}
+
+.revision-label.r3 {
+    color: #3b82f6;
+}
+
+.revision-label.r4 {
+    color: #34d399;
+}
+
+.revision-time {
+    flex: 1;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.revision-checkbox {
+    width: 28px;
+    height: 28px;
+    border-radius: 8px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    background: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.revision-checkbox:hover {
+    border-color: var(--accent-primary);
+}
+
+.revision-checkbox.checked {
+    background: var(--grad-primary);
+    border-color: transparent;
+    box-shadow: 0 0 12px rgba(167, 139, 250, 0.4);
+}
+
+.revision-checkbox svg {
+    width: 16px;
+    height: 16px;
+    stroke: #050508;
+    stroke-width: 3;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.revision-checkbox.checked svg {
+    opacity: 1;
+}
+
+/* === ERROR LOG (CHAPTER-SPECIFIC) === */
+.error-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.error-card {
+    padding: 14px 18px;
+    background: rgba(239, 68, 68, 0.04);
+    border: 1px solid rgba(239, 68, 68, 0.15);
+    border-left: 4px solid var(--accent-red);
+    border-radius: 10px;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.error-card .error-num {
+    font-weight: 700;
+    color: var(--accent-red);
+    font-size: 0.85rem;
+    flex-shrink: 0;
+    min-width: 24px;
+}
+
+.error-card .error-text {
+    font-size: 0.9rem;
+    color: var(--text-primary);
+    line-height: 1.5;
+}
+
+/* === EMPTY/SPLASH STATE === */
+.universe-splash {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    text-align: center;
+    gap: 16px;
+}
+
+.universe-splash .splash-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(167, 139, 250, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--accent-primary);
+    margin-bottom: 8px;
+}
+
+.universe-splash h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.universe-splash p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    max-width: 400px;
+}

@@ -184,6 +184,19 @@ const startApp = () => {
                         viewTitle.textContent = 'Consistency';
                         viewSubtitle.textContent = 'Visualize your daily momentum.';
                         renderConsistency();
+                    } else if (viewName === 'activerecall') {
+                        viewTitle.textContent = 'Active Recall Master';
+                        viewSubtitle.textContent = 'Test your knowledge limits.';
+                        if (window.mountActiveRecall) {
+                            window.mountActiveRecall();
+                            window.mountActiveRecall = null; // Only mount once
+                        }
+                    } else if (viewName === 'universe') {
+                        viewTitle.textContent = 'Study Universe';
+                        viewSubtitle.textContent = 'Your JEE chapter command centre.';
+                        if (window.initUniverse) {
+                            window.initUniverse();
+                        }
                     }
                 }
             });
@@ -582,6 +595,7 @@ const startApp = () => {
                 }
             }
         });
+        window.consistencyChartObj = chartInstance;
     }
 
     function saveGoals() { localStorage.setItem(STORAGE_KEY, JSON.stringify(goals)); }

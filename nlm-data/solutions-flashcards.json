@@ -1,0 +1,325 @@
+{
+  "title": "Solutions Flashcards",
+  "cards": [
+    {
+      "front": "What is the formula for Molarity ($M$)?",
+      "back": "$M = \\frac{\\text{moles of solute}}{\\text{volume of solution in litres}}$"
+    },
+    {
+      "front": "Does the Molarity ($M$) of a solution change with temperature?",
+      "back": "Yes, Molarity is temperature dependent because the volume of the solution varies with temperature."
+    },
+    {
+      "front": "What is the formula for Molality ($m$)?",
+      "back": "$m = \\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}}$"
+    },
+    {
+      "front": "Why is Molality ($m$) considered temperature independent?",
+      "back": "Molality is based on the mass of the solvent, which does not change with temperature."
+    },
+    {
+      "front": "In a binary solution of components $A$ and $B$, what is the formula for the mole fraction of $A$ ($x_A$)?",
+      "back": "$x_A = \\frac{n_A}{n_A + n_B}$"
+    },
+    {
+      "front": "What is the sum of the mole fractions of all components in a solution?",
+      "back": "The sum of all mole fractions is always equal to $1$."
+    },
+    {
+      "front": "What is the formula for the Mass Percentage of a solute in a solution?",
+      "back": "$\\text{Mass Percentage} = \\left( \\frac{\\text{mass of solute}}{\\text{mass of solution}} \\right) \\times 100$"
+    },
+    {
+      "front": "What is the formula for Parts Per Million (PPM) by mass?",
+      "back": "$\\text{PPM} = \\left( \\frac{\\text{mass of solute}}{\\text{mass of solution}} \\right) \\times 10^6$"
+    },
+    {
+      "front": "Provide the interconversion formula to calculate Molarity ($M$) from molality ($m$), density ($d$), and solute molar mass ($M_2$).",
+      "back": "$M = \\frac{m \\times d \\times 1000}{1000 + m \\times M_2}$"
+    },
+    {
+      "front": "What is the relationship between Normality ($N$) and Molarity ($M$)?",
+      "back": "$N = n \\times M$ (where $n$ is the $n$-factor)."
+    },
+    {
+      "front": "In acid-base chemistry, how is the $n$-factor defined for an acid?",
+      "back": "The $n$-factor is the number of $H^+$ ions per acid molecule."
+    },
+    {
+      "front": "State the mathematical expression for Henry's Law.",
+      "back": "$p = K_H \\times x$ (where $p$ is partial pressure and $x$ is mole fraction)."
+    },
+    {
+      "front": "How does the value of Henry's constant ($K_H$) affect gas solubility at a given pressure?",
+      "back": "A higher $K_H$ value indicates lower solubility of the gas."
+    },
+    {
+      "front": "How does an increase in temperature affect Henry's constant ($K_H$) and gas solubility?",
+      "back": "$K_H$ increases with temperature, causing gas solubility to decrease."
+    },
+    {
+      "front": "According to the provided data, which gas is the least soluble: $He$, $H_2$, $N_2$, or $O_2$?",
+      "back": "Helium ($He$) is the least soluble gas in the series."
+    },
+    {
+      "front": "Why is high pressure used in the production of carbonated drinks?",
+      "back": "High pressure increases the solubility of $CO_2$ according to Henry's Law."
+    },
+    {
+      "front": "Which medical condition in scuba divers is caused by the rapid dissolution and subsequent release of $N_2$ at depth?",
+      "back": "Bends (decompression sickness)."
+    },
+    {
+      "front": "Under what pressure and concentration conditions is Henry's Law typically applicable?",
+      "back": "Henry's Law applies to dilute solutions at low pressures."
+    },
+    {
+      "front": "Under what specific condition does Raoult's Law become a special case of Henry's Law?",
+      "back": "Raoult's Law becomes Henry's Law when the mole fraction $x_A \\to 1$ and $K_H$ equals $P^o_A$."
+    },
+    {
+      "front": "What is the formula for the total pressure ($P$) of an ideal binary solution according to Raoult's Law?",
+      "back": "$P = x_A \\cdot P^o_A + x_B \\cdot P^o_B$"
+    },
+    {
+      "front": "What are the values of $\\Delta H_{mix}$ and $\\Delta V_{mix}$ for an ideal solution?",
+      "back": "$\\Delta H_{mix} = 0$ and $\\Delta V_{mix} = 0$."
+    },
+    {
+      "front": "Identify two common pairs of chemicals that form nearly ideal solutions.",
+      "back": "Benzene + Toluene and n-hexane + n-heptane."
+    },
+    {
+      "front": "In a solution showing positive deviation from Raoult's Law, how do $A-B$ interactions compare to $A-A$ or $B-B$ interactions?",
+      "back": "$A-B$ interactions are weaker than $A-A$ or $B-B$ interactions."
+    },
+    {
+      "front": "What is the sign of $\\Delta H$ for a solution exhibiting positive deviation from Raoult's Law?",
+      "back": "$\\Delta H > 0$ (endothermic mixing)."
+    },
+    {
+      "front": "Give an example of a mixture that exhibits positive deviation from Raoult's Law.",
+      "back": "Ethanol + Water (or Acetone + $CS_2$)."
+    },
+    {
+      "front": "In a solution showing negative deviation from Raoult's Law, how do $A-B$ interactions compare to pure component interactions?",
+      "back": "$A-B$ interactions are stronger than $A-A$ or $B-B$ interactions (often due to H-bonding)."
+    },
+    {
+      "front": "What is the sign of $\\Delta H$ for a solution exhibiting negative deviation from Raoult's Law?",
+      "back": "$\\Delta H < 0$ (exothermic mixing)."
+    },
+    {
+      "front": "Which mixture is a classic example of negative deviation: Ethanol + Water or $CHCl_3$ + Acetone?",
+      "back": "$CHCl_3$ + Acetone."
+    },
+    {
+      "front": "Define an Azeotrope.",
+      "back": "A constant-boiling mixture that cannot be separated by simple distillation."
+    },
+    {
+      "front": "What type of deviation from Raoult's Law leads to a minimum boiling azeotrope?",
+      "back": "Positive deviation."
+    },
+    {
+      "front": "Provide an example of a minimum boiling azeotrope and its composition.",
+      "back": "Ethanol + Water (95.6% ethanol, bp $78.1^\\circ C$)."
+    },
+    {
+      "front": "What type of deviation from Raoult's Law leads to a maximum boiling azeotrope?",
+      "back": "Negative deviation."
+    },
+    {
+      "front": "Provide an example of a maximum boiling azeotrope and its boiling point.",
+      "back": "$HNO_3$ + Water (68% $HNO_3$, bp $120.5^\\circ C$)."
+    },
+    {
+      "front": "What is the formula for the Relative Lowering of Vapour Pressure for a non-volatile solute?",
+      "back": "$\\frac{P^o - P}{P^o} = x_B$"
+    },
+    {
+      "front": "What defines a 'colligative property'?",
+      "back": "A property that depends only on the number of solute particles, not their identity."
+    },
+    {
+      "front": "What is the formula for Boiling Point Elevation ($\\Delta T_b$)?",
+      "back": "$\\Delta T_b = i \\cdot K_b \\cdot m$"
+    },
+    {
+      "front": "What is the technical name for the constant $K_b$?",
+      "back": "Ebullioscopic constant."
+    },
+    {
+      "front": "What is the value of $K_b$ for water?",
+      "back": "$0.512\\text{ K}\\cdot\\text{kg/mol}$"
+    },
+    {
+      "front": "What is the formula for Freezing Point Depression ($\\Delta T_f$)?",
+      "back": "$\\Delta T_f = i \\cdot K_f \\cdot m$"
+    },
+    {
+      "front": "What is the technical name for the constant $K_f$?",
+      "back": "Cryoscopic constant."
+    },
+    {
+      "front": "What is the value of $K_f$ for water?",
+      "back": "$1.86\\text{ K}\\cdot\\text{kg/mol}$"
+    },
+    {
+      "front": "Why is $K_f$ generally greater than $K_b$ for the same solvent?",
+      "back": "Because the enthalpy of fusion ($\\Delta H_{fus}$) is less than the enthalpy of vaporization ($\\Delta H_{vap}$)."
+    },
+    {
+      "front": "What is the formula for Osmotic Pressure ($\\pi$)?",
+      "back": "$\\pi = iCRT$"
+    },
+    {
+      "front": "Define Osmosis in terms of solvent flow.",
+      "back": "The flow of solvent from a dilute solution to a concentrated solution through a semi-permeable membrane."
+    },
+    {
+      "front": "Under what condition does Reverse Osmosis occur?",
+      "back": "When an external pressure greater than the osmotic pressure ($P > \\pi$) is applied to the concentrated side."
+    },
+    {
+      "front": "Approximately how much osmotic pressure must be overcome for the desalination of seawater?",
+      "back": "$\\approx 30\\text{ atm}$"
+    },
+    {
+      "front": "What happens to a cell when placed in a hypertonic solution?",
+      "back": "The cell shrinks as water flows out."
+    },
+    {
+      "front": "What happens to a cell when placed in a hypotonic solution?",
+      "back": "The cell swells as water flows in."
+    },
+    {
+      "front": "What is the definition of Isotonic solutions?",
+      "back": "Solutions that have the same osmotic pressure ($\\pi$), resulting in no net solvent flow."
+    },
+    {
+      "front": "Provide the formula to calculate the molar mass ($M_2$) of a solute from the depression of freezing point ($\\Delta T_f$).",
+      "back": "$M_2 = \\frac{K_f \\times W_2 \\times 1000}{\\Delta T_f \\times W_1}$"
+    },
+    {
+      "front": "Why is camphor an ideal solvent for molar mass determination of solutes?",
+      "back": "Camphor has a very high cryoscopic constant ($K_f = 40\\text{ K}\\cdot\\text{kg/mol}$), providing high sensitivity."
+    },
+    {
+      "front": "Define the van't Hoff factor ($i$) in terms of colligative properties.",
+      "back": "$i = \\frac{\\text{observed colligative property}}{\\text{calculated colligative property}}$"
+    },
+    {
+      "front": "How is the van't Hoff factor ($i$) calculated using molar masses?",
+      "back": "$i = \\frac{M_{calc}}{M_{obs}}$"
+    },
+    {
+      "front": "What is the formula for the van't Hoff factor ($i$) during solute dissociation?",
+      "back": "$i = 1 + (n-1)\\alpha$ (where $n$ is the number of ions and $\\alpha$ is the degree of dissociation)."
+    },
+    {
+      "front": "What is the formula for the van't Hoff factor ($i$) during solute association?",
+      "back": "$i = 1 - (1 - \\frac{1}{n})\\alpha$"
+    },
+    {
+      "front": "What is the theoretical value of $i$ for $BaCl_2$ assuming complete dissociation?",
+      "back": "$i = 3$"
+    },
+    {
+      "front": "What is the theoretical value of $i$ for $Al_2(SO_4)_3$ assuming complete dissociation?",
+      "back": "$i = 5$"
+    },
+    {
+      "front": "What is the theoretical value of $i$ for the complex $K_4[Fe(CN)_6]$ assuming complete dissociation?",
+      "back": "$i = 5$"
+    },
+    {
+      "front": "What is the van't Hoff factor ($i$) for non-electrolytes like glucose or urea?",
+      "back": "$i = 1$"
+    },
+    {
+      "front": "How does the observed molar mass ($M_{obs}$) compare to the calculated molar mass ($M_{calc}$) if dissociation occurs ($i > 1$)?",
+      "back": "$M_{obs} < M_{calc}$"
+    },
+    {
+      "front": "How does the observed molar mass ($M_{obs}$) compare to the calculated molar mass ($M_{calc}$) if association occurs ($i < 1$)?",
+      "back": "$M_{obs} > M_{calc}$"
+    },
+    {
+      "front": "Describe the behavior and van't Hoff factor of acetic acid in benzene.",
+      "back": "It dimerizes via H-bonding, resulting in $i \\approx 0.5$ and $M_{obs} \\approx 120$."
+    },
+    {
+      "front": "What is the formula to extract the degree of dissociation ($\\alpha$) from the van't Hoff factor ($i$)?",
+      "back": "$\\alpha = \\frac{i-1}{n-1}$"
+    },
+    {
+      "front": "Between $N_2$ and $O_2$, which gas has a higher Henry's Law constant ($K_H$)?",
+      "back": "$N_2$ has a higher $K_H$ (and is thus less soluble than $O_2$)."
+    },
+    {
+      "front": "In the colligative property formulas, what does $i$ represent?",
+      "back": "The van't Hoff factor."
+    },
+    {
+      "front": "In the osmotic pressure formula $\\pi = iCRT$, what units are typically used for $R$?",
+      "back": "$0.0821\\text{ L}\\cdot\\text{atm/mol}\\cdot\\text{K}$"
+    },
+    {
+      "front": "Is a solution of Acetic acid + Pyridine an example of positive or negative deviation?",
+      "back": "Negative deviation."
+    },
+    {
+      "front": "Why is Raoult's Law not applicable to a mixture of Ethanol and Water for all concentrations?",
+      "back": "Because it is a non-ideal solution showing positive deviation."
+    },
+    {
+      "front": "In the context of JEE Advanced topics, how do you determine molecular formula from $\\Delta T_f$?",
+      "back": "By using $\\Delta T_f$ to find $M_{obs}$ and then using the van't Hoff factor to find the true molar mass/formula."
+    },
+    {
+      "front": "Which concentration term is defined as moles of solute per volume of solution?",
+      "back": "Molarity ($M$)."
+    },
+    {
+      "front": "Which concentration term is used specifically for very dilute solutions, like pollutants in water?",
+      "back": "Parts Per Million (PPM)."
+    },
+    {
+      "front": "What is the relationship between $\\Delta T_b$ and the molality of the solution?",
+      "back": "$\\Delta T_b$ is directly proportional to molality ($m$)."
+    },
+    {
+      "front": "In the freezing point formula, what does $W_1$ represent?",
+      "back": "The mass of the solvent."
+    },
+    {
+      "front": "If a solute is 100% dissociated into 2 ions, what is its $i$ value?",
+      "back": "$i = 2$"
+    },
+    {
+      "front": "What is the partial pressure of a component $A$ in an ideal solution if its mole fraction is $0.5$ and its pure vapour pressure is $200\\text{ mmHg}$?",
+      "back": "$100\\text{ mmHg}$"
+    },
+    {
+      "front": "What is the effect of applying pressure greater than $\\pi$ on a solution separated from pure solvent by an SPM?",
+      "back": "Solvent molecules move from the solution to the pure solvent (Reverse Osmosis)."
+    },
+    {
+      "front": "Why do oxygen tanks used at high altitudes utilize Henry's Law principles?",
+      "back": "To ensure sufficient oxygen dissolves in the blood despite low atmospheric partial pressure."
+    },
+    {
+      "front": "Which property is used to determine if a solution is hypertonic or hypotonic relative to a cell?",
+      "back": "Osmotic pressure ($\\pi$)."
+    },
+    {
+      "front": "According to Henry's Law, what happens to the mole fraction of a gas in a liquid if the pressure above the liquid is doubled?",
+      "back": "The mole fraction of the dissolved gas doubles."
+    },
+    {
+      "front": "Why can azeotropic mixtures not be separated by simple distillation?",
+      "back": "Because the liquid and vapour phases have the same composition at the azeotropic boiling point."
+    }
+  ]
+}

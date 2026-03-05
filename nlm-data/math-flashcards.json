@@ -1,0 +1,305 @@
+{
+  "title": "Relations Flashcards",
+  "cards": [
+    {
+      "front": "In set theory, how is a relation $R$ from set $A$ to set $B$ formally defined?",
+      "back": "A relation $R$ is defined as a subset of the Cartesian product $A \\times B$."
+    },
+    {
+      "front": "What is the formula to calculate the total number of distinct relations possible from set $A$ to set $B$?",
+      "back": "$2^{|A| \\cdot |B|}$"
+    },
+    {
+      "front": "What condition must be met for a relation $R$ on set $A$ to be considered reflexive?",
+      "back": "For every $a \\in A$, the element $(a,a)$ must be in $R$."
+    },
+    {
+      "front": "A relation $R$ is symmetric if $(a,b) \\in R$ implies that _____ is also in $R$.",
+      "back": "$(b,a)$"
+    },
+    {
+      "front": "What logical implication defines the transitive property for a relation $R$?",
+      "back": "If $(a,b) \\in R$ and $(b,c) \\in R$, then $(a,c) \\in R$."
+    },
+    {
+      "front": "Which three properties must a relation simultaneously satisfy to be classified as an equivalence relation?",
+      "back": "Reflexivity, symmetry, and transitivity."
+    },
+    {
+      "front": "How do equivalence classes of an equivalence relation affect the underlying set $A$?",
+      "back": "They form a partition of the set $A$."
+    },
+    {
+      "front": "What specific sequence of numbers is used to count the possible equivalence relations on a set of size $n$?",
+      "back": "Bell numbers"
+    },
+    {
+      "front": "What is the value of the Bell number $B_{3}$, representing the number of equivalence relations on a 3-element set?",
+      "back": "5"
+    },
+    {
+      "front": "What is the value of the Bell number $B_{4}$?",
+      "back": "15"
+    },
+    {
+      "front": "Why is an empty relation on a non-empty set $A$ NOT considered an equivalence relation?",
+      "back": "It fails the reflexivity requirement (it does not contain $(a,a)$ for all $a \\in A$)."
+    },
+    {
+      "front": "Which two properties are satisfied vacuously by an empty relation?",
+      "back": "Symmetry and transitivity."
+    },
+    {
+      "front": "The universal relation $A \\times A$ is an example of what general type of relation?",
+      "back": "Equivalence relation"
+    },
+    {
+      "front": "What is the smallest possible equivalence relation on a set $A$?",
+      "back": "The identity relation $I = \\{(a,a) : a \\in A\\}$."
+    },
+    {
+      "front": "A relation is called antisymmetric if $(a,b) \\in R$ and $(b,a) \\in R$ implies that _____.",
+      "back": "$a = b$"
+    },
+    {
+      "front": "What standard mathematical comparison operator serves as an example of an antisymmetric relation?",
+      "back": "$\\le$ (less than or equal to)"
+    },
+    {
+      "front": "Which three properties define a partial order relation?",
+      "back": "Reflexivity, antisymmetry, and transitivity."
+    },
+    {
+      "front": "Besides the inequality symbol $\\le$, what is another common example of a partial order relation?",
+      "back": "The subset relation $\\subseteq$."
+    },
+    {
+      "front": "What is the formula for the total number of reflexive relations on a set with $n$ elements?",
+      "back": "$2^{n^{2}-n}$"
+    },
+    {
+      "front": "What is the formula for the total number of symmetric relations on a set with $n$ elements?",
+      "back": "$2^{\\frac{n(n+1)}{2}}$"
+    },
+    {
+      "front": "A function $f: A \\to B$ assigns how many elements of $B$ to each element in $A$?",
+      "back": "Exactly one"
+    },
+    {
+      "front": "What is the formal definition of an injective (one-one) function?",
+      "back": "A function where $f(a) = f(b)$ implies $a = b$."
+    },
+    {
+      "front": "How can the first derivative $f'(x)$ be used to verify if a function is injective over its domain?",
+      "back": "Check if $f'(x) > 0$ everywhere or $f'(x) < 0$ everywhere."
+    },
+    {
+      "front": "What condition regarding the range and codomain defines a surjective (onto) function?",
+      "back": "The range must equal the codomain."
+    },
+    {
+      "front": "What is a bijective function?",
+      "back": "A function that is both injective (one-one) and surjective (onto)."
+    },
+    {
+      "front": "What is the prerequisite for a function to have an inverse?",
+      "back": "The function must be bijective."
+    },
+    {
+      "front": "What is the formula for the total number of functions from set $A$ to set $B$?",
+      "back": "$|B|^{|A|}$"
+    },
+    {
+      "front": "How is the number of injective functions from $A$ to $B$ calculated, assuming $|B| \\ge |A|$?",
+      "back": "$P(|B|,|A|)$ (Permutations of $|B|$ taken $|A|$ at a time)"
+    },
+    {
+      "front": "If $|A| = n$, how many bijections exist from set $A$ to itself?",
+      "back": "$n!$"
+    },
+    {
+      "front": "What mathematical method is used to count surjective functions from a set of size $m$ to a set of size $n$?",
+      "back": "The inclusion-exclusion principle: $\\sum (-1)^{k} \\binom{n}{k} (n-k)^{m}$."
+    },
+    {
+      "front": "Why is the floor function $\\lfloor x \\rfloor$ not injective?",
+      "back": "Multiple distinct inputs map to the same integer (e.g., $\\lfloor 1.1 \\rfloor = \\lfloor 1.2 \\rfloor = 1$)."
+    },
+    {
+      "front": "To what set is the floor function $\\lfloor x \\rfloor$ surjective?",
+      "back": "The set of integers $\\mathbb{Z}$."
+    },
+    {
+      "front": "What is the range of the absolute value function $f(x) = |x|$?",
+      "back": "$[0, \\infty)$"
+    },
+    {
+      "front": "How is the signum function $sgn(x)$ defined for $x \\ne 0$?",
+      "back": "$sgn(x) = \\frac{x}{|x|}$"
+    },
+    {
+      "front": "Is the signum function $sgn(x)$ surjective onto the set of real numbers $\\mathbb{R}$?",
+      "back": "No"
+    },
+    {
+      "front": "What condition defines an even function?",
+      "back": "$f(-x) = f(x)$"
+    },
+    {
+      "front": "What condition defines an odd function?",
+      "back": "$f(-x) = -f(x)$"
+    },
+    {
+      "front": "What is the range of the exponential function $f(x) = e^{x}$?",
+      "back": "$(0, \\infty)$"
+    },
+    {
+      "front": "Why is $f(x) = e^{x}$ not surjective onto $\\mathbb{R}$?",
+      "back": "Its range $(0, \\infty)$ does not include non-positive numbers."
+    },
+    {
+      "front": "Which function serves as a bijection from $(0, \\infty)$ to $\\mathbb{R}$?",
+      "back": "The natural logarithm function $\\ln(x)$."
+    },
+    {
+      "front": "What is the inverse of the non-zero linear function $f(x) = ax + b$?",
+      "back": "$f^{-1}(x) = \\frac{x-b}{a}$"
+    },
+    {
+      "front": "In the composition $(g \\circ f)(x)$, which function is applied to the input $x$ first?",
+      "back": "The function $f$."
+    },
+    {
+      "front": "What is the general relationship between $g \\circ f$ and $f \\circ g$ regarding commutativity?",
+      "back": "They are generally not equal ($g \\circ f \\ne f \\circ g$)."
+    },
+    {
+      "front": "What property states that $h \\circ (g \\circ f) = (h \\circ g) \\circ f$?",
+      "back": "Associativity"
+    },
+    {
+      "front": "When a bijection $f$ is composed with its inverse $f^{-1}$, what is the result?",
+      "back": "The identity relation $I$."
+    },
+    {
+      "front": "What is the expanded form of the composite inverse $(g \\circ f)^{-1}$?",
+      "back": "$f^{-1} \\circ g^{-1}$"
+    },
+    {
+      "front": "How is the kernel of a function $f$, denoted $ker(f)$, defined as a set of pairs?",
+      "back": "$ker(f) = \\{(a,b) : f(a) = f(b)\\}$"
+    },
+    {
+      "front": "The kernel of any function $f$ always forms what type of relation?",
+      "back": "Equivalence relation"
+    },
+    {
+      "front": "Under what condition is the kernel of a function $f$ equal to the identity relation?",
+      "back": "When the function $f$ is injective."
+    },
+    {
+      "front": "What is the domain and codomain requirement for a binary operation $*$ on set $A$?",
+      "back": "$*: A \\times A \\to A$ (the result must be within $A$)."
+    },
+    {
+      "front": "What property of a binary operation is defined by $a * b = b * a$?",
+      "back": "Commutativity"
+    },
+    {
+      "front": "What equation defines the identity element $e$ for a binary operation $*$?",
+      "back": "$e * a = a * e = a$"
+    },
+    {
+      "front": "What is the relationship between an element $a$ and its inverse $a^{-1}$ in terms of the identity $e$?",
+      "back": "$a * a^{-1} = a^{-1} * a = e$"
+    },
+    {
+      "front": "A binary operation is associative if $(a * b) * c$ equals _____.",
+      "back": "$a * (b * c)$"
+    },
+    {
+      "front": "The floor function $\\lfloor x \\rfloor$ is surjective to $\\mathbb{Z}$ but not to $\\mathbb{R}$. How would you classify its injectivity?",
+      "back": "It is not injective."
+    },
+    {
+      "front": "True or False: The identity relation is the largest equivalence relation on a set.",
+      "back": "False (it is the smallest)."
+    },
+    {
+      "front": "In the context of relations, why is the sign $\\le$ not an equivalence relation?",
+      "back": "It is not symmetric (if $a \\le b$, it does not imply $b \\le a$ unless $a=b$)."
+    },
+    {
+      "front": "For the function $f(x) = e^x$, what is the monotonic behavior that guarantees it is 1-1?",
+      "back": "It is strictly increasing."
+    },
+    {
+      "front": "If $|A| = 3$ and $|B| = 2$, how many total relations exist from $A$ to $B$?",
+      "back": "$2^{6} = 64$"
+    },
+    {
+      "front": "If $|A| = 3$ and $|B| = 2$, how many functions exist from $A$ to $B$?",
+      "back": "$2^{3} = 8$"
+    },
+    {
+      "front": "What is the number of symmetric relations on a set with $n=2$ elements?",
+      "back": "$2^{\\frac{2(3)}{2}} = 2^{3} = 8$"
+    },
+    {
+      "front": "What is the number of reflexive relations on a set with $n=3$ elements?",
+      "back": "$2^{3^{2}-3} = 2^{6} = 64$"
+    },
+    {
+      "front": "Identify the type of relation: reflexive, antisymmetric, and transitive.",
+      "back": "Partial order"
+    },
+    {
+      "front": "Identify the type of relation: reflexive, symmetric, and transitive.",
+      "back": "Equivalence relation"
+    },
+    {
+      "front": "Does the order of application change when calculating $(g \\circ f)^{-1}$ vs $g^{-1} \\circ f^{-1}$?",
+      "back": "Yes, $(g \\circ f)^{-1} = f^{-1} \\circ g^{-1}$ (the order is reversed)."
+    },
+    {
+      "front": "Define the signum function $sgn(x)$ when $x = 0$.",
+      "back": "The source material specifies $sgn(x) = x/|x|$ for $x \\ne 0$ but does not define it at $x=0$."
+    },
+    {
+      "front": "Under what specific condition is the composition of two functions $g \\circ f$ possible?",
+      "back": "The range of $f$ must be a subset of the domain of $g$."
+    },
+    {
+      "front": "If a function is strictly decreasing everywhere, what can be concluded about its injectivity?",
+      "back": "It is injective (one-one)."
+    },
+    {
+      "front": "Why is the identity element of a binary operation considered unique?",
+      "back": "By definition, only one element $e$ can satisfy $e * a = a * e = a$ for all $a$."
+    },
+    {
+      "front": "Is the composition of functions commutative?",
+      "back": "No, $g \\circ f$ is generally not equal to $f \\circ g$."
+    },
+    {
+      "front": "Term: Identity Relation",
+      "back": "Definition: The relation $I = \\{(a,a) : a \\in A\\}$, which is the smallest equivalence relation on $A$."
+    },
+    {
+      "front": "Term: One-to-One Function",
+      "back": "Definition: A function where distinct inputs produce distinct outputs ($f(a) = f(b) \\implies a = b$)."
+    },
+    {
+      "front": "Term: Onto Function",
+      "back": "Definition: A function where the codomain equals the range, ensuring every element in the codomain has a pre-image."
+    },
+    {
+      "front": "How is the range of $f(x) = |x|$ different from the range of $f(x) = e^{x}$?",
+      "back": "The range of $|x|$ is $[0, \\infty)$ (includes zero), while the range of $e^{x}$ is $(0, \\infty)$ (excludes zero)."
+    },
+    {
+      "front": "What is the property of a binary operation where the result of $a * b$ must always be an element of the set $A$?",
+      "back": "Closure"
+    }
+  ]
+}
