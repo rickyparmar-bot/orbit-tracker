@@ -3,21 +3,23 @@ import { Dashboard } from './components/Dashboard';
 import { MCQEngine } from './components/MCQEngine';
 import { Flashcards } from './components/Flashcards';
 import { StudyNotes } from './components/StudyNotes';
-import { LayoutGrid, Database, Zap, BookOpen, Settings, ZapOff } from 'lucide-react';
+import { LayoutGrid, Database, Zap, BookOpen, Settings, ZapOff, Book, Beaker, ChevronRight } from 'lucide-react';
 import 'katex/dist/katex.min.css';
 
 const App: React.FC = () => {
-  const [activeView, setActiveView] = useState<'dashboard' | 'pyq' | 'flashcards' | 'notes' | 'settings'>('dashboard');
+  const [activeView, setActiveView] = useState<'dashboard' | 'solutions' | 'settings'>('dashboard');
+  const [isSubjectsOpen, setIsSubjectsOpen] = useState(true);
+  const [isChemOpen, setIsChemOpen] = useState(true);
 
   return (
     <div className="flex h-screen bg-orbit-dark text-slate-100 font-sans selection:bg-orbit-cyan/30">
       {/* Sidebar Navigation */}
-      <nav className="w-20 lg:w-64 border-r border-white/5 flex flex-col items-center lg:items-start p-4 lg:p-6 gap-8 bg-black/20 backdrop-blur-3xl shrink-0">
-        <div className="flex items-center gap-3 px-2">
+      <nav className="w-20 lg:w-72 border-r border-white/5 flex flex-col items-center lg:items-start p-4 lg:p-6 gap-6 bg-black/20 backdrop-blur-3xl shrink-0">
+        <div className="flex items-center gap-3 px-2 mb-4">
           <div className="w-10 h-10 bg-orbit-cyan rounded-lg flex items-center justify-center shadow-neon-cyan/50">
-            <Zap className="text-black" size={24} />
+            <Zap className="text-[#0a0a0a]" size={24} />
           </div>
-          <span className="hidden lg:block text-2xl font-black italic tracking-tighter">ORBIT</span>
+          <span className="hidden lg:block text-2xl font-black italic tracking-tighter">ORBIT PRIME</span>
         </div>
 
         <div className="flex flex-col gap-2 w-full">
@@ -27,24 +29,42 @@ const App: React.FC = () => {
             active={activeView === 'dashboard'}
             onClick={() => setActiveView('dashboard')}
           />
-          <NavItem
-            icon={<Database size={22} />}
-            label="PYQ Vault"
-            active={activeView === 'pyq'}
-            onClick={() => setActiveView('pyq')}
-          />
-          <NavItem
-            icon={<ZapOff size={22} />}
-            label="Flashcards"
-            active={activeView === 'flashcards'}
-            onClick={() => setActiveView('flashcards')}
-          />
-          <NavItem
-            icon={<BookOpen size={22} />}
-            label="Study Notes"
-            active={activeView === 'notes'}
-            onClick={() => setActiveView('notes')}
-          />
+
+          <div className="mt-4 pt-4 border-t border-white/5 space-y-2">
+            <button
+              onClick={() => setIsSubjectsOpen(!isSubjectsOpen)}
+              className="flex items-center gap-4 w-full p-3 rounded-xl hover:bg-white/5 transition-all text-slate-400 font-bold text-sm tracking-wide uppercase"
+            >
+              <Book size={18} />
+              <span className="hidden lg:block flex-1 text-left">Subjects</span>
+              {isSubjectsOpen ? <ChevronRight size={16} className="rotate-90 transition-transform" /> : <ChevronRight size={16} className="transition-transform" />}
+            </button>
+
+            {isSubjectsOpen && (
+              <div className="pl-6 space-y-2">
+                <button
+                  onClick={() => setIsChemOpen(!isChemOpen)}
+                  className="flex items-center gap-3 w-full p-2 rounded-xl hover:text-slate-100 transition-all text-slate-400 font-medium text-sm"
+                >
+                  <Beaker size={16} />
+                  <span className="hidden lg:block flex-1 text-left">Chemistry</span>
+                  {isChemOpen ? <ChevronRight size={14} className="rotate-90 transition-transform" /> : <ChevronRight size={14} className="transition-transform" />}
+                </button>
+
+                {isChemOpen && (
+                  <div className="pl-8 space-y-1 border-l border-white/10 ml-3">
+                    <button
+                      onClick={() => setActiveView('solutions')}
+                      className={`flex items-center gap-3 w-full px-4 py-2 rounded-r-xl transition-all text-sm font-bold border-l-2 ${activeView === 'solutions' ? 'border-orbit-cyan bg-orbit-cyan/10 text-orbit-cyan shadow-[0_0_15px_rgba(0,242,255,0.1)]' : 'border-transparent text-slate-500 hover:text-slate-200 hover:bg-white/5'}`}
+                    >
+                      <span className="hidden lg:block">Solutions</span>
+                    </button>
+                  </div>
+                )}
+              </div>
+            )}
+          </div>
+
           <div className="mt-8 pt-8 border-t border-white/5">
             <NavItem
               icon={<Settings size={22} />}
@@ -65,9 +85,17 @@ const App: React.FC = () => {
       <main className="flex-1 overflow-y-auto bg-transparent relative">
         <div className="max-w-7xl mx-auto p-4 lg:p-8">
           {activeView === 'dashboard' && <Dashboard />}
-          {activeView === 'pyq' && <MCQEngine />}
-          {activeView === 'flashcards' && <Flashcards />}
-          {activeView === 'notes' && <StudyNotes />}
+          {activeView === 'solutions' && (
+            <div className="space-y-12">
+              <div>
+                <h1 className="text-4xl font-black italic tracking-tighter uppercase neon-text-cyan mb-2">Solutions</h1>
+                <p className="text-slate-400">Physical Chemistry • Class 12</p>
+              </div>
+              <StudyNotes />
+              <Flashcards />
+              <MCQEngine />
+            </div>
+          )}
           {activeView === 'settings' && (
             <div className="glass-card p-12">
               <h2 className="text-2xl font-bold mb-6">System Configuration</h2>
@@ -77,12 +105,8 @@ const App: React.FC = () => {
                   <span className="text-orbit-cyan font-bold uppercase text-xs tracking-widest">Active Process</span>
                 </div>
                 <div className="flex justify-between items-center p-4 bg-white/5 rounded-xl">
-                  <span>Vite Dev Port</span>
-                  <span className="text-slate-400">8080</span>
-                </div>
-                <div className="flex justify-between items-center p-4 bg-white/5 rounded-xl">
                   <span>CD Sync Mode</span>
-                  <span className="text-orbit-cyan font-bold uppercase text-xs tracking-widest text-shadow-glow">PAT Auth</span>
+                  <span className="text-orbit-cyan font-bold uppercase text-xs tracking-widest text-shadow-glow">GitHub Actions</span>
                 </div>
               </div>
             </div>
