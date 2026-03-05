@@ -1,0 +1,329 @@
+{
+  "title": "Electrostatics Flashcards",
+  "cards": [
+    {
+      "front": "What is the mathematical expression for Coulomb's Law in a vacuum?",
+      "back": "$F = \\frac{1}{4\\pi\\epsilon_0} \\frac{q_1q_2}{r^2}$"
+    },
+    {
+      "front": "What is the approximate numerical value of the electrostatic constant $k$ in SI units?",
+      "back": "$9 \\times 10^9 \\text{ N}\\cdot\\text{m}^2/\\text{C}^2$"
+    },
+    {
+      "front": "What is the vector form of the electrostatic force $F$ exerted by $q_1$ on $q_2$?",
+      "back": "$F = k \\frac{q_1q_2}{r^2} \\hat{r}_{12}$"
+    },
+    {
+      "front": "According to the principle of superposition, how is the net electrostatic force on a single charge determined in a system of multiple charges?",
+      "back": "It is the vector sum of all individual pairwise forces acting on that charge."
+    },
+    {
+      "front": "What is the numerical value of the permittivity of free space ($\\epsilon_0$)?",
+      "back": "$8.854 \\times 10^{-12} \\text{ C}^2/\\text{N}\\cdot\\text{m}^2$"
+    },
+    {
+      "front": "How does the electrostatic force between two charges change when they are placed in a medium with dielectric constant $K$?",
+      "back": "The force reduces by a factor of $K$ ($F_{medium} = \\frac{F_{vacuum}}{K}$)."
+    },
+    {
+      "front": "What is the formula for the electric field ($E$) produced by a point charge $Q$ at a distance $r$?",
+      "back": "$E = \\frac{kQ}{r^2}$"
+    },
+    {
+      "front": "In which direction do electric field lines originate and terminate?",
+      "back": "They start on positive charges and end on negative charges."
+    },
+    {
+      "front": "What physical quantity is represented by the tangent to an electric field line at any given point?",
+      "back": "The direction of the electric field ($E$) at that point."
+    },
+    {
+      "front": "How is the magnitude of the electric field ($|E|$) related to the density of electric field lines?",
+      "back": "The magnitude is directly proportional to the density of the lines."
+    },
+    {
+      "front": "Define the electric dipole moment vector ($p$) in terms of charge magnitude $q$ and separation $d$.",
+      "back": "$p = qd$, directed from the negative charge to the positive charge."
+    },
+    {
+      "front": "What is the formula for the electric field ($E$) at a point on the axial line of a short dipole at distance $r$?",
+      "back": "$E = \\frac{2kp}{r^3}$"
+    },
+    {
+      "front": "What is the formula for the electric field ($E$) at a point on the equatorial line of a short dipole at distance $r$?",
+      "back": "$E = \\frac{kp}{r^3}$"
+    },
+    {
+      "front": "What is the formula for the torque ($\\tau$) experienced by a dipole $p$ in a uniform electric field $E$?",
+      "back": "$\\tau = pE \\sin \\theta$ (or $\\tau = p \\times E$)"
+    },
+    {
+      "front": "What is the potential energy ($U$) of an electric dipole $p$ placed in an external electric field $E$?",
+      "back": "$U = -p \\cdot E = -pE \\cos \\theta$"
+    },
+    {
+      "front": "What is the formula for the electric potential ($V$) at a distance $r$ from a point charge $Q$?",
+      "back": "$V = \\frac{kQ}{r}$"
+    },
+    {
+      "front": "What is the differential relationship between the electric field ($E$) and the electric potential ($V$)?",
+      "back": "$E = -\\frac{dV}{dr}$"
+    },
+    {
+      "front": "Why is no work done when moving a test charge along an equipotential surface?",
+      "back": "Because the potential difference ($dV$) between any two points on the surface is zero."
+    },
+    {
+      "front": "What is the geometric relationship between electric field lines and equipotential surfaces?",
+      "back": "Electric field lines are always perpendicular to equipotential surfaces."
+    },
+    {
+      "front": "What is the formula for the work ($W$) required to move a charge $q$ between two points with potentials $V_A$ and $V_B$?",
+      "back": "$W = q(V_A - V_B)$"
+    },
+    {
+      "front": "What is the electrostatic potential energy ($U$) of a system consisting of two point charges $q_1$ and $q_2$ separated by distance $r$?",
+      "back": "$U = \\frac{kq_1q_2}{r}$"
+    },
+    {
+      "front": "What is the electric field ($E$) on the axis of a charged ring of radius $R$ at a distance $x$ from its center?",
+      "back": "$E = \\frac{kQx}{(R^2 + x^2)^{3/2}}$"
+    },
+    {
+      "front": "What is the electric potential ($V$) on the axis of a charged ring of radius $R$ at a distance $x$ from its center?",
+      "back": "$V = \\frac{kQ}{\\sqrt{R^2 + x^2}}$"
+    },
+    {
+      "front": "What are the values of the electric field ($E$) and potential ($V$) at the center of a charged ring of radius $R$?",
+      "back": "$E = 0$ and $V = \\frac{kQ}{R}$"
+    },
+    {
+      "front": "Identify the standard symbols for linear, surface, and volume charge distributions.",
+      "back": "$\\lambda$ (linear, C/m), $\\sigma$ (surface, C/m$^2$), and $\\rho$ (volume, C/m$^3$)"
+    },
+    {
+      "front": "State the integral form of Gauss's Law.",
+      "back": "$\\oint E \\cdot dA = \\frac{q_{enc}}{\\epsilon_0}$"
+    },
+    {
+      "front": "What is the electric field ($E$) near an infinite thin plane sheet of charge with surface charge density $\\sigma$?",
+      "back": "$E = \\frac{\\sigma}{2\\epsilon_0}$"
+    },
+    {
+      "front": "In the region between two large parallel plates with opposite surface charge densities $\\sigma$ and $-\\sigma$, what is the magnitude of the electric field ($E$)?",
+      "back": "$E = \\frac{\\sigma}{\\epsilon_0}$"
+    },
+    {
+      "front": "What is the electric field ($E$) at a distance $r$ from an infinite line charge with linear density $\\lambda$?",
+      "back": "$E = \\frac{\\lambda}{2\\pi\\epsilon_0r}$"
+    },
+    {
+      "front": "What is the electric field inside ($r < R$) a thin hollow spherical shell of charge $Q$?",
+      "back": "$E_{in} = 0$"
+    },
+    {
+      "front": "What is the electric field outside ($r > R$) a thin hollow spherical shell of total charge $Q$?",
+      "back": "$E_{out} = \\frac{kQ}{r^2}$"
+    },
+    {
+      "front": "How does the electric field ($E$) vary with distance $r$ inside a non-conducting solid sphere of uniform volume charge density?",
+      "back": "The field increases linearly with distance ($E = \\frac{kQr}{R^3}$)."
+    },
+    {
+      "front": "Where does excess charge reside on a conductor in electrostatic equilibrium?",
+      "back": "Entirely on the outer surface of the conductor."
+    },
+    {
+      "front": "What is the value of the electric field ($E$) inside the bulk material of a conductor in electrostatic equilibrium?",
+      "back": "$E = 0$"
+    },
+    {
+      "front": "How does the electric potential ($V$) vary within the interior of a charged conductor?",
+      "back": "The potential is constant throughout the conductor and equal to the surface potential."
+    },
+    {
+      "front": "What phenomenon allows a hollow conductor to protect its interior from external electric fields?",
+      "back": "Electrostatic shielding (Faraday cage effect)."
+    },
+    {
+      "front": "If a point charge $q$ is placed at the center of a cube, what is the electric flux through a single face?",
+      "back": "$\\frac{q}{6\\epsilon_0}$"
+    },
+    {
+      "front": "Define capacitance ($C$) in terms of charge ($Q$) and potential difference ($V$).",
+      "back": "$C = \\frac{Q}{V}$"
+    },
+    {
+      "front": "What is the formula for the capacitance of a parallel plate capacitor with area $A$ and separation $d$ in a vacuum?",
+      "back": "$C = \\frac{\\epsilon_0A}{d}$"
+    },
+    {
+      "front": "List three alternative formulas for the energy ($U$) stored in a capacitor.",
+      "back": "$U = \\frac{1}{2}CV^2 = \\frac{Q^2}{2C} = \\frac{1}{2}QV$"
+    },
+    {
+      "front": "What is the formula for electrostatic energy density ($u$) in a vacuum?",
+      "back": "$u = \\frac{1}{2}\\epsilon_0E^2$"
+    },
+    {
+      "front": "How is the equivalent capacitance ($C_{eq}$) calculated for capacitors in series?",
+      "back": "$\\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\dots$"
+    },
+    {
+      "front": "How is the equivalent capacitance ($C_{eq}$) calculated for capacitors in parallel?",
+      "back": "$C_{eq} = C_1 + C_2 + \\dots$"
+    },
+    {
+      "front": "How does inserting a dielectric with constant $K$ affect the capacitance of a capacitor?",
+      "back": "The capacitance increases by a factor of $K$ ($C' = KC$)."
+    },
+    {
+      "front": "If a dielectric is inserted while the battery remains connected, which electrical quantity stays constant?",
+      "back": "Potential difference ($V$)"
+    },
+    {
+      "front": "If a dielectric is inserted after the battery is disconnected, which electrical quantity remains constant?",
+      "back": "Charge ($Q$)"
+    },
+    {
+      "front": "How does the potential energy ($U$) of a capacitor change if a dielectric is inserted while the battery is disconnected?",
+      "back": "The potential energy decreases ($U \\downarrow$)."
+    },
+    {
+      "front": "What is the capacitance of a spherical capacitor with inner radius $a$ and outer radius $b$?",
+      "back": "$C = 4\\pi\\epsilon_0\\frac{ab}{b-a}$"
+    },
+    {
+      "front": "What is the capacitance of a cylindrical capacitor of length $L$ with radii $a$ and $b$?",
+      "back": "$C = \\frac{2\\pi\\epsilon_0L}{\\ln(b/a)}$"
+    },
+    {
+      "front": "What is the capacitance of an isolated spherical conductor of radius $R$?",
+      "back": "$C = 4\\pi\\epsilon_0R$"
+    },
+    {
+      "front": "What is the approximate capacitance of the Earth?",
+      "back": "$711 \\mu\\text{F}$"
+    },
+    {
+      "front": "What is the formula for the attractive force ($F$) between the plates of a parallel plate capacitor?",
+      "back": "$F = \\frac{Q^2}{2\\epsilon_0A}$"
+    },
+    {
+      "front": "What is meant by the 'breakdown voltage' of a dielectric?",
+      "back": "The maximum electric field the dielectric can withstand before becoming conductive."
+    },
+    {
+      "front": "What is the approximate dielectric strength (breakdown field) of air?",
+      "back": "$3 \\times 10^6 \\text{ V/m}$"
+    },
+    {
+      "front": "What is the primary function of a Van de Graaff generator?",
+      "back": "To accumulate a large amount of charge on a hollow sphere to produce high voltages."
+    },
+    {
+      "front": "Briefly describe the 'Method of Image Charges' in electrostatics.",
+      "back": "Replacing a conducting boundary with an imaginary mirror charge to simplify the calculation of the electric field."
+    },
+    {
+      "front": "When a dielectric is inserted into a capacitor connected to a battery, how do the charge ($Q$) and energy ($U$) respond?",
+      "back": "Both charge and energy increase ($Q \\uparrow$, $U \\uparrow$)."
+    },
+    {
+      "front": "When a dielectric is inserted into a disconnected capacitor, how do the potential ($V$) and energy ($U$) respond?",
+      "back": "Both potential and energy decrease ($V \\downarrow$, $U \\downarrow$)."
+    },
+    {
+      "front": "If the distance $d$ between parallel plates is doubled while disconnected from a battery, what happens to the energy stored?",
+      "back": "The energy doubles, because $C$ halves and $U = \\frac{Q^2}{2C}$."
+    },
+    {
+      "front": "Concept: Equipotential Surface",
+      "back": "Definition: A surface where the electric potential is the same at every point. Example: The surface of a charged conductor."
+    },
+    {
+      "front": "Formula: Electric Field of an infinite line charge",
+      "back": "$E = \\frac{\\lambda}{2\\pi\\epsilon_0r}$"
+    },
+    {
+      "front": "Process: Determining the direction of force between two positive charges.",
+      "back": "The force is repulsive and acts along the line joining the centers of the two charges."
+    },
+    {
+      "front": "Cloze: The electric field inside a charged _____ shell is always zero.",
+      "back": "spherical (or conducting)"
+    },
+    {
+      "front": "Cloze: The energy stored in a capacitor is localized in the _____ between the plates.",
+      "back": "electric field"
+    },
+    {
+      "front": "Why can two electric field lines never cross each other?",
+      "back": "Because at the point of intersection, the electric field would have two different directions, which is physically impossible."
+    },
+    {
+      "front": "What is the electric field magnitude at the surface of a charged spherical shell of radius $R$ and charge $Q$?",
+      "back": "$E = \\frac{kQ}{R^2}$"
+    },
+    {
+      "front": "For a solid non-conducting sphere, where is the electric field magnitude at its maximum?",
+      "back": "At the surface ($r = R$)."
+    },
+    {
+      "front": "How does the electric potential ($V$) behave as $r \\to \\infty$ for a localized charge distribution?",
+      "back": "The potential approaches zero ($V \\to 0$)."
+    },
+    {
+      "front": "If the surface charge density $\\sigma$ is uniform, how does the electric field from an infinite plane change with distance?",
+      "back": "It remains uniform and does not change with distance ($E = \\frac{\\sigma}{2\\epsilon_0}$)."
+    },
+    {
+      "front": "In a parallel plate capacitor, how does the capacitance change if the plate area $A$ is doubled?",
+      "back": "The capacitance doubles ($C \\propto A$)."
+    },
+    {
+      "front": "What happens to the capacitance of a parallel plate capacitor if the separation $d$ is halved?",
+      "back": "The capacitance doubles ($C \\propto 1/d$)."
+    },
+    {
+      "front": "What is the net charge on an electric dipole?",
+      "back": "Zero (it consists of $+q$ and $-q$)."
+    },
+    {
+      "front": "Under what condition is the torque on a dipole in a uniform electric field zero?",
+      "back": "When the dipole moment $p$ is aligned or anti-aligned with the electric field ($\\theta = 0^\\circ$ or $180^\\circ$)."
+    },
+    {
+      "front": "At what angle $\\theta$ is a dipole in 'stable equilibrium' within an electric field $E$?",
+      "back": "$\\theta = 0^\\circ$ (aligned with the field)."
+    },
+    {
+      "front": "At what angle $\\theta$ is a dipole in 'unstable equilibrium' within an electric field $E$?",
+      "back": "$\\theta = 180^\\circ$ (anti-aligned with the field)."
+    },
+    {
+      "front": "What is the work done to rotate a dipole from $\\theta_1$ to $\\theta_2$ in a uniform field $E$?",
+      "back": "$W = pE(\\cos \\theta_1 - \\cos \\theta_2)$"
+    },
+    {
+      "front": "How is the volume charge density $\\rho$ defined?",
+      "back": "Total charge per unit volume ($\\rho = \\frac{dq}{dV}$)."
+    },
+    {
+      "front": "If the electric flux through a closed surface is zero, what can be concluded about the net charge inside?",
+      "back": "The net enclosed charge is zero."
+    },
+    {
+      "front": "What is the SI unit of electric potential?",
+      "back": "Volt (V), which is equivalent to Joules per Coulomb (J/C)."
+    },
+    {
+      "front": "What is the SI unit of electric field strength?",
+      "back": "Volts per meter (V/m) or Newtons per Coulomb (N/C)."
+    },
+    {
+      "front": "What property of the electric field is demonstrated by the fact that the work done moving a charge depends only on the endpoints?",
+      "back": "The electrostatic field is a conservative field."
+    }
+  ]
+}

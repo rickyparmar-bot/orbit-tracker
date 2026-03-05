@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbit | Goal Tracker</title>
+    <meta name="description" content="Track your goals and reach new heights with Orbit.">
+    <!-- Google Fonts: Inter (Antigravity Typography) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="universe.css">
+    <!-- KaTeX for LaTeX rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false});"></script>
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <!-- Background Animation Elements -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <!-- Lock Screen Overlay -->
+    <div id="lock-screen" class="lock-screen-overlay">
+        <div class="lock-box glass-panel">
+            <div class="lock-icon">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                </svg>
+            </div>
+            <h2>Access Restricted</h2>
+            <p>Please enter the password to view your Orbit tracker.</p>
+            <div class="password-input-group">
+                <input type="password" id="password-input" placeholder="Enter password" class="form-input"
+                    style="width: 100%; text-align: center; letter-spacing: 0.2em;">
+                <button id="btn-unlock" class="btn-primary"
+                    style="width: 100%; justify-content: center; margin-top: 16px;">Unlock</button>
+            </div>
+            <p id="password-error"
+                style="color: var(--accent-red); font-size: 0.85rem; margin-top: 12px; display: none; text-align: center;">
+                Incorrect password.</p>
+        </div>
+    </div>
+
+    <div class="app-container" id="app-wrapper" style="display: none; opacity: 0; transition: opacity 0.5s ease;">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar glass-panel">
+            <div class="logo">
+                <div class="logo-icon">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <path
+                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                        </path>
+                        <path d="M2 12h20"></path>
+                    </svg>
+                </div>
+                <h2>Orbit</h2>
+            </div>
+
+            <ul class="nav-links" id="sidebar-nav">
+                <li class="active" data-view="dashboard"><a href="#"><svg width="20" height="20" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="3" width="7" height="7"></rect>
+                            <rect x="14" y="14" width="7" height="7"></rect>
+                            <rect x="3" y="14" width="7" height="7"></rect>
+                        </svg> Dashboard</a></li>
+                <li data-view="timeline"><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
+                        </svg> Timeline</a></li>
+                <li data-view="statistics"><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2">
+                            <path d="M12 20v-6M6 20V10M18 20V4"></path>
+                        </svg> Statistics</a></li>
+                <li data-view="consistency"><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            class="feather feather-activity" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg> Consistency</a></li>
+                <li data-view="activerecall"><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg> Active Recall</a></li>
+                <li data-view="universe"><a href="#"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="3" />
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                            <line x1="2" y1="12" x2="22" y2="12" />
+                        </svg> Study Universe</a></li>
+            </ul>
+
+            <div class="user-profile">
+                <div class="avatar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <span>Astronaut</span>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-header">
+                <div class="header-titles">
+                    <h1 id="view-title">Dashboard</h1>
+                    <p class="subtitle" id="view-subtitle">Track your progress and build momentum.</p>
+                </div>
+                <button class="btn-primary" id="btn-new-goal">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="5" x2="12" y2="19"></line>
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                    </svg>
+                    New Goal
+                </button>
+            </header>
+
+            <div id="view-dashboard" class="view-container active">
+
+                <!-- Flip Clock Countdown -->
+                <section class="flip-clock-section glass-panel"
+                    style="margin-bottom: 24px; padding: 32px 16px; text-align: center;">
+                    <h2
+                        style="font-size: 1.2rem; margin-bottom: 24px; color: var(--text-secondary); letter-spacing: 0.1em; text-transform: uppercase;">
+                        Mission Countdown</h2>
+                    <div class="flip-clock" style="flex-wrap: wrap;">
+                        <div class="flip-card">
+                            <span class="flip-label">DAYS</span>
+                            <div class="flip-val" id="flip-days">00</div>
+                        </div>
+                        <div class="flip-card">
+                            <span class="flip-label">HOURS</span>
+                            <div class="flip-val" id="flip-hours">00</div>
+                        </div>
+                        <div class="flip-card">
+                            <span class="flip-label">MINS</span>
+                            <div class="flip-val" id="flip-mins">00</div>
+                        </div>
+                        <div class="flip-card">
+                            <span class="flip-label">SECS</span>
+                            <div class="flip-val" id="flip-secs">00</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 180 Days Habit Grid -->
+                <section class="grid-section glass-panel" style="margin-bottom: 24px; padding: 24px;">
+                    <div
+                        style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                        <h2 style="font-size: 1.1rem; color: var(--text-primary);">Consistency Grid (180 Days)</h2>
+                        <span style="font-size: 0.9rem; color: var(--text-secondary);">Days Passed: <strong
+                                id="grid-passed-days">0</strong> / 180</span>
+                    </div>
+                    <div id="days-grid" class="days-grid">
+                        <!-- JS injected squares -->
+                    </div>
+                </section>
+
+                <!-- Master Progress Bar -->
+                <section class="master-progress-section glass-panel">
+                    <div class="master-progress-header">
+                        <h2>Mission Progress</h2>
+                        <span class="master-progress-text" id="master-progress-text">0%</span>
+                    </div>
+                    <div class="master-progress-track">
+                        <div class="master-progress-fill" id="master-progress-fill">
+                            <div class="master-progress-glow"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Stats Overview -->
+                <section class="overview-stats">
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon icon-blue">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Total Goals</h3>
+                            <p class="stat-value" id="stat-total">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon icon-purple">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polyline points="13 2 13 9 20 9"></polyline>
+                                <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <h3>In Progress</h3>
+                            <p class="stat-value" id="stat-progress">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon icon-green">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Completed</h3>
+                            <p class="stat-value" id="stat-completed">0</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- NEW: Integrated Modules Grid -->
+                <!-- Use a 2-column layout for desktop: To-Do list and NotebookLM Summary -->
+                <section class="integrated-modules"
+                    style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 32px;">
+
+                    <!-- Daily To-Do List Module -->
+                    <div class="glass-panel" style="padding: 24px;">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                            <h2 style="font-size: 1.1rem; color: var(--text-primary);">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    stroke="var(--accent-primary)" stroke-width="2"
+                                    style="margin-right:8px; vertical-align:middle;">
+                                    <polyline points="9 11 12 14 22 4"></polyline>
+                                    <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+                                </svg>
+                                Daily To-Do List
+                            </h2>
+                            <button id="btn-refresh-tasks" class="btn-icon small" title="Refresh AI Tasks">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="23 4 23 10 17 10"></polyline>
+                                    <polyline points="1 20 1 14 7 14"></polyline>
+                                    <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15">
+                                    </path>
+                                </svg>
+                            </button>
+                        </div>
+
+                        <div class="task-add-form" style="display: flex; gap: 8px; margin-bottom: 16px;">
+                            <input type="text" id="new-daily-task" class="form-input" placeholder="Quick add task..."
+                                style="flex:1;">
+                            <button id="btn-add-daily-task" class="btn-primary" style="padding: 0 16px;">+</button>
+                        </div>
+
+                        <div id="daily-tasks-container"
+                            style="display:flex; flex-direction:column; gap:8px; max-height: 250px; overflow-y: auto;">
+                            <!-- Task items injected here -->
+                            <p style="color:var(--text-muted); font-size:0.9rem; text-align:center; padding: 24px;">
+                                Loading tasks...</p>
+                        </div>
+                    </div>
+
+                    <!-- NotebookLM Summary Module -->
+                    <div class="glass-panel" style="padding: 24px; display: flex; flex-direction: column;">
+                        <div
+                            style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px;">
+                            <h2 style="font-size: 1.1rem; color: var(--text-primary);">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#f59e0b"
+                                    stroke-width="2" style="margin-right:8px; vertical-align:middle;">
+                                    <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                                    <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                                </svg>
+                                NotebookLM Sync
+                            </h2>
+                            <button id="btn-sync-notebook" class="btn-primary"
+                                style="padding: 6px 12px; font-size: 0.8rem;">
+                                Sync Now
+                            </button>
+                        </div>
+
+                        <div id="notebooklm-content"
+                            style="flex: 1; overflow-y: auto; max-height: 250px; padding: 12px; background: rgba(0,0,0,0.2); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                            <!-- Synced data injected here -->
+                            <p style="color:var(--text-muted); font-size:0.9rem; text-align:center; margin-top: 40px;">
+                                No synced data available.<br><span style="font-size:0.8rem">Click 'Sync Now' to fetch
+                                    from NotebookLM.</span></p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Goals Container -->
+                <section class="goals-section">
+                    <div class="section-header">
+                        <h2>Active Goals</h2>
+                        <div class="filters">
+                            <button class="filter-btn active" data-filter="all">All</button>
+                            <button class="filter-btn" data-filter="active">Active</button>
+                            <button class="filter-btn" data-filter="completed">Completed</button>
+                        </div>
+                    </div>
+
+                    <div class="tabular-container" id="goals-container">
+                        <!-- Subject groups will be injected here by JS -->
+                    </div>
+                </section>
+            </div> <!-- End view-dashboard -->
+
+            <!-- Timeline View -->
+            <div id="view-timeline" class="view-container">
+                <div class="timeline-wrapper glass-panel" id="timeline-container">
+                    <!-- Timeline items injected by JS -->
+                </div>
+            </div> <!-- End view-timeline -->
+
+            <!-- Statistics View -->
+            <div id="view-statistics" class="view-container">
+                <div class="stats-grid" id="statistics-container">
+                    <!-- Stat cards injected by JS -->
+                </div>
+            </div> <!-- End view-statistics -->
+
+            <!-- Active Recall React Module View -->
+            <div id="view-activerecall" class="view-container">
+                <!-- React will mount here -->
+            </div>
+
+            <!-- Consistency View -->
+            <div id="view-consistency" class="view-container">
+                <div class="glass-panel" style="padding: 24px; position: relative; height:400px; width:100%;">
+                    <canvas id="consistencyChart"></canvas>
+                </div>
+            </div> <!-- End view-consistency -->
+
+            <!-- Study Universe View -->
+            <div id="view-universe" class="view-container">
+                <div class="universe-container">
+                    <!-- Screen 1: Dashboard Grid (Default) -->
+                    <div id="universe-dashboard" class="universe-dashboard">
+                        <div class="dash-tabs-container"
+                            style="border-bottom: 1px solid var(--border-color); margin-bottom: 24px; padding-bottom: 0;">
+                            <div class="god-tabs dash-tabs" style="gap: 20px; border-bottom: none;">
+                                <button class="god-tab active" data-tab="subjects"
+                                    style="padding: 8px 12px; margin-bottom: -1px; border-radius: 4px 4px 0 0;">Subjects</button>
+                                <button class="god-tab" data-tab="resources"
+                                    style="padding: 8px 12px; margin-bottom: -1px; border-radius: 4px 4px 0 0;">Resources</button>
+                            </div>
+                        </div>
+                        <div class="subject-card-grid" id="subject-cards-container">
+                            <!-- Cards injected by JS -->
+                        </div>
+                    </div>
+
+                    <!-- Screen 2: Study Path / Chapter Selection -->
+                    <div id="universe-path" class="universe-path" style="display:none;">
+                        <button class="btn-small" onclick="window._uniBackToDash()"
+                            style="margin-bottom: 20px; display: inline-flex; align-items: center; gap: 6px;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M19 12H5M12 19l-7-7 7-7" />
+                            </svg> Back
+                        </button>
+                        <h2 id="path-title" style="margin-bottom: 20px; font-weight: 600;">Subject</h2>
+                        <div id="path-list" class="path-list-grid"></div>
+                    </div>
+
+                    <!-- Screen 3: God-View Panel -->
+                    <div id="universe-god-view" class="god-view-panel glass-panel" style="display:none; width: 100%;">
+                        <button class="btn-small" onclick="window._uniBackToPath()"
+                            style="margin-bottom: 20px; display: inline-flex; align-items: center; gap: 6px; align-self: flex-start;">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M19 12H5M12 19l-7-7 7-7" />
+                            </svg> Back
+                        </button>
+                        <div class="god-view-header">
+                            <div>
+                                <div class="god-view-title" id="gv-title">Chapter</div>
+                                <div class="god-view-subtitle" id="gv-subtitle">Subject › Stream</div>
+                            </div>
+                        </div>
+                        <div class="god-tabs">
+                            <button class="god-tab active" data-tab="godsheet">📋 God-Sheet</button>
+                            <button class="god-tab" data-tab="recall">🧠 Active Recall</button>
+                            <button class="god-tab" data-tab="flashcards">🃏 Flashcards</button>
+                            <button class="god-tab" data-tab="pyq">📚 PYQ Vault</button>
+                            <button class="god-tab" data-tab="errors">⚠️ Error Log</button>
+                            <button class="god-tab" data-tab="revision">🔁 Revision Hub</button>
+                        </div>
+                        <div id="gv-content"></div>
+                    </div>
+                </div>
+            </div> <!-- End view-universe -->
+
+        </main>
+    </div>
+
+    <!-- Modal for New/Edit Goal -->
+    <div class="modal-overlay" id="goal-modal">
+        <div class="modal-content glass-panel">
+            <div class="modal-header">
+                <h2 id="modal-title">Create New Goal</h2>
+                <button class="btn-icon" id="btn-close-modal">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <form id="form-goal">
+                <input type="hidden" id="goal-id">
+                <div class="form-group">
+                    <label for="goal-title-input">Goal Title (Format: "Subject - Chapter")</label>
+                    <input type="text" id="goal-title-input" class="form-input" placeholder="e.g. Maths - Calculus"
+                        required>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="goal-target">Target Amount (Lectures)</label>
+                        <input type="number" id="goal-target" class="form-input" min="1" placeholder="5" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="goal-unit">Unit</label>
+                        <input type="text" id="goal-unit" class="form-input" placeholder="lectures" value="lectures">
+                    </div>
+                </div>
+                <div class="form-group" style="margin-top: 24px;">
+                    <button type="submit" class="btn-primary" style="width: 100%; justify-content: center;">Save
+                        Goal</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Template for Subject Group -->
+    <template id="subject-group-template">
+        <div class="subject-group glass-panel">
+            <div class="subject-header">
+                <div class="subject-title">
+                    <svg class="chevron-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                    <h3 class="subject-name">Subject Name</h3>
+                </div>
+                <div class="subject-meta">
+                    <span class="subject-progress">0/0</span>
+                </div>
+            </div>
+            <div class="subject-content">
+                <!-- Chapter rows will go here -->
+            </div>
+        </div>
+    </template>
+
+    <!-- Template for Chapter Row -->
+    <template id="chapter-row-template">
+        <div class="chapter-row group">
+            <div class="chapter-header">
+                <div class="chapter-info">
+                    <h4 class="chapter-name">Chapter Name</h4>
+                    <span class="planner-badge" style="display:none;">PLANNER</span>
+                </div>
+                <div class="chapter-actions">
+                    <span class="chapter-progress-text">0 / 0</span>
+                    <a href="#" class="btn-icon small btn-link watch-link" title="Watch Lecture" target="_blank"
+                        style="display:none; color: var(--accent-primary);">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                        </svg>
+                    </a>
+                    <button class="btn-icon small btn-edit" title="Edit Goal">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                        </svg>
+                    </button>
+                    <button class="btn-icon small btn-delete danger" title="Delete Goal">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <polyline points="3 6 5 6 21 6"></polyline>
+                            <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <div class="lecture-checkboxes">
+                <!-- Checkboxes injected by JS -->
+            </div>
+        </div>
+    </template>
+
+    <!-- React & Babel for ActiveRecallMaster -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Mermaid JS -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>mermaid.initialize({ startOnLoad: false, theme: 'dark' });</script>
+
+    <script type="text/babel">
+        // ActiveRecallMaster.jsx - Inlined for file:// compatibility
+        const { useState, useEffect, useRef } = React;
+
+        // KaTeX rendering component
+        const MathFormula = ({ latex }) => {
+            const ref = useRef(null);
+            useEffect(() => {
+                if (ref.current && window.katex) {
+                    // Strip any surrounding $ signs from the raw LaTeX
+                    let clean = latex.replace(/^\$+/, '').replace(/\$+$/, '').trim();
+                    try {
+                        window.katex.render(clean, ref.current, { throwOnError: false, displayMode: false });
+                    } catch (e) {
+                        ref.current.textContent = clean;
+                    }
+                }
+            }, [latex]);
+            return <span ref={ref} style={{ color: '#c4b5fd', fontSize: '1.1rem' }} />;
+        };
+
+        const ActiveRecallMaster = () => {
+            const [equations, setEquations] = useState({});
+            const [quizData, setQuizData] = useState([]);
+            const [infographic, setInfographic] = useState("");
+            const [traps, setTraps] = useState([]);
+            const [loading, setLoading] = useState(true);
+            const [timeLeft, setTimeLeft] = useState(30);
+            const [challengeActive, setChallengeActive] = useState(false);
+            const [currentQuestion, setCurrentQuestion] = useState(0);
+            const [score, setScore] = useState(0);
+            const [quizFinished, setQuizFinished] = useState(false);
+            const [failedFormulas, setFailedFormulas] = useState([]);
+            const mermaidRef = useRef(null);
+
+            useEffect(() => {
+                const fetchAllData = async () => {
+                    try {
+                        const syncRes = await fetch('http://localhost:8000/api/sync');
+                        await syncRes.json();
+
+                        const dataRes = await fetch('http://localhost:8000/api/data');
+                        const data = await dataRes.json();
+                        if (data.equations_by_chapter) setEquations(data.equations_by_chapter);
+
+                        const trapsRes = await fetch('http://localhost:8000/api/errors');
+                        const trapsData = await trapsRes.json();
+                        if (trapsData.success) setTraps(trapsData.traps);
+
+                        const infoRes = await fetch('http://localhost:8000/api/infographic', {
+                            method: 'POST', headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ topic: "current" })
+                        });
+                        const infoData = await infoRes.json();
+                        if (infoData.mermaid) setInfographic(infoData.mermaid);
+
+                        const quizRes = await fetch('http://localhost:8000/api/quiz', { method: 'POST' });
+                        const quizJson = await quizRes.json();
+                        if (quizJson.success && quizJson.quiz) setQuizData(quizJson.quiz);
+
+                        setLoading(false);
+                        fetch('http://localhost:8000/api/notify');
+                    } catch (err) {
+                        console.error("Failed to load Active Recall data:", err);
+                        setLoading(false);
+                    }
+                };
+                fetchAllData();
+            }, []);
+
+            useEffect(() => {
+                if (infographic && mermaidRef.current) {
+                    const renderMermaid = async () => {
+                        // Wait for mermaid to be fully initialized
+                        await new Promise(resolve => setTimeout(resolve, 800));
+                        try {
+                            const id = 'mermaid-svg-' + Math.random().toString(36).substr(2, 9);
+                            const tempDiv = document.createElement('div');
+                            tempDiv.id = id;
+                            tempDiv.style.display = 'none';
+                            document.body.appendChild(tempDiv);
+                            const { svg } = await mermaid.render(id, infographic);
+                            try { document.body.removeChild(tempDiv); } catch (x) { }
+                            if (mermaidRef.current) mermaidRef.current.innerHTML = svg;
+                        } catch (e) {
+                            console.error('Mermaid render error:', e);
+                            if (mermaidRef.current) mermaidRef.current.innerHTML = '<p style="color: var(--text-muted); text-align: center;">Flowchart rendering failed</p>';
+                        }
+                    };
+                    renderMermaid();
+                }
+            }, [infographic]);
+
+            useEffect(() => {
+                let timer = null;
+                if (challengeActive && timeLeft > 0) {
+                    timer = setInterval(() => setTimeLeft(prev => prev - 1), 1000);
+                } else if (timeLeft === 0) { setChallengeActive(false); }
+                return () => clearInterval(timer);
+            }, [challengeActive, timeLeft]);
+
+            const handleQuizAnswer = (selectedIndex, correctIndex, formulaRef) => {
+                if (selectedIndex === correctIndex) { setScore(prev => prev + 1); }
+                else if (formulaRef) { setFailedFormulas(prev => [...prev, formulaRef]); }
+                if (currentQuestion + 1 < quizData.length) { setCurrentQuestion(prev => prev + 1); }
+                else { setQuizFinished(true); }
+            };
+
+            const copyToClipboard = (text) => {
+                navigator.clipboard.writeText(text).then(() => { }).catch(() => { });
+            };
+
+            const toggleReveal = (e) => { if (!challengeActive) e.currentTarget.classList.toggle('revealed'); };
+
+            if (loading) {
+                return <div style={{ padding: '40px', textAlign: 'center', color: 'var(--text-muted)' }}>Initializing Active Recall Protocols...</div>;
+            }
+
+            return (
+                <div className="active-recall-master" style={{ display: 'flex', flexDirection: 'column', gap: '32px' }}>
+                    {/* TOP: God-Sheet Flowchart */}
+                    <section className="glass-panel" style={{ padding: '24px' }}>
+                        <h2 style={{ fontSize: '1.2rem', color: 'var(--text-primary)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" strokeWidth="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                            The God-Sheet: Critical Flowchart
+                        </h2>
+                        <div style={{ background: 'rgba(0,0,0,0.3)', borderRadius: '8px', padding: '16px', overflowX: 'auto', display: 'flex', justifyContent: 'center', minHeight: '200px' }}>
+                            <div ref={mermaidRef} className="mermaid-container" />
+                        </div>
+                    </section>
+
+                    {/* MIDDLE: Formula Bank + Quiz Grid */}
+                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(380px, 1fr))', gap: '24px' }}>
+                        {/* Formula Bank */}
+                        <section className="glass-panel" style={{ padding: '24px', display: 'flex', flexDirection: 'column', maxHeight: '600px' }}>
+                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+                                <h2 style={{ fontSize: '1.2rem', color: 'var(--text-primary)' }}>Sub-1000 Formula Bank</h2>
+                                <button className="btn-primary" style={{ padding: '6px 12px', fontSize: '0.8rem', background: challengeActive ? 'var(--accent-red)' : 'var(--accent-purple, #a78bfa)' }} onClick={() => {
+                                    if (!challengeActive) { setTimeLeft(30); setChallengeActive(true); document.querySelectorAll('.formula-blur-wrapper').forEach(el => el.classList.remove('revealed')); }
+                                    else { setChallengeActive(false); }
+                                }}>
+                                    {challengeActive ? `⏱ ${timeLeft}s` : "Start 30s Challenge"}
+                                </button>
+                            </div>
+                            <div style={{ overflowY: 'auto', flex: 1, paddingRight: '8px' }}>
+                                {Object.entries(equations).length === 0 ? (
+                                    <p style={{ color: 'var(--text-muted)' }}>No formulas synced yet.</p>
+                                ) : (
+                                    Object.entries(equations).map(([chapter, eqs]) => (
+                                        <div key={chapter} style={{ marginBottom: '24px' }}>
+                                            <h3 style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', borderBottom: '1px solid rgba(255,255,255,0.1)', paddingBottom: '8px', marginBottom: '12px' }}>{chapter}</h3>
+                                            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                                                {eqs.map((eq, i) => {
+                                                    const isFailed = failedFormulas.some(f => eq.includes(f) || f.includes(eq));
+                                                    return (
+                                                        <div key={i} className={isFailed ? 'failed-highlight' : ''} style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: isFailed ? 'rgba(239,68,68,0.1)' : 'rgba(255,255,255,0.03)', padding: '12px', borderRadius: '8px', border: isFailed ? '1px solid var(--accent-red)' : '1px solid transparent' }}>
+                                                            <div className={`formula-blur-wrapper ${challengeActive ? 'locked' : ''}`} onClick={toggleReveal} style={{ flex: 1, overflowX: 'auto', cursor: challengeActive ? 'not-allowed' : 'pointer' }}>
+                                                                <div className="math-display">
+                                                                    <MathFormula latex={eq} />
+                                                                </div>
+                                                                <div className="blur-overlay"><span>{challengeActive ? "🔒 Locked" : "Click to Reveal"}</span></div>
+                                                            </div>
+                                                            <button className="btn-icon small" onClick={() => copyToClipboard('$$' + eq + '$$')} style={{ marginLeft: '12px' }} title="Copy LaTeX">
+                                                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                                            </button>
+                                                        </div>
+                                                    );
+                                                })}
+                                            </div>
+                                        </div>
+                                    ))
+                                )}
+                            </div>
+                        </section>
+
+                        {/* Quiz */}
+                        <section className="glass-panel" style={{ padding: '24px', display: 'flex', flexDirection: 'column', maxHeight: '600px' }}>
+                            <h2 style={{ fontSize: '1.2rem', color: 'var(--text-primary)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-green)" strokeWidth="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                                Daily Active Recall
+                            </h2>
+                            <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                                {quizData.length === 0 ? (
+                                    <p style={{ color: 'var(--text-muted)' }}>No quiz available.</p>
+                                ) : quizFinished ? (
+                                    <div style={{ textAlign: 'center', margin: 'auto' }}>
+                                        <h3 style={{ fontSize: '2rem', color: 'var(--accent-green)', marginBottom: '8px' }}>{score} / {quizData.length}</h3>
+                                        <p style={{ color: 'var(--text-secondary)' }}>Quiz Complete.</p>
+                                        {failedFormulas.length > 0 && <p style={{ color: 'var(--accent-red)', fontSize: '0.9rem', marginTop: '16px' }}>Check the Formula Bank for highlighted weak spots.</p>}
+                                    </div>
+                                ) : (
+                                    <div style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                                        <div style={{ fontSize: '0.9rem', color: 'var(--text-muted)', marginBottom: '12px' }}>Question {currentQuestion + 1} of {quizData.length}</div>
+                                        <h3 style={{ fontSize: '1.1rem', lineHeight: '1.5', marginBottom: '24px', color: 'white' }}>{quizData[currentQuestion].question}</h3>
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', marginTop: 'auto' }}>
+                                            {quizData[currentQuestion].options.map((opt, idx) => (
+                                                <button key={idx} onClick={() => handleQuizAnswer(idx, quizData[currentQuestion].answer, quizData[currentQuestion].formula)} style={{ padding: '16px', background: 'rgba(255,255,255,0.05)', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: 'var(--text-primary)', textAlign: 'left', cursor: 'pointer', transition: 'all 0.2s' }} onMouseOver={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.1)'} onMouseOut={(e) => e.currentTarget.style.background = 'rgba(255,255,255,0.05)'}>
+                                                    {opt}
+                                                </button>
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
+                            </div>
+                        </section>
+                    </div>
+
+                    {/* BOTTOM: Warning Zone */}
+                    <section className="glass-panel" style={{ padding: '24px', borderLeft: '4px solid var(--accent-red)' }}>
+                        <h2 style={{ fontSize: '1.2rem', color: 'var(--accent-red)', marginBottom: '16px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                            The Warning Zone: Error Log
+                        </h2>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                            {traps.length === 0 ? <p style={{ color: 'var(--text-muted)' }}>No traps logged.</p> : (
+                                traps.map((trap, i) => (
+                                    <div key={i} style={{ padding: '12px', background: 'rgba(239, 68, 68, 0.05)', borderRadius: '6px', border: '1px solid rgba(239, 68, 68, 0.2)' }}>
+                                        <span style={{ color: 'var(--accent-red)', fontWeight: 'bold', marginRight: '8px' }}>Trap #{i + 1}:</span>
+                                        <span style={{ color: 'var(--text-primary)' }}>{trap.trap}</span>
+                                    </div>
+                                ))
+                            )}
+                        </div>
+                    </section>
+                </div>
+            );
+        };
+
+        window.mountActiveRecall = () => {
+            const container = document.getElementById('view-activerecall');
+            if (container) {
+                const root = ReactDOM.createRoot(container);
+                root.render(<ActiveRecallMaster />);
+            }
+        };
+    </script>
+    <script src="universe-data.js"></script>
+    <script src="universe-data-physics.js"></script>
+    <script src="universe-data-math.js"></script>
+    <script src="universe.js"></script>
+    <script src="app.js?v=universe1"></script>
+</body>
+
+</html>

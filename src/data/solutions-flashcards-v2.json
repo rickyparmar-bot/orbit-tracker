@@ -1,0 +1,329 @@
+{
+  "title": "Solutions Flashcards",
+  "cards": [
+    {
+      "front": "Formula: Molarity ($M$)",
+      "back": "$M = \\frac{\\text{moles of solute}}{\\text{volume of solution in litres}}$"
+    },
+    {
+      "front": "How does Molarity ($M$) change as temperature increases?",
+      "back": "Molarity decreases because the volume of the solution expands with temperature."
+    },
+    {
+      "front": "Formula: Molality ($m$)",
+      "back": "$m = \\frac{\\text{moles of solute}}{\\text{mass of solvent in kg}}$"
+    },
+    {
+      "front": "Why is molality ($m$) preferred over molarity ($M$) for experiments involving temperature changes?",
+      "back": "Molality is temperature independent as it is based on mass rather than volume."
+    },
+    {
+      "front": "Formula: Mole fraction of component A ($x_A$)",
+      "back": "$x_A = \\frac{n_A}{n_A + n_B}$"
+    },
+    {
+      "front": "What is the mathematical sum of all mole fractions in a multicomponent solution?",
+      "back": "The sum of all mole fractions is always equal to 1."
+    },
+    {
+      "front": "Formula: Mass Percentage",
+      "back": "$\\text{Mass \\%} = \\left( \\frac{\\text{mass of solute}}{\\text{mass of solution}} \\right) \\times 100$"
+    },
+    {
+      "front": "Formula: Parts Per Million (PPM)",
+      "back": "$\\text{PPM} = \\left( \\frac{\\text{mass of solute}}{\\text{mass of solution}} \\right) \\times 10^6$"
+    },
+    {
+      "front": "Formula: Interconversion of Molarity ($M$) using molality ($m$), density ($d$), and solute molar mass ($M_2$)",
+      "back": "$M = \\frac{m \\times d \\times 1000}{1000 + m \\times M_2}$"
+    },
+    {
+      "front": "Formula: Normality ($N$) in terms of Molarity ($M$)",
+      "back": "$N = n \\times M$ (where $n$ is the n-factor)"
+    },
+    {
+      "front": "Definition: n-factor for a base",
+      "back": "The number of $OH^-$ ions released per base molecule."
+    },
+    {
+      "front": "Formula: Henry's Law",
+      "back": "$p = K_H \\times x$ (where $p$ is partial pressure and $x$ is mole fraction)"
+    },
+    {
+      "front": "What is the relationship between the Henry's Law constant ($K_H$) and the solubility of a gas?",
+      "back": "Higher $K_H$ values correspond to lower gas solubility."
+    },
+    {
+      "front": "How does the Henry's Law constant ($K_H$) change with an increase in temperature?",
+      "back": "$K_H$ increases as temperature increases."
+    },
+    {
+      "front": "Arrange the following gases in increasing order of solubility based on their $K_H$ values: $He, H_2, N_2, O_2$.",
+      "back": "$He < H_2 < N_2 < O_2$"
+    },
+    {
+      "front": "Why is $CO_2$ bottled under high pressure in carbonated soft drinks?",
+      "back": "To increase the solubility of $CO_2$ in the liquid according to Henry's Law."
+    },
+    {
+      "front": "What condition causes 'bends' in scuba divers when they surface too quickly?",
+      "back": "The sudden release of dissolved nitrogen ($N_2$) from the blood as pressure decreases."
+    },
+    {
+      "front": "Under what pressure and concentration conditions is Henry's Law most applicable?",
+      "back": "It is applicable for dilute solutions at low pressures."
+    },
+    {
+      "front": "Under what specific condition does Raoult's Law become a special case of Henry's Law?",
+      "back": "When the mole fraction $x_A \\to 1$, the constant $K_H$ becomes equal to $P^\\circ_A$."
+    },
+    {
+      "front": "Formula: Raoult's Law for a component in an ideal solution",
+      "back": "$P_A = x_A \\times P^\\circ_A$"
+    },
+    {
+      "front": "What are the values of $\\Delta H_{mix}$ and $\\Delta V_{mix}$ for an ideal solution?",
+      "back": "$\\Delta H_{mix} = 0$ and $\\Delta V_{mix} = 0$"
+    },
+    {
+      "front": "Example: Provide two pairs of liquids that form nearly ideal solutions.",
+      "back": "Benzene + Toluene and n-hexane + n-heptane."
+    },
+    {
+      "front": "What defines a solution showing positive deviation from Raoult's Law?",
+      "back": "The observed vapor pressure ($P_A$) is higher than the calculated value ($x_A P^\\circ_A$)."
+    },
+    {
+      "front": "Describe the $A-B$ molecular interactions in a solution with positive deviation compared to $A-A$ or $B-B$ interactions.",
+      "back": "$A-B$ interactions are weaker than the pure component interactions."
+    },
+    {
+      "front": "What is the sign of $\\Delta H_{mix}$ for a solution showing positive deviation?",
+      "back": "$\\Delta H_{mix} > 0$ (Endothermic mixing)."
+    },
+    {
+      "front": "Example: Provide two mixtures that exhibit positive deviation from Raoult's Law.",
+      "back": "Ethanol + Water and Acetone + $CS_2$."
+    },
+    {
+      "front": "What defines a solution showing negative deviation from Raoult's Law?",
+      "back": "The observed vapor pressure ($P_A$) is lower than the calculated value ($x_A P^\\circ_A$)."
+    },
+    {
+      "front": "Describe the $A-B$ molecular interactions in a solution with negative deviation compared to $A-A$ or $B-B$ interactions.",
+      "back": "$A-B$ interactions are stronger than the pure component interactions (often due to H-bonding)."
+    },
+    {
+      "front": "Example: Provide two mixtures that exhibit negative deviation from Raoult's Law.",
+      "back": "$CHCl_3$ + Acetone and $HNO_3$ + Water."
+    },
+    {
+      "front": "Term: Constant-boiling mixtures that cannot be separated by simple distillation.",
+      "back": "Azeotropes"
+    },
+    {
+      "front": "What type of deviation from Raoult's Law leads to a minimum boiling azeotrope?",
+      "back": "Large positive deviation."
+    },
+    {
+      "front": "The azeotrope of $95.6\\%$ ethanol and $4.4\\%$ water is classified as a _____ boiling azeotrope.",
+      "back": "Minimum"
+    },
+    {
+      "front": "What type of deviation from Raoult's Law leads to a maximum boiling azeotrope?",
+      "back": "Large negative deviation."
+    },
+    {
+      "front": "What is the composition and boiling point of the $HNO_3$ + Water maximum boiling azeotrope?",
+      "back": "$68\\% \\text{ } HNO_3$ by mass with a boiling point of $120.5^\\circ C$."
+    },
+    {
+      "front": "Formula: Relative Lowering of Vapour Pressure for a non-volatile solute",
+      "back": "$\\frac{P^\\circ - P}{P^\\circ} = x_B$"
+    },
+    {
+      "front": "Definition: Colligative Properties",
+      "back": "Properties that depend only on the number of solute particles, not on their identity."
+    },
+    {
+      "front": "Formula: Boiling Point Elevation ($\\Delta T_b$)",
+      "back": "$\\Delta T_b = i \\cdot K_b \\cdot m$"
+    },
+    {
+      "front": "What is the name of the constant $K_b$?",
+      "back": "Ebullioscopic constant."
+    },
+    {
+      "front": "Value: Ebullioscopic constant ($K_b$) for water",
+      "back": "$0.512 \\text{ K\\cdot kg/mol}$"
+    },
+    {
+      "front": "Formula: Freezing Point Depression ($\\Delta T_f$)",
+      "back": "$\\Delta T_f = i \\cdot K_f \\cdot m$"
+    },
+    {
+      "front": "What is the name of the constant $K_f$?",
+      "back": "Cryoscopic constant."
+    },
+    {
+      "front": "Value: Cryoscopic constant ($K_f$) for water",
+      "back": "$1.86 \\text{ K\\cdot kg/mol}$"
+    },
+    {
+      "front": "Why is the cryoscopic constant ($K_f$) typically larger than the ebullioscopic constant ($K_b$) for a given solvent?",
+      "back": "Because the enthalpy of fusion ($\\Delta H_{fus}$) is smaller than the enthalpy of vaporization ($\\Delta H_{vap}$)."
+    },
+    {
+      "front": "Formula: Osmotic Pressure ($\\pi$)",
+      "back": "$\\pi = iCRT$"
+    },
+    {
+      "front": "Definition: Osmosis",
+      "back": "The flow of solvent from a dilute solution to a concentrated solution through a semi-permeable membrane."
+    },
+    {
+      "front": "Under what condition does Reverse Osmosis ($RO$) occur?",
+      "back": "When the external pressure applied to the concentrated side is greater than the osmotic pressure ($P > \\pi$)."
+    },
+    {
+      "front": "What is the approximate osmotic pressure of seawater, and what is it used for in $RO$?",
+      "back": "Approximately $30 \\text{ atm}$; it is used for desalination."
+    },
+    {
+      "front": "Term: Two solutions having the same osmotic pressure.",
+      "back": "Isotonic"
+    },
+    {
+      "front": "What happens to a biological cell placed in a hypertonic solution?",
+      "back": "The cell shrinks because solvent flows out of the cell."
+    },
+    {
+      "front": "What happens to a biological cell placed in a hypotonic solution?",
+      "back": "The cell swells (and may burst) because solvent flows into the cell."
+    },
+    {
+      "front": "Formula: Molar mass of solute ($M_2$) calculated from freezing point depression",
+      "back": "$M_2 = \\frac{K_f \\times W_2 \\times 1000}{\\Delta T_f \\times W_1}$"
+    },
+    {
+      "front": "Why is camphor an ideal solvent for determining molar mass via freezing point depression?",
+      "back": "It has a very high $K_f$ value ($40 \\text{ K\\cdot kg/mol}$), providing high sensitivity to small amounts of solute."
+    },
+    {
+      "front": "Formula: van't Hoff factor ($i$) in terms of colligative properties",
+      "back": "$i = \\frac{\\text{observed colligative property}}{\\text{calculated colligative property}}$"
+    },
+    {
+      "front": "Formula: van't Hoff factor ($i$) in terms of molar mass",
+      "back": "$i = \\frac{M_{calculated}}{M_{observed}}$"
+    },
+    {
+      "front": "Formula: van't Hoff factor ($i$) for dissociation involving $n$ ions and degree of dissociation $\\alpha$",
+      "back": "$i = 1 + (n - 1)\\alpha$"
+    },
+    {
+      "front": "Formula: van't Hoff factor ($i$) for association of $n$ molecules with degree of association $\\alpha$",
+      "back": "$i = 1 - (1 - \\frac{1}{n})\\alpha$"
+    },
+    {
+      "front": "What is the theoretical van't Hoff factor ($i$) for $BaCl_2$ assuming $100\\%$ dissociation?",
+      "back": "$i = 3$"
+    },
+    {
+      "front": "What is the theoretical van't Hoff factor ($i$) for $Al_2(SO_4)_3$ assuming $100\\%$ dissociation?",
+      "back": "$i = 5$"
+    },
+    {
+      "front": "What is the van't Hoff factor ($i$) for non-electrolytes like Glucose or Urea?",
+      "back": "$i = 1$"
+    },
+    {
+      "front": "What is the theoretical van't Hoff factor ($i$) for $K_4[Fe(CN)_6]$ assuming $100\\%$ dissociation?",
+      "back": "$i = 5$"
+    },
+    {
+      "front": "Concept: Abnormal Molar Mass - When $i > 1$, is the observed molar mass ($M_{obs}$) greater or less than the calculated molar mass ($M_{calc}$)?",
+      "back": "$M_{obs} < M_{calc}$"
+    },
+    {
+      "front": "Concept: Abnormal Molar Mass - When $i < 1$, is the observed molar mass ($M_{obs}$) greater or less than the calculated molar mass ($M_{calc}$)?",
+      "back": "$M_{obs} > M_{calc}$"
+    },
+    {
+      "front": "What happens to acetic acid molecules when dissolved in benzene?",
+      "back": "They dimerize due to hydrogen bonding, resulting in a van't Hoff factor of $i \\approx 0.5$."
+    },
+    {
+      "front": "What is the observed molar mass of acetic acid in benzene compared to its actual formula mass ($60 \\text{ g/mol}$)?",
+      "back": "It is approximately $120 \\text{ g/mol}$ (double the formula mass)."
+    },
+    {
+      "front": "Formula: Extracting degree of dissociation ($\\alpha$) from the van't Hoff factor ($i$)",
+      "back": "$\\alpha = \\frac{i - 1}{n - 1}$"
+    },
+    {
+      "front": "Which solution property is utilized to calculate the 'abnormal' molar mass when $i \\neq 1$?",
+      "back": "Colligative properties."
+    },
+    {
+      "front": "Cloze: In a solution showing positive deviation, the intermolecular $A-B$ forces are _____ than $A-A$ or $B-B$ forces.",
+      "back": "weaker"
+    },
+    {
+      "front": "Cloze: In a solution showing negative deviation, the intermolecular $A-B$ forces are _____ than $A-A$ or $B-B$ forces.",
+      "back": "stronger"
+    },
+    {
+      "front": "Which colligative property is most commonly used for determining the molar mass of polymers and proteins?",
+      "back": "Osmotic pressure ($\\pi$)."
+    },
+    {
+      "front": "Formula: Relative Lowering of Vapour Pressure ($RLVP$) in terms of moles of solute ($n_B$) and solvent ($n_A$)",
+      "back": "$\\frac{P^\\circ - P}{P^\\circ} = \\frac{n_B}{n_A + n_B}$"
+    },
+    {
+      "front": "What is the constant $R$ value and units used in the osmotic pressure equation $\\pi = iCRT$?",
+      "back": "$0.0821 \\text{ L\\cdot atm / mol\\cdot K}$"
+    },
+    {
+      "front": "Cloze: For an association reaction, the van't Hoff factor ($i$) is always _____ than 1.",
+      "back": "less"
+    },
+    {
+      "front": "Cloze: For a dissociation reaction, the van't Hoff factor ($i$) is always _____ than 1.",
+      "back": "greater"
+    },
+    {
+      "front": "Concept: Ebullioscopy",
+      "back": "The study or measurement of boiling point elevation to determine molar mass."
+    },
+    {
+      "front": "Concept: Cryoscopy",
+      "back": "The study or measurement of freezing point depression to determine molar mass."
+    },
+    {
+      "front": "Why is $P > \\pi$ applied to seawater to produce fresh water?",
+      "back": "To force solvent molecules through the semi-permeable membrane against the concentration gradient (Reverse Osmosis)."
+    },
+    {
+      "front": "Example: Provide an example of a mixture that forms a maximum boiling azeotrope.",
+      "back": "$HNO_3$ + Water (or Acetic acid + Pyridine)."
+    },
+    {
+      "front": "Example: Provide an example of a mixture that forms a minimum boiling azeotrope.",
+      "back": "Ethanol + Water (or Acetone + $CS_2$)."
+    },
+    {
+      "front": "If a solute $B$ is non-volatile, what is the vapor pressure of the solution ($P_{total}$) according to Raoult's Law?",
+      "back": "$P_{total} = x_A \\cdot P^\\circ_A$"
+    },
+    {
+      "front": "How does an increase in the number of solute particles affect the freezing point of a solvent?",
+      "back": "It causes a further depression (lowering) of the freezing point."
+    },
+    {
+      "front": "What is the van't Hoff factor ($i$) for $NaCl$ at infinite dilution?",
+      "back": "$i = 2$"
+    }
+  ]
+}

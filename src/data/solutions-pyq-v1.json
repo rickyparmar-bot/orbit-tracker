@@ -1,0 +1,265 @@
+{
+  "title": "Solutions Quiz",
+  "questions": [
+    {
+      "question": "Given a solution with molality $m$, density $d$ (in $g/mL$), and a solute with molar mass $M_2$ (in $g/mol$), which expression correctly represents the molarity ($M$) of the solution?",
+      "answerOptions": [
+        {
+          "text": "$M = \\frac{1000 \\cdot m \\cdot d}{1000 + m \\cdot M_2}$",
+          "isCorrect": true,
+          "rationale": "This formula correctly accounts for the conversion of mass of solvent to volume of solution using density and the mass of the solute."
+        },
+        {
+          "text": "$M = \\frac{m \\cdot d}{1000 + m \\cdot M_2}$",
+          "isCorrect": false,
+          "rationale": "This fails to scale the volume to liters, which is a required step for calculating molarity."
+        },
+        {
+          "text": "$M = \\frac{1000 \\cdot m}{d + m \\cdot M_2}$",
+          "isCorrect": false,
+          "rationale": "The denominator incorrectly combines density with the mass of the solute without proper units for the mass of the solvent."
+        },
+        {
+          "text": "$M = \\frac{m \\cdot d \\cdot 1000}{1000 - m \\cdot M_2}$",
+          "isCorrect": false,
+          "rationale": "Subtracting the solute mass would imply a decrease in total solution mass, which is physically incorrect when adding solute to a solvent."
+        }
+      ],
+      "hint": "Consider the relationship between the total mass of the solution (solute + solvent) and its volume via density."
+    },
+    {
+      "question": "The Henry's Law constant ($K_H$) for several gases at $293 K$ are given: $Ar = 40.39$ $kBar$, $H_2 = 69.16$ $kBar$, $N_2 = 76.48$ $kBar$, and $He = 144.97$ $kBar$. Which gas will be the most soluble in water under the same partial pressure?",
+      "answerOptions": [
+        {
+          "text": "$Ar$",
+          "isCorrect": true,
+          "rationale": "Solubility is inversely proportional to the Henry's Law constant; therefore, the gas with the lowest $K_H$ value is the most soluble."
+        },
+        {
+          "text": "$He$",
+          "isCorrect": false,
+          "rationale": "This gas has the highest $K_H$ value, which according to Henry's Law, corresponds to the lowest solubility."
+        },
+        {
+          "text": "$N_2$",
+          "isCorrect": false,
+          "rationale": "While less soluble than Argon, it is not the least soluble; its $K_H$ is intermediate."
+        },
+        {
+          "text": "$H_2$",
+          "isCorrect": false,
+          "rationale": "Although its $K_H$ is lower than Helium, it is still significantly higher than that of Argon, making it less soluble than Argon."
+        }
+      ],
+      "hint": "Recall the mathematical relationship between partial pressure, the mole fraction of the gas, and the Henry's constant."
+    },
+    {
+      "question": "When acetone and chloroform are mixed, they exhibit a negative deviation from Raoult's Law. What is the molecular basis for this behavior?",
+      "answerOptions": [
+        {
+          "text": "The $A-B$ interactions (hydrogen bonding) are stronger than $A-A$ and $B-B$ interactions.",
+          "isCorrect": true,
+          "rationale": "Stronger $A-B$ interactions reduce the escaping tendency of the molecules, leading to a lower-than-expected vapour pressure."
+        },
+        {
+          "text": "The $A-B$ interactions are weaker than the $A-A$ or $B-B$ interactions.",
+          "isCorrect": false,
+          "rationale": "Weaker $A-B$ interactions would result in a positive deviation, where the vapour pressure is higher than predicted."
+        },
+        {
+          "text": "The mixing process is endothermic ($\\Delta H_{mix} > 0$).",
+          "isCorrect": false,
+          "rationale": "Negative deviations are characterized by exothermic mixing ($\\Delta H_{mix} < 0$) due to the formation of stronger bonds."
+        },
+        {
+          "text": "The total volume of the solution is greater than the sum of the volumes of the components ($\\Delta V_{mix} > 0$).",
+          "isCorrect": false,
+          "rationale": "Negative deviation results in a contraction of volume ($\\Delta V_{mix} < 0$) because the molecules are pulled closer together by stronger forces."
+        }
+      ],
+      "hint": "Think about how the formation of new attractive forces like hydrogen bonds affects the total vapour pressure of the mixture."
+    },
+    {
+      "question": "A mixture of $68\\%$ $HNO_3$ and $32\\%$ water by mass boils at $120.5^{\\circ}C$ without changing composition. Which of the following correctly describes this mixture?",
+      "answerOptions": [
+        {
+          "text": "Maximum boiling azeotrope",
+          "isCorrect": true,
+          "rationale": "Azeotropes that boil at a higher temperature than either pure component result from negative deviations from Raoult's Law."
+        },
+        {
+          "text": "Minimum boiling azeotrope",
+          "isCorrect": false,
+          "rationale": "Minimum boiling azeotropes occur when there is a positive deviation from Raoult's Law, resulting in a boiling point lower than the components."
+        },
+        {
+          "text": "Ideal solution",
+          "isCorrect": false,
+          "rationale": "Ideal solutions do not form azeotropes and can be separated by simple distillation based on their different boiling points."
+        },
+        {
+          "text": "Sublimation point mixture",
+          "isCorrect": false,
+          "rationale": "Sublimation involves a phase change from solid to gas, which is not applicable to this liquid-liquid boiling mixture."
+        }
+      ],
+      "hint": "Consider the relationship between the boiling point of the mixture ($120.5^{\\circ}C$) and the boiling point of pure water ($100^{\\circ}C$)."
+    },
+    {
+      "question": "Why is camphor commonly used as a solvent in the Rast method for determining the molar mass of a non-volatile solute?",
+      "answerOptions": [
+        {
+          "text": "It has an exceptionally high cryoscopic constant ($K_f$).",
+          "isCorrect": true,
+          "rationale": "A high $K_f$ value (approx $40$ $K \\cdot kg/mol$) produces a large, easily measurable depression in freezing point even for small amounts of solute."
+        },
+        {
+          "text": "It forms an ideal solution with all organic solutes.",
+          "isCorrect": false,
+          "rationale": "While it is a good solvent, the choice is driven by the sensitivity of the measurement ($K_f$) rather than the ideality of the solution."
+        },
+        {
+          "text": "It has a very low latent heat of fusion ($\\Delta H_{fus}$).",
+          "isCorrect": false,
+          "rationale": "While $K_f$ is related to $\\Delta H_{fus}$, the primary reason is the magnitude of the resulting temperature change during the experiment."
+        },
+        {
+          "text": "It prevents the association of solute particles ($i = 1$).",
+          "isCorrect": false,
+          "rationale": "Camphor does not inherently prevent solute association; its utility is purely based on the sensitivity provided by its $K_f$ value."
+        }
+      ],
+      "hint": "Focus on the property that makes a small change in concentration result in a large, measurable change in temperature."
+    },
+    {
+      "question": "In a $0.1$ $M$ aqueous solution of $Al_2(SO_4)_3$, the salt is found to be $80\\%$ dissociated. What is the van't Hoff factor ($i$) for this solution?",
+      "answerOptions": [
+        {
+          "text": "$4.2$",
+          "isCorrect": true,
+          "rationale": "For $Al_2(SO_4)_3$, $n=5$. Using $i = 1 + (n-1)\\alpha$, we get $i = 1 + (5-1)0.8 = 4.2$."
+        },
+        {
+          "text": "$5.0$",
+          "isCorrect": false,
+          "rationale": "This value represents the van't Hoff factor only if the electrolyte were $100\\%$ dissociated."
+        },
+        {
+          "text": "$3.4$",
+          "isCorrect": false,
+          "rationale": "This would be the value if the salt only dissociated into 4 ions instead of 5 ($1 + (4-1)0.8 = 3.4$)."
+        },
+        {
+          "text": "$0.8$",
+          "isCorrect": false,
+          "rationale": "This is the degree of dissociation ($\\alpha$), not the van't Hoff factor ($i$)."
+        }
+      ],
+      "hint": "Determine the total number of ions ($n$) one formula unit of the salt produces upon complete dissociation."
+    },
+    {
+      "question": "When acetic acid is dissolved in benzene, the observed molar mass is approximately $120$ $g/mol$, while its calculated formula mass is $60$ $g/mol$. What does this indicate about the state of the solute?",
+      "answerOptions": [
+        {
+          "text": "The solute undergoes association via hydrogen bonding.",
+          "isCorrect": true,
+          "rationale": "An observed molar mass ($M_{obs}$) higher than the calculated molar mass ($M_{calc}$) indicates association (dimerization), meaning $i < 1$."
+        },
+        {
+          "text": "The solute is a strong electrolyte in benzene.",
+          "isCorrect": false,
+          "rationale": "Strong electrolytes dissociate, which would cause the observed molar mass to be lower than the formula mass."
+        },
+        {
+          "text": "The van't Hoff factor ($i$) is approximately $2$.",
+          "isCorrect": false,
+          "rationale": "If $i$ were $2$, the observed molar mass would be half the formula mass ($30$ $g/mol$), not double."
+        },
+        {
+          "text": "The solution is behaving ideally.",
+          "isCorrect": false,
+          "rationale": "In an ideal solution, the observed and calculated molar masses should be identical ($i = 1$)."
+        }
+      ],
+      "hint": "Compare the observed molar mass to the theoretical one and consider how the number of particles in the solution has changed."
+    },
+    {
+      "question": "Which of the following aqueous solutions will exhibit the highest boiling point?",
+      "answerOptions": [
+        {
+          "text": "$0.01$ $M$ $Al_2(SO_4)_3$",
+          "isCorrect": true,
+          "rationale": "The boiling point elevation depends on the total number of particles ($i \\cdot M$). For $Al_2(SO_4)_3$, $i=5$, giving the highest effective concentration of $0.05$."
+        },
+        {
+          "text": "$0.01$ $M$ $BaCl_2$",
+          "isCorrect": false,
+          "rationale": "For $BaCl_2$, $i=3$, so the effective concentration is $0.03$, which is lower than that of the aluminum salt."
+        },
+        {
+          "text": "$0.01$ $M$ $NaCl$",
+          "isCorrect": false,
+          "rationale": "For $NaCl$, $i=2$, resulting in an effective concentration of $0.02$, making its boiling point lower than $BaCl_2$ or $Al_2(SO_4)_3$."
+        },
+        {
+          "text": "$0.01$ $M$ Glucose",
+          "isCorrect": false,
+          "rationale": "Glucose is a non-electrolyte ($i=1$), so its effective concentration remains $0.01$, the lowest among the options."
+        }
+      ],
+      "hint": "The boiling point elevation is a colligative property; determine which solute produces the greatest number of particles in solution."
+    },
+    {
+      "question": "For a given solvent, the cryoscopic constant ($K_f$) is generally greater than the ebullioscopic constant ($K_b$). According to the source material, what is the thermodynamic reason for this?",
+      "answerOptions": [
+        {
+          "text": "The enthalpy of fusion ($\\Delta H_{fus}$) is less than the enthalpy of vaporization ($\\Delta H_{vap}$).",
+          "isCorrect": true,
+          "rationale": "The constants are inversely proportional to the respective enthalpies; since melting requires less energy than boiling, $K_f$ is typically larger."
+        },
+        {
+          "text": "Freezing is an exothermic process whereas boiling is endothermic.",
+          "isCorrect": false,
+          "rationale": "While true, the direction of heat flow doesn't explain the relative magnitudes of the constants; the absolute energy required for the phase change does."
+        },
+        {
+          "text": "The molar mass of the solvent increases during freezing.",
+          "isCorrect": false,
+          "rationale": "The molar mass of the solvent is a constant property of the substance and does not change with the phase."
+        },
+        {
+          "text": "Solids have zero vapour pressure compared to liquids.",
+          "isCorrect": false,
+          "rationale": "While solids have low vapour pressures, the values of $K_f$ and $K_b$ are derived from the enthalpies of the phase transitions."
+        }
+      ],
+      "hint": "Look at the relationship between the energy required for phase changes and how it influences the sensitivity of the temperature constants."
+    },
+    {
+      "question": "In the process of Reverse Osmosis for the desalination of seawater, which of the following conditions must be met?",
+      "answerOptions": [
+        {
+          "text": "Pressure greater than the osmotic pressure ($\\pi$) must be applied to the concentrated solution.",
+          "isCorrect": true,
+          "rationale": "Applying $P > \\pi$ forces solvent molecules to move from the concentrated side to the dilute side, opposite the natural flow."
+        },
+        {
+          "text": "Pressure equal to the osmotic pressure must be applied to the dilute side.",
+          "isCorrect": false,
+          "rationale": "Applying pressure to the dilute side would simply accelerate natural osmosis; also, applying $P = \\pi$ merely stops the flow."
+        },
+        {
+          "text": "The solution must be kept in a hypertonic environment without external pressure.",
+          "isCorrect": false,
+          "rationale": "Without external pressure higher than the osmotic pressure, the solvent would flow into the seawater, not out of it."
+        },
+        {
+          "text": "The semi-permeable membrane must allow both solute and solvent particles to pass.",
+          "isCorrect": false,
+          "rationale": "A semi-permeable membrane by definition only allows solvent molecules to pass; if solutes passed, it would be simple diffusion."
+        }
+      ],
+      "hint": "Consider the direction in which you want the solvent to move and what force is needed to overcome the natural osmotic flow."
+    }
+  ]
+}
