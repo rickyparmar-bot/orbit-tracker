@@ -1,52 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @import "tailwindcss";
 
 @theme {
-  --color-orbit-cyan: #00f2ff;
+  --font-sans: 'Outfit', sans-serif;
+  --color-orbit-cyan: #00f3ff;
   --color-orbit-blue: #0ea5e9;
-  --color-orbit-dark: #0a0a0a;
+  --color-orbit-purple: #a78bfa;
+  --color-orbit-violet: #818cf8;
+  --color-orbit-green: #34d399;
+  --color-orbit-red: #ef4444;
+  --color-orbit-orange: #f59e0b;
+  --color-orbit-amber: #fbbf24;
+  --color-orbit-cyan: #22d3ee;
+  --color-orbit-dark: #050508;
   --color-orbit-glass: rgba(15, 17, 26, 0.4);
   --color-orbit-glass-hover: rgba(20, 24, 38, 0.6);
-  --shadow-neon-cyan: 0 0 15px rgba(0, 242, 255, 0.4);
-  --shadow-neon-blue: 0 0 15px rgba(14, 165, 233, 0.4);
+
+  --color-accent-primary: #a78bfa;
+  --color-accent-secondary: #818cf8;
+  --color-accent-green: #34d399;
+  --color-accent-red: #ef4444;
+  --color-accent-orange: #f59e0b;
+  --color-accent-cyan: #22d3ee;
+  --color-accent-yellow: #facc15;
+
+  --color-text-primary: #f8fafc;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #475569;
+
+  --shadow-soft: 0 20px 60px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  --shadow-float: 0 40px 100px rgba(139, 92, 246, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  --shadow-neon-purple: 0 0 15px rgba(167, 139, 250, 0.4);
+  --shadow-glow-primary: 0 0 20px rgba(167, 139, 250, 0.4);
+
   --blur-glass: 20px;
+
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-sweep: sweep 2s infinite linear;
+
+  @keyframes float {
+
+    0%,
+    100% {
+      transform: translateY(0) scale(1);
+    }
+
+    50% {
+      transform: translateY(50px) scale(1.05);
+    }
+  }
+
+  @keyframes sweep {
+    0% {
+      transform: translateX(-100%);
+    }
+
+    100% {
+      transform: translateX(200%);
+    }
+
+    @keyframes shake {
+
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+
+      25% {
+        transform: translateX(-5px);
+      }
+
+      75% {
+        transform: translateX(5px);
+      }
+    }
+
+    --animate-shake: shake 0.5s ease-in-out infinite;
+  }
 }
 
 :root {
-  --bg-page: #0a0a0a;
+  --bg-page: #050508;
+  --bg-panel: rgba(15, 17, 26, 0.4);
+  --bg-panel-hover: rgba(20, 24, 38, 0.6);
+  --accent-primary: #a78bfa;
+  --accent-secondary: #818cf8;
+  --accent-green: #34d399;
+  --accent-red: #ef4444;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #475569;
+  --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+  --glass-blur: blur(20px);
+  --grad-primary: linear-gradient(135deg, #a78bfa, #818cf8, #e2e8f0);
+}
+
+* {
+  cursor: default;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 body {
-  @apply bg-orbit-dark text-slate-100 min-h-screen overflow-x-hidden;
-  background-image:
-    radial-gradient(circle at 20% 20%, rgba(0, 243, 255, 0.05) 0%, transparent 40%),
-    radial-gradient(circle at 80% 80%, rgba(14, 165, 233, 0.05) 0%, transparent 40%);
+  @apply bg-orbit-dark text-text-primary min-h-screen overflow-x-hidden font-sans;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  letter-spacing: -0.01em;
 }
 
-.glass-card {
-  @apply bg-orbit-glass backdrop-blur-glass border border-white/10 rounded-2xl shadow-neon-cyan transition-all duration-300;
+/* Background Animation Elements */
+.bg-orb {
+  @apply fixed rounded-full -z-10 pointer-events-none opacity-40 transition-transform duration-100 ease-linear;
+  filter: blur(100px);
 }
 
-.glass-card:hover {
-  @apply bg-orbit-glass-hover border-white/20 shadow-neon-cyan scale-[1.01];
+.orb-1 {
+  @apply top-[-20%] left-[20%] w-[60vw] h-[15vh] rotate-[-15deg];
+  background: radial-gradient(ellipse at center, #8b5cf6 0%, transparent 70%);
 }
 
-.neon-text-cyan {
-  @apply text-orbit-cyan;
-  text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+.orb-2 {
+  @apply bottom-[-10%] right-[-10%] w-[80vw] h-[20vh] rotate-[15deg];
+  background: radial-gradient(ellipse at center, #1e3a8a 0%, transparent 70%);
 }
 
-.neon-text-blue {
-  @apply text-orbit-blue;
-  text-shadow: 0 0 10px rgba(14, 165, 233, 0.5);
+@utility glass-panel {
+  @apply bg-orbit-glass backdrop-blur-glass border border-white/10 shadow-soft;
 }
 
-.btn-glass {
-  @apply px-6 py-2 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md hover:bg-white/10 hover:border-white/20 transition-all active:scale-95;
+@utility glass-card {
+  @apply glass-panel rounded-2xl transition-all duration-300;
+
+  &:hover {
+    @apply bg-orbit-glass-hover border-white/20 shadow-neon-purple scale-[1.01];
+  }
+}
+
+@utility bg-grad-primary {
+  background-image: var(--grad-primary);
+}
+
+@utility bg-grad-success {
+  background-image: linear-gradient(135deg, #34d399, #10b981);
+}
+
+@utility preserve-3d {
+  transform-style: preserve-3d;
+}
+
+@utility backface-hidden {
+  backface-visibility: hidden;
+}
+
+@utility rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Flip Clock Utilities */
+.flip-card-top,
+.flip-card-bottom {
+  @apply absolute inset-x-0 overflow-hidden flex justify-center;
+  height: 50%;
+  background-color: #1a1a24;
+}
+
+.flip-card-top {
+  @apply top-0 rounded-t-xl items-end pb-[1px];
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  transform-origin: bottom;
+}
+
+.flip-card-bottom {
+  @apply bottom-0 rounded-b-xl items-start pt-[1px];
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  transform-origin: top;
+}
+
+.flip-card-top span {
+  transform: translateY(50%);
+}
+
+.flip-card-bottom span {
+  transform: translateY(-50%);
+}
+
+.flip-anim-top {
+  animation: flipTop 0.4s ease-in forwards;
+}
+
+.flip-anim-bottom {
+  animation: flipBottom 0.4s ease-out 0.4s forwards;
+  transform: rotateX(90deg);
+}
+
+@keyframes flipTop {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  100% {
+    transform: rotateX(-90deg);
+  }
+}
+
+@keyframes flipBottom {
+  0% {
+    transform: rotateX(90deg);
+  }
+
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+/* Typography Overhaul */
+h1,
+h2,
+h3,
+h4 {
+  @apply font-light tracking-[0.05em];
+}
+
+.logo h2 {
+  @apply text-2xl font-bold tracking-tighter bg-grad-primary bg-clip-text text-transparent;
+}
+
+.subtitle {
+  @apply text-text-secondary text-lg;
+}
+
+/* Buttons - Iridescent */
+.btn-primary {
+  @apply px-6 py-3 rounded-xl text-sm font-medium tracking-[0.05em] transition-all duration-400 inline-flex items-center gap-2 border-none outline-none;
+  background: var(--grad-primary);
+  color: #050508;
+  box-shadow: 0 4px 15px rgba(167, 139, 250, 0.3);
+}
+
+.btn-primary:hover {
+  @apply -translate-y-0.5 brightness-110;
+  box-shadow: 0 8px 25px rgba(167, 139, 250, 0.5);
+}
+
+.btn-secondary {
+  @apply px-6 py-3 rounded-xl text-sm font-medium tracking-[0.05em] transition-all duration-400 inline-flex items-center gap-2 bg-white/5 text-text-primary border border-white/10;
+}
+
+.btn-secondary:hover {
+  @apply bg-white/10 -translate-y-0.5;
+}
+
+/* Master Progress Bar */
+.master-progress-track {
+  @apply w-full h-[18px] bg-black/60 rounded-xl border border-white/10 relative overflow-hidden;
+  box-shadow: inset 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.master-progress-fill {
+  @apply h-full rounded-xl transition-all duration-[1500ms] relative;
+  box-shadow: 0 0 25px rgba(142, 68, 173, 0.6), inset 0 2px 5px rgba(255, 255, 255, 0.4);
+  background: linear-gradient(90deg, #8e44ad, #9b59b6, #f8fafc, #9b59b6, #8e44ad);
+  background-size: 200% auto;
+}
+
+.master-progress-glow {
+  @apply absolute inset-y-0 w-[60px] animate-sweep;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
+}
+
+/* KaTeX Overrides */
+.katex {
+  @apply !text-slate-200;
+}
+
+.katex .mord {
+  @apply text-slate-200;
+}
+
+.katex .mbin,
+.katex .mrel {
+  @apply text-violet-300;
+}
+
+.katex .mop {
+  @apply text-orbit-purple;
+}
+
+/* 3D Flip Layout */
+.fc-card {
+  @apply w-full h-full relative preserve-3d transition-transform duration-700 ease-in-out cursor-pointer;
+}
+
+.fc-card.flipped {
+  @apply rotate-y-180;
+}
+
+.fc-face {
+  @apply absolute inset-0 backface-hidden rounded-2xl p-8 flex flex-col justify-center items-center text-center;
+}
+
+.fc-front {
+  @apply bg-accent-primary/5 border border-accent-primary/20;
+}
+
+.fc-back {
+  @apply bg-accent-green/5 border border-accent-green/20 rotate-y-180;
 }
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -54,10 +318,5 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-white/10 rounded-full hover:bg-white/20 transition-colors;
-}
-
-/* KaTeX Overrides */
-.katex {
-  font-size: 1.1em;
+  @apply bg-accent-primary/30 rounded-full hover:bg-accent-primary/50;
 }

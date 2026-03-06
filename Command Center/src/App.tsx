@@ -1,137 +1,103 @@
 import React, { useState } from 'react';
 import { Dashboard } from './components/Dashboard';
-import { MCQEngine } from './components/MCQEngine';
-import { Flashcards } from './components/Flashcards';
-import { StudyNotes } from './components/StudyNotes';
-import { LayoutGrid, Database, Zap, BookOpen, Settings, ZapOff, Book, Beaker, ChevronRight } from 'lucide-react';
+import { Statistics } from './components/Statistics';
+import { Consistency } from './components/Consistency';
+import { Goals } from './components/Goals';
+import { SubjectExplorer } from './components/SubjectExplorer';
+import {
+  BarChart2,
+  Layout,
+  Clock,
+  Target,
+  Activity,
+  Globe
+} from 'lucide-react';
 import 'katex/dist/katex.min.css';
 
+type ViewType = 'dashboard' | 'explorer' | 'goals' | 'statistics' | 'consistency' | 'timeline';
+
 const App: React.FC = () => {
-  const [activeView, setActiveView] = useState<'dashboard' | 'solutions' | 'settings'>('dashboard');
-  const [isSubjectsOpen, setIsSubjectsOpen] = useState(true);
-  const [isChemOpen, setIsChemOpen] = useState(true);
+  const [activeView, setActiveView] = useState<ViewType>('dashboard');
+
+  const navLinks = [
+    { id: 'dashboard', label: 'Dashboard', icon: <Layout size={18} /> },
+    { id: 'explorer', label: 'Explorer', icon: <Globe size={18} /> },
+    { id: 'goals', label: 'Goals', icon: <Target size={18} /> },
+    { id: 'statistics', label: 'Statistics', icon: <BarChart2 size={18} /> },
+    { id: 'consistency', label: 'Consistency', icon: <Activity size={18} /> },
+    { id: 'timeline', label: 'Timeline', icon: <Clock size={18} /> },
+  ];
 
   return (
-    <div className="flex h-screen bg-orbit-dark text-slate-100 font-sans selection:bg-orbit-cyan/30">
-      {/* Sidebar Navigation */}
-      <nav className="w-20 lg:w-72 border-r border-white/5 flex flex-col items-center lg:items-start p-4 lg:p-6 gap-6 bg-black/20 backdrop-blur-3xl shrink-0">
-        <div className="flex items-center gap-3 px-2 mb-4">
-          <div className="w-10 h-10 bg-orbit-cyan rounded-lg flex items-center justify-center shadow-neon-cyan/50">
-            <Zap className="text-[#0a0a0a]" size={24} />
+    <div className="min-h-screen bg-orbit-dark text-text-primary selection:bg-orbit-purple/30">
+      <div className="bg-orb orb-1"></div>
+      <div className="bg-orb orb-2"></div>
+
+      <div className="app-container flex max-w-[1600px] mx-auto min-h-screen">
+        <nav className="sidebar glass-panel w-[260px] m-6 p-8 flex flex-col h-[calc(100vh-48px)] sticky top-6 rounded-3xl border-white/5">
+          <div className="logo flex items-center gap-3 mb-12 pl-2">
+            <div className="logo-icon bg-accent-primary/10 p-2 rounded-xl text-accent-primary">
+              <Globe size={20} />
+            </div>
+            <h2 className="text-xl font-black tracking-tight bg-grad-primary bg-clip-text text-transparent">ORBIT</h2>
           </div>
-          <span className="hidden lg:block text-2xl font-black italic tracking-tighter">ORBIT PRIME</span>
-        </div>
 
-        <div className="flex flex-col gap-2 w-full">
-          <NavItem
-            icon={<LayoutGrid size={22} />}
-            label="Dashboard"
-            active={activeView === 'dashboard'}
-            onClick={() => setActiveView('dashboard')}
-          />
-
-          <div className="mt-4 pt-4 border-t border-white/5 space-y-2">
-            <button
-              onClick={() => setIsSubjectsOpen(!isSubjectsOpen)}
-              className="flex items-center gap-4 w-full p-3 rounded-xl hover:bg-white/5 transition-all text-slate-400 font-bold text-sm tracking-wide uppercase"
-            >
-              <Book size={18} />
-              <span className="hidden lg:block flex-1 text-left">Subjects</span>
-              {isSubjectsOpen ? <ChevronRight size={16} className="rotate-90 transition-transform" /> : <ChevronRight size={16} className="transition-transform" />}
-            </button>
-
-            {isSubjectsOpen && (
-              <div className="pl-6 space-y-2">
+          <ul className="nav-links flex flex-col gap-2 flex-1 list-none">
+            {navLinks.map((link) => (
+              <li key={link.id}>
                 <button
-                  onClick={() => setIsChemOpen(!isChemOpen)}
-                  className="flex items-center gap-3 w-full p-2 rounded-xl hover:text-slate-100 transition-all text-slate-400 font-medium text-sm"
+                  onClick={() => setActiveView(link.id as ViewType)}
+                  className={`w-full flex items-center gap-4 px-4 py-3 rounded-xl font-bold uppercase text-[10px] tracking-[0.2em] transition-all duration-400 ${activeView === link.id
+                    ? 'bg-grad-primary text-orbit-dark shadow-glow-primary'
+                    : 'text-text-muted hover:text-text-primary hover:bg-white/5'
+                    }`}
                 >
-                  <Beaker size={16} />
-                  <span className="hidden lg:block flex-1 text-left">Chemistry</span>
-                  {isChemOpen ? <ChevronRight size={14} className="rotate-90 transition-transform" /> : <ChevronRight size={14} className="transition-transform" />}
+                  {link.icon}
+                  <span>{link.label}</span>
                 </button>
+              </li>
+            ))}
+          </ul>
 
-                {isChemOpen && (
-                  <div className="pl-8 space-y-1 border-l border-white/10 ml-3">
-                    <button
-                      onClick={() => setActiveView('solutions')}
-                      className={`flex items-center gap-3 w-full px-4 py-2 rounded-r-xl transition-all text-sm font-bold border-l-2 ${activeView === 'solutions' ? 'border-orbit-cyan bg-orbit-cyan/10 text-orbit-cyan shadow-[0_0_15px_rgba(0,242,255,0.1)]' : 'border-transparent text-slate-500 hover:text-slate-200 hover:bg-white/5'}`}
-                    >
-                      <span className="hidden lg:block">Solutions</span>
-                    </button>
-                  </div>
-                )}
+          <div className="user-profile flex items-center gap-3 p-4 bg-black/20 rounded-2xl mt-auto">
+            <div className="avatar w-8 h-8 bg-grad-primary rounded-full flex items-center justify-center text-orbit-dark font-black text-xs">
+              A
+            </div>
+            <div className="flex flex-col">
+              <span className="font-bold text-[10px] uppercase tracking-wider">Astronaut</span>
+              <span className="text-[8px] text-text-muted">Rank: Elite</span>
+            </div>
+          </div>
+        </nav>
+
+        <main className="main-content flex-1 px-12 py-10 flex flex-col gap-10">
+          <header className="top-header flex justify-between items-center">
+            <div className="flex items-center gap-4">
+              <div className="h-px w-12 bg-white/10" />
+              <div className="text-[10px] font-bold text-text-muted uppercase tracking-[0.4em] mb-1">
+                Mission System v4.0.2
+              </div>
+            </div>
+          </header>
+
+          <div className="view-content flex-1">
+            {activeView === 'dashboard' && <Dashboard />}
+            {activeView === 'explorer' && <SubjectExplorer />}
+            {activeView === 'goals' && <Goals />}
+            {activeView === 'statistics' && <Statistics />}
+            {activeView === 'consistency' && <Consistency />}
+            {activeView === 'timeline' && (
+              <div className="glass-panel p-24 rounded-3xl text-center text-text-muted border-white/5 animate-pulse">
+                <Clock size={48} className="mx-auto mb-4 opacity-10" />
+                <h3 className="text-xl font-bold">Temporal Log Incoming</h3>
+                <p className="text-sm">Synchronizing your academic timeline...</p>
               </div>
             )}
           </div>
-
-          <div className="mt-8 pt-8 border-t border-white/5">
-            <NavItem
-              icon={<Settings size={22} />}
-              label="Settings"
-              active={activeView === 'settings'}
-              onClick={() => setActiveView('settings')}
-            />
-          </div>
-        </div>
-
-        <div className="mt-auto w-full p-4 glass-card lg:block hidden border-orbit-cyan/20">
-          <p className="text-[10px] font-bold text-orbit-cyan uppercase tracking-widest mb-1">Vampire Mode</p>
-          <p className="text-xs text-slate-400">5'7" | 42kg Architecture</p>
-        </div>
-      </nav>
-
-      {/* Main Content Area */}
-      <main className="flex-1 overflow-y-auto bg-transparent relative">
-        <div className="max-w-7xl mx-auto p-4 lg:p-8">
-          {activeView === 'dashboard' && <Dashboard />}
-          {activeView === 'solutions' && (
-            <div className="space-y-12">
-              <div>
-                <h1 className="text-4xl font-black italic tracking-tighter uppercase neon-text-cyan mb-2">Solutions</h1>
-                <p className="text-slate-400">Physical Chemistry • Class 12</p>
-              </div>
-              <StudyNotes />
-              <Flashcards />
-              <MCQEngine />
-            </div>
-          )}
-          {activeView === 'settings' && (
-            <div className="glass-card p-12">
-              <h2 className="text-2xl font-bold mb-6">System Configuration</h2>
-              <div className="flex flex-col gap-4">
-                <div className="flex justify-between items-center p-4 bg-white/5 rounded-xl">
-                  <span>Hyprland Warden</span>
-                  <span className="text-orbit-cyan font-bold uppercase text-xs tracking-widest">Active Process</span>
-                </div>
-                <div className="flex justify-between items-center p-4 bg-white/5 rounded-xl">
-                  <span>CD Sync Mode</span>
-                  <span className="text-orbit-cyan font-bold uppercase text-xs tracking-widest text-shadow-glow">GitHub Actions</span>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-      </main>
+        </main>
+      </div>
     </div>
   );
 };
-
-interface NavItemProps {
-  icon: React.ReactNode;
-  label: string;
-  active?: boolean;
-  onClick: () => void;
-}
-
-const NavItem: React.FC<NavItemProps> = ({ icon, label, active, onClick }) => (
-  <button
-    onClick={onClick}
-    className={`flex items-center gap-4 w-full p-3 rounded-xl transition-all ${active ? 'bg-orbit-cyan/10 text-orbit-cyan border border-orbit-cyan/20' : 'text-slate-500 hover:text-slate-100 hover:bg-white/5'}`}
-  >
-    {icon}
-    <span className="hidden lg:block font-bold text-sm tracking-wide">{label}</span>
-  </button>
-);
 
 export default App;

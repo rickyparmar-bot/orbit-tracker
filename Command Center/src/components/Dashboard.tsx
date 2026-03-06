@@ -1,151 +1,116 @@
-import React, { useState, useEffect } from 'react';
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area } from 'recharts';
-import { Zap, Brain, Timer, Shield } from 'lucide-react';
+import React from 'react';
+import {
+    Zap,
+    Target,
+    TrendingUp,
+    Shield,
+    ChevronRight,
+    Clock,
+    Book
+} from 'lucide-react';
+import { CountdownClock } from './FlipClock';
+import { MissionTimeline } from './MissionTimeline';
 
-const data = [
-    { time: '10 AM', mastery: 20 },
-    { time: '11 AM', mastery: 45 },
-    { time: '12 PM', mastery: 35 },
-    { time: '1 PM', mastery: 70 },
-    { time: '2 PM', mastery: 65 },
-    { time: '3 PM', mastery: 90 },
-];
+// --- Sub-components ---
+
+// --- Main Dashboard ---
 
 export const Dashboard: React.FC = () => {
-    const [timeLeft, setTimeLeft] = useState(90 * 60); // 90 minutes
-    const [showBreakAlert, setShowBreakAlert] = useState(false);
-
-    useEffect(() => {
-        const timer = setInterval(() => {
-            setTimeLeft(prev => {
-                if (prev <= 0) {
-                    setShowBreakAlert(true);
-                    return 90 * 60;
-                }
-                return prev - 1;
-            });
-        }, 1000);
-        return () => clearInterval(timer);
-    }, []);
-
-    const formatTime = (seconds: number) => {
-        const mins = Math.floor(seconds / 60);
-        const secs = seconds % 60;
-        return `${mins}:${secs.toString().padStart(2, '0')}`;
-    };
 
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 p-6">
-            {/* Top Banner */}
-            <div className="lg:col-span-3 glass-card p-8 flex justify-between items-center bg-gradient-to-r from-orbit-blue/10 to-orbit-cyan/10">
-                <div>
-                    <h1 className="text-4xl font-black italic tracking-tighter uppercase neon-text-cyan underline decoration-white/20 underline-offset-8">
-                        Orbit Prime: Genesis
-                    </h1>
-                    <p className="mt-4 text-slate-400 font-medium tracking-widest uppercase text-xs">Command Center • Lead Architect Access</p>
-                </div>
-                <div className="flex gap-4">
-                    <div className="glass-card px-4 py-2 flex items-center gap-3">
-                        <Timer className="text-orbit-cyan animate-pulse" size={20} />
-                        <div className="text-right">
-                            <span className="block text-[10px] text-slate-500 font-bold uppercase">Next Break</span>
-                            <span className="text-xl font-mono font-bold">{formatTime(timeLeft)}</span>
+        <div className="dashboard-container flex flex-col gap-8 animate-in fade-in slide-in-from-bottom-6 duration-1000">
+
+            {/* Top Section: Countdown & Stats */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                <div className="lg:col-span-8 glass-panel p-10 rounded-3xl flex flex-col justify-between border-white/5 relative overflow-hidden">
+                    <div className="absolute top-0 right-0 p-12 opacity-5 pointer-events-none">
+                        <Target size={200} />
+                    </div>
+
+                    <div className="flex justify-between items-start">
+                        <div>
+                            <div className="flex items-center gap-3 mb-4">
+                                <div className="text-[11px] font-bold text-text-muted uppercase tracking-[0.4em]">Current Objective</div>
+                                <div className="flex items-center gap-2 px-2 py-0.5 rounded-full bg-[#8e44ad]/10 border border-[#8e44ad]/20 animate-pulse">
+                                    <div className="w-1.5 h-1.5 rounded-full bg-[#8e44ad]" />
+                                    <span className="text-[8px] font-bold text-[#8e44ad] uppercase tracking-widest">Live Sync Active</span>
+                                </div>
+                            </div>
+                            <h2 className="text-4xl font-bold tracking-tight mb-4 leading-tight">
+                                JEE Advanced 2027 <br />
+                                <span className="text-text-secondary font-medium">Mission Countdown</span>
+                            </h2>
                         </div>
                     </div>
-                    <div className="glass-card px-4 py-2 flex items-center gap-3 border-orbit-cyan/30">
-                        <Shield className="text-orbit-cyan" size={20} />
-                        <div className="text-right">
-                            <span className="block text-[10px] text-slate-500 font-bold uppercase">Warden Status</span>
-                            <span className="text-xl font-bold text-orbit-cyan">ACTIVE</span>
+
+                    <div className="flex gap-6 mt-8">
+                        <CountdownClock />
+                    </div>
+                </div>
+
+                <div className="lg:col-span-4 flex flex-col gap-6">
+                    <div className="glass-panel p-8 rounded-3xl border-l-4 border-accent-primary flex items-center justify-between group cursor-pointer hover:bg-white/5 transition-all">
+                        <div>
+                            <div className="text-[10px] font-bold text-text-muted uppercase tracking-[0.2em] mb-2">Daily Momentum</div>
+                            <div className="text-3xl font-bold text-accent-primary">0.0x</div>
                         </div>
+                        <TrendingUp size={32} className="text-text-muted opacity-20 group-hover:opacity-100 group-hover:text-accent-primary transition-all" />
+                    </div>
+
+                    <div className="glass-panel p-8 rounded-3xl border-l-4 border-accent-secondary flex items-center justify-between group cursor-pointer hover:bg-white/5 transition-all">
+                        <div>
+                            <div className="text-[10px] font-bold text-text-muted uppercase tracking-[0.2em] mb-2">Warden Status</div>
+                            <div className="text-xl font-bold text-text-primary tracking-tight">Level 4 Lockdown</div>
+                        </div>
+                        <Shield size={32} className="text-text-muted opacity-20 group-hover:opacity-100 group-hover:text-accent-secondary transition-all" />
                     </div>
                 </div>
             </div>
 
-            {/* Analytics Graph */}
-            <div className="lg:col-span-2 glass-card p-6 h-[400px] flex flex-col gap-4">
-                <h3 className="text-lg font-bold flex items-center gap-2">
-                    <Zap size={20} className="text-orbit-cyan" /> Progress Analytics
-                </h3>
-                <div className="flex-1 w-full">
-                    <ResponsiveContainer width="100%" height="100%">
-                        <AreaChart data={data}>
-                            <defs>
-                                <linearGradient id="colorMastery" x1="0" y1="0" x2="0" y2="1">
-                                    <stop offset="5%" stopColor="#00f3ff" stopOpacity={0.3} />
-                                    <stop offset="95%" stopColor="#00f3ff" stopOpacity={0} />
-                                </linearGradient>
-                            </defs>
-                            <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.05)" vertical={false} />
-                            <XAxis
-                                dataKey="time"
-                                stroke="#64748b"
-                                fontSize={12}
-                                tickLine={false}
-                                axisLine={false}
-                            />
-                            <YAxis
-                                stroke="#64748b"
-                                fontSize={12}
-                                tickLine={false}
-                                axisLine={false}
-                                tickFormatter={(val) => `${val}%`}
-                            />
-                            <Tooltip
-                                contentStyle={{
-                                    backgroundColor: 'rgba(5, 5, 8, 0.9)',
-                                    border: '1px solid rgba(0, 243, 255, 0.3)',
-                                    borderRadius: '12px',
-                                    backdropFilter: 'blur(10px)'
-                                }}
-                            />
-                            <Area
-                                type="monotone"
-                                dataKey="mastery"
-                                stroke="#00f3ff"
-                                strokeWidth={3}
-                                fillOpacity={1}
-                                fill="url(#colorMastery)"
-                                animationDuration={2000}
-                            />
-                        </AreaChart>
-                    </ResponsiveContainer>
-                </div>
-            </div>
+            {/* Middle Section: Progress & Consistency */}
+            <div className="flex flex-col gap-6">
+                <MissionTimeline targetDate="2026-09-01T00:00:00" />
 
-            {/* Ingestion Status / Daily Info */}
-            <div className="glass-card p-6 flex flex-col gap-6">
-                <h3 className="text-lg font-bold flex items-center gap-2">
-                    <Brain size={20} className="text-orbit-cyan" /> Brain Sync
-                </h3>
-                <div className="flex flex-col gap-4">
-                    {['Master Notes', 'Flashcards', 'PYQ Vault'].map((item) => (
-                        <div key={item} className="flex justify-between items-center p-3 bg-white/5 rounded-xl border border-white/5">
-                            <span className="text-sm font-medium">{item}</span>
-                            <span className="text-[10px] px-2 py-1 bg-orbit-cyan/20 text-orbit-cyan rounded-full font-bold uppercase">Ready</span>
+                <div className="glass-panel p-10 rounded-3xl border-white/5">
+                    <div className="flex justify-between items-end mb-8">
+                        <div>
+                            <div className="text-[10px] font-bold text-text-muted uppercase tracking-[0.4em] mb-4">Mastery Track</div>
+                            <h3 className="text-2xl font-bold">Overall Syllabus Coverage</h3>
+                        </div>
+                        <div className="text-right">
+                            <span className="text-2xl font-bold text-accent-primary">0.0%</span>
+                        </div>
+                    </div>
+
+                    <div className="master-progress-track mb-8">
+                        <div className="master-progress-fill w-[0%]">
+                            <div className="master-progress-glow" />
+                        </div>
+                    </div>
+                </div>
+
+                {/* Bottom Section: Quick Links */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    {[
+                        { title: "Physical Chemistry", sub: "Pre-Mission • Upcoming", icon: <Zap size={20} /> },
+                        { title: "PYQ Vault", sub: "2018-2024 Archive", icon: <Book size={20} /> },
+                        { title: "Revision Hub", sub: "0 Pending Items", icon: <Clock size={20} /> }
+                    ].map((item, i) => (
+                        <div key={i} className="glass-panel p-6 rounded-2xl flex items-center justify-between group cursor-pointer hover:border-white/20 transition-all">
+                            <div className="flex items-center gap-4">
+                                <div className="p-3 bg-white/5 rounded-xl text-text-muted group-hover:text-accent-primary transition-colors">
+                                    {item.icon}
+                                </div>
+                                <div>
+                                    <div className="text-sm font-bold">{item.title}</div>
+                                    <div className="text-[10px] font-bold text-text-muted uppercase tracking-widest">{item.sub}</div>
+                                </div>
+                            </div>
+                            <ChevronRight size={16} className="text-text-muted opacity-0 group-hover:opacity-100 transition-all" />
                         </div>
                     ))}
                 </div>
-                <div className="mt-auto p-4 bg-orbit-cyan/5 border border-orbit-cyan/20 rounded-xl">
-                    <h4 className="text-xs font-bold text-orbit-cyan uppercase mb-2">Strategy Note</h4>
-                    <p className="text-sm text-slate-300 italic">"Focus on the electrolytic cell potential derivations. Faisal Sir emphasized these for JEE Adv 2025."</p>
-                </div>
             </div>
-
-            {showBreakAlert && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-xl">
-                    <div className="glass-card p-12 text-center max-w-md border-orbit-cyan/50 animate-in fade-in zoom-in duration-300">
-                        <h2 className="text-4xl font-bold neon-text-cyan mb-4">RECOVERY PHASE</h2>
-                        <p className="text-xl mb-8 font-light">Mandatory 2-minute <span className="font-bold text-white">Planche Lean</span> break now. Re-align your nervous system.</p>
-                        <button
-                            onClick={() => setShowBreakAlert(false)}
-                            className="btn-glass px-12 py-4 text-orbit-cyan font-bold border-orbit-cyan/30 hover:bg-orbit-cyan/10"
-                        >
-                            Resume Mission
-                        </button>
-                    </div>
-                </div>
-            )}
         </div>
     );
 };

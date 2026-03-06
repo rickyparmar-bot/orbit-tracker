@@ -1,0 +1,18 @@
+[
+    {
+        "id": "1",
+        "text": "Solutions One-Shot (Faisal Sir)",
+        "deadline": "Monday 07:00 AM",
+        "url": "https://www.youtube.com/live/f6ENSghG7T4",
+        "category": "Chemistry",
+        "isEpic": true
+    },
+    {
+        "id": "2",
+        "text": "Relations & Functions One-Shot",
+        "deadline": "Monday 07:00 AM",
+        "url": "https://www.youtube.com/watch?v=NKth1h8pr7s",
+        "category": "Maths",
+        "isEpic": true
+    }
+]
