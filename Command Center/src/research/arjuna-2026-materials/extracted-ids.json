@@ -1,0 +1,2370 @@
+[
+  {
+    "type": "potential_subject",
+    "data": {
+      "_id": "6590030aee1ec89d6c69cb7f",
+      "updatedBy": "64673efba4a94e0018b3b2e3",
+      "createdBy": "658fd255e420f0001829f2f9",
+      "orgId": "5eb393ee95fab7468a79d189",
+      "status": true,
+      "applicationId": "658fe012aaf88868e691ef60",
+      "sectionTitle": "<h1 class=\"font-bold text-2xl px-[50px] md:px-0 text-[#1B2124]  xl:text-[40px] md:text-[32px] md:leading-[48px] xl:leading-[50px] mb-[6px]\">Bharat&rsquo;s <span style=\"color: rgb(90, 75, 218);\">Trusted &amp; Affordable</span> Educational Platform</h1>",
+      "sectionSubTitle": "Unlock your potential by signing up with Physics Wallah-The most affordable learning solution",
+      "sectionProps": {
+        "mwebBackGroundImage": "https://static.pw.live/5b09189f7285894d9130ccd0/f220a012-bbd4-45fe-ab2b-f222301de343.webp",
+        "dwebBackGroundImage": "https://static.pw.live/5b09189f7285894d9130ccd0/a328173a-5842-44ba-9129-809e45bd78e5.webp",
+        "featureItems": [
+          {
+            "title": "Daily Live",
+            "subTitle": "Interactive classes",
+            "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/165756ec-8d87-4a09-9a88-95c342adddea.webp"
+          },
+          {
+            "title": "10 Million +",
+            "subTitle": "Tests, sample papers & notes",
+            "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/ee478abe-a66b-4529-a264-16b61ffb6c51.webp"
+          },
+          {
+            "title": "24 x 7",
+            "subTitle": "Doubt solving sessions",
+            "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/b75e0c1a-6893-4b31-8d79-f37a1c72115a.webp"
+          },
+          {
+            "title": "100 +",
+            "subTitle": "Offline centres",
+            "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/65d1e4cb-abf8-4bda-9f2c-49f37a714b7a.webp"
+          }
+        ],
+        "gradientCss": "#F1EFFF"
+      },
+      "createdAt": "2023-12-30T11:46:18.370Z",
+      "updatedAt": "2025-01-29T11:32:44.064Z",
+      "__order": 1
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "_id": "65900424aaf88868e691ef6d",
+      "updatedBy": "64673efba4a94e0018b3b2e3",
+      "createdBy": "658fd255e420f0001829f2f9",
+      "orgId": "5eb393ee95fab7468a79d189",
+      "status": true,
+      "applicationId": "658fe012aaf88868e691ef60",
+      "sectionTitle": "A Platform Trusted by Students",
+      "sectionSubTitle": "Physics Wallah aims to transform not just through words, but provide results with numbers!",
+      "sectionProps": [
+        {
+          "title": "Happy Students",
+          "stats": "15Million+",
+          "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/fa94a64a-7f6c-49c7-99be-dbf5b4cf440f.webp",
+          "displayOrder": 1
+        },
+        {
+          "title": "Mock Tests",
+          "stats": "24000+",
+          "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/112aa59c-9952-4add-8491-e93f2f45b90b.webp",
+          "displayOrder": 2
+        },
+        {
+          "title": "Video Lectures",
+          "stats": "14000+",
+          "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/4f6749a2-e834-4c08-81ff-c42330f9bf87.webp",
+          "displayOrder": 3
+        },
+        {
+          "title": "Practice Papers",
+          "stats": "80000+",
+          "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/55bb8055-5be9-473e-85b6-1db04b8cc50b.webp",
+          "displayOrder": 4
+        }
+      ],
+      "createdAt": "2023-12-30T11:51:00.177Z",
+      "updatedAt": "2025-01-28T05:44:06.390Z",
+      "__order": 4
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "_id": "65d6f58c78162ad2bcd80069",
+      "updatedBy": "64673efba4a94e0018b3b2e3",
+      "createdBy": "658fd255e420f0001829f2f9",
+      "orgId": "5eb393ee95fab7468a79d189",
+      "status": true,
+      "applicationId": "658fe012aaf88868e691ef60",
+      "sectionSubTitle": "<div class=\"flex items-center gap-2.5 my-[10px]\">\n<p class=\"flex items-center\"><img src=\"https://static.pw.live/5b09189f7285894d9130ccd0/aae52ebe-fb97-4327-ad02-b486434308e8.webp\" alt=\"\" width=\"16\" height=\"16\"> &nbsp;Live &amp; recorded classes</p>\n</div>\n<div class=\"flex items-center gap-2.5 my-[10px]\">\n<p class=\"flex items-center\"><img src=\"https://static.pw.live/5b09189f7285894d9130ccd0/aae52ebe-fb97-4327-ad02-b486434308e8.webp\" alt=\"\" width=\"16\" height=\"16\">&nbsp; Dashboard for progress tracking</p>\n<p class=\"flex items-center\"><img src=\"https://static.pw.live/5b09189f7285894d9130ccd0/aae52ebe-fb97-4327-ad02-b486434308e8.webp\" alt=\"\" width=\"16\" height=\"16\"> &nbsp;Lakhs of practice questions</p>\n<div class=\"c-scrollbar__track\" role=\"presentation\">&nbsp;</div>\n</div>",
+      "sectionProps": {
+        "backGroundColor": "linear-gradient(180deg, #F1EFFF 0%, #DEDAFF 100%), #F1EFFF",
+        "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/bde11caa-c63e-4f07-9a83-a83d1cd35e9f.webp",
+        "appDownloadOption": [
+          {
+            "image": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e76d560e-9e4c-4119-9990-e6aa5c5affaf.acb101ce",
+            "redirectionUrl": "https://apps.apple.com/in/app/physics-wallah/id1641443555"
+          },
+          {
+            "image": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/a69ff5a2-6904-4279-acf6-d91bc2fe11d6.webp",
+            "redirectionUrl": "https://play.google.com/store/apps/details?id=xyz.penpencil.physicswala"
+          }
+        ]
+      },
+      "createdAt": "2024-02-22T07:19:40.089Z",
+      "updatedAt": "2025-02-03T13:24:57.076Z",
+      "__v": 0,
+      "sectionTitle": "Join 15 Million students on the app today!",
+      "__order": 6
+    }
+  },
+  {
+    "type": "potential_batch",
+    "data": {
+      "_id": "659005c5aaf88868e691ef70",
+      "updatedBy": "6388313b9eacb70011929a75",
+      "createdBy": "658fd255e420f0001829f2f9",
+      "orgId": "5eb393ee95fab7468a79d189",
+      "status": true,
+      "applicationId": "658fe012aaf88868e691ef60",
+      "sectionTitle": "Students ❤️ Physics Wallah",
+      "sectionSubTitle": "Hear from our students",
+      "sectionProps": [
+        {
+          "studentName": "Multiple Rankers",
+          "exam": "NEET",
+          "rank": "AIR 1, AIR 86 and other",
+          "mwebBannerImages": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/dcdb3767-d010-46d7-ac36-c79979ad4d9a.png",
+          "dwebBannerImages": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/6ce6e71a-1cba-4fff-a325-55b3376e96e2.png",
+          "video": "https://www.youtube.com/embed/xrEUbWOLZ34?si=G5vA9A0RsDYNhocq",
+          "testimonial": "My name is Tathagat Awatar. I secured All India Rank 1 by scoring full score in NEET UG 2024. I started my preparation with Physics Wallah in 12th grade by joining the Lakshya NEET batch, then I took 2 drop by joining Yakeen NEET batch and I completed my full preparation from online PW batch. PW teachers and their guidance helps me to acheive AIR1 and motivated me during my drop year....",
+          "displayOrder": 1
+        },
+        {
+          "studentName": "Anmol Rathore",
+          "exam": "UPSC",
+          "rank": "UPSC CSE 2023 AIR 7",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/f701dd38-826d-4328-836e-8e1061c5d281.jpg",
+          "testimonial": "I used to regularly follow the youtube videos, prelims booster videos and specially editorial discussion from where I made important pointers. I also watched some history videos like Buddhism, Jainism as the topics were explained very clearly… all these were very helpful during my preparation…",
+          "displayOrder": 2
+        },
+        {
+          "studentName": "Raja Majhi",
+          "exam": "GATE",
+          "rank": "GATE 2024 AIR 1",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/5613a51e-e9ac-4e90-a78e-81dba01b1940.png",
+          "testimonial": "I am Raja Majhi, and I am thrilled to share that I have secured All India Rank 1 (AIR 1) in the GATE 2024 examination in ECE. From the very beginning, Physics Wallah stood out for its structured and comprehensive curriculum. The faculty members, with their in-depth knowledge and teaching expertise, ensured that every concept was crystal clear.\n\nGATE Wallah not only provided academic support but also fostered a positive and encouraging learning environment. The online resources, interactive sessions, and community forums allowed me to connect with fellow aspirants and learn collaboratively.",
+          "displayOrder": 3
+        },
+        {
+          "studentName": "Amit Kumar Mandal",
+          "exam": "Banking",
+          "rank": "IBPS Topper",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/0274f09e-6be0-40cf-bbfa-f74fb07eb430.png",
+          "testimonial": "PW helped me in establishing the basics of every subject through which I was able to progress quickly and was also able to increase my speed and also maintaining accuracy.",
+          "displayOrder": 4
+        },
+        {
+          "studentName": "Sushant Padha",
+          "exam": "IIT JEE",
+          "rank": "JEE Advanced 2024 - AIR 52",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e588ef54-2d7f-457e-aa73-5e96a7468efb.png",
+          "testimonial": "My name is Sushant Padha. I secured an AIR 52 in JEE Advanced 2024. I started my preparation with Physics Wallah in 11th grade by joining the Arjuna batch. In 12th grade, I joined the Lakshya batch and completed my entire preparation with Physics Wallah. PW teachers and their guidance played a very important role in achieving my goal.  Once I started my preparation, I never looked back.",
+          "displayOrder": 5
+        },
+        {
+          "studentName": "Karan Garg",
+          "exam": "NEET",
+          "rank": "AIR 429",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/231a6f80-9fe5-49ba-b520-db9d310cb185.png",
+          "testimonial": "My name is Karan Garg, and I secured 710 marks in the NEET UG 2024 exam, achieving an All India Rank of 429. I am thrilled to have had the opportunity to study for my NEET journey with Physics Wallah, as their teachers' content and guidance were superb. Mohit Dhadeech sir was a huge inspiration for me, motivating me to give my best in NEET through his guidance during lectures. Thank you to the entire Physics Wallah team for making my NEET journey easier.",
+          "displayOrder": 6
+        },
+        {
+          "studentName": "Tanay",
+          "exam": "IIT JEE",
+          "rank": "JEE Advanced 2024 - AIR 99",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/a1fe3c64-edb7-484b-9f1e-ca488ee5a907.png",
+          "testimonial": "Thanks to PW! PW faculties teaches from basic and they are very supportive because of which I am able to secure AIR 99 in JEE Adavnced 2024. I studied from Varun JEE Adanced 2024 Batch.",
+          "displayOrder": 7
+        }
+      ],
+      "createdAt": "2023-12-30T11:57:57.033Z",
+      "updatedAt": "2024-07-12T08:42:25.247Z",
+      "__order": 7
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "_id": "659005c5aaf88868e691ef70",
+      "updatedBy": "6388313b9eacb70011929a75",
+      "createdBy": "658fd255e420f0001829f2f9",
+      "orgId": "5eb393ee95fab7468a79d189",
+      "status": true,
+      "applicationId": "658fe012aaf88868e691ef60",
+      "sectionTitle": "Students ❤️ Physics Wallah",
+      "sectionSubTitle": "Hear from our students",
+      "sectionProps": [
+        {
+          "studentName": "Multiple Rankers",
+          "exam": "NEET",
+          "rank": "AIR 1, AIR 86 and other",
+          "mwebBannerImages": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/dcdb3767-d010-46d7-ac36-c79979ad4d9a.png",
+          "dwebBannerImages": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/6ce6e71a-1cba-4fff-a325-55b3376e96e2.png",
+          "video": "https://www.youtube.com/embed/xrEUbWOLZ34?si=G5vA9A0RsDYNhocq",
+          "testimonial": "My name is Tathagat Awatar. I secured All India Rank 1 by scoring full score in NEET UG 2024. I started my preparation with Physics Wallah in 12th grade by joining the Lakshya NEET batch, then I took 2 drop by joining Yakeen NEET batch and I completed my full preparation from online PW batch. PW teachers and their guidance helps me to acheive AIR1 and motivated me during my drop year....",
+          "displayOrder": 1
+        },
+        {
+          "studentName": "Anmol Rathore",
+          "exam": "UPSC",
+          "rank": "UPSC CSE 2023 AIR 7",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/f701dd38-826d-4328-836e-8e1061c5d281.jpg",
+          "testimonial": "I used to regularly follow the youtube videos, prelims booster videos and specially editorial discussion from where I made important pointers. I also watched some history videos like Buddhism, Jainism as the topics were explained very clearly… all these were very helpful during my preparation…",
+          "displayOrder": 2
+        },
+        {
+          "studentName": "Raja Majhi",
+          "exam": "GATE",
+          "rank": "GATE 2024 AIR 1",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/5613a51e-e9ac-4e90-a78e-81dba01b1940.png",
+          "testimonial": "I am Raja Majhi, and I am thrilled to share that I have secured All India Rank 1 (AIR 1) in the GATE 2024 examination in ECE. From the very beginning, Physics Wallah stood out for its structured and comprehensive curriculum. The faculty members, with their in-depth knowledge and teaching expertise, ensured that every concept was crystal clear.\n\nGATE Wallah not only provided academic support but also fostered a positive and encouraging learning environment. The online resources, interactive sessions, and community forums allowed me to connect with fellow aspirants and learn collaboratively.",
+          "displayOrder": 3
+        },
+        {
+          "studentName": "Amit Kumar Mandal",
+          "exam": "Banking",
+          "rank": "IBPS Topper",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/0274f09e-6be0-40cf-bbfa-f74fb07eb430.png",
+          "testimonial": "PW helped me in establishing the basics of every subject through which I was able to progress quickly and was also able to increase my speed and also maintaining accuracy.",
+          "displayOrder": 4
+        },
+        {
+          "studentName": "Sushant Padha",
+          "exam": "IIT JEE",
+          "rank": "JEE Advanced 2024 - AIR 52",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e588ef54-2d7f-457e-aa73-5e96a7468efb.png",
+          "testimonial": "My name is Sushant Padha. I secured an AIR 52 in JEE Advanced 2024. I started my preparation with Physics Wallah in 11th grade by joining the Arjuna batch. In 12th grade, I joined the Lakshya batch and completed my entire preparation with Physics Wallah. PW teachers and their guidance played a very important role in achieving my goal.  Once I started my preparation, I never looked back.",
+          "displayOrder": 5
+        },
+        {
+          "studentName": "Karan Garg",
+          "exam": "NEET",
+          "rank": "AIR 429",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/231a6f80-9fe5-49ba-b520-db9d310cb185.png",
+          "testimonial": "My name is Karan Garg, and I secured 710 marks in the NEET UG 2024 exam, achieving an All India Rank of 429. I am thrilled to have had the opportunity to study for my NEET journey with Physics Wallah, as their teachers' content and guidance were superb. Mohit Dhadeech sir was a huge inspiration for me, motivating me to give my best in NEET through his guidance during lectures. Thank you to the entire Physics Wallah team for making my NEET journey easier.",
+          "displayOrder": 6
+        },
+        {
+          "studentName": "Tanay",
+          "exam": "IIT JEE",
+          "rank": "JEE Advanced 2024 - AIR 99",
+          "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/a1fe3c64-edb7-484b-9f1e-ca488ee5a907.png",
+          "testimonial": "Thanks to PW! PW faculties teaches from basic and they are very supportive because of which I am able to secure AIR 99 in JEE Adavnced 2024. I studied from Varun JEE Adanced 2024 Batch.",
+          "displayOrder": 7
+        }
+      ],
+      "createdAt": "2023-12-30T11:57:57.033Z",
+      "updatedAt": "2024-07-12T08:42:25.247Z",
+      "__order": 7
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "_id": "6590062679c2c01b1d985347",
+      "updatedBy": "64673efba4a94e0018b3b2e3",
+      "createdBy": "658fd255e420f0001829f2f9",
+      "orgId": "5eb393ee95fab7468a79d189",
+      "status": true,
+      "applicationId": "658fe012aaf88868e691ef60",
+      "sectionTitle": "Study Resources",
+      "sectionSubTitle": "A diverse array of learning materials to enhance your educational journey.",
+      "sectionProps": [
+        {
+          "title": "Reference Books",
+          "description": "Our experts have created thorough study materials that break down complicated concepts into easily understandable content",
+          "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/c77fefc5-df03-4b10-a694-6a815f691810.webp",
+          "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/f205f69d-b8b3-4f03-b28b-6c6bdd9eeb02.webp",
+          "redirectionUrl": "https://store.pw.live/school-books",
+          "displayOrder": 1
+        },
+        {
+          "title": "NCERT Solutions",
+          "description": "Unlock academic excellence with Physics Wallah’s  NCERT Solutions which provides you step-by-step solutions",
+          "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/4f569663-9574-4722-8269-5b899173261d.webp",
+          "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/12b4fb81-b903-4c2d-9b09-d79395ef66c2.webp",
+          "redirectionUrl": "https://www.pw.live/concepts-ncert-solutions",
+          "displayOrder": 2
+        },
+        {
+          "title": "Notes",
+          "description": "Use Physics Wallah’s detailed study materials that simplify complex ideas into easily understandable language",
+          "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/69c46902-36a5-4b00-b7e8-cf2b6ae41aaf.webp",
+          "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/3eb5198e-6f36-4df4-ad97-81716b80bab2.webp",
+          "redirectionUrl": "https://www.pw.live/topics-biology-class-10",
+          "displayOrder": 3
+        }
+      ],
+      "createdAt": "2023-12-30T11:59:34.891Z",
+      "updatedAt": "2025-07-07T07:01:36.774Z",
+      "__order": 8
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "_id": "6590064cc553fe5489f64eb9",
+      "updatedBy": "66d760b143b68c0e8b5d3e98",
+      "createdBy": "658fd255e420f0001829f2f9",
+      "orgId": "5eb393ee95fab7468a79d189",
+      "status": true,
+      "applicationId": "658fe012aaf88868e691ef60",
+      "sectionTitle": "Join The PW Family, Today!",
+      "sectionSubTitle": "Explore our 130+ YouTube Channels and subscribe to get access to quality education for free.",
+      "sectionProps": [
+        {
+          "channelName": "Physics Wallah",
+          "subscribers": 11.5,
+          "displayOrder": 1
+        },
+        {
+          "channelName": "Competition Wallah",
+          "subscribers": 2.71,
+          "displayOrder": 2
+        },
+        {
+          "channelName": "JEE Wallah",
+          "subscribers": 1.69,
+          "displayOrder": 3
+        },
+        {
+          "channelName": "NCERT Wallah",
+          "subscribers": 1.35,
+          "displayOrder": 4
+        },
+        {
+          "channelName": "PhysicsWallah Foundation",
+          "subscribers": "3.48",
+          "displayOrder": 5
+        }
+      ],
+      "createdAt": "2023-12-30T12:00:12.891Z",
+      "updatedAt": "2025-01-28T15:05:31.997Z",
+      "__order": 9
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "_id": "6590080279c2c01b1d985359",
+      "status": true,
+      "section": 1,
+      "menuItems": [
+        {
+          "menuTitle": "Company",
+          "menuItems": [
+            {
+              "menuTitle": "About Us",
+              "redirectionUrl": "https://www.pw.live/about-us",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Contact Us",
+              "redirectionUrl": "https://www.pw.live/contact-us",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Careers",
+              "redirectionUrl": "https://pwhr.darwinbox.in/ms/candidatev2/a62d7a6e288992/careers/home",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Updates",
+              "redirectionUrl": "https://www.pw.live/life",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Account Deletion",
+              "redirectionUrl": "https://www.pw.live/account-deletion",
+              "displayOrder": 6
+            }
+          ],
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "Our Centres",
+          "menuItems": [
+            {
+              "menuTitle": "New Delhi",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/new-delhi-dl",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Patna",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/patna-br",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Kota",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/kota-rj",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Noida",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/noida-up",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Dhanbad",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/dhanbad-jh",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "Varanasi",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/varanasi-up",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "View All",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth",
+              "displayOrder": 7
+            }
+          ],
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "Popular Exams",
+          "menuItems": [
+            {
+              "menuTitle": "IIT JEE",
+              "redirectionUrl": "https://www.pw.live/iit-jee",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "NEET",
+              "redirectionUrl": "https://www.pw.live/neet",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "GATE",
+              "redirectionUrl": "https://www.pw.live/gate",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Defence",
+              "redirectionUrl": "https://www.pw.live/defence",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "UPSC",
+              "redirectionUrl": "https://www.pw.live/upsc",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "School Prep",
+              "redirectionUrl": "https://www.pw.live/school-prep",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "PW NSAT",
+              "redirectionUrl": "https://www.pw.live/scholarship/vidyapeeth/nsat",
+              "displayOrder": 7
+            }
+          ],
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "Connect With Us",
+          "menuItems": [
+            {
+              "menuTitle": "Email Us",
+              "redirectionUrl": "mailto:support@pw.live",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Talk to A Counselor",
+              "redirectionUrl": "tel:07290070560",
+              "displayOrder": 2
+            }
+          ],
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "Quick Links",
+          "menuItems": [
+            {
+              "menuTitle": "PW Prerna",
+              "redirectionUrl": "https://www.pw.live/prerna",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "PW SIP",
+              "redirectionUrl": "https://www.pw.live/sip",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "PW Gurukulam",
+              "redirectionUrl": "https://www.thegurukulam.school/",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Alakh Sir Notes",
+              "redirectionUrl": "https://www.pw.live/notes",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Investor Relations",
+              "redirectionUrl": "https://www.pw.live/investor-relations",
+              "displayOrder": 5
+            }
+          ],
+          "displayOrder": 5
+        },
+        {
+          "menuTitle": "Our Products",
+          "menuItems": [
+            {
+              "menuTitle": "PW App Learning",
+              "redirectionUrl": "https://play.google.com/store/apps/details?id=xyz.penpencil.physicswala",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "PW Offline Payments (Fin-Z)",
+              "redirectionUrl": "https://finz.live/",
+              "displayOrder": 2
+            }
+          ],
+          "displayOrder": 6
+        }
+      ]
+    }
+  },
+  {
+    "type": "potential_batch",
+    "data": {
+      "_id": "659008b279c2c01b1d98536b",
+      "status": true,
+      "section": 2,
+      "menuItems": [
+        {
+          "menuTitle": "PW Study Materials",
+          "menuItems": [
+            {
+              "menuTitle": "Class 10 Sample Paper",
+              "redirectionUrl": "https://store.pw.live/school-books/class-10th/10th-sample-papers",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Class 10th Study Material",
+              "redirectionUrl": "https://store.pw.live/school-books/class-10th",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Arjuna JEE Modules",
+              "redirectionUrl": "https://store.pw.live/products/arjuna-jee-class-11-pcm-combo-2025",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "JEE 7 Years PYQ",
+              "redirectionUrl": "https://store.pw.live/products/jee-main-7-years-pyq-combo-2026",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "JEE 48 Years PYQ",
+              "redirectionUrl": "https://store.pw.live/products/48-years-jee-advance-pyqs-combo",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "Yakeen NEET Modules",
+              "redirectionUrl": "https://store.pw.live/products/yakeen-neet-droppers-pcb-hindi-combo-2025-omr",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "NCERT Punch",
+              "redirectionUrl": "https://store.pw.live/products/objective-ncert-punch-combo-2025",
+              "displayOrder": 8
+            },
+            {
+              "menuTitle": "Arjuna NEET Modules",
+              "redirectionUrl": "https://store.pw.live/products/arjuna-neet-class-11-pcb-combo-2025-omr",
+              "displayOrder": 9
+            },
+            {
+              "menuTitle": "NEET 38 Years PYQ",
+              "redirectionUrl": "https://store.pw.live/products/neet-38-years-pyq-combo-of-3-2025",
+              "displayOrder": 10
+            },
+            {
+              "menuTitle": "SSC Game Changer PYQ",
+              "redirectionUrl": "https://store.pw.live/products/ssc-game-changer-pyq-combo-set-2025",
+              "displayOrder": 11
+            }
+          ],
+          "id": "659008b279c2c01b1d98535c",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "PW Books",
+          "menuItems": [
+            {
+              "menuTitle": "NEET Books",
+              "redirectionUrl": "https://store.pw.live/ug-entrance-exams/neet-books",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "IIT JEE Books",
+              "redirectionUrl": "https://store.pw.live/ug-entrance-exams/iit-jee-books",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "School Prep Books",
+              "redirectionUrl": "https://store.pw.live/school-books",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "UPSC CSE Books",
+              "redirectionUrl": "https://store.pw.live/govt-entrance-exams/upsc-books",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "NDA/Defence Books",
+              "redirectionUrl": "https://store.pw.live/ug-entrance-exams/nda-defence-books",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "RRB Books",
+              "redirectionUrl": "https://store.pw.live/govt-entrance-exams/railway-books",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "SSC Books",
+              "redirectionUrl": "https://store.pw.live/govt-entrance-exams/ssc-books",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Banking Books",
+              "redirectionUrl": "https://store.pw.live/govt-entrance-exams/banking-books",
+              "displayOrder": 8
+            },
+            {
+              "menuTitle": "PW Stationery",
+              "redirectionUrl": "https://store.pw.live/pw-stationery",
+              "displayOrder": 9
+            },
+            {
+              "menuTitle": "PW Merchandise",
+              "redirectionUrl": "https://store.pw.live/pw-merchandise",
+              "displayOrder": 10
+            }
+          ],
+          "id": "659008b279c2c01b1d98535d",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "Notes (Class 6-9)",
+          "menuItems": [
+            {
+              "menuTitle": "Class 6 Notes Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/subjects-class-six",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Class 8 Physics Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-8",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Class 8 Biology Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-biology-class-eight",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Class 8 SST Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-8-social-science-notes",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Class 9 Physics Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-9",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "Class 9 Chemistry Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-9",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "Class 9 Biology Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-biology-class-9",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Class 9 Maths Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-9-mathematics",
+              "displayOrder": 8
+            },
+            {
+              "menuTitle": "Science Formulas Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/formula",
+              "displayOrder": 9
+            },
+            {
+              "menuTitle": "Chemistry Formulas Notes",
+              "redirectionUrl": "https://www.pw.live/chemistry-formulas",
+              "displayOrder": 10
+            }
+          ],
+          "id": "659008b279c2c01b1d98535f",
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "Notes (Class 10-12)",
+          "menuItems": [
+            {
+              "menuTitle": "Class 10 Math's Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-10-mathematics",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Class 10 Chemistry Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-10",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Class 10 Physics Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-10",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Class 10 Aptitude Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-10-aptitude-reasoning",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Class 11 Maths Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-11-mathematics",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "Class 11 Chemistry Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-11",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "Class 11 Zoology Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-zoology-class-11",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Class 12 Chemistry Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-12",
+              "displayOrder": 8
+            },
+            {
+              "menuTitle": "Class 12 Physics Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-twelve",
+              "displayOrder": 9
+            },
+            {
+              "menuTitle": "Class 12 Botany Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-botany-class-12",
+              "displayOrder": 10
+            }
+          ],
+          "id": "659008b279c2c01b1d985360",
+          "displayOrder": 5
+        },
+        {
+          "menuTitle": "Govt Exams",
+          "menuItems": [
+            {
+              "menuTitle": "SSC Exam",
+              "redirectionUrl": "https://www.pw.live/ssc",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Banking Exam",
+              "redirectionUrl": "https://www.pw.live/banking",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Teaching Exams",
+              "redirectionUrl": "https://www.pw.live/teaching",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "JAIIB/CAIIB Exams",
+              "redirectionUrl": "https://www.pw.live/jaiib-caiib",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Railway Exams",
+              "redirectionUrl": "https://www.pw.live/railway",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "Judiciary Exams",
+              "redirectionUrl": "https://www.pw.live/judiciary",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "State PSC Exams",
+              "redirectionUrl": "https://www.pw.live/state-psc",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Agriculture Exams",
+              "redirectionUrl": "https://www.pw.live/agriculture",
+              "displayOrder": 8
+            }
+          ],
+          "id": "659008b279c2c01b1d985366",
+          "displayOrder": 11
+        },
+        {
+          "menuTitle": "Our Other Websites",
+          "menuItems": [
+            {
+              "menuTitle": "PW Store",
+              "redirectionUrl": "https://store.pw.live/",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "PW Skills",
+              "redirectionUrl": "https://pwskills.com/",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "PWOnlyIAS",
+              "redirectionUrl": "https://pwonlyias.com/",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "MedEd",
+              "redirectionUrl": "https://meded.pw.live/",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "PW Gulf",
+              "redirectionUrl": "https://www.pwgulf.com/",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "PW IOI",
+              "redirectionUrl": "https://www.pwioi.com/",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "CuriousJr",
+              "redirectionUrl": "https://www.curiousjr.com/",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Latest News",
+              "redirectionUrl": "https://www.pw.live/news",
+              "displayOrder": 8
+            }
+          ],
+          "id": "659008b279c2c01b1d98536a",
+          "displayOrder": 14
+        },
+        {
+          "menuTitle": "Ncert Solutions",
+          "menuItems": [
+            {
+              "menuTitle": "NCERT Solutions For Class 6",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solutions-for-class-6",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "NCERT Solutions For class 7",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solutions-for-class-7",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "NCERT Solutions for class 8",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solution-for-class-8",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "NCERT Solutions for class 9",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solutions-for-class-9",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "NCERT Solutions for class 10",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/ncert-solutions-class-10",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "NCERT Solutions for class 11",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/ncert-solutions-for-class-11",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "NCERT Solutions for Class 12",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/ncert-solutions-for-class-12",
+              "displayOrder": 7
+            }
+          ],
+          "id": "659008b279c2c01b1d98535e",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "Entrance Exams",
+          "menuItems": [
+            {
+              "menuTitle": "NEET Exam",
+              "redirectionUrl": "https://www.pw.live/neet/exams",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "IIT JEE Exam",
+              "redirectionUrl": "https://www.pw.live/iit-jee/exams",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Gate Exam",
+              "redirectionUrl": "https://www.pw.live/gate/exams",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "CUET Exam",
+              "redirectionUrl": "https://www.pw.live/cuet/exams",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "CSIR-NET Exam",
+              "redirectionUrl": "https://www.pw.live/csir-net/exams",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "MBA Exam",
+              "redirectionUrl": "https://www.pw.live/mba/exams",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "Nursing Exam",
+              "redirectionUrl": "https://www.pw.live/nursing/exams",
+              "displayOrder": 7
+            }
+          ],
+          "id": "659008b279c2c01b1d985367",
+          "displayOrder": 12
+        },
+        {
+          "menuTitle": "Govt Job Exams Coaching",
+          "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-govt-job-exams",
+          "menuItems": [
+            {
+              "menuTitle": "SSC Online Coaching",
+              "redirectionUrl": "https://www.pw.live/ssc/batches",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Bank Online Coaching",
+              "redirectionUrl": "https://www.pw.live/banking/batches",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "TET Online Coaching",
+              "redirectionUrl": "https://www.pw.live/teaching/batches",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "JAIIB/CAIIB Online Coaching",
+              "redirectionUrl": "https://www.pw.live/jaiib-caiib/batches",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Bihar Online Coaching",
+              "redirectionUrl": "https://www.pw.live/bihar/batches",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "Agriculture Exam Online Coaching",
+              "redirectionUrl": "https://www.pw.live/agriculture/batches",
+              "displayOrder": 6
+            }
+          ],
+          "id": "659008b279c2c01b1d985362",
+          "displayOrder": 7
+        },
+        {
+          "menuTitle": "Class 6 to 12 Coaching",
+          "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-school-preparation",
+          "menuItems": [
+            {
+              "menuTitle": "Class 8 Online Coaching",
+              "redirectionUrl": "https://www.pw.live/school-prep/class-8/batches",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Class 9 Online Coaching",
+              "redirectionUrl": "https://www.pw.live/school-prep/class-9/batches",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Class 10 Online Coaching",
+              "redirectionUrl": "https://www.pw.live/school-prep/class-10/batches",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Class 11 Online Coaching",
+              "redirectionUrl": "https://www.pw.live/school-prep/class-11/batches",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Class 12 Online Coaching",
+              "redirectionUrl": "https://www.pw.live/school-prep/class-12/batches",
+              "displayOrder": 5
+            }
+          ],
+          "id": "659008b279c2c01b1d985361",
+          "displayOrder": 6
+        },
+        {
+          "menuTitle": "UPSC Coaching",
+          "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-pw-only-ias",
+          "menuItems": [
+            {
+              "menuTitle": "UPSC Online Coaching",
+              "redirectionUrl": "https://www.pw.live/upsc/online-course/batches",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "UPSC Offline, Hybrid Coaching",
+              "redirectionUrl": "https://www.pw.live/upsc/offline-course/batches",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "State PSC Online Coaching",
+              "redirectionUrl": "https://www.pw.live/state-psc/batches",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "UPPSC Online Coaching",
+              "redirectionUrl": "https://www.pw.live/state-psc/uppsc/batches",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "BPSC Online Coaching",
+              "redirectionUrl": "https://www.pw.live/state-psc/bpsc/batches",
+              "displayOrder": 5
+            }
+          ],
+          "id": "659008b279c2c01b1d985363",
+          "displayOrder": 8
+        },
+        {
+          "menuTitle": "Defence Exam Coaching",
+          "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-defence",
+          "menuItems": [
+            {
+              "menuTitle": "NDA Online Coaching",
+              "redirectionUrl": "https://www.pw.live/defence/nda/batches",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "CDS Online Coaching",
+              "redirectionUrl": "https://www.pw.live/defence/cds-afcat/batches",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "SSB Online Coaching",
+              "redirectionUrl": "https://www.pw.live/defence/ssb/batches",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Agniveer Online Coaching",
+              "redirectionUrl": "https://www.pw.live/defence/agniveer/batches",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "CDS Offline Coaching",
+              "redirectionUrl": "https://www.pw.live/defence/cds-offline/batches",
+              "displayOrder": 5
+            }
+          ],
+          "id": "659008b279c2c01b1d985364",
+          "displayOrder": 9
+        },
+        {
+          "menuTitle": "Gate Exam Coaching",
+          "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-gate-exam",
+          "menuItems": [
+            {
+              "menuTitle": "Civil Engineering Coaching",
+              "redirectionUrl": "https://www.pw.live/gate/civil/batches",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Mechanical Engineering Coaching",
+              "redirectionUrl": "https://www.pw.live/gate/mechanical/batches",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "CS Coaching",
+              "redirectionUrl": "https://www.pw.live/gate/cs/batches",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "ECE Coaching",
+              "redirectionUrl": "https://www.pw.live/gate/electronics/batches",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "EE Coaching",
+              "redirectionUrl": "https://www.pw.live/gate/electrical/batches",
+              "displayOrder": 5
+            }
+          ],
+          "id": "659008b279c2c01b1d985365",
+          "displayOrder": 10
+        },
+        {
+          "menuTitle": "Other Exams",
+          "menuItems": [
+            {
+              "menuTitle": "CA Exam",
+              "redirectionUrl": "https://www.pw.live/ca",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "CS Exam",
+              "redirectionUrl": "https://www.pw.live/cs",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Olympiad Exam",
+              "redirectionUrl": "https://www.pw.live/olympiad",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Online Degree",
+              "redirectionUrl": "https://www.pw.live/online-degree",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "ACCA Exam",
+              "redirectionUrl": "https://www.pw.live/acca",
+              "displayOrder": 5
+            }
+          ],
+          "id": "659008b279c2c01b1d985368",
+          "displayOrder": 13
+        },
+        {
+          "menuTitle": "Latest News",
+          "displayOrder": 15,
+          "menuItems": [
+            {
+              "menuTitle": "UP Board Exam Centres 2026 Out",
+              "redirectionUrl": "https://www.pw.live/news/up-board-exam-centres-2026-class-10-12-list-objection-deadline",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "JEE Main 2026 Form Correction Ends Today",
+              "redirectionUrl": "https://www.pw.live/news/jee-main-2026-form-correction-last-date-edit-details-today",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "CBSE Issues New SOPs for Class 10 and 12 Practicals",
+              "redirectionUrl": "https://www.pw.live/news/cbse-new-sops-class-10-12-practicals-2025-26",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Gujarat Police Recruitment 2025 (Out)",
+              "redirectionUrl": "https://www.pw.live/news/gujarat-police-recruitment-2025",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "JEE Advanced Difficulty Level",
+              "redirectionUrl": "https://www.pw.live/news/jee-advanced-2026-which-iit-sets-paper-difficulty-level-analysis",
+              "displayOrder": 5
+            }
+          ]
+        },
+        {
+          "menuTitle": "Offline centres",
+          "displayOrder": 16,
+          "menuItems": [
+            {
+              "menuTitle": "Vidyapeeth",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "OnlyIAS UPSC Centres",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/upsc-wallah",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Superclass",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/superclass",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Govt wallah Coaching centres",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/govt-wallah",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Defence Coaching centres",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/defence-wallah",
+              "displayOrder": 5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "_id": "659008b279c2c01b1d98536b",
+      "status": true,
+      "section": 2,
+      "menuItems": [
+        {
+          "menuTitle": "PW Study Materials",
+          "menuItems": [
+            {
+              "menuTitle": "Class 10 Sample Paper",
+              "redirectionUrl": "https://store.pw.live/school-books/class-10th/10th-sample-papers",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Class 10th Study Material",
+              "redirectionUrl": "https://store.pw.live/school-books/class-10th",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Arjuna JEE Modules",
+              "redirectionUrl": "https://store.pw.live/products/arjuna-jee-class-11-pcm-combo-2025",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "JEE 7 Years PYQ",
+              "redirectionUrl": "https://store.pw.live/products/jee-main-7-years-pyq-combo-2026",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "JEE 48 Years PYQ",
+              "redirectionUrl": "https://store.pw.live/products/48-years-jee-advance-pyqs-combo",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "Yakeen NEET Modules",
+              "redirectionUrl": "https://store.pw.live/products/yakeen-neet-droppers-pcb-hindi-combo-2025-omr",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "NCERT Punch",
+              "redirectionUrl": "https://store.pw.live/products/objective-ncert-punch-combo-2025",
+              "displayOrder": 8
+            },
+            {
+              "menuTitle": "Arjuna NEET Modules",
+              "redirectionUrl": "https://store.pw.live/products/arjuna-neet-class-11-pcb-combo-2025-omr",
+              "displayOrder": 9
+            },
+            {
+              "menuTitle": "NEET 38 Years PYQ",
+              "redirectionUrl": "https://store.pw.live/products/neet-38-years-pyq-combo-of-3-2025",
+              "displayOrder": 10
+            },
+            {
+              "menuTitle": "SSC Game Changer PYQ",
+              "redirectionUrl": "https://store.pw.live/products/ssc-game-changer-pyq-combo-set-2025",
+              "displayOrder": 11
+            }
+          ],
+          "id": "659008b279c2c01b1d98535c",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "PW Books",
+          "menuItems": [
+            {
+              "menuTitle": "NEET Books",
+              "redirectionUrl": "https://store.pw.live/ug-entrance-exams/neet-books",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "IIT JEE Books",
+              "redirectionUrl": "https://store.pw.live/ug-entrance-exams/iit-jee-books",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "School Prep Books",
+              "redirectionUrl": "https://store.pw.live/school-books",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "UPSC CSE Books",
+              "redirectionUrl": "https://store.pw.live/govt-entrance-exams/upsc-books",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "NDA/Defence Books",
+              "redirectionUrl": "https://store.pw.live/ug-entrance-exams/nda-defence-books",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "RRB Books",
+              "redirectionUrl": "https://store.pw.live/govt-entrance-exams/railway-books",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "SSC Books",
+              "redirectionUrl": "https://store.pw.live/govt-entrance-exams/ssc-books",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Banking Books",
+              "redirectionUrl": "https://store.pw.live/govt-entrance-exams/banking-books",
+              "displayOrder": 8
+            },
+            {
+              "menuTitle": "PW Stationery",
+              "redirectionUrl": "https://store.pw.live/pw-stationery",
+              "displayOrder": 9
+            },
+            {
+              "menuTitle": "PW Merchandise",
+              "redirectionUrl": "https://store.pw.live/pw-merchandise",
+              "displayOrder": 10
+            }
+          ],
+          "id": "659008b279c2c01b1d98535d",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "Notes (Class 6-9)",
+          "menuItems": [
+            {
+              "menuTitle": "Class 6 Notes Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/subjects-class-six",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Class 8 Physics Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-8",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Class 8 Biology Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-biology-class-eight",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Class 8 SST Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-8-social-science-notes",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Class 9 Physics Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-9",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "Class 9 Chemistry Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-9",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "Class 9 Biology Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-biology-class-9",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Class 9 Maths Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-9-mathematics",
+              "displayOrder": 8
+            },
+            {
+              "menuTitle": "Science Formulas Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/formula",
+              "displayOrder": 9
+            },
+            {
+              "menuTitle": "Chemistry Formulas Notes",
+              "redirectionUrl": "https://www.pw.live/chemistry-formulas",
+              "displayOrder": 10
+            }
+          ],
+          "id": "659008b279c2c01b1d98535f",
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "Notes (Class 10-12)",
+          "menuItems": [
+            {
+              "menuTitle": "Class 10 Math's Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-10-mathematics",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Class 10 Chemistry Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-10",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Class 10 Physics Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-10",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Class 10 Aptitude Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-10-aptitude-reasoning",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Class 11 Maths Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-11-mathematics",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "Class 11 Chemistry Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-11",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "Class 11 Zoology Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-zoology-class-11",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Class 12 Chemistry Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-12",
+              "displayOrder": 8
+            },
+            {
+              "menuTitle": "Class 12 Physics Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-twelve",
+              "displayOrder": 9
+            },
+            {
+              "menuTitle": "Class 12 Botany Notes",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-botany-class-12",
+              "displayOrder": 10
+            }
+          ],
+          "id": "659008b279c2c01b1d985360",
+          "displayOrder": 5
+        },
+        {
+          "menuTitle": "Govt Exams",
+          "menuItems": [
+            {
+              "menuTitle": "SSC Exam",
+              "redirectionUrl": "https://www.pw.live/ssc",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Banking Exam",
+              "redirectionUrl": "https://www.pw.live/banking",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Teaching Exams",
+              "redirectionUrl": "https://www.pw.live/teaching",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "JAIIB/CAIIB Exams",
+              "redirectionUrl": "https://www.pw.live/jaiib-caiib",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Railway Exams",
+              "redirectionUrl": "https://www.pw.live/railway",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "Judiciary Exams",
+              "redirectionUrl": "https://www.pw.live/judiciary",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "State PSC Exams",
+              "redirectionUrl": "https://www.pw.live/state-psc",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Agriculture Exams",
+              "redirectionUrl": "https://www.pw.live/agriculture",
+              "displayOrder": 8
+            }
+          ],
+          "id": "659008b279c2c01b1d985366",
+          "displayOrder": 11
+        },
+        {
+          "menuTitle": "Our Other Websites",
+          "menuItems": [
+            {
+              "menuTitle": "PW Store",
+              "redirectionUrl": "https://store.pw.live/",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "PW Skills",
+              "redirectionUrl": "https://pwskills.com/",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "PWOnlyIAS",
+              "redirectionUrl": "https://pwonlyias.com/",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "MedEd",
+              "redirectionUrl": "https://meded.pw.live/",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "PW Gulf",
+              "redirectionUrl": "https://www.pwgulf.com/",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "PW IOI",
+              "redirectionUrl": "https://www.pwioi.com/",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "CuriousJr",
+              "redirectionUrl": "https://www.curiousjr.com/",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Latest News",
+              "redirectionUrl": "https://www.pw.live/news",
+              "displayOrder": 8
+            }
+          ],
+          "id": "659008b279c2c01b1d98536a",
+          "displayOrder": 14
+        },
+        {
+          "menuTitle": "Ncert Solutions",
+          "menuItems": [
+            {
+              "menuTitle": "NCERT Solutions For Class 6",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solutions-for-class-6",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "NCERT Solutions For class 7",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solutions-for-class-7",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "NCERT Solutions for class 8",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solution-for-class-8",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "NCERT Solutions for class 9",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solutions-for-class-9",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "NCERT Solutions for class 10",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/ncert-solutions-class-10",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "NCERT Solutions for class 11",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/ncert-solutions-for-class-11",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "NCERT Solutions for Class 12",
+              "redirectionUrl": "https://www.pw.live/school-prep/exams/ncert-solutions-for-class-12",
+              "displayOrder": 7
+            }
+          ],
+          "id": "659008b279c2c01b1d98535e",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "Entrance Exams",
+          "menuItems": [
+            {
+              "menuTitle": "NEET Exam",
+              "redirectionUrl": "https://www.pw.live/neet/exams",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "IIT JEE Exam",
+              "redirectionUrl": "https://www.pw.live/iit-jee/exams",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Gate Exam",
+              "redirectionUrl": "https://www.pw.live/gate/exams",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "CUET Exam",
+              "redirectionUrl": "https://www.pw.live/cuet/exams",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "CSIR-NET Exam",
+              "redirectionUrl": "https://www.pw.live/csir-net/exams",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "MBA Exam",
+              "redirectionUrl": "https://www.pw.live/mba/exams",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "Nursing Exam",
+              "redirectionUrl": "https://www.pw.live/nursing/exams",
+              "displayOrder": 7
+            }
+          ],
+          "id": "659008b279c2c01b1d985367",
+          "displayOrder": 12
+        },
+        {
+          "menuTitle": "Govt Job Exams Coaching",
+          "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-govt-job-exams",
+          "menuItems": [
+            {
+              "menuTitle": "SSC Online Coaching",
+              "redirectionUrl": "https://www.pw.live/ssc/batches",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Bank Online Coaching",
+              "redirectionUrl": "https://www.pw.live/banking/batches",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "TET Online Coaching",
+              "redirectionUrl": "https://www.pw.live/teaching/batches",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "JAIIB/CAIIB Online Coaching",
+              "redirectionUrl": "https://www.pw.live/jaiib-caiib/batches",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Bihar Online Coaching",
+              "redirectionUrl": "https://www.pw.live/bihar/batches",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "Agriculture Exam Online Coaching",
+              "redirectionUrl": "https://www.pw.live/agriculture/batches",
+              "displayOrder": 6
+            }
+          ],
+          "id": "659008b279c2c01b1d985362",
+          "displayOrder": 7
+        },
+        {
+          "menuTitle": "Class 6 to 12 Coaching",
+          "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-school-preparation",
+          "menuItems": [
+            {
+              "menuTitle": "Class 8 Online Coaching",
+              "redirectionUrl": "https://www.pw.live/school-prep/class-8/batches",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Class 9 Online Coaching",
+              "redirectionUrl": "https://www.pw.live/school-prep/class-9/batches",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Class 10 Online Coaching",
+              "redirectionUrl": "https://www.pw.live/school-prep/class-10/batches",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Class 11 Online Coaching",
+              "redirectionUrl": "https://www.pw.live/school-prep/class-11/batches",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Class 12 Online Coaching",
+              "redirectionUrl": "https://www.pw.live/school-prep/class-12/batches",
+              "displayOrder": 5
+            }
+          ],
+          "id": "659008b279c2c01b1d985361",
+          "displayOrder": 6
+        },
+        {
+          "menuTitle": "UPSC Coaching",
+          "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-pw-only-ias",
+          "menuItems": [
+            {
+              "menuTitle": "UPSC Online Coaching",
+              "redirectionUrl": "https://www.pw.live/upsc/online-course/batches",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "UPSC Offline, Hybrid Coaching",
+              "redirectionUrl": "https://www.pw.live/upsc/offline-course/batches",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "State PSC Online Coaching",
+              "redirectionUrl": "https://www.pw.live/state-psc/batches",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "UPPSC Online Coaching",
+              "redirectionUrl": "https://www.pw.live/state-psc/uppsc/batches",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "BPSC Online Coaching",
+              "redirectionUrl": "https://www.pw.live/state-psc/bpsc/batches",
+              "displayOrder": 5
+            }
+          ],
+          "id": "659008b279c2c01b1d985363",
+          "displayOrder": 8
+        },
+        {
+          "menuTitle": "Defence Exam Coaching",
+          "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-defence",
+          "menuItems": [
+            {
+              "menuTitle": "NDA Online Coaching",
+              "redirectionUrl": "https://www.pw.live/defence/nda/batches",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "CDS Online Coaching",
+              "redirectionUrl": "https://www.pw.live/defence/cds-afcat/batches",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "SSB Online Coaching",
+              "redirectionUrl": "https://www.pw.live/defence/ssb/batches",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Agniveer Online Coaching",
+              "redirectionUrl": "https://www.pw.live/defence/agniveer/batches",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "CDS Offline Coaching",
+              "redirectionUrl": "https://www.pw.live/defence/cds-offline/batches",
+              "displayOrder": 5
+            }
+          ],
+          "id": "659008b279c2c01b1d985364",
+          "displayOrder": 9
+        },
+        {
+          "menuTitle": "Gate Exam Coaching",
+          "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-gate-exam",
+          "menuItems": [
+            {
+              "menuTitle": "Civil Engineering Coaching",
+              "redirectionUrl": "https://www.pw.live/gate/civil/batches",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Mechanical Engineering Coaching",
+              "redirectionUrl": "https://www.pw.live/gate/mechanical/batches",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "CS Coaching",
+              "redirectionUrl": "https://www.pw.live/gate/cs/batches",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "ECE Coaching",
+              "redirectionUrl": "https://www.pw.live/gate/electronics/batches",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "EE Coaching",
+              "redirectionUrl": "https://www.pw.live/gate/electrical/batches",
+              "displayOrder": 5
+            }
+          ],
+          "id": "659008b279c2c01b1d985365",
+          "displayOrder": 10
+        },
+        {
+          "menuTitle": "Other Exams",
+          "menuItems": [
+            {
+              "menuTitle": "CA Exam",
+              "redirectionUrl": "https://www.pw.live/ca",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "CS Exam",
+              "redirectionUrl": "https://www.pw.live/cs",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Olympiad Exam",
+              "redirectionUrl": "https://www.pw.live/olympiad",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Online Degree",
+              "redirectionUrl": "https://www.pw.live/online-degree",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "ACCA Exam",
+              "redirectionUrl": "https://www.pw.live/acca",
+              "displayOrder": 5
+            }
+          ],
+          "id": "659008b279c2c01b1d985368",
+          "displayOrder": 13
+        },
+        {
+          "menuTitle": "Latest News",
+          "displayOrder": 15,
+          "menuItems": [
+            {
+              "menuTitle": "UP Board Exam Centres 2026 Out",
+              "redirectionUrl": "https://www.pw.live/news/up-board-exam-centres-2026-class-10-12-list-objection-deadline",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "JEE Main 2026 Form Correction Ends Today",
+              "redirectionUrl": "https://www.pw.live/news/jee-main-2026-form-correction-last-date-edit-details-today",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "CBSE Issues New SOPs for Class 10 and 12 Practicals",
+              "redirectionUrl": "https://www.pw.live/news/cbse-new-sops-class-10-12-practicals-2025-26",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Gujarat Police Recruitment 2025 (Out)",
+              "redirectionUrl": "https://www.pw.live/news/gujarat-police-recruitment-2025",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "JEE Advanced Difficulty Level",
+              "redirectionUrl": "https://www.pw.live/news/jee-advanced-2026-which-iit-sets-paper-difficulty-level-analysis",
+              "displayOrder": 5
+            }
+          ]
+        },
+        {
+          "menuTitle": "Offline centres",
+          "displayOrder": 16,
+          "menuItems": [
+            {
+              "menuTitle": "Vidyapeeth",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "OnlyIAS UPSC Centres",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/upsc-wallah",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "Superclass",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/superclass",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "Govt wallah Coaching centres",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/govt-wallah",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Defence Coaching centres",
+              "redirectionUrl": "https://www.pw.live/offline-centres/batches/defence-wallah",
+              "displayOrder": 5
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "type": "potential_batch",
+    "data": {
+      "menuTitle": "PW Study Materials",
+      "menuItems": [
+        {
+          "menuTitle": "Class 10 Sample Paper",
+          "redirectionUrl": "https://store.pw.live/school-books/class-10th/10th-sample-papers",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "Class 10th Study Material",
+          "redirectionUrl": "https://store.pw.live/school-books/class-10th",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "Arjuna JEE Modules",
+          "redirectionUrl": "https://store.pw.live/products/arjuna-jee-class-11-pcm-combo-2025",
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "JEE 7 Years PYQ",
+          "redirectionUrl": "https://store.pw.live/products/jee-main-7-years-pyq-combo-2026",
+          "displayOrder": 5
+        },
+        {
+          "menuTitle": "JEE 48 Years PYQ",
+          "redirectionUrl": "https://store.pw.live/products/48-years-jee-advance-pyqs-combo",
+          "displayOrder": 6
+        },
+        {
+          "menuTitle": "Yakeen NEET Modules",
+          "redirectionUrl": "https://store.pw.live/products/yakeen-neet-droppers-pcb-hindi-combo-2025-omr",
+          "displayOrder": 7
+        },
+        {
+          "menuTitle": "NCERT Punch",
+          "redirectionUrl": "https://store.pw.live/products/objective-ncert-punch-combo-2025",
+          "displayOrder": 8
+        },
+        {
+          "menuTitle": "Arjuna NEET Modules",
+          "redirectionUrl": "https://store.pw.live/products/arjuna-neet-class-11-pcb-combo-2025-omr",
+          "displayOrder": 9
+        },
+        {
+          "menuTitle": "NEET 38 Years PYQ",
+          "redirectionUrl": "https://store.pw.live/products/neet-38-years-pyq-combo-of-3-2025",
+          "displayOrder": 10
+        },
+        {
+          "menuTitle": "SSC Game Changer PYQ",
+          "redirectionUrl": "https://store.pw.live/products/ssc-game-changer-pyq-combo-set-2025",
+          "displayOrder": 11
+        }
+      ],
+      "id": "659008b279c2c01b1d98535c",
+      "displayOrder": 1
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "menuTitle": "Notes (Class 6-9)",
+      "menuItems": [
+        {
+          "menuTitle": "Class 6 Notes Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/subjects-class-six",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "Class 8 Physics Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-8",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "Class 8 Biology Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-biology-class-eight",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "Class 8 SST Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-8-social-science-notes",
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "Class 9 Physics Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-9",
+          "displayOrder": 5
+        },
+        {
+          "menuTitle": "Class 9 Chemistry Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-9",
+          "displayOrder": 6
+        },
+        {
+          "menuTitle": "Class 9 Biology Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-biology-class-9",
+          "displayOrder": 7
+        },
+        {
+          "menuTitle": "Class 9 Maths Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-9-mathematics",
+          "displayOrder": 8
+        },
+        {
+          "menuTitle": "Science Formulas Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/formula",
+          "displayOrder": 9
+        },
+        {
+          "menuTitle": "Chemistry Formulas Notes",
+          "redirectionUrl": "https://www.pw.live/chemistry-formulas",
+          "displayOrder": 10
+        }
+      ],
+      "id": "659008b279c2c01b1d98535f",
+      "displayOrder": 4
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "menuTitle": "Notes (Class 10-12)",
+      "menuItems": [
+        {
+          "menuTitle": "Class 10 Math's Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-10-mathematics",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "Class 10 Chemistry Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-10",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "Class 10 Physics Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-10",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "Class 10 Aptitude Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-10-aptitude-reasoning",
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "Class 11 Maths Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-11-mathematics",
+          "displayOrder": 5
+        },
+        {
+          "menuTitle": "Class 11 Chemistry Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-11",
+          "displayOrder": 6
+        },
+        {
+          "menuTitle": "Class 11 Zoology Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-zoology-class-11",
+          "displayOrder": 7
+        },
+        {
+          "menuTitle": "Class 12 Chemistry Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-12",
+          "displayOrder": 8
+        },
+        {
+          "menuTitle": "Class 12 Physics Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-twelve",
+          "displayOrder": 9
+        },
+        {
+          "menuTitle": "Class 12 Botany Notes",
+          "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-botany-class-12",
+          "displayOrder": 10
+        }
+      ],
+      "id": "659008b279c2c01b1d985360",
+      "displayOrder": 5
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "menuTitle": "Govt Job Exams Coaching",
+      "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-govt-job-exams",
+      "menuItems": [
+        {
+          "menuTitle": "SSC Online Coaching",
+          "redirectionUrl": "https://www.pw.live/ssc/batches",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "Bank Online Coaching",
+          "redirectionUrl": "https://www.pw.live/banking/batches",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "TET Online Coaching",
+          "redirectionUrl": "https://www.pw.live/teaching/batches",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "JAIIB/CAIIB Online Coaching",
+          "redirectionUrl": "https://www.pw.live/jaiib-caiib/batches",
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "Bihar Online Coaching",
+          "redirectionUrl": "https://www.pw.live/bihar/batches",
+          "displayOrder": 5
+        },
+        {
+          "menuTitle": "Agriculture Exam Online Coaching",
+          "redirectionUrl": "https://www.pw.live/agriculture/batches",
+          "displayOrder": 6
+        }
+      ],
+      "id": "659008b279c2c01b1d985362",
+      "displayOrder": 7
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "menuTitle": "Class 6 to 12 Coaching",
+      "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-school-preparation",
+      "menuItems": [
+        {
+          "menuTitle": "Class 8 Online Coaching",
+          "redirectionUrl": "https://www.pw.live/school-prep/class-8/batches",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "Class 9 Online Coaching",
+          "redirectionUrl": "https://www.pw.live/school-prep/class-9/batches",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "Class 10 Online Coaching",
+          "redirectionUrl": "https://www.pw.live/school-prep/class-10/batches",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "Class 11 Online Coaching",
+          "redirectionUrl": "https://www.pw.live/school-prep/class-11/batches",
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "Class 12 Online Coaching",
+          "redirectionUrl": "https://www.pw.live/school-prep/class-12/batches",
+          "displayOrder": 5
+        }
+      ],
+      "id": "659008b279c2c01b1d985361",
+      "displayOrder": 6
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "menuTitle": "UPSC Coaching",
+      "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-pw-only-ias",
+      "menuItems": [
+        {
+          "menuTitle": "UPSC Online Coaching",
+          "redirectionUrl": "https://www.pw.live/upsc/online-course/batches",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "UPSC Offline, Hybrid Coaching",
+          "redirectionUrl": "https://www.pw.live/upsc/offline-course/batches",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "State PSC Online Coaching",
+          "redirectionUrl": "https://www.pw.live/state-psc/batches",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "UPPSC Online Coaching",
+          "redirectionUrl": "https://www.pw.live/state-psc/uppsc/batches",
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "BPSC Online Coaching",
+          "redirectionUrl": "https://www.pw.live/state-psc/bpsc/batches",
+          "displayOrder": 5
+        }
+      ],
+      "id": "659008b279c2c01b1d985363",
+      "displayOrder": 8
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "menuTitle": "Defence Exam Coaching",
+      "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-defence",
+      "menuItems": [
+        {
+          "menuTitle": "NDA Online Coaching",
+          "redirectionUrl": "https://www.pw.live/defence/nda/batches",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "CDS Online Coaching",
+          "redirectionUrl": "https://www.pw.live/defence/cds-afcat/batches",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "SSB Online Coaching",
+          "redirectionUrl": "https://www.pw.live/defence/ssb/batches",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "Agniveer Online Coaching",
+          "redirectionUrl": "https://www.pw.live/defence/agniveer/batches",
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "CDS Offline Coaching",
+          "redirectionUrl": "https://www.pw.live/defence/cds-offline/batches",
+          "displayOrder": 5
+        }
+      ],
+      "id": "659008b279c2c01b1d985364",
+      "displayOrder": 9
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "menuTitle": "Gate Exam Coaching",
+      "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-gate-exam",
+      "menuItems": [
+        {
+          "menuTitle": "Civil Engineering Coaching",
+          "redirectionUrl": "https://www.pw.live/gate/civil/batches",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "Mechanical Engineering Coaching",
+          "redirectionUrl": "https://www.pw.live/gate/mechanical/batches",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "CS Coaching",
+          "redirectionUrl": "https://www.pw.live/gate/cs/batches",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "ECE Coaching",
+          "redirectionUrl": "https://www.pw.live/gate/electronics/batches",
+          "displayOrder": 4
+        },
+        {
+          "menuTitle": "EE Coaching",
+          "redirectionUrl": "https://www.pw.live/gate/electrical/batches",
+          "displayOrder": 5
+        }
+      ],
+      "id": "659008b279c2c01b1d985365",
+      "displayOrder": 10
+    }
+  },
+  {
+    "type": "potential_batch",
+    "data": {
+      "_id": "659008d7c553fe5489f64ec0",
+      "status": true,
+      "section": 3,
+      "menuItems": [
+        {
+          "menuTitle": "Know about Physics Wallah",
+          "description": "Physics Wallah is an Indian online education platform, that provides accessible & comprehensive learning experiences to students of classes 6 to 12 and those preparing for JEE and NEET exams. We also provide extensive NCERT solutions, sample papers, NEET, JEE Mains, BITSAT previous year papers, which makes us a one-stop solution for all resources. Physics Wallah also caters to over 3.5 million registered students and over 78 lakh+ Youtube subscribers with 4.8 rating on its app.",
+          "id": "659008d7c553fe5489f64ebc",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "We Stand Out because",
+          "description": "We successfully provide students with intensive courses by India's qualified & experienced faculties. PW strives to make the learning experience comprehensive and accessible for students of all sections of society. We believe in empowering every single student who couldn't dream of a good career in engineering and medical field earlier.",
+          "id": "659008d7c553fe5489f64ebd",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "Our Key Focus Areas",
+          "description": "Physics Wallah’s main focus is to create accessible learning experiences for students all over India. With courses like Lakshya, Udaan, Arjuna & many others, we have been able to provide a ready solution for lakhs of aspirants. From providing Chemistry, Maths, Physics formulae to giving e-books of eminent authors, PW aims to provide reliable solutions for student prep.",
+          "id": "659008d7c553fe5489f64ebe",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "What Makes Us Different",
+          "description": "Physics Wallah strives to develop a comprehensive pedagogical structure for students, where they get a state-of-the-art learning experience with study material and resources. Apart from catering students preparing for JEE Mains and NEET, PW also provides study material for each state board like Uttar Pradesh, Bihar, and others.",
+          "id": "659008d7c553fe5489f64ebf",
+          "displayOrder": 4
+        }
+      ]
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "_id": "659008d7c553fe5489f64ec0",
+      "status": true,
+      "section": 3,
+      "menuItems": [
+        {
+          "menuTitle": "Know about Physics Wallah",
+          "description": "Physics Wallah is an Indian online education platform, that provides accessible & comprehensive learning experiences to students of classes 6 to 12 and those preparing for JEE and NEET exams. We also provide extensive NCERT solutions, sample papers, NEET, JEE Mains, BITSAT previous year papers, which makes us a one-stop solution for all resources. Physics Wallah also caters to over 3.5 million registered students and over 78 lakh+ Youtube subscribers with 4.8 rating on its app.",
+          "id": "659008d7c553fe5489f64ebc",
+          "displayOrder": 1
+        },
+        {
+          "menuTitle": "We Stand Out because",
+          "description": "We successfully provide students with intensive courses by India's qualified & experienced faculties. PW strives to make the learning experience comprehensive and accessible for students of all sections of society. We believe in empowering every single student who couldn't dream of a good career in engineering and medical field earlier.",
+          "id": "659008d7c553fe5489f64ebd",
+          "displayOrder": 2
+        },
+        {
+          "menuTitle": "Our Key Focus Areas",
+          "description": "Physics Wallah’s main focus is to create accessible learning experiences for students all over India. With courses like Lakshya, Udaan, Arjuna & many others, we have been able to provide a ready solution for lakhs of aspirants. From providing Chemistry, Maths, Physics formulae to giving e-books of eminent authors, PW aims to provide reliable solutions for student prep.",
+          "id": "659008d7c553fe5489f64ebe",
+          "displayOrder": 3
+        },
+        {
+          "menuTitle": "What Makes Us Different",
+          "description": "Physics Wallah strives to develop a comprehensive pedagogical structure for students, where they get a state-of-the-art learning experience with study material and resources. Apart from catering students preparing for JEE Mains and NEET, PW also provides study material for each state board like Uttar Pradesh, Bihar, and others.",
+          "id": "659008d7c553fe5489f64ebf",
+          "displayOrder": 4
+        }
+      ]
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "menuTitle": "Know about Physics Wallah",
+      "description": "Physics Wallah is an Indian online education platform, that provides accessible & comprehensive learning experiences to students of classes 6 to 12 and those preparing for JEE and NEET exams. We also provide extensive NCERT solutions, sample papers, NEET, JEE Mains, BITSAT previous year papers, which makes us a one-stop solution for all resources. Physics Wallah also caters to over 3.5 million registered students and over 78 lakh+ Youtube subscribers with 4.8 rating on its app.",
+      "id": "659008d7c553fe5489f64ebc",
+      "displayOrder": 1
+    }
+  },
+  {
+    "type": "potential_batch",
+    "data": {
+      "menuTitle": "Our Key Focus Areas",
+      "description": "Physics Wallah’s main focus is to create accessible learning experiences for students all over India. With courses like Lakshya, Udaan, Arjuna & many others, we have been able to provide a ready solution for lakhs of aspirants. From providing Chemistry, Maths, Physics formulae to giving e-books of eminent authors, PW aims to provide reliable solutions for student prep.",
+      "id": "659008d7c553fe5489f64ebe",
+      "displayOrder": 3
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "menuTitle": "Our Key Focus Areas",
+      "description": "Physics Wallah’s main focus is to create accessible learning experiences for students all over India. With courses like Lakshya, Udaan, Arjuna & many others, we have been able to provide a ready solution for lakhs of aspirants. From providing Chemistry, Maths, Physics formulae to giving e-books of eminent authors, PW aims to provide reliable solutions for student prep.",
+      "id": "659008d7c553fe5489f64ebe",
+      "displayOrder": 3
+    }
+  },
+  {
+    "type": "potential_subject",
+    "data": {
+      "menuTitle": "What Makes Us Different",
+      "description": "Physics Wallah strives to develop a comprehensive pedagogical structure for students, where they get a state-of-the-art learning experience with study material and resources. Apart from catering students preparing for JEE Mains and NEET, PW also provides study material for each state board like Uttar Pradesh, Bihar, and others.",
+      "id": "659008d7c553fe5489f64ebf",
+      "displayOrder": 4
+    }
+  }
+]

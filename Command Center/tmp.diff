@@ -1,0 +1,68 @@
+diff --git a/Command Center/src/App.tsx b/Command Center/src/App.tsx
+index 58370cb..40de312 100644
+--- a/Command Center/src/App.tsx	
++++ b/Command Center/src/App.tsx	
+@@ -5,9 +5,6 @@ import { Consistency } from './components/Consistency';
+ import { Goals } from './components/Goals';
+ import { SubjectExplorer } from './components/SubjectExplorer';
+ import { RevisionHub } from './components/RevisionHub';
+-import { PracticeLadder } from './components/PracticeLadder';
+-import { MistakeVaultView } from './components/MistakeVaultView';
+-
+ import {
+   BarChart2,
+   Layout,
+@@ -15,23 +12,20 @@ import {
+   Target,
+   Activity,
+   Globe,
+-  RefreshCw,
+-  Ghost
++  RefreshCw
+ } from 'lucide-react';
+ import 'katex/dist/katex.min.css';
+ 
+-type ViewType = 'dashboard' | 'explorer' | 'goals' | 'revision' | 'statistics' | 'consistency' | 'timeline' | 'ladder' | 'mistakes';
++type ViewType = 'dashboard' | 'explorer' | 'goals' | 'revision' | 'statistics' | 'consistency' | 'timeline';
+ 
+ const App: React.FC = () => {
+   const [activeView, setActiveView] = useState<ViewType>('dashboard');
+-  const [ladderConfig, setLadderConfig] = useState<{ subject: string; chapter: string; data: any } | null>(null);
+ 
+   const navLinks = [
+     { id: 'dashboard', label: 'Dashboard', icon: <Layout size={18} /> },
+     { id: 'explorer', label: 'Explorer', icon: <Globe size={18} /> },
+     { id: 'goals', label: 'Goals', icon: <Target size={18} /> },
+     { id: 'revision', label: 'Revision', icon: <RefreshCw size={18} /> },
+-    { id: 'mistakes', label: 'Mistake Vault', icon: <Ghost size={18} /> },
+     { id: 'statistics', label: 'Statistics', icon: <BarChart2 size={18} /> },
+     { id: 'consistency', label: 'Consistency', icon: <Activity size={18} /> },
+     { id: 'timeline', label: 'Timeline', icon: <Clock size={18} /> },
+@@ -90,26 +84,10 @@ const App: React.FC = () => {
+           </header>
+ 
+           <div className="view-content flex-1">
+-            {activeView === 'dashboard' && (
+-              <Dashboard
+-                onStartLadder={(subject: string, chapter: string, data: any) => {
+-                  setLadderConfig({ subject, chapter, data });
+-                  setActiveView('ladder');
+-                }}
+-              />
+-            )}
++            {activeView === 'dashboard' && <Dashboard />}
+             {activeView === 'explorer' && <SubjectExplorer />}
+             {activeView === 'goals' && <Goals />}
+             {activeView === 'revision' && <RevisionHub />}
+-            {activeView === 'mistakes' && <MistakeVaultView />}
+-            {activeView === 'ladder' && ladderConfig && (
+-              <PracticeLadder
+-                subject={ladderConfig.subject}
+-                chapter={ladderConfig.chapter}
+-                questions={ladderConfig.data}
+-                onBack={() => setActiveView('dashboard')}
+-              />
+-            )}
+             {activeView === 'statistics' && <Statistics />}
+             {activeView === 'consistency' && <Consistency />}
+             {activeView === 'timeline' && (

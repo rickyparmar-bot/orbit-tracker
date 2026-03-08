@@ -1,0 +1,1520 @@
+{
+  "answer": "[\n  {\n    \"id\": 1,\n    \"year\": 2024,\n    \"exam\": \"JEE Advanced\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let f : R -> R be a function such that f(x + y) = f(x) + f(y) for all x, y in R, and g : R -> (0, \\\\infty) be a function such that g(x + y) = g(x)g(y) for all x, y in R. If f(-3/5) = 12 and g(-1/3) = 2, then the value of (f(1/4) + g(-2) - 8) g(0) is ______.\",\n    \"options\": [\n      \"42\",\n      \"51\",\n      \"64\",\n      \"12\"\n    ],\n    \"answer\": \"51\",\n    \"detailed_solution\": \"From the equation f(x+y) = f(x) + f(y), we deduce f(nx) = n f(x), leading to f(x) = kx for rational x. Given f(-3/5) = 12, we find k(-3/5) = 12, yielding k = -20. Thus, f(1/4) = -20(1/4) = -5. From g(x+y) = g(x)g(y), we get g(x) = a^x. Given g(-1/3) = 2, we have a^(-1/3) = 2, yielding a = 1/8. Thus, g(-2) = (1/8)^(-2) = 64, and g(0) = 1. Evaluating the expression: (-5 + 64 - 8)(1) = 51. <ShortTrick>NV Sir Hack: For functional equations, if f(x+y) = f(x) + f(y), assume f(x) = kx. If f(x+y) = f(x)f(y), assume f(x) = a^x.</ShortTrick>\",\n    \"difficulty\": 8,\n    \"concept_tag\": \"Functional Equations\"\n  },\n  {\n    \"id\": 2,\n    \"year\": 2024,\n    \"exam\": \"JEE Advanced\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let the function f : R -> R be defined by f(x) = ((x^{2023} + 2024x + 2025) e^{\\\\pi x}) / ((x^2 - x + 3)(sin x + 2)). Then the number of solutions of f(x) = 0 in R is ______.\",\n    \"options\": [\n      \"0\",\n      \"1\",\n      \"2\",\n      \"3\"\n    ],\n    \"answer\": \"1\",\n    \"detailed_solution\": \"The denominator components (x^2 - x + 3) and (sin x + 2) are always strictly positive, and e^{\\\\pi x} > 0 for all real x. So f(x) = 0 implies the numerator polynomial \\\\phi(x) = x^{2023} + 2024x + 2025 = 0. Taking the derivative, \\\\phi'(x) = 2023x^{2022} + 2024. Since x^{2022} >= 0, \\\\phi'(x) > 0 for all real x. Thus, \\\\phi(x) is a strictly increasing continuous function from -\\\\infty to +\\\\infty, crossing the x-axis exactly once. <ShortTrick>NV Sir Hack: To check One-One or roots graphically, use derivatives. If f'(x) > 0 universally, the function is strictly increasing. It will cut the x-axis exactly once, meaning exactly 1 root!</ShortTrick>\",\n    \"difficulty\": 6,\n    \"concept_tag\": \"Roots of a Function\"\n  },\n  {\n    \"id\": 3,\n    \"year\": 2023,\n    \"exam\": \"JEE Advanced\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let S = (0, 1) U (1, 2) U (3, 4) and T = {0, 1, 2, 3}. Which of the following statements is true regarding functions from S to T? (Select the most appropriate combination)\",\n    \"options\": [\n      \"(a) Infinite functions, (b) Infinite strictly increasing functions\",\n      \"(a) Infinite functions, (c) Max 120 continuous functions, (d) Every continuous function is differentiable\",\n      \"(b) Infinite strictly increasing functions, (c) Max 120 continuous functions\",\n      \"(a) Infinite functions, (d) Every continuous function is differentiable only\"\n    ],\n    \"answer\": \"(a), (c), (d) are true\",\n    \"detailed_solution\": \"Since S has infinite elements and T has 4 elements, there are infinitely many functions from S to T (Statement A is true). Since |S| > |T|, there are 0 strictly increasing functions (Statement B is false). A continuous function from a union of disjoint open intervals to a discrete set T must be constant on each interval. Since S has 3 intervals and T has 4 choices, maximum continuous functions = 4^3 = 64. Since 64 <= 120, Statement C is true. Since the continuous functions are piecewise constant, their derivative is 0 everywhere they are defined. Thus, they are differentiable (Statement D is true).\",\n    \"difficulty\": 7,\n    \"concept_tag\": \"Types of Functions\"\n  },\n  {\n    \"id\": 4,\n    \"year\": 2020,\n    \"exam\": \"JEE Advanced\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let the function f : [1] -> R be defined by f(x) = 4^x / (4^x + 2). Then the value of f(1/40) + f(2/40) + ... + f(39/40) - f(1/2) is ..........\",\n    \"options\": [\n      \"18\",\n      \"19\",\n      \"19.5\",\n      \"20\"\n    ],\n    \"answer\": \"19\",\n    \"detailed_solution\": \"First, we evaluate the property f(x) + f(1 - x). By substituting, we get 4^x / (4^x + 2) + 4^{1-x} / (4^{1-x} + 2) = 1. The series consists of 39 terms. We can pair the first and last terms: f(1/40) + f(39/40) = 1, f(2/40) + f(38/40) = 1, and so on. This forms 19 pairs, each summing to 1, plus one unpaired middle term f(20/40) = f(1/2). The total sum is 19(1) + f(1/2). Subtracting f(1/2) gives exactly 19.\",\n    \"difficulty\": 7,\n    \"concept_tag\": \"Properties of Functions\"\n  },\n  {\n    \"id\": 5,\n    \"year\": 2020,\n    \"exam\": \"JEE Advanced\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"If the function f : R -> R is defined by f(x) = |x| (x - sin x), then which of the following statements is TRUE?\",\n    \"options\": [\n      \"f is one-one, but NOT onto\",\n      \"f is onto, but NOT one-one\",\n      \"f is BOTH one-one and onto\",\n      \"f is NEITHER one-one NOR onto\"\n    ],\n    \"answer\": \"f is BOTH one-one and onto\",\n    \"detailed_solution\": \"The function f is an odd and continuous function. As x approaches infinity, f(x) approaches infinity, and as x approaches negative infinity, f(x) approaches negative infinity, meaning its range is R (Onto). For x > 0, f(x) = x^2 - x sin x, and f'(x) = 2x - sin x - x cos x > 0. Since the derivative is positive, the function is strictly increasing, making it One-One. <ShortTrick>NV Sir Hack: Use the Horizontal Line Test. Since f'(x) > 0 universally, the graph strictly increases. No horizontal line cuts it twice (Injective). Range = Co-domain proves it is Surjective.</ShortTrick>\",\n    \"difficulty\": 6,\n    \"concept_tag\": \"One-One Onto Functions\"\n  },\n  {\n    \"id\": 6,\n    \"year\": 2018,\n    \"exam\": \"JEE Advanced\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let X be a set with exactly 5 elements and Y be a set with exactly 7 elements. If \\\\alpha is the number of one-one functions from X to Y and \\\\beta is the number of onto functions from Y to X, then the value of 1/5! (\\\\beta - \\\\alpha) is:\",\n    \"options\": [\n      \"119\",\n      \"120\",\n      \"140\",\n      \"125\"\n    ],\n    \"answer\": \"119\",\n    \"detailed_solution\": \"The number of one-one functions from X to Y (since |Y| >= |X|) is \\\\alpha = ^7P_5 = 2520. The number of onto functions from Y to X is calculated using the inclusion-exclusion principle or grouping: \\\\beta = 5^7 - ^5C_1(4^7) + ^5C_2(3^7) - ^5C_3(2^7) + ^5C_4(1^7) = 16800. Therefore, 1/5! (\\\\beta - \\\\alpha) = (16800 - 2520) / 120 = 14280 / 120 = 119.\",\n    \"difficulty\": 9,\n    \"concept_tag\": \"Number of Functions\"\n  },\n  {\n    \"id\": 7,\n    \"year\": 2021,\n    \"exam\": \"JEE Mains\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"A function f(x) is given by f(x) = 5^x / (5^x + 5), then the sum of the series f(1/20) + f(2/20) + f(3/20) + ...... + f(39/20) is equal to:\",\n    \"options\": [\n      \"19/2\",\n      \"49/2\",\n      \"29/2\",\n      \"39/2\"\n    ],\n    \"answer\": \"39/2\",\n    \"detailed_solution\": \"Using the property f(x) + f(2 - x). Wait, let's find f(x) + f(1 - x) = 5^x / (5^x + 5) + 5^{1-x} / (5^{1-x} + 5) = 1. Wait, let's check the arguments: x + y = 2? No, f(x) + f(2-x) = 1. Let's verify: 5^x / (5^x + 5) + 5^{2-x} / (5^{2-x} + 5). This sums to 1. The terms are 1/20 to 39/20. Pairing terms: f(1/20) + f(39/20) = 1, f(2/20) + f(38/20) = 1. There are 19 such pairs, and one middle term f(20/20) = f(1). Since f(1) = 5/10 = 1/2. Total sum = 19 + 1/2 = 39/2.\",\n    \"difficulty\": 6,\n    \"concept_tag\": \"Summation of Series\"\n  },\n  {\n    \"id\": 8,\n    \"year\": 2021,\n    \"exam\": \"JEE Mains\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let x denote the total number of one-one functions from a set A with 3 elements to a set B with 5 elements and y denote the total number of one-one functions from the set A to the set A x B. Then :\",\n    \"options\": [\n      \"y = 273x\",\n      \"2y = 91x\",\n      \"y = 91x\",\n      \"2y = 273x\"\n    ],\n    \"answer\": \"2y = 91x\",\n    \"detailed_solution\": \"Set A has 3 elements, B has 5 elements. Total elements in A x B = 3 x 5 = 15. The number of one-one functions from A to B is x = ^5P_3 = 5 x 4 x 3 = 60. The number of one-one functions from A to A x B is y = ^{15}P_3 = 15 x 14 x 13 = 2730. Therefore, y / x = 2730 / 60 = 91 / 2. This implies 2y = 91x.\",\n    \"difficulty\": 5,\n    \"concept_tag\": \"Number of Functions\"\n  },\n  {\n    \"id\": 9,\n    \"year\": 2021,\n    \"exam\": \"JEE Mains\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let f : R - {\\\\alpha / 6} -> R be defined by f(x) = (5x + 3) / (6x - \\\\alpha). Then the value of \\\\alpha for which (fof)(x) = x, for all x in R - {\\\\alpha / 6}, is :\",\n    \"options\": [\n      \"No such \\\\alpha exists\",\n      \"5\",\n      \"8\",\n      \"6\"\n    ],\n    \"answer\": \"5\",\n    \"detailed_solution\": \"For (fof)(x) = x to hold true, the function f(x) must be its own inverse, i.e., f(x) = f^{-1}(x). For any rational function of the form f(x) = (ax + b) / (cx + d), the inverse is given by f^{-1}(x) = (-dx + b) / (cx - a). Equating the two, we require d = -a. Here, a = 5 and d = -\\\\alpha. Therefore, -\\\\alpha = -5, which means \\\\alpha = 5.\",\n    \"difficulty\": 4,\n    \"concept_tag\": \"Composite Functions\"\n  },\n  {\n    \"id\": 10,\n    \"year\": 2021,\n    \"exam\": \"JEE Mains\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let A = {2, 3, 4, 5, ....., 30} and '~' be an equivalence relation on A x A, defined by (a, b) ~ (c, d), if and only if ad = bc. Then the number of ordered pairs which satisfy this equivalence relation with ordered pair (4, 3) is equal to:\",\n    \"options\": [\n      \"5\",\n      \"6\",\n      \"8\",\n      \"7\"\n    ],\n    \"answer\": \"7\",\n    \"detailed_solution\": \"The relation is given by (a, b) ~ (c, d) iff ad = bc. This can be rewritten as a/b = c/d. We need pairs (c, d) equivalent to (4, 3), meaning c/d = 4/3. Since c and d belong to A = {2, 3, ..., 30}, c must be a multiple of 4 and d must be a multiple of 3. The pairs are (4,3), (8,6), (12,9), (16,12), (20,15), (24,18), (28,21). There are 7 such pairs.\",\n    \"difficulty\": 5,\n    \"concept_tag\": \"Equivalence Relations\"\n  },\n  {\n    \"id\": 11,\n    \"year\": 2021,\n    \"exam\": \"JEE Mains\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let N be the set of natural numbers and a relation R on N be defined by R = {(x, y) \\\\in N x N : x^3 - 3x^2y - xy^2 + 3y^3 = 0}. Then the relation R is:\",\n    \"options\": [\n      \"symmetric but neither reflexive nor transitive\",\n      \"reflexive but neither symmetric nor transitive\",\n      \"reflexive and symmetric, but not transitive\",\n      \"an equivalence relation\"\n    ],\n    \"answer\": \"reflexive but neither symmetric nor transitive\",\n    \"detailed_solution\": \"Factoring the equation gives x^2(x - 3y) - y^2(x - 3y) = 0, which implies (x - y)(x + y)(x - 3y) = 0. Since x and y are natural numbers, x + y cannot be 0. Thus, x = y or x = 3y. The relation contains all pairs (a, a) because x=y is a solution, making it Reflexive. It is not symmetric: (3, 1) is in R (since 3 = 3(1)), but (1, 3) is not in R. It is not transitive: (9, 3) is in R, (3, 1) is in R, but (9, 1) is not in R. Hence, it is reflexive only.\",\n    \"difficulty\": 6,\n    \"concept_tag\": \"Types of Relations\"\n  },\n  {\n    \"id\": 12,\n    \"year\": 2022,\n    \"exam\": \"JEE Mains\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"For \\\\alpha \\\\in N, consider a relation R on N given by R = {(x, y) : 3x + \\\\alpha y is a multiple of 7}. The relation R is an equivalence relation if and only if:\",\n    \"options\": [\n      \"\\\\alpha = 14\",\n      \"\\\\alpha is a multiple of 4\",\n      \"4 is the remainder when \\\\alpha is divided by 10\",\n      \"4 is the remainder when \\\\alpha is divided by 7\"\n    ],\n    \"answer\": \"4 is the remainder when \\\\alpha is divided by 7\",\n    \"detailed_solution\": \"For R to be an equivalence relation, it must be reflexive. Thus, (x, x) must belong to R for all natural numbers x. This implies 3x + \\\\alpha x = x(3 + \\\\alpha) must be a multiple of 7 for all x. This is only possible if (3 + \\\\alpha) itself is a multiple of 7. Let 3 + \\\\alpha = 7k. Therefore, \\\\alpha = 7k - 3 = 7(k-1) + 4. This means when \\\\alpha is divided by 7, the remainder is 4.\",\n    \"difficulty\": 6,\n    \"concept_tag\": \"Equivalence Relations\"\n  },\n  {\n    \"id\": 13,\n    \"year\": 2022,\n    \"exam\": \"JEE Mains\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let R_1 and R_2 be two relations defined on R by a R_1 b iff ab >= 0 and a R_2 b iff a >= b, then\",\n    \"options\": [\n      \"R1 is an equivalence relation but not R2\",\n      \"R2 is an equivalence relation but not R1\",\n      \"Both R1 and R2 are equivalence relation\",\n      \"neither R1 nor R2 is an equivalence relation\"\n    ],\n    \"answer\": \"neither R1 nor R2 is an equivalence relation\",\n    \"detailed_solution\": \"For R1: a R1 b iff ab >= 0. Let a = -1, b = 0, c = 1. We have (-1)(0) = 0 >= 0 (so -1 R1 0) and (0)(1) = 0 >= 0 (so 0 R1 1). But (-1)(1) = -1 < 0, meaning (-1, 1) does not belong to R1. Hence R1 is not transitive. For R2: a R2 b iff a >= b. Let a = 2, b = 1. Since 2 >= 1, 2 R2 1. However, 1 is not >= 2, so (1, 2) is not in R2. R2 is not symmetric. Therefore, neither is an equivalence relation.\",\n    \"difficulty\": 5,\n    \"concept_tag\": \"Types of Relations\"\n  },\n  {\n    \"id\": 14,\n    \"year\": 2022,\n    \"exam\": \"JEE Mains\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let R_1 = {(a, b) \\\\in N x N : |a - b| <= 13} and R_2 = {(a, b) \\\\in N x N : |a - b| != 13}. Then on N:\",\n    \"options\": [\n      \"Both R1 and R2 are equivalence relations\",\n      \"Neither R1 nor R2 is an equivalence relation\",\n      \"R1 is an equivalence relation but R2 is not\",\n      \"R2 is an equivalence relation but R1 is not\"\n    ],\n    \"answer\": \"Neither R1 nor R2 is an equivalence relation\",\n    \"detailed_solution\": \"For R1, transitivity fails: let a = 1, b = 14, c = 27. |1 - 14| = 13 <= 13 and |14 - 27| = 13 <= 13. But |1 - 27| = 26 > 13. So R1 is not transitive. For R2, transitivity also fails: let a = 1, b = 2, c = 14. We have |1 - 2| = 1 != 13 and |2 - 14| = 12 != 13. However, |1 - 14| = 13, meaning (1, 14) is not in R2. So R2 is not transitive. Neither relation is an equivalence relation. <ShortTrick>NV Sir Trap: The 'Empty' Transitive condition applies heavily in sets. Always test bounded inequalities on their extremes! Combining two boundary pairs is the fastest way to disprove transitivity in inequalities.</ShortTrick>\",\n    \"difficulty\": 6,\n    \"concept_tag\": \"Equivalence Relations\"\n  },\n  {\n    \"id\": 15,\n    \"year\": 2022,\n    \"exam\": \"JEE Mains\",\n    \"topic\": \"Relations & Functions\",\n    \"question\": \"Let f(x) = (x - 1)/(x + 1), x \\\\in R - {0, -1, 1}. If f^{n+1}(x) = f(f^n(x)) for all n \\\\in N, then f^6(6) + f^7(7) is equal to:\",\n    \"options\": [\n      \"7/6\",\n      \"-3/2\",\n      \"7/12\",\n      \"-11/12\"\n    ],\n    \"answer\": \"-3/2\",\n    \"detailed_solution\": \"Find the composition sequence for f(x). f^1(x) = (x-1)/(x+1). Next, f^2(x) = f(f(x)) = ((x-1)/(x+1) - 1)/((x-1)/(x+1) + 1) = -2 / 2x = -1/x. Next, f^3(x) = f(-1/x) = (-1/x - 1)/(-1/x + 1) = (x+1)/(1-x). Next, f^4(x) = f((x+1)/(1-x)) = ((x+1)/(1-x) - 1)/((x+1)/(1-x) + 1) = 2x / 2 = x. Since f^4(x) = x, the function has a period of 4. Thus, f^6(x) = f^2(x) = -1/x, and f^7(x) = f^3(x) = (x+1)/(1-x). Evaluating: f^6(6) = -1/6. f^7(7) = (7+1)/(1-7) = 8/-6 = -4/3. Summing them: -1/6 - 4/3 = -9/6 = -3/2.\",\n    \"difficulty\": 7,\n    \"concept_tag\": \"Composite Functions\"\n  }\n]",
+  "conversation_id": "fce6870a-b96c-419d-aa14-f6279dbe06fc",
+  "turn_number": 1,
+  "is_follow_up": true,
+  "references": [
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 1,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "572d2e43-8c96-4039-bde0-b37e80fa8a53"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 2,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "145e50d9-45d7-4220-9be5-3fdd0c8bdabe"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 3,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e8bb96be-3ed3-4b3d-b57c-08ba21614e85"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 4,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "cd890230-3ece-49ee-8057-9e47773c7815"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 5,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "56cdf758-f70b-452e-ac85-0f27e51045fb"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 6,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "a002c979-c7a5-4bd6-aca1-9c86022a62b2"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 7,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "880ec7ab-99b0-4db7-8925-f98bad8725ee"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 8,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e9348543-e362-43c1-ac58-42670eb1cbcf"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 9,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "92776e6e-253d-4b15-8915-76d8d1b01a15"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 10,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "be9030b6-398b-41ff-b99b-0bb4de23c7c0"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 11,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "9e5e1008-0dc8-4287-b3ab-029a9bb7ec20"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 12,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "1b7dba80-1b72-48a3-8d6e-3a1a65c8f8a8"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 13,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "76297dc6-3f4a-4044-a3b9-ae7cdb78d4df"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 14,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "c41c18b2-fad9-4599-bfa0-1accb0c4165e"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 15,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e287bd5e-d60b-4110-a44f-e00d4f2f4998"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 16,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e6d8b896-c608-4718-b588-302948b63a3e"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 17,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "87899e22-e15f-43bb-9298-e359a217b3a0"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 18,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "ab0d1e31-7fe0-4cd9-a5a6-6464b6eb7b5b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 19,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "318955b5-f364-48bb-afc0-cfd6731d0e37"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 20,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "96313f06-6e66-45bb-b940-676fa762423d"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 21,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "97bcdafc-2cd8-4ed0-a034-94dc9e373d71"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 22,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "f8062e75-c3c7-406e-91da-b390bf5e0bb9"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 23,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "ecbda163-79b2-412b-9465-1fb3aada96a3"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 24,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "bbd2b555-3036-494c-a3ed-f4364858a33c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 25,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "ab72255d-5ff8-4bc0-85e0-d5bb00bf8a91"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 26,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "cf13443e-1d9f-4b63-95fc-13a5602c6572"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 27,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "ba57db0e-7438-4a9d-913b-53b0614d39dd"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 28,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "95e81dad-2b26-4c1e-84d9-46e6a132ddaf"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 29,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e29921b1-dbde-4b0f-93ff-dfe50ef728f9"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 30,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "56817254-4a5c-4af6-b637-f0dd29038b19"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 31,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e982c153-ede3-4e01-8eab-e25f01ee1358"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 32,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "deeaf644-8a4e-4eb5-a7e4-a95537681609"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 33,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "a5ee2fca-65f9-4deb-a0b4-efb7cc7c8952"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 34,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "bafab201-54d4-4dae-8fb5-8f594de95292"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 35,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "aef31465-f9b9-4b0d-a5be-4b853268902f"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 36,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "47d1293b-1844-4473-8b1b-fac1b4c3427c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 37,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "40fe0cab-10b2-43ba-95a0-251de8fa2a7a"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 38,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "602ecb83-c464-45fa-ae36-28107d29a971"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 39,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "c64cfc6d-56b9-473c-a759-c201d0007c20"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 40,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "5928e1d2-16dd-449e-943a-c1590e709d38"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 41,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "de861eda-c552-4a15-8730-2cce637600e6"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 42,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "080b1c1c-d1cf-4c11-9bf0-d426154d686f"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 43,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "24fe40e2-09a2-4025-a44a-197fb8802bea"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 44,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "6cdd2820-3b61-4b0b-988e-761b9afcc7dc"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 45,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "45c99cf6-bd8b-4ed5-85a5-733a6ec756c2"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 46,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e3729a57-e406-4ce1-9007-5b68d9ed4967"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 47,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "9548f351-b139-487d-acc9-d9d23e978627"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 48,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "3020a5a4-22f1-441a-be8f-c9215ce73198"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 49,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "398a76ea-52e4-45e9-afac-482b3c7220cc"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 50,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "3bef8416-d375-4493-9c1f-f1f108c46efe"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 51,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "10111ec8-79bf-403b-82a9-a8ce1dbf2639"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 52,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "7c33d72d-62be-4ef3-864e-bd2035173c61"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 53,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "9d5eab24-b787-4d77-9285-145fc079aa89"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 54,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "3721011f-231d-4147-b536-409968d98c99"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 55,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "0aeca06a-83f2-43a9-9ec6-4e6f5a5dd785"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 56,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "636de23a-700e-40d3-b1f7-7a96a93f08f4"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 57,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "dec47d74-aaab-4500-999f-92f0e2ad948b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 58,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "3c956ac8-d1f9-4e59-9d06-6099e258a105"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 59,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e96dc803-2e14-4dd4-9a64-0b330e6bd75b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 60,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "a4874dac-7096-4d67-802d-6c7ee42b048d"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 61,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "4f9f7c3b-16ba-43f2-aca5-2a0446eebc12"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 62,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "49282ea9-25d8-49a6-a52c-ef0a6ebfcd32"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 63,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e074619a-123c-4611-b52a-9948c28bf271"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 64,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "97d65c7d-7430-4f51-a868-965b0a612e7d"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 65,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "50e22f15-f020-4201-a561-221613faed00"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 66,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "4192c3d0-3769-4fc2-869d-bfd6360cfc12"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 67,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "44e5cba9-c1e3-4068-92e7-8ad120edb6dd"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 68,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "21ebce32-3de3-4eac-926c-be2dacc5176f"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 69,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "f6447b60-f2da-4c7a-a100-21d93b94d322"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 70,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "afc8d47b-d301-4933-b2f0-c57aaa68e176"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 71,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "75e6c235-d042-4a65-ac07-c7177c7d3a44"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 72,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "65793bd3-8513-4527-b53b-1c1689163ea8"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 73,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "626814a8-e464-43fd-a9f5-684b7575e2cb"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 74,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "a36a310a-28d1-450c-a074-420a593270c6"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 75,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "707161c1-7790-4121-b2fa-acd18f2e6186"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 76,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "2f3c52e4-8e18-4200-9530-ed0c2d1500cf"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 77,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "da5cac60-8b73-4a6c-82e0-89434c616c0c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 78,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "ea95a932-ff84-4d23-9284-2c16ca84f09c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 79,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "1981bf43-2b63-44c2-baef-f44497145f3e"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 80,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "3a3b1974-3cf0-447a-8a51-d2b8bf913217"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 81,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "2923ec51-5f82-4e70-86fa-561306c0bf0f"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 82,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "c6728cee-3b17-4010-8325-a59b47b1f741"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 83,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "0d49737b-1cee-40a9-89c3-db343beb5dc1"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 84,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "77de6e90-69ba-4e3b-abbf-048588104ad1"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 85,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "6ba592da-0463-406b-b34c-29c812bec0ec"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 86,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "d17a614f-0b7e-4f49-8c45-00feec0eb42a"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 87,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "8f7f63a3-677d-4e96-89bd-abf52c2b9de9"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 88,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "82d1230a-bfa0-41c3-9d50-488199679d57"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 89,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "33d3beee-6a6a-4d3c-89a1-cf60be12b832"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 90,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "38b80924-ffab-46f1-aff0-ca9e341ce325"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 91,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "134c6bf8-ea4e-4e49-a453-3ff02f21b25c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 92,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "23dc7e65-14e2-4d7e-8cfd-eba79fc0b88d"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 93,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "84033dd0-c2c8-45ce-9e2d-2039dd09a5d4"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 94,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "b125b0c8-097c-415c-96e8-ef339e1d0a0d"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 95,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "1f5a6f03-40a7-4e24-b645-3561484ede52"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 96,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "9dc90dce-7794-4518-a2a1-ea552e3a9850"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 97,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "65643ff4-e0f5-4c1d-a21a-a623a371f290"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 98,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "ad5f9132-c1c3-44ff-affa-444c79a391c2"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 99,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "29368d18-6fd0-47e5-9103-4d8a62d8e37a"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 100,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "9a3facb1-042c-43f0-b937-7feab00820f2"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 101,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "b0699b52-0017-42f6-921a-b39732ee142b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 102,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "7912b34b-4857-4f69-9b93-b53a571903b2"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 103,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e423d772-854b-4c2d-9b8a-f139de7baa98"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 104,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "64348803-54c2-40d4-ab91-cff5912d6129"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 105,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "228e912a-ee93-40cb-b6bd-625c7fda70ec"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 106,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "66ceec75-ef79-45f9-9ab2-b5fd721fd54c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 107,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "02f9d16c-f1a6-4ae2-9e13-137bd9d51797"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 108,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "43727ee7-bca9-4150-aad3-67bdc5de955c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 109,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "5a187458-efdb-4f02-a382-06586414465a"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 110,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "021dce74-a043-4ac0-95f3-0f3951761bd9"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 111,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "290ab2ee-8498-4de2-ada1-b9a22beac6ad"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 112,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "86d7fc44-abc3-469c-a5f1-eb09a3d77749"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 113,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "eb115794-22eb-474d-8a96-d87c9a1b56d0"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 114,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "b4c4e05c-c57a-4dd2-8978-062bd59bc1b4"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 115,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "a1359913-affb-43b6-9443-7f12e12f6313"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 116,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "95e3336f-cff6-4fd1-9ffb-2e0221447783"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 117,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "c77032fa-fe15-4fd6-adcd-2480b5b92a8c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 118,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "491a5b4f-4389-410b-a45f-e612277ebc32"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 119,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "a8b341ef-5fc7-4233-ba9a-7436ba9ff592"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 120,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "fde290eb-e605-4b19-9d2f-ab77770ab687"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 121,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e5de0778-7ca5-41d2-bfad-2a2e2985d66e"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 122,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "897f1570-2d5c-407d-8338-14a901867d46"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 123,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "92ba6e8f-c772-4fca-b88a-b11ff70b8bfa"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 124,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "9e524a4c-35ed-4edd-95a4-226bd6648a5c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 125,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "ab2ab998-1919-41e6-b639-361493d8db57"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 126,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "03bcac02-a41e-4909-b264-ac11231ae4b7"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 127,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "25e6abc4-8ebc-4a14-b7e2-201fd4988c5b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 128,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "a93fd51f-2f91-443a-8682-fe67ad5d0ec3"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 129,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "4bcfaff9-7465-4a9f-aa27-e4c946567f5a"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 130,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e1da4cc2-326e-45c3-8be1-5ae17a6a1a49"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 131,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "a7333810-3914-418f-9fc4-d5a7b9ebe7ba"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 132,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "2b16dc16-a4dc-45fe-99ec-8a02b9d0338a"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 133,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "10c5d48e-59ef-44fa-bc06-038407a5d9a2"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 134,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "3cf639fd-4ee5-4a91-99b7-eaf48278665d"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 135,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "36802da1-b85a-4674-b73d-b96a51559911"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 136,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "270a7a85-e143-436a-b335-d1e6f27d22bd"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 137,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "d984fcfd-61ee-4913-aec8-ff46217f8fda"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 138,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "fc841ca2-aca1-4570-8e74-8cc788570ff5"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 139,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "528107ba-f4a4-45b5-81d4-8f9f57ec6027"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 140,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "7d3966a8-fdd4-4aa8-96ac-fc7e6df8616e"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 141,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "666835a8-5ae2-4c88-963a-3753fd04f21f"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 142,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "89f38950-5a3b-496f-9309-e40425e9a83b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 143,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "2d94ea8b-81ae-4b50-8fea-a4f136a0068b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 144,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "89d9970e-21e9-446d-87e5-db2872b4018c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 145,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "9aa2e056-a143-441b-8827-087604299328"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 146,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "5935b72a-60a6-4247-bc04-83f815f1895b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 147,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "884952ed-b7d3-414c-8598-38e109f69e39"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 148,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "9d7399a1-9bd1-416b-b073-8dc0db8c721d"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 149,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "ecf18db4-f589-43a8-a85b-8a7438edc08a"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 150,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "9fb0f945-2147-4fab-be3e-f47dd3884d43"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 151,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "5c5d666b-5783-4584-b6ac-9e4dc7b71240"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 152,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "0729edb8-e5d5-4f58-96ea-20cec4cfbc36"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 153,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "d6eb85cc-6c4d-45a5-97c4-dbae03df0d87"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 154,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "b9c97d89-640f-480d-aa91-bce968e8984b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 155,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "2eee2d5c-fd3f-4c88-b6e1-f51403752947"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 156,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "3f17b23d-a667-4e81-98b3-9cba3d5683bf"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 157,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "55f0e057-a8ab-41ba-8c2a-7866d5bc051b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 158,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "2ed06e1a-29c7-4d88-a619-e0fcc160974f"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 159,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "8618485f-1eb2-4498-9088-eb9fdfdc8cf9"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 160,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "67544cfb-8632-4e06-8967-6b88d41d92a5"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 161,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "56f8543d-c407-49a2-9f93-8de4ea2d536a"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 162,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "ed14d242-ec26-45b7-9c59-a13415dededf"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 163,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "06974f08-f702-4c29-beeb-090e29957073"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 164,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "93464ef1-37ef-4e46-914a-c9521a4a6235"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 165,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "86fc0065-d2de-4adc-b97f-956b466a3e6e"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 166,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "7d635cb7-2e8a-4117-be4f-a98f49144eb2"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 167,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "ca475eb8-b43a-49d6-8818-4bf15b734081"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 168,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "16fc8ecd-0cc9-43d8-9777-0e00eace3da7"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 169,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "f642e99c-8426-4787-a8ad-2e0cbd32b1b1"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 170,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "b2e755ee-2e86-4b4a-b629-f874a818b912"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 171,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "f68e3732-fa3e-44a8-80e1-b9aa4299ec54"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 172,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "5d0c14bd-fd19-4cbb-b211-120ca9e9d78f"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 173,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e44214b6-3265-464e-b8ed-d95cbcd5bf99"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 174,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "aa92b5fe-ebde-40fa-add7-dd3ad209d3a6"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 175,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "07e7b910-f341-4217-b3ad-1b484d4401dc"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 176,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e6041880-4a45-4ad5-b3ec-a8d0b966cf8a"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 177,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "a48126b4-5799-4fe1-ace7-6989b00edf85"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 178,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "fd5987f2-c92d-4501-b17a-5e28e235e1f5"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 179,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "1accc407-b0d3-4021-9996-953d10ae623f"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 180,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "e7f456fe-8db2-4d55-a8e4-f54ff5f50ff3"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 181,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "aa01168a-698f-4ac9-ac7a-c155023ccea9"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 182,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "238c819d-63e0-4f1a-ae06-14d13493caee"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 183,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "2ed36b5a-9039-4b78-8893-a6c773ff8047"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 184,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "0cc63667-9a49-4e80-8d32-0d44e27099b8"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 185,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "d4dabba2-b6dc-4ade-b171-7ae664cb742c"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 186,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "4c45ed21-1a5e-4e1c-af67-998ed8176ef3"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 187,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "45998159-4ef3-48ae-9cf1-3ab293db564b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 188,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "45998159-4ef3-48ae-9cf1-3ab293db564b"
+    },
+    {
+      "source_id": "a9391876-e6f8-4b09-9dfc-26968b727921",
+      "citation_number": 189,
+      "cited_text": "Functions One Shot for JEE Mains 2026 | All PYQs & Problem Solving Strategies - YouTube",
+      "start_char": 0,
+      "end_char": 87,
+      "chunk_id": "45998159-4ef3-48ae-9cf1-3ab293db564b"
+    }
+  ]
+}

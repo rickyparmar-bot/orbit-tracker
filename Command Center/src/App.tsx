@@ -4,17 +4,19 @@ import { Statistics } from './components/Statistics';
 import { Consistency } from './components/Consistency';
 import { Goals } from './components/Goals';
 import { SubjectExplorer } from './components/SubjectExplorer';
+import { RevisionHub } from './components/RevisionHub';
 import {
   BarChart2,
   Layout,
   Clock,
   Target,
   Activity,
-  Globe
+  Globe,
+  RefreshCw
 } from 'lucide-react';
 import 'katex/dist/katex.min.css';
 
-type ViewType = 'dashboard' | 'explorer' | 'goals' | 'statistics' | 'consistency' | 'timeline';
+type ViewType = 'dashboard' | 'explorer' | 'goals' | 'revision' | 'statistics' | 'consistency' | 'timeline';
 
 const App: React.FC = () => {
   const [activeView, setActiveView] = useState<ViewType>('dashboard');
@@ -23,6 +25,7 @@ const App: React.FC = () => {
     { id: 'dashboard', label: 'Dashboard', icon: <Layout size={18} /> },
     { id: 'explorer', label: 'Explorer', icon: <Globe size={18} /> },
     { id: 'goals', label: 'Goals', icon: <Target size={18} /> },
+    { id: 'revision', label: 'Revision', icon: <RefreshCw size={18} /> },
     { id: 'statistics', label: 'Statistics', icon: <BarChart2 size={18} /> },
     { id: 'consistency', label: 'Consistency', icon: <Activity size={18} /> },
     { id: 'timeline', label: 'Timeline', icon: <Clock size={18} /> },
@@ -84,6 +87,7 @@ const App: React.FC = () => {
             {activeView === 'dashboard' && <Dashboard />}
             {activeView === 'explorer' && <SubjectExplorer />}
             {activeView === 'goals' && <Goals />}
+            {activeView === 'revision' && <RevisionHub />}
             {activeView === 'statistics' && <Statistics />}
             {activeView === 'consistency' && <Consistency />}
             {activeView === 'timeline' && (

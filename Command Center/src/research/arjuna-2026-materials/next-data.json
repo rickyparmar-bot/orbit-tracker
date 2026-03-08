@@ -1,0 +1,2684 @@
+{
+  "props": {
+    "pageProps": {
+      "HomePageData": {
+        "data": {
+          "widgetJson": {
+            "CAROUSEL": {
+              "_id": "6590011cee1ec89d6c69cb7a",
+              "updatedBy": "6388313b9eacb70011929a75",
+              "createdBy": "658fd255e420f0001829f2f9",
+              "orgId": "5eb393ee95fab7468a79d189",
+              "status": true,
+              "applicationId": "658fe012aaf88868e691ef60",
+              "sectionTitle": "Unlock your true learning potential!",
+              "sectionSubTitle": "Teacher’s Day Mega Sale is here GET 50% OFF on IIT JEE Batches",
+              "sectionProps": [
+                {
+                  "displayOrder": 1,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/42565456-c82a-4671-9b34-a4f0e11c96ad.jpg",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/6ebfa855-2cd4-46dd-ade6-d1986c3b573a.jpg",
+                  "redirectionUrl": "https://www.pw.live/?type=study-page",
+                  "altTag": "VD"
+                },
+                {
+                  "displayOrder": 2,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/41c892ee-ec74-4c38-8497-7c4a7c436914.jpg",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/36e82621-8e27-4181-ae03-ae36c7aa5fc5.jpg",
+                  "redirectionUrl": "https://www.pw.live/scholarship/vidyapeeth/pwsat?utm_source=banner&utm_medium=PreSignup&utm_campaign=22dec",
+                  "altTag": "VP SAT"
+                },
+                {
+                  "displayOrder": 3,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/5e1ffef3-fd4a-41c3-8f8e-d670ade522a9.png",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/0bb42ffe-8832-4ca0-af95-69ee56758927.png",
+                  "redirectionUrl": "https://www.pw.live/neet",
+                  "altTag": "NEET"
+                },
+                {
+                  "displayOrder": 4,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/b2adf3d6-577e-4c99-9263-ac3632d3694f.png",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/f7582960-ee9d-4e11-8176-501c269808ad.png",
+                  "redirectionUrl": "https://www.pw.live/iit-jee",
+                  "altTag": "JEE"
+                },
+                {
+                  "displayOrder": 5,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/28bfb923-8795-40fe-b204-ab4fca0cc5d6.png",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/57cfffed-f2ad-49c4-a81c-17572dad80e0.png",
+                  "redirectionUrl": "https://www.pw.live/school-prep",
+                  "altTag": "Foundation"
+                },
+                {
+                  "displayOrder": 6,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/63cff798-f2c1-4978-8e13-95aefc30f6ae.webp",
+                  "redirectionUrl": "https://www.pw.live/power-batch",
+                  "altTag": "Power Batch",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/5672183b-c9f6-44aa-8c08-bc3192c30499.webp"
+                },
+                {
+                  "displayOrder": 7,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/639e1eb3-8176-444b-9df3-aff8127713d5.jpg",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/4608a449-61b3-454c-bbef-20bb98cadd09.jpg",
+                  "redirectionUrl": "https://forms.gle/e5adN2jZBde5MGmE7",
+                  "altTag": "UPSC"
+                },
+                {
+                  "displayOrder": 8,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ea82cea3-b331-4fdd-8bec-59caadcf1016.png",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/dc162963-24a8-4c22-9306-b0013d02ba67.png",
+                  "redirectionUrl": "https://www.pw.live/gate?utm_source=pw.live&utm_medium=presign_banner&utm_campaign=presign-up-banners_gate",
+                  "altTag": "GATE"
+                },
+                {
+                  "displayOrder": 9,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e9eae95b-564e-48f9-a5c8-3703dac3951f.png",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/b58f86da-a28e-4a36-b7e2-b1fb07315678.png",
+                  "redirectionUrl": "https://www.pw.live/ca/batches?utm_source=pw.live&utm_medium=presign_banner&utm_campaign=presign-up-banners_ca",
+                  "altTag": "CA"
+                },
+                {
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/6a96b7c5-348e-4448-85da-8062c967c0b8.png",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/28be4f81-e648-480c-be2b-00ac2cced122.png",
+                  "redirectionUrl": "https://www.pw.live/ssc/batches?utm_source=pw.live&utm_medium=presign_banner&utm_campaign=presign-up-banners_ssc",
+                  "displayOrder": 10,
+                  "altTag": "SSC"
+                },
+                {
+                  "displayOrder": 11,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/3476ba0e-3a13-4e32-8cfa-f52add216f8d.png",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/57e64538-cf3c-4d09-a476-ce5ebbacca4a.png",
+                  "redirectionUrl": "https://www.pw.live/teaching",
+                  "altTag": "TET"
+                },
+                {
+                  "displayOrder": 12,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/2bf33f24-47ff-4294-bb24-841e99c66d0a.png",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/f478e84d-52ff-4091-89fc-e0036d071f0c.png",
+                  "redirectionUrl": "https://www.pw.live/defence/batches",
+                  "altTag": "NDA"
+                },
+                {
+                  "displayOrder": 13,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/b112561c-7ede-4f04-8f85-bc534989fbd9.jpg",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/bf37bc1f-2afa-4336-b4f9-c68fc962a677.jpg",
+                  "redirectionUrl": "https://www.pw.live/acca",
+                  "altTag": "ACCA"
+                },
+                {
+                  "displayOrder": 14,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/0c3b21ac-3c19-4fd0-b49b-dcdd0ce03e1c.webp",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/18adc383-0231-4846-b493-2d00022f1948.webp",
+                  "redirectionUrl": "https://pwskills.com/",
+                  "altTag": "SKILLS"
+                },
+                {
+                  "displayOrder": 15,
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/b5da73cc-72b5-4f91-a642-7843213e8680.webp",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e3721261-acec-4165-87dc-1f65f380d9ba.webp",
+                  "redirectionUrl": "https://www.pw.live/online-degree",
+                  "altTag": "Medharthi"
+                },
+                {
+                  "displayOrder": 16,
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/3c122a7d-5f81-4226-8ec0-61712293d2eb.png",
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/95f8badc-1054-4c66-8ad5-541c75f0ce68.jpg"
+                }
+              ],
+              "createdAt": "2023-12-30T11:38:04.823Z",
+              "updatedAt": "2026-03-03T04:55:37.441Z",
+              "__order": 0
+            },
+            "HERO_SECTION": {
+              "_id": "6590030aee1ec89d6c69cb7f",
+              "updatedBy": "64673efba4a94e0018b3b2e3",
+              "createdBy": "658fd255e420f0001829f2f9",
+              "orgId": "5eb393ee95fab7468a79d189",
+              "status": true,
+              "applicationId": "658fe012aaf88868e691ef60",
+              "sectionTitle": "<h1 class=\"font-bold text-2xl px-[50px] md:px-0 text-[#1B2124]  xl:text-[40px] md:text-[32px] md:leading-[48px] xl:leading-[50px] mb-[6px]\">Bharat&rsquo;s <span style=\"color: rgb(90, 75, 218);\">Trusted &amp; Affordable</span> Educational Platform</h1>",
+              "sectionSubTitle": "Unlock your potential by signing up with Physics Wallah-The most affordable learning solution",
+              "sectionProps": {
+                "mwebBackGroundImage": "https://static.pw.live/5b09189f7285894d9130ccd0/f220a012-bbd4-45fe-ab2b-f222301de343.webp",
+                "dwebBackGroundImage": "https://static.pw.live/5b09189f7285894d9130ccd0/a328173a-5842-44ba-9129-809e45bd78e5.webp",
+                "featureItems": [
+                  {
+                    "title": "Daily Live",
+                    "subTitle": "Interactive classes",
+                    "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/165756ec-8d87-4a09-9a88-95c342adddea.webp"
+                  },
+                  {
+                    "title": "10 Million +",
+                    "subTitle": "Tests, sample papers & notes",
+                    "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/ee478abe-a66b-4529-a264-16b61ffb6c51.webp"
+                  },
+                  {
+                    "title": "24 x 7",
+                    "subTitle": "Doubt solving sessions",
+                    "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/b75e0c1a-6893-4b31-8d79-f37a1c72115a.webp"
+                  },
+                  {
+                    "title": "100 +",
+                    "subTitle": "Offline centres",
+                    "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/65d1e4cb-abf8-4bda-9f2c-49f37a714b7a.webp"
+                  }
+                ],
+                "gradientCss": "#F1EFFF"
+              },
+              "createdAt": "2023-12-30T11:46:18.370Z",
+              "updatedAt": "2025-01-29T11:32:44.064Z",
+              "__order": 1
+            },
+            "EXAM_CATEGORIES": {
+              "_id": "6590075479c2c01b1d98534c",
+              "updatedBy": "6927e3e94c5c8007edd3be4e",
+              "createdBy": "658fd255e420f0001829f2f9",
+              "orgId": "5eb393ee95fab7468a79d189",
+              "status": true,
+              "applicationId": "658fe012aaf88868e691ef60",
+              "sectionTitle": "Exam Categories",
+              "sectionSubTitle": "PW is preparing students for 35+ exam categories. Scroll down to find the one you are preparing for",
+              "sectionProps": [
+                {
+                  "categoryName": "NEET",
+                  "redirectionUrl": "https://www.pw.live/neet",
+                  "displayOrder": 1,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/9816db69-099c-4020-935c-b98cc3ab4464.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "ctaRedirectionUrl": "https://www.pw.live/neet",
+                    "backGroundColor": "green"
+                  },
+                  "options": [
+                    {
+                      "className": "class 11",
+                      "redirectionUrl": "https://www.pw.live/neet/class-11",
+                      "displayOrder": 1
+                    },
+                    {
+                      "className": "class 12",
+                      "redirectionUrl": "https://www.pw.live/neet/class-12",
+                      "displayOrder": 2
+                    },
+                    {
+                      "className": "Dropper",
+                      "redirectionUrl": "https://www.pw.live/neet/dropper",
+                      "displayOrder": 3
+                    }
+                  ],
+                  "iconBackgroundColor": "#FFF2F2"
+                },
+                {
+                  "categoryName": "IIT JEE",
+                  "redirectionUrl": "https://www.pw.live/iit-jee",
+                  "displayOrder": 2,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/438cff9f-f45c-4961-9ab3-33a59b88352c.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "ctaRedirectionUrl": "https://www.pw.live/iit-jee"
+                  },
+                  "options": [
+                    {
+                      "className": "class 11",
+                      "redirectionUrl": "https://www.pw.live/iit-jee/class-11",
+                      "displayOrder": 1
+                    },
+                    {
+                      "className": "class 12",
+                      "redirectionUrl": "https://www.pw.live/iit-jee/class-12",
+                      "displayOrder": 2
+                    },
+                    {
+                      "className": "Dropper",
+                      "redirectionUrl": "https://www.pw.live/iit-jee/dropper",
+                      "displayOrder": 3
+                    }
+                  ],
+                  "iconBackgroundColor": "#FFF3E0"
+                },
+                {
+                  "categoryName": "Pre Foundation",
+                  "redirectionUrl": "https://www.pw.live/school-prep",
+                  "displayOrder": 3,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ed50a2a8-e5fc-4ce0-bcee-823c32ea49e9.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "ctaRedirectionUrl": "https://www.pw.live/school-prep"
+                  },
+                  "iconBackgroundColor": "#FFFBE4"
+                },
+                {
+                  "categoryName": "School Boards",
+                  "redirectionUrl": "https://www.pw.live/cbse",
+                  "displayOrder": 4,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ed50a2a8-e5fc-4ce0-bcee-823c32ea49e9.webp",
+                  "options": [
+                    {
+                      "className": "CBSE",
+                      "redirectionUrl": "https://www.pw.live/cbse",
+                      "displayOrder": 1
+                    },
+                    {
+                      "className": "ICSE",
+                      "redirectionUrl": "https://www.pw.live/icse",
+                      "displayOrder": 2
+                    },
+                    {
+                      "className": "UP Board",
+                      "redirectionUrl": "https://www.pw.live/upmsp",
+                      "displayOrder": 3
+                    },
+                    {
+                      "className": "Maharashtra Board",
+                      "redirectionUrl": "https://www.pw.live/msbshse",
+                      "displayOrder": 4
+                    }
+                  ],
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "ctaRedirectionUrl": "https://www.pw.live/school-prep"
+                  },
+                  "iconBackgroundColor": "#FFFBE4"
+                },
+                {
+                  "redirectionUrl": "https://www.pw.live/upsc",
+                  "displayOrder": 5,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/002e5e6e-47f1-4b21-89e0-8218ffcce066.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/upsc"
+                  },
+                  "categoryName": "UPSC"
+                },
+                {
+                  "categoryName": "Govt Job Exams",
+                  "redirectionUrl": "https://www.pw.live/defence",
+                  "displayOrder": 6,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/8556a2c4-1fd3-4d16-bdfb-62f4afa21310.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/batches/govt-exam"
+                  },
+                  "options": [
+                    {
+                      "className": "SSC",
+                      "redirectionUrl": "https://www.pw.live/ssc",
+                      "displayOrder": 1
+                    },
+                    {
+                      "className": "Banking",
+                      "redirectionUrl": "https://www.pw.live/banking",
+                      "displayOrder": 2
+                    },
+                    {
+                      "className": "Teaching",
+                      "redirectionUrl": "https://www.pw.live/teaching",
+                      "displayOrder": 3
+                    },
+                    {
+                      "className": "Judiciary",
+                      "redirectionUrl": "https://www.pw.live/judiciary",
+                      "displayOrder": 4
+                    }
+                  ],
+                  "iconBackgroundColor": "#F8F8FF"
+                },
+                {
+                  "categoryName": "Defence",
+                  "redirectionUrl": "https://www.pw.live/defence",
+                  "displayOrder": 7,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e6d64e80-ac8a-4393-a9a1-1ef4fbe4fb5c.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/defence"
+                  },
+                  "options": [
+                    {
+                      "className": "NDA",
+                      "redirectionUrl": "https://www.pw.live/defence/nda/batches",
+                      "displayOrder": 1
+                    },
+                    {
+                      "className": "CDS",
+                      "redirectionUrl": "https://www.pw.live/defence/cds-afcat/batches",
+                      "displayOrder": 2
+                    },
+                    {
+                      "className": "AFCAT",
+                      "redirectionUrl": "https://www.pw.live/defence/cds-afcat/batches",
+                      "displayOrder": 3
+                    },
+                    {
+                      "className": "Agniveer",
+                      "redirectionUrl": "https://www.pw.live/defence/agniveer/batches",
+                      "displayOrder": 4
+                    }
+                  ],
+                  "iconBackgroundColor": "#F4FCFF"
+                },
+                {
+                  "categoryName": "CA",
+                  "redirectionUrl": "https://www.pw.live/ca",
+                  "displayOrder": 8,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/c74743ec-1028-4cb3-b354-1dabcfc5f96d.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/ca"
+                  },
+                  "options": [
+                    {
+                      "className": "Foundation",
+                      "redirectionUrl": "https://www.pw.live/ca/foundation",
+                      "displayOrder": 1
+                    },
+                    {
+                      "className": "Intermediate",
+                      "redirectionUrl": "https://www.pw.live/ca/intermediate",
+                      "displayOrder": 2
+                    }
+                  ],
+                  "iconBackgroundColor": "#F4F4F4"
+                },
+                {
+                  "categoryName": "Olympiad",
+                  "redirectionUrl": "https://www.pw.live/olympiad",
+                  "displayOrder": 9,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/5fce0156-448c-409a-ab0d-7ffe3687061d.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/olympiad"
+                  },
+                  "iconBackgroundColor": "#F4F4F4"
+                },
+                {
+                  "categoryName": "MBA",
+                  "redirectionUrl": "https://www.pw.live/mba",
+                  "displayOrder": 10,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/c0794d4a-9a4b-4d6e-ae93-a8fe0fa66557.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/mba"
+                  }
+                },
+                {
+                  "categoryName": "State PSC",
+                  "redirectionUrl": "https://www.pw.live/state-psc",
+                  "displayOrder": 11,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/9529457f-7fdc-4d81-be36-2b649ebd185b.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/state-psc"
+                  }
+                },
+                {
+                  "categoryName": "Commerce",
+                  "redirectionUrl": "https://www.pw.live/commerce",
+                  "displayOrder": 12,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/4fcce987-b842-4e2c-bbb2-338290a72342.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/commerce"
+                  }
+                },
+                {
+                  "categoryName": "GATE",
+                  "redirectionUrl": "https://www.pw.live/gate",
+                  "displayOrder": 13,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/85703513-2abc-45ee-812d-f46e1278c8e9.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/gate"
+                  }
+                },
+                {
+                  "categoryName": "CUET",
+                  "redirectionUrl": "https://www.pw.live/cuet",
+                  "displayOrder": 14,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e14e21b6-6980-4dc6-bd84-427ebde8e827.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/cuet"
+                  }
+                },
+                {
+                  "categoryName": "AE/JE",
+                  "redirectionUrl": "https://www.pw.live/ae-je",
+                  "displayOrder": 15,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/7bd58f27-7021-4592-ba53-f178315550fa.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/ae-je"
+                  }
+                },
+                {
+                  "categoryName": "IIT JAM & CSIR NET",
+                  "redirectionUrl": "https://www.pw.live/csir-net",
+                  "displayOrder": 16,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/68f9dc96-9d52-4cfc-986a-594698d29115.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/csir-net"
+                  }
+                },
+                {
+                  "categoryName": "LAW",
+                  "redirectionUrl": "https://www.pw.live/law",
+                  "displayOrder": 17,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/2be3b6dd-70e3-4ea9-9f3b-d0f4a08deabb.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/law"
+                  }
+                },
+                {
+                  "categoryName": "ESE GATE",
+                  "redirectionUrl": "https://www.pw.live/ese-gate",
+                  "displayOrder": 18,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ec604a99-edfb-4f8d-a513-10715d6cdb9b.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/ese-gate"
+                  }
+                },
+                {
+                  "categoryName": "IPMAT",
+                  "redirectionUrl": "https://www.pw.live/ipmat",
+                  "displayOrder": 19,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/950f5b31-f636-482d-98a6-ccd441004856.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/ipmat"
+                  }
+                },
+                {
+                  "categoryName": "IELTS",
+                  "redirectionUrl": "https://www.pw.live/study-abroad/ielts",
+                  "displayOrder": 20,
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/15b14b9c-1610-4ac6-b663-388cc8e7c4f8.webp",
+                  "cta": {
+                    "text": "Explore Category",
+                    "textColor": "black",
+                    "backGroundColor": "green",
+                    "ctaRedirectionUrl": "https://www.pw.live/study-abroad/ielts"
+                  }
+                }
+              ],
+              "createdAt": "2023-12-30T12:04:36.561Z",
+              "updatedAt": "2025-11-27T05:38:49.957Z",
+              "cta": {
+                "text": "View All Categories",
+                "altText": "View Less",
+                "textColor": "#5a4bda"
+              },
+              "__order": 2
+            },
+            "VIDYAPEETH": {
+              "_id": "6590037eee1ec89d6c69cb82",
+              "updatedBy": "684c53896b37b5a85af06b84",
+              "createdBy": "658fd255e420f0001829f2f9",
+              "orgId": "5eb393ee95fab7468a79d189",
+              "status": true,
+              "applicationId": "658fe012aaf88868e691ef60",
+              "sectionTitle": "Explore Tech-Enabled Offline Vidyapeeth Centres",
+              "sectionSubTitle": "Creating new benchmarks in learning experiences",
+              "sectionProps": {
+                "title": "Find Vidyapeeth Centre in your city",
+                "subtitle": "105",
+                "centers": [
+                  {
+                    "cityName": "Kota",
+                    "cityIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/e7591d9a-54f0-4609-bade-c017952e56cd.webp",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/kota-rj",
+                    "displayOrder": 1
+                  },
+                  {
+                    "cityName": "Bareilly",
+                    "cityIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/c3746454-250f-45b1-ad32-57be6ef8574c.webp",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/bareily-up/bareilly-vidyapeeth-506421",
+                    "displayOrder": 2
+                  },
+                  {
+                    "cityName": "Patna",
+                    "cityIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/94b0e6c1-ef94-470a-ac07-805c0fb72220.webp",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/patna-br",
+                    "displayOrder": 3
+                  },
+                  {
+                    "cityName": "Noida",
+                    "cityIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/4f347740-f971-4964-8a51-a800c6a02a48.webp",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/noida-up",
+                    "displayOrder": 4
+                  },
+                  {
+                    "cityName": "New Delhi",
+                    "cityIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/b195ff1c-285c-4b8c-8f96-ae93693dcd68.webp",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/new-delhi-dl",
+                    "displayOrder": 5
+                  },
+                  {
+                    "cityName": "Kolkata",
+                    "cityIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/d8813e0d-fed9-4ecd-865f-6c18c37cba58.webp",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/kolkata-wb",
+                    "displayOrder": 6
+                  },
+                  {
+                    "cityName": "Ahmedabad",
+                    "cityIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/9e80957d-d2db-4b03-bb1d-8eb5cf5cb5e7.webp",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/ahmedabad-gj",
+                    "displayOrder": 7
+                  },
+                  {
+                    "cityName": "Jaipur",
+                    "cityIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/8f0b7608-2333-43c4-9dba-e1e9ef25023f.webp",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/jaipur-rj",
+                    "displayOrder": 8
+                  }
+                ],
+                "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth",
+                "videoUrl": "https://static.pw.live/5b09189f7285894d9130ccd0/7c44087d-aff1-438d-aa67-2a493c48504f.mp4"
+              },
+              "createdAt": "2023-12-30T11:48:14.306Z",
+              "updatedAt": "2025-09-03T18:54:26.345Z",
+              "__order": 3
+            },
+            "STATS": {
+              "_id": "65900424aaf88868e691ef6d",
+              "updatedBy": "64673efba4a94e0018b3b2e3",
+              "createdBy": "658fd255e420f0001829f2f9",
+              "orgId": "5eb393ee95fab7468a79d189",
+              "status": true,
+              "applicationId": "658fe012aaf88868e691ef60",
+              "sectionTitle": "A Platform Trusted by Students",
+              "sectionSubTitle": "Physics Wallah aims to transform not just through words, but provide results with numbers!",
+              "sectionProps": [
+                {
+                  "title": "Happy Students",
+                  "stats": "15Million+",
+                  "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/fa94a64a-7f6c-49c7-99be-dbf5b4cf440f.webp",
+                  "displayOrder": 1
+                },
+                {
+                  "title": "Mock Tests",
+                  "stats": "24000+",
+                  "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/112aa59c-9952-4add-8491-e93f2f45b90b.webp",
+                  "displayOrder": 2
+                },
+                {
+                  "title": "Video Lectures",
+                  "stats": "14000+",
+                  "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/4f6749a2-e834-4c08-81ff-c42330f9bf87.webp",
+                  "displayOrder": 3
+                },
+                {
+                  "title": "Practice Papers",
+                  "stats": "80000+",
+                  "icon": "https://static.pw.live/5b09189f7285894d9130ccd0/55bb8055-5be9-473e-85b6-1db04b8cc50b.webp",
+                  "displayOrder": 4
+                }
+              ],
+              "createdAt": "2023-12-30T11:51:00.177Z",
+              "updatedAt": "2025-01-28T05:44:06.390Z",
+              "__order": 4
+            },
+            "APP_DOWNLOAD": {
+              "_id": "65d6f58c78162ad2bcd80069",
+              "updatedBy": "64673efba4a94e0018b3b2e3",
+              "createdBy": "658fd255e420f0001829f2f9",
+              "orgId": "5eb393ee95fab7468a79d189",
+              "status": true,
+              "applicationId": "658fe012aaf88868e691ef60",
+              "sectionSubTitle": "<div class=\"flex items-center gap-2.5 my-[10px]\">\n<p class=\"flex items-center\"><img src=\"https://static.pw.live/5b09189f7285894d9130ccd0/aae52ebe-fb97-4327-ad02-b486434308e8.webp\" alt=\"\" width=\"16\" height=\"16\"> &nbsp;Live &amp; recorded classes</p>\n</div>\n<div class=\"flex items-center gap-2.5 my-[10px]\">\n<p class=\"flex items-center\"><img src=\"https://static.pw.live/5b09189f7285894d9130ccd0/aae52ebe-fb97-4327-ad02-b486434308e8.webp\" alt=\"\" width=\"16\" height=\"16\">&nbsp; Dashboard for progress tracking</p>\n<p class=\"flex items-center\"><img src=\"https://static.pw.live/5b09189f7285894d9130ccd0/aae52ebe-fb97-4327-ad02-b486434308e8.webp\" alt=\"\" width=\"16\" height=\"16\"> &nbsp;Lakhs of practice questions</p>\n<div class=\"c-scrollbar__track\" role=\"presentation\">&nbsp;</div>\n</div>",
+              "sectionProps": {
+                "backGroundColor": "linear-gradient(180deg, #F1EFFF 0%, #DEDAFF 100%), #F1EFFF",
+                "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/bde11caa-c63e-4f07-9a83-a83d1cd35e9f.webp",
+                "appDownloadOption": [
+                  {
+                    "image": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e76d560e-9e4c-4119-9990-e6aa5c5affaf.acb101ce",
+                    "redirectionUrl": "https://apps.apple.com/in/app/physics-wallah/id1641443555"
+                  },
+                  {
+                    "image": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/a69ff5a2-6904-4279-acf6-d91bc2fe11d6.webp",
+                    "redirectionUrl": "https://play.google.com/store/apps/details?id=xyz.penpencil.physicswala"
+                  }
+                ]
+              },
+              "createdAt": "2024-02-22T07:19:40.089Z",
+              "updatedAt": "2025-02-03T13:24:57.076Z",
+              "__v": 0,
+              "sectionTitle": "Join 15 Million students on the app today!",
+              "__order": 6
+            },
+            "TESTIMONIALS": {
+              "_id": "659005c5aaf88868e691ef70",
+              "updatedBy": "6388313b9eacb70011929a75",
+              "createdBy": "658fd255e420f0001829f2f9",
+              "orgId": "5eb393ee95fab7468a79d189",
+              "status": true,
+              "applicationId": "658fe012aaf88868e691ef60",
+              "sectionTitle": "Students ❤️ Physics Wallah",
+              "sectionSubTitle": "Hear from our students",
+              "sectionProps": [
+                {
+                  "studentName": "Multiple Rankers",
+                  "exam": "NEET",
+                  "rank": "AIR 1, AIR 86 and other",
+                  "mwebBannerImages": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/dcdb3767-d010-46d7-ac36-c79979ad4d9a.png",
+                  "dwebBannerImages": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/6ce6e71a-1cba-4fff-a325-55b3376e96e2.png",
+                  "video": "https://www.youtube.com/embed/xrEUbWOLZ34?si=G5vA9A0RsDYNhocq",
+                  "testimonial": "My name is Tathagat Awatar. I secured All India Rank 1 by scoring full score in NEET UG 2024. I started my preparation with Physics Wallah in 12th grade by joining the Lakshya NEET batch, then I took 2 drop by joining Yakeen NEET batch and I completed my full preparation from online PW batch. PW teachers and their guidance helps me to acheive AIR1 and motivated me during my drop year....",
+                  "displayOrder": 1
+                },
+                {
+                  "studentName": "Anmol Rathore",
+                  "exam": "UPSC",
+                  "rank": "UPSC CSE 2023 AIR 7",
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/f701dd38-826d-4328-836e-8e1061c5d281.jpg",
+                  "testimonial": "I used to regularly follow the youtube videos, prelims booster videos and specially editorial discussion from where I made important pointers. I also watched some history videos like Buddhism, Jainism as the topics were explained very clearly… all these were very helpful during my preparation…",
+                  "displayOrder": 2
+                },
+                {
+                  "studentName": "Raja Majhi",
+                  "exam": "GATE",
+                  "rank": "GATE 2024 AIR 1",
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/5613a51e-e9ac-4e90-a78e-81dba01b1940.png",
+                  "testimonial": "I am Raja Majhi, and I am thrilled to share that I have secured All India Rank 1 (AIR 1) in the GATE 2024 examination in ECE. From the very beginning, Physics Wallah stood out for its structured and comprehensive curriculum. The faculty members, with their in-depth knowledge and teaching expertise, ensured that every concept was crystal clear.\n\nGATE Wallah not only provided academic support but also fostered a positive and encouraging learning environment. The online resources, interactive sessions, and community forums allowed me to connect with fellow aspirants and learn collaboratively.",
+                  "displayOrder": 3
+                },
+                {
+                  "studentName": "Amit Kumar Mandal",
+                  "exam": "Banking",
+                  "rank": "IBPS Topper",
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/0274f09e-6be0-40cf-bbfa-f74fb07eb430.png",
+                  "testimonial": "PW helped me in establishing the basics of every subject through which I was able to progress quickly and was also able to increase my speed and also maintaining accuracy.",
+                  "displayOrder": 4
+                },
+                {
+                  "studentName": "Sushant Padha",
+                  "exam": "IIT JEE",
+                  "rank": "JEE Advanced 2024 - AIR 52",
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e588ef54-2d7f-457e-aa73-5e96a7468efb.png",
+                  "testimonial": "My name is Sushant Padha. I secured an AIR 52 in JEE Advanced 2024. I started my preparation with Physics Wallah in 11th grade by joining the Arjuna batch. In 12th grade, I joined the Lakshya batch and completed my entire preparation with Physics Wallah. PW teachers and their guidance played a very important role in achieving my goal.  Once I started my preparation, I never looked back.",
+                  "displayOrder": 5
+                },
+                {
+                  "studentName": "Karan Garg",
+                  "exam": "NEET",
+                  "rank": "AIR 429",
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/231a6f80-9fe5-49ba-b520-db9d310cb185.png",
+                  "testimonial": "My name is Karan Garg, and I secured 710 marks in the NEET UG 2024 exam, achieving an All India Rank of 429. I am thrilled to have had the opportunity to study for my NEET journey with Physics Wallah, as their teachers' content and guidance were superb. Mohit Dhadeech sir was a huge inspiration for me, motivating me to give my best in NEET through his guidance during lectures. Thank you to the entire Physics Wallah team for making my NEET journey easier.",
+                  "displayOrder": 6
+                },
+                {
+                  "studentName": "Tanay",
+                  "exam": "IIT JEE",
+                  "rank": "JEE Advanced 2024 - AIR 99",
+                  "icon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/a1fe3c64-edb7-484b-9f1e-ca488ee5a907.png",
+                  "testimonial": "Thanks to PW! PW faculties teaches from basic and they are very supportive because of which I am able to secure AIR 99 in JEE Adavnced 2024. I studied from Varun JEE Adanced 2024 Batch.",
+                  "displayOrder": 7
+                }
+              ],
+              "createdAt": "2023-12-30T11:57:57.033Z",
+              "updatedAt": "2024-07-12T08:42:25.247Z",
+              "__order": 7
+            },
+            "STUDY_RESOURCE": {
+              "_id": "6590062679c2c01b1d985347",
+              "updatedBy": "64673efba4a94e0018b3b2e3",
+              "createdBy": "658fd255e420f0001829f2f9",
+              "orgId": "5eb393ee95fab7468a79d189",
+              "status": true,
+              "applicationId": "658fe012aaf88868e691ef60",
+              "sectionTitle": "Study Resources",
+              "sectionSubTitle": "A diverse array of learning materials to enhance your educational journey.",
+              "sectionProps": [
+                {
+                  "title": "Reference Books",
+                  "description": "Our experts have created thorough study materials that break down complicated concepts into easily understandable content",
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/c77fefc5-df03-4b10-a694-6a815f691810.webp",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/f205f69d-b8b3-4f03-b28b-6c6bdd9eeb02.webp",
+                  "redirectionUrl": "https://store.pw.live/school-books",
+                  "displayOrder": 1
+                },
+                {
+                  "title": "NCERT Solutions",
+                  "description": "Unlock academic excellence with Physics Wallah’s  NCERT Solutions which provides you step-by-step solutions",
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/4f569663-9574-4722-8269-5b899173261d.webp",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/12b4fb81-b903-4c2d-9b09-d79395ef66c2.webp",
+                  "redirectionUrl": "https://www.pw.live/concepts-ncert-solutions",
+                  "displayOrder": 2
+                },
+                {
+                  "title": "Notes",
+                  "description": "Use Physics Wallah’s detailed study materials that simplify complex ideas into easily understandable language",
+                  "mwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/69c46902-36a5-4b00-b7e8-cf2b6ae41aaf.webp",
+                  "dwebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/3eb5198e-6f36-4df4-ad97-81716b80bab2.webp",
+                  "redirectionUrl": "https://www.pw.live/topics-biology-class-10",
+                  "displayOrder": 3
+                }
+              ],
+              "createdAt": "2023-12-30T11:59:34.891Z",
+              "updatedAt": "2025-07-07T07:01:36.774Z",
+              "__order": 8
+            },
+            "YOUTUBE_STATS": {
+              "_id": "6590064cc553fe5489f64eb9",
+              "updatedBy": "66d760b143b68c0e8b5d3e98",
+              "createdBy": "658fd255e420f0001829f2f9",
+              "orgId": "5eb393ee95fab7468a79d189",
+              "status": true,
+              "applicationId": "658fe012aaf88868e691ef60",
+              "sectionTitle": "Join The PW Family, Today!",
+              "sectionSubTitle": "Explore our 130+ YouTube Channels and subscribe to get access to quality education for free.",
+              "sectionProps": [
+                {
+                  "channelName": "Physics Wallah",
+                  "subscribers": 11.5,
+                  "displayOrder": 1
+                },
+                {
+                  "channelName": "Competition Wallah",
+                  "subscribers": 2.71,
+                  "displayOrder": 2
+                },
+                {
+                  "channelName": "JEE Wallah",
+                  "subscribers": 1.69,
+                  "displayOrder": 3
+                },
+                {
+                  "channelName": "NCERT Wallah",
+                  "subscribers": 1.35,
+                  "displayOrder": 4
+                },
+                {
+                  "channelName": "PhysicsWallah Foundation",
+                  "subscribers": "3.48",
+                  "displayOrder": 5
+                }
+              ],
+              "createdAt": "2023-12-30T12:00:12.891Z",
+              "updatedAt": "2025-01-28T15:05:31.997Z",
+              "__order": 9
+            },
+            "RESULTS": {
+              "_id": "65900469ee1ec89d6c69cb85",
+              "updatedBy": "6388313b9eacb70011929a75",
+              "createdBy": "658fd255e420f0001829f2f9",
+              "orgId": "5eb393ee95fab7468a79d189",
+              "status": true,
+              "applicationId": "658fe012aaf88868e691ef60",
+              "sectionTitle": "Academic Excellence : Results",
+              "sectionSubTitle": "Giving wings to a millions dreams, a million more to go",
+              "sectionProps": [
+                {
+                  "_id": "666701ddbf512eebc0015f23",
+                  "createdBy": "65262eacec1a9a0018f3560a",
+                  "exam": "UPSC CSE",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/530e4481-cc8d-464c-843e-d2e008ad5123.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/0bd455b3-9427-44ca-afea-3e9e196bacd8.jpg"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-06-10T13:38:37.154Z",
+                  "updatedAt": "2024-06-10T13:38:37.154Z",
+                  "__order": 0
+                },
+                {
+                  "_id": "667d72a4d9bc6c4435b09d30",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "GATE",
+                  "imageOption": [
+                    {
+                      "displayOrder": 3,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/01b700bf-fdd5-420a-a9be-0b8be05d4d47.webp",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/b2a42c89-6bcf-42de-ad8e-b175922f0045.webp"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-06-27T14:09:40.830Z",
+                  "updatedAt": "2024-06-28T02:30:11.258Z",
+                  "__order": 1
+                },
+                {
+                  "_id": "669010ae81a34d0167f648ee",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "Board Exams - CBSE 10th",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ad186ae6-27ed-4211-91e2-c7d940f8aa4d.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/959bb73b-ed5e-464f-ac5c-aabf2b73cc14.jpg"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-07-11T17:04:46.708Z",
+                  "updatedAt": "2024-07-11T17:04:46.708Z",
+                  "__order": 2
+                },
+                {
+                  "_id": "6690104edea5545d4dbcea8f",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "Board Exams - ICSE 10th",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/237c52cf-bf64-4323-ac7c-6650187b5010.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/68a6444f-688e-4646-8d93-aa4158917cc6.jpg"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-07-11T17:03:10.884Z",
+                  "updatedAt": "2024-07-11T17:03:10.884Z",
+                  "__order": 3
+                },
+                {
+                  "_id": "6690108362e9a9c505cd8276",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "Board Exams - CBSE 12th",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/6b400eff-df16-483f-823a-df80c8c241ba.webp",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/6939ede8-7fa1-4df2-94a1-4a9ef291f8f4.webp"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-07-11T17:04:03.753Z",
+                  "updatedAt": "2024-07-11T17:04:03.753Z",
+                  "__order": 4
+                },
+                {
+                  "_id": "660c1903e3d84a4ecfd642d2",
+                  "createdBy": "6683eb8bcf1634ef71d84ba8",
+                  "exam": "CA",
+                  "imageOption": [
+                    {
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/c90ba456-2554-404d-a3b8-47bd1ad4a30b.webp",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/7c3eb31b-6062-4492-8ff0-673390ccd510.webp",
+                      "redirectionUrl": ""
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-04-02T14:41:07.055Z",
+                  "updatedAt": "2024-07-02T11:59:07.525Z",
+                  "__order": 5
+                },
+                {
+                  "_id": "660c18a7398c656f99a08d1e",
+                  "createdBy": "6683eb7462c9118814bbf98c",
+                  "exam": "MBA",
+                  "imageOption": [
+                    {
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/c3e4e202-4de1-4213-adf4-37844412199b.webp",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/81adf5b9-0af7-476e-ab1c-ebc0d8deed7f.webp",
+                      "redirectionUrl": ""
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-04-02T14:39:35.237Z",
+                  "updatedAt": "2024-07-02T11:58:44.465Z",
+                  "__order": 6
+                },
+                {
+                  "_id": "668ffda5dea5545d4dbce08f",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "SSC",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/30e32760-c38c-43d4-b8da-170e08b438b6.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/42700029-0763-47fa-941b-5983dd3884fa.jpg"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-07-11T15:43:33.500Z",
+                  "updatedAt": "2024-07-11T15:43:33.500Z",
+                  "__order": 7
+                },
+                {
+                  "_id": "660c2305579227291c128442",
+                  "createdBy": "6683eba2cf1634ef71d84bc3",
+                  "exam": "IIT JAM",
+                  "imageOption": [
+                    {
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/f0d3fb39-0fe1-4279-8623-5d5e9764ea02.webp",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/700280cc-662a-448c-a629-789cda3e6122.webp"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-04-02T15:23:49.868Z",
+                  "updatedAt": "2024-07-02T11:59:30.645Z",
+                  "__order": 8
+                },
+                {
+                  "_id": "668ff565dda2f354334ddba5",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "Banking",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/7c3cb8cb-c8bd-4b8c-ad6f-47ec9c89460f.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/52378409-55d4-43db-883f-0b42604bd1e5.jpg"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-07-11T15:08:21.526Z",
+                  "updatedAt": "2024-07-11T15:08:21.526Z",
+                  "__order": 9
+                },
+                {
+                  "_id": "668ff48edda2f354334ddafe",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "CUET",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/8616770d-6a35-4951-8a53-d23c469c9a41.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/282a5045-3cc2-483b-a25e-1cd9fd9e8faa.jpg"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-07-11T15:04:46.380Z",
+                  "updatedAt": "2024-07-11T15:04:46.380Z",
+                  "__order": 10
+                },
+                {
+                  "_id": "6683e3e862c9118814bbf1f2",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "AE/JE",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/008d9d7c-68e4-4fe8-a0b8-42d1fbba0c5a.webp",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/d9c749b6-2e60-4ef4-8cb0-1c4d056dcec1.webp"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-07-02T11:26:32.675Z",
+                  "updatedAt": "2024-07-02T11:26:32.675Z",
+                  "__order": 11
+                },
+                {
+                  "_id": "668ff7f9993d8fcc376cf250",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "UPPSC",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e66304ab-8e28-4c6e-baa0-3419d30580c6.jpeg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/664fccf5-80c4-49e4-b335-c5a9eb08d418.jpeg"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-07-11T15:19:21.053Z",
+                  "updatedAt": "2024-07-11T15:19:21.053Z",
+                  "__order": 12
+                },
+                {
+                  "_id": "6690009081a34d0167f63ffb",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "Defence",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/2da889e0-b46c-4d6f-ba72-9fee7d601ad9.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/3a619538-f60e-4260-9c51-80b8c358e235.jpg"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-07-11T15:56:00.034Z",
+                  "updatedAt": "2024-07-11T15:56:00.034Z",
+                  "__order": 13
+                },
+                {
+                  "_id": "660c13f4e3d84a4ecfd6421d",
+                  "createdBy": "6683eb2e62c9118814bbf941",
+                  "exam": "Olympiads",
+                  "imageOption": [
+                    {
+                      "mWebImage": "https://static.pw.live/5b09189f7285894d9130ccd0/ee7fe718-3fa6-4c40-9298-4f6fa2b6d77b.webp",
+                      "dWebImage": "https://static.pw.live/5b09189f7285894d9130ccd0/afbb62fd-689e-4a8f-a55f-3b63ba6f32fb.webp"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-04-02T14:19:32.882Z",
+                  "updatedAt": "2024-07-02T11:57:34.422Z",
+                  "__order": 14
+                },
+                {
+                  "_id": "668ffddd62e9a9c505cd780f",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "TET",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/b92a23c6-c31e-42f1-93d0-c32b90c4375d.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/abbe8fc6-8ba6-43e5-aa98-14d49dd9570b.jpg"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-07-11T15:44:29.763Z",
+                  "updatedAt": "2024-07-11T15:44:29.763Z",
+                  "__order": 15
+                },
+                {
+                  "_id": "660c187f0d5265b14b6833d8",
+                  "createdBy": "6683eb5bef422ab4ec99e5f8",
+                  "exam": "CLAT",
+                  "imageOption": [
+                    {
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/467a27a3-d7c3-4ed3-9137-8150694093c0.webp",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/986e569b-a645-4bda-bdc2-da725c8a86e5.webp"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-04-02T14:38:55.361Z",
+                  "updatedAt": "2024-07-02T11:58:19.807Z",
+                  "__order": 16
+                },
+                {
+                  "_id": "6729c5062360a03f98da54ac",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "CSIR NET July 2024 Results",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/0ce87758-a92f-44e0-8c1d-5a6edc1c0d35.webp",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/7967bc96-5d43-462d-8ee6-f82a4ef98555.webp"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-11-05T07:11:02.185Z",
+                  "updatedAt": "2024-11-05T07:11:02.185Z",
+                  "__order": 17
+                },
+                {
+                  "_id": "67333464208e43f6af120707",
+                  "createdBy": "684c53896b37b5a85af06b84",
+                  "exam": "UGC NET",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/cfc08e38-25a1-46fb-be45-a2bb6fdf442e.webp",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ce2aeed7-445b-42d6-88a4-2d2d378f69c6.webp",
+                      "redirectionUrl": "https://www.pw.live/ugc-net/batches"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-11-12T10:56:36.652Z",
+                  "updatedAt": "2025-09-03T18:52:16.331Z",
+                  "__order": 18
+                },
+                {
+                  "_id": "6747f84a1909c2bcd4c5820b",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "UPSC ESE 2024",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/60bbab85-8550-4054-b4ad-b3d19688a3a4.webp",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/2299b312-5cc7-49c9-96c4-53f6eba80337.webp",
+                      "redirectionUrl": "https://www.pw.live/gate"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2024-11-28T04:57:46.632Z",
+                  "updatedAt": "2024-11-28T05:01:37.471Z",
+                  "__order": 19
+                },
+                {
+                  "_id": "67c7056838fa155e356c9bba",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "UGC NET 2025",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ffb3cb48-3bab-4953-9f32-960121082e8c.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/9c47ee4e-fa33-41d4-97f8-1d6287932e39.jpg",
+                      "redirectionUrl": "https://www.pw.live/ugc-net"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2025-03-04T13:51:36.896Z",
+                  "updatedAt": "2025-03-04T13:51:36.896Z",
+                  "__order": 20
+                },
+                {
+                  "_id": "681062aee929de7dcf662787",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "JEE 2025 Main FInal Result",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/86b0bf1a-7ec6-4dce-895f-6c3ddc8b5c02.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/447e8772-a937-4263-b252-a03df1dbb579.jpg",
+                      "redirectionUrl": "https://www.pw.live/iit-jee"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2025-04-29T05:25:02.739Z",
+                  "updatedAt": "2025-04-29T05:26:00.235Z",
+                  "__order": 21
+                },
+                {
+                  "_id": "68106359cdf87f6fcf1eb5a0",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "CA Foundation 2025",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/5bb18ceb-6b31-4a41-8c26-08a026ec159e.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/f19e12bd-2343-49b3-b67d-632120645116.jpg",
+                      "redirectionUrl": "https://www.pw.live/ca"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2025-04-29T05:27:53.592Z",
+                  "updatedAt": "2025-04-29T05:27:53.592Z",
+                  "__order": 22
+                },
+                {
+                  "_id": "681063dacdf87f6fcf1eb5a3",
+                  "createdBy": "6388313b9eacb70011929a75",
+                  "exam": "Up exams Constable Result",
+                  "imageOption": [
+                    {
+                      "displayOrder": 1,
+                      "mWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/156c5b63-f1ee-4aeb-bd54-8b2b9e1693f3.jpg",
+                      "dWebImage": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/538f71b3-bd6b-4da6-a356-82c5647f0473.jpg",
+                      "redirectionUrl": "https://www.pw.live/up"
+                    }
+                  ],
+                  "orgId": "5eb393ee95fab7468a79d189",
+                  "createdAt": "2025-04-29T05:30:02.543Z",
+                  "updatedAt": "2025-04-29T05:30:02.543Z",
+                  "__order": 23
+                }
+              ],
+              "createdAt": "2023-12-30T11:52:09.584Z",
+              "updatedAt": "2025-05-26T04:58:26.648Z",
+              "__order": 5
+            }
+          },
+          "updatedBy": "6388313b9eacb70011929a75",
+          "seoTags": {
+            "canonicalLink": "https://www.pw.live/",
+            "pageMetaTags": {
+              "metaTitle": "Physics wallah Live Courses for JEE, NEET & Class 6,7,8,9,10,11,12 | NCERT Solutions",
+              "metaDescription": "Physics Wallah is India's top online ed-tech platform that provides affordable and comprehensive learning experience to students of classes 6 to 12 and those preparing for JEE and NEET exams.",
+              "metaKeywords": [
+                "IIT JEE",
+                "NEET"
+              ],
+              "ogImageUrl": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/b470fa25-53e5-41dd-a451-9c1d8f52ca82.png"
+            }
+          },
+          "widgetOrder": [
+            "CAROUSEL",
+            "HERO_SECTION",
+            "EXAM_CATEGORIES",
+            "VIDYAPEETH",
+            "STATS",
+            "RESULTS",
+            "APP_DOWNLOAD",
+            "TESTIMONIALS",
+            "STUDY_RESOURCE",
+            "YOUTUBE_STATS"
+          ]
+        }
+      },
+      "headerData": [
+        {
+          "_id": "65900b3979c2c01b1d985377",
+          "status": true,
+          "menuTitle": "All Courses",
+          "menuItems": [
+            {
+              "menuTitle": "Competitive Exams",
+              "menuItems": [
+                {
+                  "menuTitle": "IIT JEE",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/1f23db31-6da9-4ed1-93fe-baea21bad40b.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/iit-jee",
+                  "displayOrder": 1
+                },
+                {
+                  "menuTitle": "NEET",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/ba8452a1-91d3-45e8-862a-e23ec4c25b3f.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/neet",
+                  "displayOrder": 2
+                },
+                {
+                  "menuTitle": "ESE",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/ede9393f-c1b4-4d21-beee-597be35b9f15.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/ese-gate",
+                  "displayOrder": 3
+                },
+                {
+                  "menuTitle": "GATE",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/3d53d72c-a091-496f-b771-e8c5336ca9e3.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/gate",
+                  "displayOrder": 4
+                },
+                {
+                  "menuTitle": "AE/JE",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/d2ff26d3-01f6-417a-aa62-71755517cd6d.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/ae-je",
+                  "displayOrder": 5
+                },
+                {
+                  "menuTitle": "Olympiad",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/5fce0156-448c-409a-ab0d-7ffe3687061d.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/olympiad",
+                  "displayOrder": 6
+                }
+              ],
+              "id": "65900b3979c2c01b1d985370",
+              "displayOrder": 1
+            },
+            {
+              "menuTitle": "Only IAS",
+              "menuItems": [
+                {
+                  "menuTitle": "UPSC",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/0255f37f-fdd3-4435-9cf8-9e5607e8d496.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/upsc",
+                  "displayOrder": 1
+                },
+                {
+                  "menuTitle": "State PSC",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/6cee4301-2d82-412a-8399-fcd6524f295c.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/state-psc-coaching",
+                  "displayOrder": 2
+                }
+              ],
+              "id": "65900b3979c2c01b1d985371",
+              "displayOrder": 2
+            },
+            {
+              "menuTitle": "School Preparation",
+              "menuItems": [
+                {
+                  "menuTitle": "Foundation (Class 6-10)",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/5b8acaeb-99a5-430b-b91e-530901d3e62d.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/school-prep",
+                  "displayOrder": 1
+                },
+                {
+                  "menuTitle": "CuriousJr (3rd - 8th)",
+                  "menuRedirectionUrl": "https://www.curiousjr.com/",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/f92297a4-fc55-4a87-84db-fbc401de6feb.webp",
+                  "displayOrder": 2
+                }
+              ],
+              "id": "65900b3979c2c01b1d985372",
+              "displayOrder": 3
+            },
+            {
+              "menuTitle": "School Boards",
+              "menuItems": [
+                {
+                  "menuTitle": "CBSE  Arts",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ea0c9588-2853-4018-838d-73bb36d1e677.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/cbse-arts",
+                  "displayOrder": 1
+                },
+                {
+                  "menuTitle": "CBSE Science",
+                  "menuRedirectionUrl": "https://www.pw.live/cbse-science",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ea0c9588-2853-4018-838d-73bb36d1e677.webp",
+                  "displayOrder": 2
+                },
+                {
+                  "menuTitle": "CBSE Commerce",
+                  "menuRedirectionUrl": "https://www.pw.live/cbse-commerce",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ea0c9588-2853-4018-838d-73bb36d1e677.webp",
+                  "displayOrder": 3
+                },
+                {
+                  "menuTitle": "ICSE",
+                  "menuRedirectionUrl": "https://www.pw.live/icse",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ea0c9588-2853-4018-838d-73bb36d1e677.webp",
+                  "displayOrder": 4
+                },
+                {
+                  "menuTitle": "UP Board",
+                  "menuRedirectionUrl": "https://www.pw.live/upmsp",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/b2e8df47-344e-4b22-89a2-28fee10fe2d9.png",
+                  "displayOrder": 5
+                },
+                {
+                  "menuTitle": "Rajasthan Board",
+                  "menuRedirectionUrl": "https://www.pw.live/rbse",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/8147f161-4920-451c-bd37-acff45c2bfc5.png",
+                  "displayOrder": 6
+                },
+                {
+                  "menuTitle": "Bihar Board",
+                  "menuRedirectionUrl": "https://www.pw.live/bseb",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/15dfa728-fa3e-4f28-905e-c0a46c2acf1f.png",
+                  "displayOrder": 7
+                },
+                {
+                  "menuTitle": "MP Board",
+                  "menuRedirectionUrl": "https://www.pw.live/mpbse",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/aed5b465-5a68-4858-ad48-a8cb0487ff99.png",
+                  "displayOrder": 8
+                },
+                {
+                  "menuTitle": "Maharashtra Board",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/668b8973-6cda-4dba-9655-9abd2dce1202.png",
+                  "displayOrder": 9,
+                  "menuRedirectionUrl": "https://www.pw.live/msbshse"
+                },
+                {
+                  "menuTitle": "JKBose Board",
+                  "menuRedirectionUrl": "https://www.pw.live/jkbose",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/6556c450-583b-43d2-adfd-49ecd9ca96c9.png",
+                  "displayOrder": 10
+                },
+                {
+                  "menuTitle": "JAC Board",
+                  "menuRedirectionUrl": "https://www.pw.live/jac",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/1f6c17be-aada-431f-a900-43c108f24b71.png",
+                  "displayOrder": 11
+                },
+                {
+                  "menuTitle": "Odisha Board",
+                  "menuRedirectionUrl": "https://www.pw.live/bseodisha",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/ccc56ffb-01d5-47fc-adba-b8e6c08ed6fd.png",
+                  "displayOrder": 12
+                },
+                {
+                  "menuTitle": "Tamil Nadu Board",
+                  "menuRedirectionUrl": "https://www.pw.live/dgetn",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/3300d04a-51d4-49a5-adf5-d085a7f81829.png",
+                  "displayOrder": 13
+                },
+                {
+                  "menuTitle": "Karnataka Board",
+                  "menuRedirectionUrl": "https://www.pw.live/kseab",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/a2683b85-c259-422f-8949-10e65f7c29a3.png",
+                  "displayOrder": 14
+                },
+                {
+                  "menuTitle": "Telangana Board",
+                  "menuRedirectionUrl": "https://www.pw.live/bsets",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/b992921e-1381-4a55-87c2-afae284e2f29.png",
+                  "displayOrder": 15
+                },
+                {
+                  "menuTitle": "West  Bengal Board",
+                  "menuRedirectionUrl": "https://www.pw.live/wbbse",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/3955b70e-cc37-4e5d-ad6f-4de901e2301a.png",
+                  "displayOrder": 16
+                },
+                {
+                  "menuTitle": "Andhra Pradesh Board",
+                  "menuRedirectionUrl": "https://www.pw.live/bseap",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/04cccac3-844a-401a-85bf-4f9953f96f2a.png",
+                  "displayOrder": 17
+                }
+              ],
+              "id": "65900b3979c2c01b1d985372",
+              "displayOrder": 4
+            },
+            {
+              "menuTitle": "Govt Exam",
+              "menuItems": [
+                {
+                  "menuTitle": "SSC",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/4f51f216-da5e-44ab-9eeb-be0cac962717.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/ssc",
+                  "displayOrder": 1
+                },
+                {
+                  "menuTitle": "Banking",
+                  "menuRedirectionUrl": "https://www.pw.live/banking",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/c0f7d763-fbf2-4899-adc9-1eb94e226496.webp",
+                  "displayOrder": 2
+                },
+                {
+                  "menuTitle": "Judiciary",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/a9826860-5834-4271-b609-442e59872c8e.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/judiciary",
+                  "displayOrder": 3
+                },
+                {
+                  "menuTitle": "Teaching",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/5a44cd4b-4b5a-4fbc-8854-c39194646932.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/teaching",
+                  "displayOrder": 4
+                },
+                {
+                  "menuTitle": "Railway",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/b62cf3d6-e96a-4d82-84a9-28cfb52eff50.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/railway",
+                  "displayOrder": 5
+                },
+                {
+                  "menuTitle": "UP Exams",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/2069fbae-90e5-428e-99ec-3ac115014051.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/up",
+                  "displayOrder": 6
+                },
+                {
+                  "menuTitle": "JAIIB & CAIIB",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/679ac65b-5bcf-4e47-bcb6-3a35ff2284f6.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/jaiib-caiib",
+                  "displayOrder": 7
+                },
+                {
+                  "menuTitle": "BIHAR EXAMS WALLAH",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/2159486c-4842-4c2d-9032-5d3143716ccf.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/bihar",
+                  "displayOrder": 8
+                },
+                {
+                  "menuTitle": "Nursing Exams",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/ef60440c-edee-4676-9a57-5e0040a16055.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/nursing",
+                  "displayOrder": 9
+                },
+                {
+                  "menuTitle": "WB Exams",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/947ab277-1e79-4785-95b5-7932ca05e5a2.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/west-bengal",
+                  "displayOrder": 10
+                },
+                {
+                  "menuTitle": "Defence",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/92720c9d-6266-4586-8de8-ecc93697f06e.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/defence",
+                  "displayOrder": 11
+                }
+              ],
+              "id": "65900b3979c2c01b1d985373",
+              "displayOrder": 5
+            },
+            {
+              "menuTitle": "UG & PG Entrance Exams",
+              "menuItems": [
+                {
+                  "menuTitle": "MBA",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/6561a530-f1da-4d32-b301-43d03db5b029.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/mba",
+                  "displayOrder": 1
+                },
+                {
+                  "menuTitle": "IPMAT",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/35e317f7-4fdd-45dd-a2cc-87554336c489.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/ipmat",
+                  "displayOrder": 2
+                },
+                {
+                  "menuTitle": "IIT JAM",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/a1441ae4-3714-4949-b7ae-e2d11253058e.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/iit-jam",
+                  "displayOrder": 3
+                },
+                {
+                  "menuTitle": "CSIR NET",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/360bf0d2-949e-452e-85c2-50a003420099.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/csir-net",
+                  "displayOrder": 4
+                },
+                {
+                  "menuTitle": "LAW",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/3b334bf5-ff87-4c55-8119-42828be8456d.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/law",
+                  "displayOrder": 5
+                },
+                {
+                  "menuTitle": "CUET",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/b4160846-5d0d-4f28-bad4-0ec6e0a7dab1.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/cuet",
+                  "displayOrder": 6
+                },
+                {
+                  "menuTitle": "UGC NET",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/8cad76d5-6a73-418a-9d0b-56b0a5664658.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/ugc-net",
+                  "displayOrder": 7
+                },
+                {
+                  "menuTitle": "GMAT",
+                  "menuRedirectionUrl": "https://www.pw.live/mba/gmat",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/2f5a54ff-5d61-45d1-ac4f-dccce4ee355e.webp",
+                  "displayOrder": 8
+                },
+                {
+                  "menuTitle": "Design & Architecture",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/a16dc655-b1bd-4f30-9dd6-d151cbf0bf8e.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/design-architecture",
+                  "displayOrder": 9
+                },
+                {
+                  "menuTitle": "CUET PG",
+                  "menuRedirectionUrl": "https://www.pw.live/cuet-pg",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e143379e-3365-4501-9746-9d51aee3a8cc.jpg",
+                  "displayOrder": 10
+                },
+                {
+                  "menuTitle": "NEET PG",
+                  "menuRedirectionUrl": "https://www.pw.live/neet-pg",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/e95d11fe-045d-43da-ad07-42c058923dcc.webp",
+                  "displayOrder": 11
+                },
+                {
+                  "menuRedirectionUrl": "https://www.pw.live/pharma",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/978f7d21-66f0-44fc-a856-c2f3e47b8094.png",
+                  "menuTitle": "Pharma",
+                  "displayOrder": 12
+                }
+              ],
+              "id": "65900b3979c2c01b1d985374",
+              "displayOrder": 6
+            },
+            {
+              "menuTitle": "FINANCE",
+              "menuItems": [
+                {
+                  "menuTitle": "CA",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/9d6eaa2f-0572-4a3b-a13a-7ce1d17ff757.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/ca",
+                  "displayOrder": 1
+                },
+                {
+                  "menuTitle": "CS",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/2f8ad339-27cc-465b-b298-70cbc38ad973.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/cs",
+                  "displayOrder": 2
+                },
+                {
+                  "menuTitle": "ACCA",
+                  "menuRedirectionUrl": "https://www.pw.live/acca",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/2aadbb18-b35e-425c-b9a1-6e3060b0c18b.webp",
+                  "displayOrder": 3
+                }
+              ],
+              "id": "65900b3979c2c01b1d985375",
+              "displayOrder": 7
+            },
+            {
+              "menuTitle": "Others",
+              "menuItems": [
+                {
+                  "menuTitle": "Online Degrees",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/2942619d-9d3d-4734-a7a8-1c161de649bd.webp",
+                  "menuRedirectionUrl": "https://www.pw.live/online-degree",
+                  "displayOrder": 2
+                },
+                {
+                  "menuTitle": "Financial Certification",
+                  "menuRedirectionUrl": "https://www.pw.live/finance-courses",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/6d438287-6168-472c-a497-2b1889b90c13.webp",
+                  "displayOrder": 3
+                },
+                {
+                  "menuTitle": "Private Banking - Job Assistance",
+                  "menuRedirectionUrl": "https://www.pw.live/private-banking",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/d91f7f34-9bf4-4399-8098-a3488169070c.webp",
+                  "displayOrder": 4
+                },
+                {
+                  "menuTitle": "LexGlobal (Legal Skills)",
+                  "menuRedirectionUrl": "https://www.pw.live/legal-skills",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/af9ade19-0a05-4b53-bdab-9bed68da3696.webp",
+                  "displayOrder": 5
+                }
+              ],
+              "id": "65900b3979c2c01b1d985376",
+              "displayOrder": 8
+            },
+            {
+              "menuTitle": "Study Abroad",
+              "menuItems": [
+                {
+                  "menuTitle": "IELTS",
+                  "menuRedirectionUrl": "https://www.pw.live/study-abroad/ielts",
+                  "menuIcon": "https://static.pw.live/5b09189f7285894d9130ccd0/9df45ce1-22e2-4e96-8718-555a795d476f.webp",
+                  "displayOrder": 1
+                },
+                {
+                  "menuTitle": "TOEFL",
+                  "menuRedirectionUrl": "https://www.pw.live/study-abroad/toefl",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/a25eeec3-2f4e-490c-b133-33b2704ebf18.webp",
+                  "displayOrder": 2
+                },
+                {
+                  "menuTitle": "Acadfly MBBS Abroad",
+                  "menuRedirectionUrl": "https://www.pw.live/study-abroad/acadfly-mbbs-abroad",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/b86d4dd1-fef7-4c4d-b7e2-ddc5092ceca9.webp",
+                  "displayOrder": 3
+                },
+                {
+                  "menuTitle": "Acadfly Study Abroad",
+                  "menuRedirectionUrl": "https://www.pw.live/study-abroad/acadfly-study-abroad",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/38efc119-a841-4bdb-9b09-a9317ae38c02.webp",
+                  "displayOrder": 4
+                }
+              ],
+              "displayOrder": 9
+            },
+            {
+              "menuTitle": "Agriculture",
+              "menuItems": [
+                {
+                  "menuTitle": "Agriculture",
+                  "menuRedirectionUrl": "https://www.pw.live/agriculture",
+                  "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/5c8e162a-243d-4172-a5d9-63bc011bda53.webp",
+                  "displayOrder": 1
+                }
+              ],
+              "displayOrder": 10
+            }
+          ],
+          "displayOrder": 1,
+          "menuIcon": "",
+          "menuRedirectionUrl": ""
+        },
+        {
+          "_id": "65900b30c553fe5489f64ecc",
+          "status": true,
+          "menuTitle": "Vidyapeeth",
+          "menuRedirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth",
+          "menuItems": [],
+          "displayOrder": 2,
+          "menuIcon": "aaaa.png"
+        },
+        {
+          "_id": "65900b06c553fe5489f64ec9",
+          "status": true,
+          "menuTitle": "Upskilling",
+          "menuRedirectionUrl": "https://pwskills.com/?utm_source=pw.live&utm_medium=organic&utm_campaign=seo",
+          "menuItems": [],
+          "displayOrder": 3,
+          "menuIcon": "cxc.png"
+        },
+        {
+          "_id": "65900beec553fe5489f64ed1",
+          "status": true,
+          "menuTitle": "PW Store (Books)",
+          "menuRedirectionUrl": "https://store.pw.live?utm_source=PW_Live&utm_medium=PW_Header&utm_campaign=Live_Header",
+          "menuItems": [],
+          "displayOrder": 4,
+          "menuIcon": "bbb.png"
+        },
+        {
+          "_id": "66f552bc708d05ef84979757",
+          "status": true,
+          "menuTitle": "Real Test",
+          "menuRedirectionUrl": "https://www.pw.live/real-test",
+          "menuItems": [],
+          "displayOrder": 5,
+          "menuIcon": ""
+        },
+        {
+          "_id": "67bf55ab695c2b7c9c60748b",
+          "menuTitle": "Class 1st - 8th",
+          "menuRedirectionUrl": "https://www.curiousjr.com/?utm_source=pwlive&utm_medium=website&utm_campaign=header",
+          "displayOrder": 6,
+          "status": true,
+          "menuIcon": "https://static.pw.live/5eb393ee95fab7468a79d189/GLOBAL_CMS/f030fa38-f081-4e09-8695-cada226cb115.png",
+          "menuItems": []
+        },
+        {
+          "_id": "67c6d9dd1bc069d129bce65a",
+          "status": true,
+          "menuTitle": "Power Batch",
+          "menuRedirectionUrl": "https://www.pw.live/power-batch",
+          "menuItems": [],
+          "displayOrder": 7
+        }
+      ],
+      "footerData": {
+        "data": [
+          {
+            "_id": "6590080279c2c01b1d985359",
+            "status": true,
+            "section": 1,
+            "menuItems": [
+              {
+                "menuTitle": "Company",
+                "menuItems": [
+                  {
+                    "menuTitle": "About Us",
+                    "redirectionUrl": "https://www.pw.live/about-us",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "Contact Us",
+                    "redirectionUrl": "https://www.pw.live/contact-us",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "Careers",
+                    "redirectionUrl": "https://pwhr.darwinbox.in/ms/candidatev2/a62d7a6e288992/careers/home",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Updates",
+                    "redirectionUrl": "https://www.pw.live/life",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "Account Deletion",
+                    "redirectionUrl": "https://www.pw.live/account-deletion",
+                    "displayOrder": 6
+                  }
+                ],
+                "displayOrder": 1
+              },
+              {
+                "menuTitle": "Our Centres",
+                "menuItems": [
+                  {
+                    "menuTitle": "New Delhi",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/new-delhi-dl",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "Patna",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/patna-br",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "Kota",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/kota-rj",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Noida",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/noida-up",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "Dhanbad",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/dhanbad-jh",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "Varanasi",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth/varanasi-up",
+                    "displayOrder": 6
+                  },
+                  {
+                    "menuTitle": "View All",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth",
+                    "displayOrder": 7
+                  }
+                ],
+                "displayOrder": 2
+              },
+              {
+                "menuTitle": "Popular Exams",
+                "menuItems": [
+                  {
+                    "menuTitle": "IIT JEE",
+                    "redirectionUrl": "https://www.pw.live/iit-jee",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "NEET",
+                    "redirectionUrl": "https://www.pw.live/neet",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "GATE",
+                    "redirectionUrl": "https://www.pw.live/gate",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Defence",
+                    "redirectionUrl": "https://www.pw.live/defence",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "UPSC",
+                    "redirectionUrl": "https://www.pw.live/upsc",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "School Prep",
+                    "redirectionUrl": "https://www.pw.live/school-prep",
+                    "displayOrder": 6
+                  },
+                  {
+                    "menuTitle": "PW NSAT",
+                    "redirectionUrl": "https://www.pw.live/scholarship/vidyapeeth/nsat",
+                    "displayOrder": 7
+                  }
+                ],
+                "displayOrder": 3
+              },
+              {
+                "menuTitle": "Connect With Us",
+                "menuItems": [
+                  {
+                    "menuTitle": "Email Us",
+                    "redirectionUrl": "mailto:support@pw.live",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "Talk to A Counselor",
+                    "redirectionUrl": "tel:07290070560",
+                    "displayOrder": 2
+                  }
+                ],
+                "displayOrder": 4
+              },
+              {
+                "menuTitle": "Quick Links",
+                "menuItems": [
+                  {
+                    "menuTitle": "PW Prerna",
+                    "redirectionUrl": "https://www.pw.live/prerna",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "PW SIP",
+                    "redirectionUrl": "https://www.pw.live/sip",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "PW Gurukulam",
+                    "redirectionUrl": "https://www.thegurukulam.school/",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Alakh Sir Notes",
+                    "redirectionUrl": "https://www.pw.live/notes",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "Investor Relations",
+                    "redirectionUrl": "https://www.pw.live/investor-relations",
+                    "displayOrder": 5
+                  }
+                ],
+                "displayOrder": 5
+              },
+              {
+                "menuTitle": "Our Products",
+                "menuItems": [
+                  {
+                    "menuTitle": "PW App Learning",
+                    "redirectionUrl": "https://play.google.com/store/apps/details?id=xyz.penpencil.physicswala",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "PW Offline Payments (Fin-Z)",
+                    "redirectionUrl": "https://finz.live/",
+                    "displayOrder": 2
+                  }
+                ],
+                "displayOrder": 6
+              }
+            ]
+          },
+          {
+            "_id": "659008b279c2c01b1d98536b",
+            "status": true,
+            "section": 2,
+            "menuItems": [
+              {
+                "menuTitle": "PW Study Materials",
+                "menuItems": [
+                  {
+                    "menuTitle": "Class 10 Sample Paper",
+                    "redirectionUrl": "https://store.pw.live/school-books/class-10th/10th-sample-papers",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "Class 10th Study Material",
+                    "redirectionUrl": "https://store.pw.live/school-books/class-10th",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Arjuna JEE Modules",
+                    "redirectionUrl": "https://store.pw.live/products/arjuna-jee-class-11-pcm-combo-2025",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "JEE 7 Years PYQ",
+                    "redirectionUrl": "https://store.pw.live/products/jee-main-7-years-pyq-combo-2026",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "JEE 48 Years PYQ",
+                    "redirectionUrl": "https://store.pw.live/products/48-years-jee-advance-pyqs-combo",
+                    "displayOrder": 6
+                  },
+                  {
+                    "menuTitle": "Yakeen NEET Modules",
+                    "redirectionUrl": "https://store.pw.live/products/yakeen-neet-droppers-pcb-hindi-combo-2025-omr",
+                    "displayOrder": 7
+                  },
+                  {
+                    "menuTitle": "NCERT Punch",
+                    "redirectionUrl": "https://store.pw.live/products/objective-ncert-punch-combo-2025",
+                    "displayOrder": 8
+                  },
+                  {
+                    "menuTitle": "Arjuna NEET Modules",
+                    "redirectionUrl": "https://store.pw.live/products/arjuna-neet-class-11-pcb-combo-2025-omr",
+                    "displayOrder": 9
+                  },
+                  {
+                    "menuTitle": "NEET 38 Years PYQ",
+                    "redirectionUrl": "https://store.pw.live/products/neet-38-years-pyq-combo-of-3-2025",
+                    "displayOrder": 10
+                  },
+                  {
+                    "menuTitle": "SSC Game Changer PYQ",
+                    "redirectionUrl": "https://store.pw.live/products/ssc-game-changer-pyq-combo-set-2025",
+                    "displayOrder": 11
+                  }
+                ],
+                "id": "659008b279c2c01b1d98535c",
+                "displayOrder": 1
+              },
+              {
+                "menuTitle": "PW Books",
+                "menuItems": [
+                  {
+                    "menuTitle": "NEET Books",
+                    "redirectionUrl": "https://store.pw.live/ug-entrance-exams/neet-books",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "IIT JEE Books",
+                    "redirectionUrl": "https://store.pw.live/ug-entrance-exams/iit-jee-books",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "School Prep Books",
+                    "redirectionUrl": "https://store.pw.live/school-books",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "UPSC CSE Books",
+                    "redirectionUrl": "https://store.pw.live/govt-entrance-exams/upsc-books",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "NDA/Defence Books",
+                    "redirectionUrl": "https://store.pw.live/ug-entrance-exams/nda-defence-books",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "RRB Books",
+                    "redirectionUrl": "https://store.pw.live/govt-entrance-exams/railway-books",
+                    "displayOrder": 6
+                  },
+                  {
+                    "menuTitle": "SSC Books",
+                    "redirectionUrl": "https://store.pw.live/govt-entrance-exams/ssc-books",
+                    "displayOrder": 7
+                  },
+                  {
+                    "menuTitle": "Banking Books",
+                    "redirectionUrl": "https://store.pw.live/govt-entrance-exams/banking-books",
+                    "displayOrder": 8
+                  },
+                  {
+                    "menuTitle": "PW Stationery",
+                    "redirectionUrl": "https://store.pw.live/pw-stationery",
+                    "displayOrder": 9
+                  },
+                  {
+                    "menuTitle": "PW Merchandise",
+                    "redirectionUrl": "https://store.pw.live/pw-merchandise",
+                    "displayOrder": 10
+                  }
+                ],
+                "id": "659008b279c2c01b1d98535d",
+                "displayOrder": 2
+              },
+              {
+                "menuTitle": "Notes (Class 6-9)",
+                "menuItems": [
+                  {
+                    "menuTitle": "Class 6 Notes Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/subjects-class-six",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "Class 8 Physics Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-8",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "Class 8 Biology Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-biology-class-eight",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Class 8 SST Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-8-social-science-notes",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "Class 9 Physics Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-9",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "Class 9 Chemistry Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-9",
+                    "displayOrder": 6
+                  },
+                  {
+                    "menuTitle": "Class 9 Biology Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-biology-class-9",
+                    "displayOrder": 7
+                  },
+                  {
+                    "menuTitle": "Class 9 Maths Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-9-mathematics",
+                    "displayOrder": 8
+                  },
+                  {
+                    "menuTitle": "Science Formulas Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/formula",
+                    "displayOrder": 9
+                  },
+                  {
+                    "menuTitle": "Chemistry Formulas Notes",
+                    "redirectionUrl": "https://www.pw.live/chemistry-formulas",
+                    "displayOrder": 10
+                  }
+                ],
+                "id": "659008b279c2c01b1d98535f",
+                "displayOrder": 4
+              },
+              {
+                "menuTitle": "Notes (Class 10-12)",
+                "menuItems": [
+                  {
+                    "menuTitle": "Class 10 Math's Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-10-mathematics",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "Class 10 Chemistry Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-10",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "Class 10 Physics Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-10",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Class 10 Aptitude Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-10-aptitude-reasoning",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "Class 11 Maths Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-class-11-mathematics",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "Class 11 Chemistry Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-11",
+                    "displayOrder": 6
+                  },
+                  {
+                    "menuTitle": "Class 11 Zoology Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-zoology-class-11",
+                    "displayOrder": 7
+                  },
+                  {
+                    "menuTitle": "Class 12 Chemistry Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-chemistry-class-12",
+                    "displayOrder": 8
+                  },
+                  {
+                    "menuTitle": "Class 12 Physics Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-physics-class-twelve",
+                    "displayOrder": 9
+                  },
+                  {
+                    "menuTitle": "Class 12 Botany Notes",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/topics-botany-class-12",
+                    "displayOrder": 10
+                  }
+                ],
+                "id": "659008b279c2c01b1d985360",
+                "displayOrder": 5
+              },
+              {
+                "menuTitle": "Govt Exams",
+                "menuItems": [
+                  {
+                    "menuTitle": "SSC Exam",
+                    "redirectionUrl": "https://www.pw.live/ssc",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "Banking Exam",
+                    "redirectionUrl": "https://www.pw.live/banking",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "Teaching Exams",
+                    "redirectionUrl": "https://www.pw.live/teaching",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "JAIIB/CAIIB Exams",
+                    "redirectionUrl": "https://www.pw.live/jaiib-caiib",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "Railway Exams",
+                    "redirectionUrl": "https://www.pw.live/railway",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "Judiciary Exams",
+                    "redirectionUrl": "https://www.pw.live/judiciary",
+                    "displayOrder": 6
+                  },
+                  {
+                    "menuTitle": "State PSC Exams",
+                    "redirectionUrl": "https://www.pw.live/state-psc",
+                    "displayOrder": 7
+                  },
+                  {
+                    "menuTitle": "Agriculture Exams",
+                    "redirectionUrl": "https://www.pw.live/agriculture",
+                    "displayOrder": 8
+                  }
+                ],
+                "id": "659008b279c2c01b1d985366",
+                "displayOrder": 11
+              },
+              {
+                "menuTitle": "Our Other Websites",
+                "menuItems": [
+                  {
+                    "menuTitle": "PW Store",
+                    "redirectionUrl": "https://store.pw.live/",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "PW Skills",
+                    "redirectionUrl": "https://pwskills.com/",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "PWOnlyIAS",
+                    "redirectionUrl": "https://pwonlyias.com/",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "MedEd",
+                    "redirectionUrl": "https://meded.pw.live/",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "PW Gulf",
+                    "redirectionUrl": "https://www.pwgulf.com/",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "PW IOI",
+                    "redirectionUrl": "https://www.pwioi.com/",
+                    "displayOrder": 6
+                  },
+                  {
+                    "menuTitle": "CuriousJr",
+                    "redirectionUrl": "https://www.curiousjr.com/",
+                    "displayOrder": 7
+                  },
+                  {
+                    "menuTitle": "Latest News",
+                    "redirectionUrl": "https://www.pw.live/news",
+                    "displayOrder": 8
+                  }
+                ],
+                "id": "659008b279c2c01b1d98536a",
+                "displayOrder": 14
+              },
+              {
+                "menuTitle": "Ncert Solutions",
+                "menuItems": [
+                  {
+                    "menuTitle": "NCERT Solutions For Class 6",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solutions-for-class-6",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "NCERT Solutions For class 7",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solutions-for-class-7",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "NCERT Solutions for class 8",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solution-for-class-8",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "NCERT Solutions for class 9",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/concepts-ncert-solutions-for-class-9",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "NCERT Solutions for class 10",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/ncert-solutions-class-10",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "NCERT Solutions for class 11",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/ncert-solutions-for-class-11",
+                    "displayOrder": 6
+                  },
+                  {
+                    "menuTitle": "NCERT Solutions for Class 12",
+                    "redirectionUrl": "https://www.pw.live/school-prep/exams/ncert-solutions-for-class-12",
+                    "displayOrder": 7
+                  }
+                ],
+                "id": "659008b279c2c01b1d98535e",
+                "displayOrder": 3
+              },
+              {
+                "menuTitle": "Entrance Exams",
+                "menuItems": [
+                  {
+                    "menuTitle": "NEET Exam",
+                    "redirectionUrl": "https://www.pw.live/neet/exams",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "IIT JEE Exam",
+                    "redirectionUrl": "https://www.pw.live/iit-jee/exams",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "Gate Exam",
+                    "redirectionUrl": "https://www.pw.live/gate/exams",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "CUET Exam",
+                    "redirectionUrl": "https://www.pw.live/cuet/exams",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "CSIR-NET Exam",
+                    "redirectionUrl": "https://www.pw.live/csir-net/exams",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "MBA Exam",
+                    "redirectionUrl": "https://www.pw.live/mba/exams",
+                    "displayOrder": 6
+                  },
+                  {
+                    "menuTitle": "Nursing Exam",
+                    "redirectionUrl": "https://www.pw.live/nursing/exams",
+                    "displayOrder": 7
+                  }
+                ],
+                "id": "659008b279c2c01b1d985367",
+                "displayOrder": 12
+              },
+              {
+                "menuTitle": "Govt Job Exams Coaching",
+                "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-govt-job-exams",
+                "menuItems": [
+                  {
+                    "menuTitle": "SSC Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/ssc/batches",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "Bank Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/banking/batches",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "TET Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/teaching/batches",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "JAIIB/CAIIB Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/jaiib-caiib/batches",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "Bihar Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/bihar/batches",
+                    "displayOrder": 5
+                  },
+                  {
+                    "menuTitle": "Agriculture Exam Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/agriculture/batches",
+                    "displayOrder": 6
+                  }
+                ],
+                "id": "659008b279c2c01b1d985362",
+                "displayOrder": 7
+              },
+              {
+                "menuTitle": "Class 6 to 12 Coaching",
+                "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-school-preparation",
+                "menuItems": [
+                  {
+                    "menuTitle": "Class 8 Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/school-prep/class-8/batches",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "Class 9 Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/school-prep/class-9/batches",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "Class 10 Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/school-prep/class-10/batches",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Class 11 Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/school-prep/class-11/batches",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "Class 12 Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/school-prep/class-12/batches",
+                    "displayOrder": 5
+                  }
+                ],
+                "id": "659008b279c2c01b1d985361",
+                "displayOrder": 6
+              },
+              {
+                "menuTitle": "UPSC Coaching",
+                "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-pw-only-ias",
+                "menuItems": [
+                  {
+                    "menuTitle": "UPSC Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/upsc/online-course/batches",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "UPSC Offline, Hybrid Coaching",
+                    "redirectionUrl": "https://www.pw.live/upsc/offline-course/batches",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "State PSC Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/state-psc/batches",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "UPPSC Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/state-psc/uppsc/batches",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "BPSC Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/state-psc/bpsc/batches",
+                    "displayOrder": 5
+                  }
+                ],
+                "id": "659008b279c2c01b1d985363",
+                "displayOrder": 8
+              },
+              {
+                "menuTitle": "Defence Exam Coaching",
+                "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-defence",
+                "menuItems": [
+                  {
+                    "menuTitle": "NDA Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/defence/nda/batches",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "CDS Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/defence/cds-afcat/batches",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "SSB Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/defence/ssb/batches",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Agniveer Online Coaching",
+                    "redirectionUrl": "https://www.pw.live/defence/agniveer/batches",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "CDS Offline Coaching",
+                    "redirectionUrl": "https://www.pw.live/defence/cds-offline/batches",
+                    "displayOrder": 5
+                  }
+                ],
+                "id": "659008b279c2c01b1d985364",
+                "displayOrder": 9
+              },
+              {
+                "menuTitle": "Gate Exam Coaching",
+                "redirectionUrl": "https://www.pw.live/online-course-physics-wallah-gate-exam",
+                "menuItems": [
+                  {
+                    "menuTitle": "Civil Engineering Coaching",
+                    "redirectionUrl": "https://www.pw.live/gate/civil/batches",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "Mechanical Engineering Coaching",
+                    "redirectionUrl": "https://www.pw.live/gate/mechanical/batches",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "CS Coaching",
+                    "redirectionUrl": "https://www.pw.live/gate/cs/batches",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "ECE Coaching",
+                    "redirectionUrl": "https://www.pw.live/gate/electronics/batches",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "EE Coaching",
+                    "redirectionUrl": "https://www.pw.live/gate/electrical/batches",
+                    "displayOrder": 5
+                  }
+                ],
+                "id": "659008b279c2c01b1d985365",
+                "displayOrder": 10
+              },
+              {
+                "menuTitle": "Other Exams",
+                "menuItems": [
+                  {
+                    "menuTitle": "CA Exam",
+                    "redirectionUrl": "https://www.pw.live/ca",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "CS Exam",
+                    "redirectionUrl": "https://www.pw.live/cs",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "Olympiad Exam",
+                    "redirectionUrl": "https://www.pw.live/olympiad",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Online Degree",
+                    "redirectionUrl": "https://www.pw.live/online-degree",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "ACCA Exam",
+                    "redirectionUrl": "https://www.pw.live/acca",
+                    "displayOrder": 5
+                  }
+                ],
+                "id": "659008b279c2c01b1d985368",
+                "displayOrder": 13
+              },
+              {
+                "menuTitle": "Latest News",
+                "displayOrder": 15,
+                "menuItems": [
+                  {
+                    "menuTitle": "UP Board Exam Centres 2026 Out",
+                    "redirectionUrl": "https://www.pw.live/news/up-board-exam-centres-2026-class-10-12-list-objection-deadline",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "JEE Main 2026 Form Correction Ends Today",
+                    "redirectionUrl": "https://www.pw.live/news/jee-main-2026-form-correction-last-date-edit-details-today",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "CBSE Issues New SOPs for Class 10 and 12 Practicals",
+                    "redirectionUrl": "https://www.pw.live/news/cbse-new-sops-class-10-12-practicals-2025-26",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Gujarat Police Recruitment 2025 (Out)",
+                    "redirectionUrl": "https://www.pw.live/news/gujarat-police-recruitment-2025",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "JEE Advanced Difficulty Level",
+                    "redirectionUrl": "https://www.pw.live/news/jee-advanced-2026-which-iit-sets-paper-difficulty-level-analysis",
+                    "displayOrder": 5
+                  }
+                ]
+              },
+              {
+                "menuTitle": "Offline centres",
+                "displayOrder": 16,
+                "menuItems": [
+                  {
+                    "menuTitle": "Vidyapeeth",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/vidyapeeth",
+                    "displayOrder": 1
+                  },
+                  {
+                    "menuTitle": "OnlyIAS UPSC Centres",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/upsc-wallah",
+                    "displayOrder": 2
+                  },
+                  {
+                    "menuTitle": "Superclass",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/superclass",
+                    "displayOrder": 3
+                  },
+                  {
+                    "menuTitle": "Govt wallah Coaching centres",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/govt-wallah",
+                    "displayOrder": 4
+                  },
+                  {
+                    "menuTitle": "Defence Coaching centres",
+                    "redirectionUrl": "https://www.pw.live/offline-centres/batches/defence-wallah",
+                    "displayOrder": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "_id": "659008d7c553fe5489f64ec0",
+            "status": true,
+            "section": 3,
+            "menuItems": [
+              {
+                "menuTitle": "Know about Physics Wallah",
+                "description": "Physics Wallah is an Indian online education platform, that provides accessible & comprehensive learning experiences to students of classes 6 to 12 and those preparing for JEE and NEET exams. We also provide extensive NCERT solutions, sample papers, NEET, JEE Mains, BITSAT previous year papers, which makes us a one-stop solution for all resources. Physics Wallah also caters to over 3.5 million registered students and over 78 lakh+ Youtube subscribers with 4.8 rating on its app.",
+                "id": "659008d7c553fe5489f64ebc",
+                "displayOrder": 1
+              },
+              {
+                "menuTitle": "We Stand Out because",
+                "description": "We successfully provide students with intensive courses by India's qualified & experienced faculties. PW strives to make the learning experience comprehensive and accessible for students of all sections of society. We believe in empowering every single student who couldn't dream of a good career in engineering and medical field earlier.",
+                "id": "659008d7c553fe5489f64ebd",
+                "displayOrder": 2
+              },
+              {
+                "menuTitle": "Our Key Focus Areas",
+                "description": "Physics Wallah’s main focus is to create accessible learning experiences for students all over India. With courses like Lakshya, Udaan, Arjuna & many others, we have been able to provide a ready solution for lakhs of aspirants. From providing Chemistry, Maths, Physics formulae to giving e-books of eminent authors, PW aims to provide reliable solutions for student prep.",
+                "id": "659008d7c553fe5489f64ebe",
+                "displayOrder": 3
+              },
+              {
+                "menuTitle": "What Makes Us Different",
+                "description": "Physics Wallah strives to develop a comprehensive pedagogical structure for students, where they get a state-of-the-art learning experience with study material and resources. Apart from catering students preparing for JEE Mains and NEET, PW also provides study material for each state board like Uttar Pradesh, Bihar, and others.",
+                "id": "659008d7c553fe5489f64ebf",
+                "displayOrder": 4
+              }
+            ]
+          }
+        ]
+      },
+      "_sentryTraceData": "24a2284cf2ac766a76c067418686f805-7dd994253dd09741-1",
+      "_sentryBaggage": "sentry-environment=production,sentry-release=2crxkC5FxJBMyYPghTI1A,sentry-public_key=c95bd7d15cb3eb56838be3af1a644abb,sentry-trace_id=24a2284cf2ac766a76c067418686f805,sentry-sample_rate=1,sentry-transaction=GET%20%2F,sentry-sampled=true"
+    },
+    "__N_SSP": true
+  },
+  "page": "/",
+  "query": {
+    "redirectUrl": "study-v2/batches/arjuna-jee-2026-700192/subjects/Physics/subject-topics/topics"
+  },
+  "buildId": "2crxkC5FxJBMyYPghTI1A",
+  "isFallback": false,
+  "isExperimentalCompile": false,
+  "dynamicIds": [
+    9503
+  ],
+  "gssp": true,
+  "scriptLoader": []
+}

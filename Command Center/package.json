@@ -8,10 +8,11 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "bridge": "npx tsx scripts/pw-bridge.ts",
+    "bridge:dry": "npx tsx scripts/pw-bridge.ts --dry-run"
   },
   "dependencies": {
+    "dotenv": "^17.3.1",
     "framer-motion": "^12.4.7",
     "katex": "^0.16.21",
     "react": "^19.0.0",
@@ -33,7 +34,6 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
-    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "lucide-react": "^0.577.0",
     "playwright": "^1.58.2",
